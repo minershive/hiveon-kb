@@ -1,3 +1,3 @@
-# Title-2
+# Title 2
 
 Text

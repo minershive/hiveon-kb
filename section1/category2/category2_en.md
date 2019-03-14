@@ -1,3 +1,3 @@
-# Title-1.2
+# Title 1.2
 
 Text

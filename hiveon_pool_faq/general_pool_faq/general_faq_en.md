@@ -1,4 +1,4 @@
-# hiveon pool
+# hiveon-pool
 
 # What is a mining pool?
 A mining pool is the grouping of resources by miners, who share their processing power, hashrate, over a network, to split the reward equally, according to the amount of work they contributed to the probability of finding a block. A "share" is awarded to members of the mining pool who present a valid partial proof-of-work.

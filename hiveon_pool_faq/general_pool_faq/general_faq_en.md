@@ -1,5 +1,3 @@
-# hiveon-pool
-
 # What is a mining pool?
 A mining pool is the grouping of resources by miners, who share their processing power, hashrate, over a network, to split the reward equally, according to the amount of work they contributed to the probability of finding a block. A "share" is awarded to members of the mining pool who present a valid partial proof-of-work.
 
@@ -7,7 +5,7 @@ A mining pool is the grouping of resources by miners, who share their processing
 A share is a hash smaller than the target for difficulty that's usually lower than the network difficulty. Every hash generated has a chance of being a valid share. Miners have no control over when will they generate a share as they occur randomly. When one miner in the pool finds the solution hash, the rewards can then be split by number of shares submitted by each miner. There are multiple reward methods, PPLNS, PPS, PPS+, etc. These reward types calculate the "fair share" of the reward, but all pools use a share as a "proxy" for work completed by each miner. A share has no actual value. The only hash with worth something is the one that solves a block. A share is just a method to divide any rewards earned by the pool.
 
 # What is Hashrate?
-A hashrate (or hash rate) is the measure of a miner’s performance. It is the speed at which a miner solves a task. Hash per second represents SHA-256 algorithms that are used per second, known as hash rate. The hash per second, H/s, is the measure of the efficiency of the miner. Higher hash rate means increased chances of receiving a block reward. 
+A hashrate (or hash rate) is the measure of a miner’s performance. It is the speed at which a miner solves a task. Hash per second represents SHA-256 algorithms that are used per second, known as hash rate. The hash per second, H/s, is the measure of the efficiency of the miner. Higher hash rate means increased chances of receiving a block reward.
 
 # What is Reported Hashrate?
 Reported Hashrate is used by mining software to determine the submitted computed hashrate of the hardware to the pool. The reported hashrate is essentially used for comparing it to your calculated hashrate shown by the pool. Reported hashrate is generally inaccurate and that's why there's always a small difference when comparing it to the calculated hashrate. It is a value only displayed by your workers' mining software.
@@ -38,4 +36,4 @@ Each pool operates on a different set of rules for their payouts, but here are a
 **PPS (Pay per Share Plus)** is a combination of the PPS and PPLNS payout methods. Just like with PPS, miners are paid for each share that they submit, giving them a predictable payment method. Unlike PPS, which only awards block rewards and does not cut tax fees, PPS+ distributes all bonuses to miners and spilts all rewards above the block. While the fluctuating rewards like in the PPLNS are avoided as a whole.
 
 # What is Pool Luck?
-It's a metric that shows how many shares the pool needed in order to find a block relative to the average number of shares needed for finding a block. If the luck is above 100% then the pool needs less shares then expected for a given difficulty. If the luck is below 100%, then more shares were needed. Luck only shows the history of the pool and cannot be used to predict future blocks. Finding a block is completely random, so joining a pool when there is high luck and then leaving when the luck is low, won't make any sense. 
+It's a metric that shows how many shares the pool needed in order to find a block relative to the average number of shares needed for finding a block. If the luck is above 100% then the pool needs less shares then expected for a given difficulty. If the luck is below 100%, then more shares were needed. Luck only shows the history of the pool and cannot be used to predict future blocks. Finding a block is completely random, so joining a pool when there is high luck and then leaving when the luck is low, won't make any sense.

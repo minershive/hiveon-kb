@@ -1,5 +1,3 @@
-# hiveon-pool
-
 # What is Hiveon.net's payout type?
 Hiveon.net works based on the PPS+ model of payouts.
 

@@ -18,5 +18,3 @@ PLEASE WRITE RULES HERE
 
 [🇬🇧](knowledge-base.md#hiveon-kb)
 [🇷🇺](knowledge-base_ru.md#hiveon-kb)
-
-Test

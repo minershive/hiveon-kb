@@ -12,11 +12,9 @@ Pay attention, that this repository is also available at [hiveos.farm](http://hi
 
 # Сontribution rules
 
-PLEASE WRITE RULES HERE
+-
 
 # Get started
 
 [🇬🇧](knowledge-base.md#hiveon-kb)
 [🇷🇺](knowledge-base_ru.md#hiveon-kb)
-
-Test

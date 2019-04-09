@@ -9,7 +9,7 @@ Yes, payment for stale shares is made, but using the coefficient of 0.6-0.8, dep
 
 > _*Dear Miners*_
 >
-> _Starting from today, we are changing the rules for stale shares payouts. For _*up to 6%*_ of stale shares, the conditions are the same. Starting from _*6% and above*_, the pool freezes the payouts, meaning you won't get paid for your stale shares. If the problem of high stales persists for 48 hours, the wallet is blacklisted and payouts are frozen until further notice._
+> _Starting from today, we are changing the rules for stale shares payouts. For **up to 6%** of stale shares, the conditions are the same. Starting from **6% and above**, the pool freezes the payouts, meaning you won't get paid for your stale shares. If the problem of high stales persists for 48 hours, the wallet is blacklisted and payouts are frozen until further notice._
 >
 > _Such radical measures are related to the fact that fraudulent miners abuse our stale shares payout system. Thank you for understanding and thank you for using our ecosystem._
 

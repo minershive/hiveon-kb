@@ -1,3 +1,5 @@
+# hiveon-pool
+
 # What is a mining pool?
 A mining pool is the grouping of resources by miners, who share their processing power, hashrate, over a network, to split the reward equally, according to the amount of work they contributed to the probability of finding a block. A "share" is awarded to members of the mining pool who present a valid partial proof-of-work.
 
@@ -37,4 +39,3 @@ Each pool operates on a different set of rules for their payouts, but here are a
 
 # What is Pool Luck?
 It's a metric that shows how many shares the pool needed in order to find a block relative to the average number of shares needed for finding a block. If the luck is above 100% then the pool needs less shares then expected for a given difficulty. If the luck is below 100%, then more shares were needed. Luck only shows the history of the pool and cannot be used to predict future blocks. Finding a block is completely random, so joining a pool when there is high luck and then leaving when the luck is low, won't make any sense. 
-

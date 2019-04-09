@@ -7,7 +7,7 @@ Hiveon.net works based on the PPS+ model of payouts.
 Yes, payment for stale shares is made, but using the coefficient of 0.6-0.8, depending on network delays.
 
 
-> _*Dear Miners*_
+> __*Dear Miners*__
 >
 > _Starting from today, we are changing the rules for stale shares payouts. For **up to 6%** of stale shares, the conditions are the same. Starting from **6% and above**, the pool freezes the payouts, meaning you won't get paid for your stale shares. If the problem of high stales persists for 48 hours, the wallet is blacklisted and payouts are frozen until further notice._
 >

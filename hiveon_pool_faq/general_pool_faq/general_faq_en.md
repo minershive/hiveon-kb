@@ -24,7 +24,7 @@ Usually there is a somewhat significant difference between reported hashrate and
 * If your mean hashrate is much lower then your reported hashrate, your worker is most likely overclocked too high and it's not effectively hashing. Your hashrate may be bigger, but you’re generating more rejected or invalid hashes. Miner's logs can confirm this in most cases.
 * Large amounts of stale shares can affect your effective hashrate. Check your internet connection. Wi-Fi will cause more stales.
 * Fluctuations in mean hashrate are normal.
-*Higher average hashrates are better for your performance. Remember, this is not a race, but a marathon.
+* Higher average hashrates are better for your performance. Remember, this is not a race, but a marathon.
 
 # What type of mining rewards are there?
 Each pool operates on a different set of rules for their payouts, but here are a few of the most popular ones:

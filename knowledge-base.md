@@ -7,6 +7,14 @@ Languages
 Table of Contents
 =================
 
+- [Hiveon Pool FAQ](hiveon_pool_faq/)
+  - [General Pool FAQ](general_pool_faq/general_faq_en.md)
+  - [Hiveon FAQ](hiveon_payouts_faq/payouts_faq_en.md)
+  
+
+Example Content Structure
+=================
+
 - [Section 1: Section 1 name](section1/section1_en.md#Title_1)
     - [Category 1.1: Category 1.1 name](section1/category1/category1_en.md#Title_1.1)
       * [Ch 1.1.1: Title 1.1.1](section1/category1/chapter1/chapter1_en.md#Title_1.1.1)

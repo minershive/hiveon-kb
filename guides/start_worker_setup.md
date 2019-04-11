@@ -1,6 +1,4 @@
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png"
-/>
+![header image](/images/start_worker_setup/header.png)
 
 Hive OS is an all-in-one monitoring and management tool for your mining rigs. Whether its a single rig or several thousands, you and your team can easily manage them all from a single dashboard.
 
@@ -18,9 +16,7 @@ As soon as you’re done setting up your account, it’s time to connect your ri
 
 Each Farm has its unique Farm Hash. You can find your Farm Hash by going to your Farm’s Settings tab. Once you write the installation image, you may then add your `FARM_HASH` to the `rig.conf` file which you will find in the root folder of the image. We’ll explain this step in detail below.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png"
-/>
+![farm hash example](/images/start_worker_setup/fh_sample.png)
 
 Farm Hash can be effectively used with Hive Flasher for bulk rig installations. More details on Hive Flasher are available [here](https://github.com/minershive/hive-flasher).
 

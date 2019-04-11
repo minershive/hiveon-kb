@@ -1,7 +1,7 @@
 Table of Contents
 =================
 
-- [Hiveos FAQ](hiveos_faq.md)
+## [Hiveos FAQ](hiveos_faq.md)
   - [General](general/general_en.md)
   – General FAQ for the most common questions.
   - [Billing](billing/billing_en.md)

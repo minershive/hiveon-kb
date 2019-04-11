@@ -74,7 +74,7 @@ Once the image copy is complete, you can go to your drive in Windows, Linux or M
 
 ![rig conf example](/images/start_worker_setup/rig_conf_eg.png)
 
-_The contents of rig-config-example.txt file_
+>_The contents of rig-config-example.txt file_
 
 Enter your Farm Hash in the `FARM_HASH=` field by copying the value from your Settings tab. Here’s how the field should look like:
 
@@ -87,7 +87,7 @@ Once the image copy is complete, you can go to your drive in Windows, Linux or M
 
 ![rig conf example](/images/start_worker_setup/rig_conf_eg-2.png)
 
-_The contents of rig-config-example.txt file_
+>_The contents of rig-config-example.txt file_
 
 Find and fill in the two fields:
 

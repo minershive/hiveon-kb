@@ -12,20 +12,20 @@ Start by clicking on the plus button in the top right corner of your dashboard. 
 
 ![creating a new farm](/images/start_dashboard_setup/create_farm.gif)
 
-_Creating a new Farm_
+>_Creating a new Farm_
 
 ## Farm Access Levels
 There are several access levels to a Farm and you can see them at the bottom of the each Farm in the dashboard.
 
 ![farms available to you](/images/start_dashboard_setup/farms_access.png)
 
-_List of Farms, both yours and those with shared access_
+>_List of Farms, both yours and those with shared access_
 
 You can give access to your Farm to other users. For example, you could give Full Access privileges to your admins in order for them to manage everything in your stead. Or you can give the read-only Monitor access privileges to your technical staff that do simple maintenance and monitoring and nothing more.
 
 ![adding trusted user](/images/start_dashboard_setup/add_user.gif)
 
-_Sharing access to your Farm with another user_
+>_Sharing access to your Farm with another user_
 
 Each next level includes permissions from the previous one.
 
@@ -44,7 +44,7 @@ To add a new wallet, go the Wallets tab and click the Add Wallet button. You’l
 
 ![adding new wallet](/images/start_dashboard_setup/new_wallet.gif)
 
-_Creating new wallet_
+>_Creating new wallet_
 
 * __Coin__ — choose a coin for this wallet from the drop-down list.
 * __Address__ — enter your wallet address.
@@ -62,7 +62,7 @@ When adding a new flight sheet, note that you can only select a coin first, whil
 
 ![adding new flight sheet](/images/start_dashboard_setup/new_fs.gif)
 
-_Setting up a new Flight Sheet_
+>_Setting up a new Flight Sheet_
 
 In the **Add New Flight Sheet** section, start filling in the following fields:
 
@@ -82,7 +82,7 @@ One thing to note about the pools is the order in which you choose the servers. 
 
 ![configuring pool servers](/images/start_dashboard_setup/pool_conf.gif)
 
-_Selecting pool servers_
+>_Selecting pool servers_
 
 ## Setup Miner Config
 The miner config window will vary depending on the miner you choose. As mentioned before, the selection of miners is limited by the coin chosen. Miners will have Nvidia, AMD or CPU text indicating its compatibility with specific hardware types. This means, if a miner has only Nvidia next to it, then it will work only on Nvidia GPUs, same with AMD and vice versa. CPU indicates that a miner can be run on CPUs.
@@ -104,7 +104,7 @@ Below is an example of how we setup our second miner for CPU mining on a rig. Yo
 
 ![adding monero on nicehash as 2nd FS](/images/start_dashboard_setup/nh_monero_fs.gif)
 
-_Adding a second miner_
+>_Adding a second miner_
 
 To add a second miner to a specific worker, go to that worker and click the Flight Sheet tab then select your current Flight Sheet and click the triple dot button and then **Edit**. Click **Add Miner** and start filling in the fields:
 
@@ -127,7 +127,7 @@ Note that the threads number will vary depending on the number of cores your CPU
 
 ![configuring miner](/images/start_dashboard_setup/miner_conf.gif)
 
-_Miner Config settings_
+>_Miner Config settings_
 
 For more details regarding Nicehash and it’s fine tuning, please refer to their [Help](https://www.nicehash.com/help) section.
 
@@ -140,18 +140,18 @@ The second way is by going to the **Workers** tab, then clicking the checkboxes 
 
 ![control panel](/images/start_dashboard_setup/cp.png)
 
-_Control panel_
+>_Control panel_
 
 Click it, and you should see a window with the number of workers you chose and a list of all your Flight Sheets.
 
 ![applying flight sheet details](/images/start_dashboard_setup/launch_fs.png)
 
-_List of selected workers and available Flight Sheets_
+>_List of selected workers and available Flight Sheets_
 
 Choose the Flight Sheet you want to apply and click the **Apply** button. You should see a message telling you that the Flight Sheet command was sent to the worker. In a few seconds your workers should apply the changes and you should see a `Config applied` message in the activity logs in the farm’s Overview tab.
 
 ![activity logs](/images/start_dashboard_setup/activity_log.png)
 
-_Farm’s activity logs_
+>_Farm’s activity logs_
 
 You’re all done! Your rig should start mining, sending data to your dashboard and you should now see its metrics in real-time.

@@ -73,6 +73,7 @@ Now choose one of the two options below:
 Once the image copy is complete, you can go to your drive in Windows, Linux or Mac and find `rig-config-example.txt` file in the root folder. Here’s how it looks:
 
 ![rig conf example](/images/start_worker_setup/rig_conf_eg.png)
+
 _The contents of rig-config-example.txt file_
 
 Enter your Farm Hash in the `FARM_HASH=` field by copying the value from your Settings tab. Here’s how the field should look like:
@@ -85,6 +86,7 @@ No need to set RIG_ID or RIG_PASSWD in this case. That’s it, just save your co
 Once the image copy is complete, you can go to your drive in Windows, Linux or Mac and find rig-config-example.txt file in the root folder. Here’s how it looks:
 
 ![rig conf example](/images/start_worker_setup/rig_conf_eg-2.png)
+
 _The contents of rig-config-example.txt file_
 
 Find and fill in the two fields:

@@ -9,6 +9,8 @@ Table of Contents
 ## [Guides](guides/guides.md)
 - [Getting Started with Hive OS — Worker Installation and Setup](guides/start_worker_setup.md)
 - [Getting Started with Hive OS — Dashboard Basics & Setup](guides/start_dashboard_setup.md)
+- [Getting Started with Hive OS — Overclocking Profiles Basics](guides/start_oc.md)
+- [Getting Started with Hive OS — Adding A Custom Miner](guides/start_custom_miner.md)
 
 ## [Hiveon Pool FAQ](hiveon_pool_faq/pool_faq.md)
   - [General Pool FAQ](hiveon_pool_faq/general_pool_faq/general_faq_en.md)

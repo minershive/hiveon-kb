@@ -12,6 +12,8 @@ Table of Contents
 - [Getting Started with Hive OS — Overclocking Profiles Basics](guides/start_oc.md)
 - [Getting Started with Hive OS — Adding A Custom Miner](guides/start_custom_miner.md)
 
+- [Hive OS Quick Installation Guide](guides/quick_install.md)
+
 ## [Hiveon Pool FAQ](hiveon_pool_faq/pool_faq.md)
   - [General Pool FAQ](hiveon_pool_faq/general_pool_faq/general_faq_en.md)
   - [Hiveon FAQ](hiveon_pool_faq/hiveon_payouts_faq/payouts_faq_en.md)

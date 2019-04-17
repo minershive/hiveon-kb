@@ -1,4 +1,4 @@
-# HiveON Knowledge Base
+# Hiveon Knowledge Base
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/logo.svg?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/logo.svg"
@@ -12,7 +12,7 @@ Pay attention, that this repository is also available at [hiveos.farm](http://hi
 
 # Сontribution rules
 
-PLEASE WRITE RULES HERE
+Rules are as follows:
 
 # Get started
 

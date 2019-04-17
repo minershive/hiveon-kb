@@ -1,5 +1,11 @@
 # hiveon-kb
 
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/logo.svg?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/logo.svg"
+  width="400"
+  height="250"
+/>
+
 Languages
 =================
 [🇬🇧](knowledge-base.md#hiveon-kb) | [🇷🇺](knowledge-base_ru.md#hiveon-kb)

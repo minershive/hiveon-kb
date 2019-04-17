@@ -14,6 +14,9 @@ Table of Contents
 
 - [Hive OS Quick Installation Guide](guides/quick_install.md)
 
+- [Hiveon ASIC — New User’s Initial Installation and Setup Manual](guides/hiveon_asic_new.md)
+- [Hiveon ASIC — Existing User’s Upgrade and Setup Manual](guides/hiveon_asic_old.md)
+
 ## [Hiveon Pool FAQ](hiveon_pool_faq/pool_faq.md)
   - [General Pool FAQ](hiveon_pool_faq/general_pool_faq/general_faq_en.md)
   - [Hiveon FAQ](hiveon_pool_faq/hiveon_payouts_faq/payouts_faq_en.md)

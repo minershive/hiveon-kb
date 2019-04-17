@@ -8,5 +8,6 @@ Table of Contents
 
 - [Hive OS Quick Installation Guide](quick_install.md)
 
+
 - [Hiveon ASIC — New User’s Initial Installation and Setup Manual](hiveon_asic_new.md)
 - [Hiveon ASIC — Existing User’s Upgrade and Setup Manual](guides/hiveon_asic_old.md)

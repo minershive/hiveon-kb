@@ -41,7 +41,7 @@ Go to the [download](https://hiveos.farm/install/) page to get the latest versio
 _Choosing a download option_
 
 # Flash Image
-Insert a USB drive with 8Gb or more into your PC or Mac. Windows, MacOS and Linux users can use [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/), [Etcher](https://etcher.io/), [Rufus](https://rufus.akeo.ie/) or any other software of their choice. This example shows using Etcher to flash the image:
+Insert a USB drive with 8Gb or more into your PC or Mac. Windows, MacOS and Linux users can use [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/), <a href="https://etcher.io/">Etcher</a>, [Rufus](https://rufus.akeo.ie/) or any other software of their choice. This example shows using Etcher to flash the image:
 
 **1. Select Image**
 

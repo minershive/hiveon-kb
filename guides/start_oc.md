@@ -1,6 +1,8 @@
 # Getting Started with Hive OS — Overclocking Profiles Basics
 
-![header](/images/start_oc/header.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/header.png"
+  />
 
 The previous article covered the basics of creating Fight Sheets for your workers, in this article we’ll dive deeper into fine-tuning your worker with Overclocking Profiles.
 
@@ -11,8 +13,9 @@ In general terms, overclocking is pushing your hardware beyond it’s factory sp
 
 Overclocking is a process of trial and error and requires patience to achieve the desired results. You should always let your hardware run with each set of new Overclocking Profiles for some time to see if those specific parameters will stay stable. Hardware can behave differently sometime yelding unpredictable results. One way to see if your overclocking changes were successful is whether or not you start getting rejected shares.
 
-
-![rejected shares example](/images/start_oc/rejects.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/rejects.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/rejects.png"
+  />
 
 _Rejected shares_
 
@@ -25,7 +28,9 @@ All Overclocking Profiles are created individually for each farm and can’t be 
 
 To add a new profile, go to your farm’s Overclocking Profiles tab and click the **Add OC Profile** button. In the **Save Overclocking as Template** window give your profile a name and click **Save**.
 
-![new overclock](/images/start_oc/new_oc.gif)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/new_oc.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/new_oc.gif"
+  />
 
 _Creating a new OC template_
 
@@ -35,14 +40,18 @@ The template we created will be used by all your GPUs, but the settings are diff
 
 To edit your overclocking profile click the plus icon next to your the profile’s name and follow the instructions below depending on your GPU type.
 
-![add overclock](/images/start_oc/add_oc.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/add_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/add_oc.png"
+  />
 
 _Editing the OC template_
 
 ## Overclocking Nvidia GPUs
 Before changing any settings you can run the nvidia-smi command to find out your current GPU settings. To do this remotely from your dashboard, go to your worker and click the **Run Command** button in the toolbar at the top of the screen.
 
-![toolbar](/images/start_oc/toolbar.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png"
+  />
 
 _Toolbar_
 
@@ -52,7 +61,9 @@ You can specify one value for all cards or list of values for each card separate
 
 0 100 0 0 0 140 — means GPU0 = none, GPU1 = 100, etc.
 
-![nvidia oc settings](/images/start_oc/nvidia_oc.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nvidia_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nvidia_oc.png"
+  />
 
 _Nvidia OC window_
 
@@ -71,7 +82,9 @@ Here’s an example of an Overclocking Profile for an Nvidia GTX 1060 GPU.
 
 _Note, these values are for example purposes. Use at your own risk._
 
-![nvidia oc example](/images/start_oc/nv_oc_eg.gif)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nv_oc_eg.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nv_oc_eg.gif"
+  />
 
 _Nvidia OC example settings_
 
@@ -87,7 +100,9 @@ _Nvidia OC example settings_
 # Overclocking AMD GPUs
 Before changing any settings you can run the `amd-info` command to find out your current GPU settings. To do this remotely from your dashboard, go to your worker and click the **Run Command** button in the toolbar at the top of the screen.
 
-![toolbar](/images/start_oc/toolbar.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png"
+  />
 
 _Toolbar_
 
@@ -97,7 +112,9 @@ You can specify one value for all cards or list of values for each card separate
 
 0 100 0 0 0 140 — means GPU0 = none, GPU1 = 100, etc.
 
-![amd oc settings](/images/start_oc/amd_oc.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc.png"
+  />
 
 _AMD OC window_
 
@@ -118,7 +135,9 @@ Here’s an example of an Overclocking Profile for an AMD RX 580 GPU.
 
 _Note, these values are for example purposes. Use at your own risk._
 
-![amd example settings](/images/start_oc/amd_oc_eg.gif)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc_eg.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc_eg.gif"
+  />
 
 _AMD OC example settings_
 
@@ -136,13 +155,17 @@ _AMD OC example settings_
 
 You can now apply the Overclocking Profile you’ve created by going to the Workers tab, then clicking the checkboxes on the left side of the workers to which you want to apply the Overclocking Profile. You should see a speedometer icon appear in the menu bar in the top right corner.
 
-![toolbar oc application](/images/start_oc/apply_oc.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/apply_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/apply_oc.png"
+  />
 
 _Applying the OC profile_
 
 Click it, and you should see a window with the number of workers you chose and a list of all your Flight Sheets.
 
-![oc profiles list](/images/start_oc/oc_list.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/oc_list.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/oc_list.png"
+  />
 
 _List of OC profiles to apply to workers_
 

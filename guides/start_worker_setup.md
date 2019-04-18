@@ -1,6 +1,8 @@
 # Getting Started with Hive OS — Worker Installation and Setup
 
-![header image](/images/start_worker_setup/header.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png"
+  />
 
 Hive OS is an all-in-one monitoring and management tool for your mining rigs. Whether its a single rig or several thousands, you and your team can easily manage them all from a single dashboard.
 
@@ -18,7 +20,9 @@ As soon as you’re done setting up your account, it’s time to connect your ri
 
 Each Farm has its unique Farm Hash. You can find your Farm Hash by going to your Farm’s Settings tab. Once you write the installation image, you may then add your `FARM_HASH` to the `rig.conf` file which you will find in the root folder of the image. We’ll explain this step in detail below.
 
-![farm hash example](/images/start_worker_setup/fh_sample.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png"
+  />
 
 Farm Hash can be effectively used with Hive Flasher for bulk rig installations. More details on Hive Flasher are available [here](https://github.com/minershive/hive-flasher).
 
@@ -28,7 +32,9 @@ Users that have previously used Hive OS will be familiar with this option of con
 
 Click on the plus in the top right corner and choose Add Worker option.
 
-![adding new workers](/images/start_worker_setup/add_worker.gif)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/add_worker.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/add_worker.gif"
+  />
 
 A window, Add New Worker, will pop up with the following fields:
 
@@ -72,9 +78,11 @@ Now choose one of the two options below:
 ## Optional Step — Farm Hash
 Once the image copy is complete, you can go to your drive in Windows, Linux or Mac and find `rig-config-example.txt` file in the root folder. Here’s how it looks:
 
-![rig conf example](/images/start_worker_setup/rig_conf_eg.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg.png"
+  />
 
->_The contents of rig-config-example.txt file_
+_The contents of rig-config-example.txt file_
 
 Enter your Farm Hash in the `FARM_HASH=` field by copying the value from your Settings tab. Here’s how the field should look like:
 
@@ -85,9 +93,11 @@ No need to set RIG_ID or RIG_PASSWD in this case. That’s it, just save your co
 ## Optional Step — Manual Setup
 Once the image copy is complete, you can go to your drive in Windows, Linux or Mac and find rig-config-example.txt file in the root folder. Here’s how it looks:
 
-![rig conf example](/images/start_worker_setup/rig_conf_eg-2.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg-2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg-2.png"
+  />
 
->_The contents of rig-config-example.txt file_
+_The contents of rig-config-example.txt file_
 
 Find and fill in the two fields:
 

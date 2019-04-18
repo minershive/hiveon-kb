@@ -1,13 +1,17 @@
 # Getting Started with Hive OS — Adding A Custom Miner
 
-![header](/images/start_custom_miner/header.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/header.png"
+  />
 
 Hive OS supports several popular miner algorithms, but not every single one. For this purpose we added a new feature called Custom Miner Integration that allows users to add a miner that’s not “baked” into the distribution image of the OS. You have the option to either install a pre-created package or create one yourself. But in this guide we’ll mostly cover the steps required to install a pre-created package.
 
 # Installing A Custom Miner
 Start by going to the [custom miner download](http://download.hiveos.farm/custom/) page and simply copy the URL to the file.
 
-![custom miners repository](/images/start_custom_miner/custom_miners.png)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_miners.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_miners.png"
+  />
 
 _Custom miner repository_
 
@@ -40,7 +44,9 @@ Once you’re done click the **Create Flight Sheet** button. You can now apply t
 ## Example: Adding and Setting-up Phoenix Miner
 Now that we showed you how to setup a custom miner, let’s put it to practice by setting-up Phoenix Miner 3.5c on [Hiveon Pool](https://www.hiveon.net/) using the ethash miner algorithm as an example.
 
-![custom miners flight sheet](/images/start_custom_miner/custom_fs.gif)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_fs.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_fs.gif"
+  />
 
 _Custom miner Flight Sheet_
 
@@ -52,7 +58,9 @@ In the **Add New Flight Sheet** section, start filling in the following fields:
 * __Miner__ — select **Custom** and then click the **Setup Miner Config** for miner specific settings then fill in the necessary fields. Note, each miner can have a different set of parameters and required fields.
 * __Flight Sheet Name__ — _Phoenix on Hiveon_
 
-![custom miners configuration](/images/start_custom_miner/custom_conf.gif)
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_conf.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_conf.gif"
+  />
 
 _Custom miner configuration_
 

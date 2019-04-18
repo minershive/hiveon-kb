@@ -1,6 +1,6 @@
 Table of Contents
 =================
-## [Guides](guides/guides.md)
+## Guides
 - [Getting Started with Hive OS — Worker Installation and Setup](guides/start_worker_setup.md)
 - [Getting Started with Hive OS — Dashboard Basics & Setup](guides/start_dashboard_setup.md)
 - [Getting Started with Hive OS — Overclocking Profiles Basics](guides/start_oc.md)

@@ -23,7 +23,7 @@ Enter a name for your rig and a password. Optionally you can add a description o
 
 _Filling out the worker details_
 
-You’ll see a screen with tons of alternative installation options with which you can get acquainted [here](start_worker_setup.md). Click the `rig.conf` to download this file.
+You’ll see a screen with tons of alternative installation options with which you can get acquainted [here](guides/start_worker_setup.md). Click the `rig.conf` to download this file.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/dl_rig_conf.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/dl_rig_conf.png"

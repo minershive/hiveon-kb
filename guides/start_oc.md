@@ -57,9 +57,9 @@ _Toolbar_
 
 You can specify one value for all cards or list of values for each card separated by a space. For example:
 
-150 — one value for all GPUs.
+`150` — one value for all GPUs.
 
-0 100 0 0 0 140 — means GPU0 = none, GPU1 = 100, etc.
+`0 100 0 0 0 140` — means GPU0 = none, GPU1 = 100, etc.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nvidia_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nvidia_oc.png"

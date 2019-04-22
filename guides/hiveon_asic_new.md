@@ -43,7 +43,7 @@ Login into the miner. In our case we’re using an S9 as an example. The default
 
 Go into the **Upgrade** tab, there you will see the **Flash new firmware image** section. Click the **Choose File** to choose the image you previously downloaded and then click the **Flash image…** button and wait for it to install.
 
-Now we’ll need to get your Farm Hash in the [Hive OS web UI](https://the.hiveos.farm/). Go to your farm’s **Settings** tab, there you will see your **Farm Hash**, copy it to clipboard.
+Now we’ll need to get your Farm Hash in the <a href="https://the.hiveos.farm/">Hive OS web UI</a>. Go to your farm’s **Settings** tab, there you will see your **Farm Hash**, copy it to clipboard.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/fh_download.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/fh_download.png"
@@ -91,7 +91,7 @@ Once all the files are downloaded go to the `/tmp/hive-bulk-install` directory. 
 
 **Warning! The script will find all the ASICs in the network, not just S9, S9i or S9j. And you must not flash anything other than S9 series with this firmware!**
 
-Now we’ll need to get your Farm Hash in the [Hive OS web UI](https://the.hiveos.farm/). Go to your farm’s **Settings** tab, there you will see the **Download Firmware** and copy the link. It will be pre-formatted to include your Farm Hash. For example:
+Now we’ll need to get your Farm Hash in the <a href="https://the.hiveos.farm/">Hive OS web UI</a>. Go to your farm’s **Settings** tab, there you will see the **Download Firmware** and copy the link. It will be pre-formatted to include your Farm Hash. For example:
 
 `http://download.hiveos.farm/asic/s9/Antminer-S9-all-Hiveon-YOUR_FARMHASH.tar.gz`
 

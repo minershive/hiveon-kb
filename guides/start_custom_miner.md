@@ -7,7 +7,7 @@
 Hive OS supports several popular miner algorithms, but not every single one. For this purpose we added a new feature called Custom Miner Integration that allows users to add a miner that’s not “baked” into the distribution image of the OS. You have the option to either install a pre-created package or create one yourself. But in this guide we’ll mostly cover the steps required to install a pre-created package.
 
 # Installing A Custom Miner
-Start by going to the [custom miner download](http://download.hiveos.farm/custom/) page and simply copy the URL to the file.
+Start by going to the <a href="http://download.hiveos.farm/custom/">custom miner download</a> page and simply copy the URL to the file.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_miners.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_miners.png"
@@ -42,7 +42,7 @@ Because we’re setting up a Custom miner we need to manually configure these se
 Once you’re done click the **Create Flight Sheet** button. You can now apply the Flight Sheet you’ve created.
 
 ## Example: Adding and Setting-up Phoenix Miner
-Now that we showed you how to setup a custom miner, let’s put it to practice by setting-up Phoenix Miner 3.5c on [Hiveon Pool](https://www.hiveon.net/) using the ethash miner algorithm as an example.
+Now that we showed you how to setup a custom miner, let’s put it to practice by setting-up Phoenix Miner 3.5c on <a href="https://www.hiveon.net/">Hiveon Pool</a> using the ethash miner algorithm as an example.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_fs.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_fs.gif"
@@ -70,7 +70,7 @@ Now we need to configure the miner. Click **Setup Miner Config** button in **Min
 * __Installation URL__ — adding the URL of the package `http://download.hiveos.farm/custom/phoenixminer-3.5_c.tar.gz`
 * __Hash algorithm__ — select `ethash` from the dropdown list.
 * __Wallet and worker template__ — type `null`, as we’re using an ETH wallet we already have.
-* __Pool URL__ — we’ll be using [Hiveon pool](https://www.hiveon.net/):
+* __Pool URL__ — we’ll be using <a href="https://www.hiveon.net/">Hiveon pool</a>:
 
 `POOL: eu-eth.hiveon.net:4444, WALLET: %WAL%, WORKER:%WORKER_NAME%`
 
@@ -83,6 +83,6 @@ Now we need to configure the miner. Click **Setup Miner Config** button in **Min
 # How build your own package?
 Hive 2.0 supports custom miners that you can “cook” yourself and you’ll need to implement using several easy scripts in order to get your miner to work and send stats to Hive. We won’t cover the process of creating these scripts in this article though.
 
-If you don’t see a specific miner you’d like to use on our [custom miner download](http://download.hiveos.farm/custom/) page, check the [Custom Miner Integration forum thread](https://forum.hiveos.farm/t/custom-miner-integration/4521) for more packages that our enthusiasts have created to be used with Hive OS.
+If you don’t see a specific miner you’d like to use on our <a href="http://download.hiveos.farm/custom/">custom miner download</a> page, check the <a href="https://forum.hiveos.farm/t/custom-miner-integration/4521">Custom Miner Integration forum thread</a> for more packages that our enthusiasts have created to be used with Hive OS.
 
-Additionally, you can refer to the [custom miner integration Readme on GitHub](https://github.com/minershive/hiveos-linux/tree/master/hive/custom) for script templates and examples on how to create and integrate your own miner.
+Additionally, you can refer to the <a href="https://github.com/minershive/hiveos-linux/tree/master/hive/custom">custom miner integration Readme on GitHub</a> for script templates and examples on how to create and integrate your own miner.

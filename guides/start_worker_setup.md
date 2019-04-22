@@ -9,7 +9,7 @@ Hive OS is an all-in-one monitoring and management tool for your mining rigs. Wh
 In this article we’ll walk you through the first time installation process and explain what different installation types there are and how to easily set up your rigs and connecting them to your account dashboard.
 
 # Creating An Account
-Before installing Hive OS on your rig, we recommend [creating an account](https://the.hiveos.farm/) first, or logging into your [existing one](https://the.hiveos.farm/). Make sure to create a secure password.
+Before installing Hive OS on your rig, we recommend <a href="https://the.hiveos.farm/">creating an account</a> first, or logging into your <a href="https://the.hiveos.farm/">existing one</a>. Make sure to create a secure password.
 
 >_We strongly suggest setting up Two Factor Authentication (2FA) for additional account security. You can find these settings by clicking on your user name in the top right corner and then going to the Account tab. Scroll down to the Two-factor Authentication option and switch 2FA on then follow the onscreen instructions carefully._
 
@@ -24,7 +24,7 @@ Each Farm has its unique Farm Hash. You can find your Farm Hash by going to your
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png"
   />
 
-Farm Hash can be effectively used with Hive Flasher for bulk rig installations. More details on Hive Flasher are available [here](https://github.com/minershive/hive-flasher).
+Farm Hash can be effectively used with Hive Flasher for bulk rig installations. More details on Hive Flasher are available <a href="https://github.com/minershive/hive-flasher">here</a>.
 
 2. **Manual Setup**
 
@@ -56,22 +56,22 @@ Hive OS can be installed on both GPU rigs and ASICs as well. Below we will descr
 * ASIC — installs the OS unto ASIC miners
 
 # Downloading The Image
-Go to the [download](https://hiveos.farm/install/) page to get the latest version of Hive OS. You can download the image from our website as a .zip file or via .torrent if you prefer. You will also have the option of downloading Hive OS for ASICs or our Bulk Installation tool.
+Go to the <a href="https://hiveos.farm/install/">download</a> page to get the latest version of Hive OS. You can download the image from our website as a .zip file or via .torrent if you prefer. You will also have the option of downloading Hive OS for ASICs or our Bulk Installation tool.
 
 >_We recommend installing the OS image to an SSD. SSDs are much more reliable and we advise using them in production environments. Because many users still prefer using a USB flash drive, we have the logs turned off by default. If you installed the OS on an SSD, you can optionally turn logging back on by running the logs-on command after installation._
 
-Check the [Flash drive, SSD, HDD](https://forum.hiveos.farm/t/flash-drive-ssd-hdd/3325) forum thread for additional information and also visit our [Common booting problems](http://forum.hiveos.farm/discussion/6/booting-problems) forum thread for more details.
+Check the <a href="https://forum.hiveos.farm/t/flash-drive-ssd-hdd/3325">Flash drive, SSD, HDD</a> forum thread for additional information and also visit our  <a href="http://forum.hiveos.farm/discussion/6/booting-problems">Common booting problems</a> forum thread for more details.
 
 # GPU Installation
 
 ## Writing Disk Image
 You will need to write Hive OS image onto an SSD. Although many user prefer to use USB drives, we recommend opting to an SSD instead. Start by extracting the image from the .zip file first and then writing the .img file onto a drive.
 
-**Windows** user can write the image using [HDD Raw Copy Tool](http://hddguru.com/software/HDD-Raw-Copy-Tool/), [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/), [Rufus](https://rufus.akeo.ie/) or [Etcher](https://etcher.io/).
+**Windows** user can write the image using <a href="http://hddguru.com/software/HDD-Raw-Copy-Tool/">HDD Raw Copy Tool</a>, <a href="https://sourceforge.net/projects/win32diskimager/">Win32 Disk Imager</a>, <a href="https://rufus.akeo.ie/">Rufus</a> or <a href="https://etcher.io/">Etcher</a>.
 
-**MacOS** and **Linux** users can do it with ease using [Etcher](https://etcher.io/), or several other programs.
+**MacOS** and **Linux** users can do it with ease using <a href="https://etcher.io/">Etcher</a>, or several other programs.
 
-After the image is flashed you will discover a newly created drive in your system where you will be able to pre-configure your worker with either Farm Hash or it’s ID and password. Find `rig-config-example.txt` on HIVE drive and open it with a .txt editor. You can use the integrated text editors on Windows, MacOS and Linux or download a free alternative. For example, [Notepad++](https://notepad-plus-plus.org/) for Windows or [Sublime Text](https://www.sublimetext.com/) for MacOS and Linux.
+After the image is flashed you will discover a newly created drive in your system where you will be able to pre-configure your worker with either Farm Hash or it’s ID and password. Find `rig-config-example.txt` on HIVE drive and open it with a .txt editor. You can use the integrated text editors on Windows, MacOS and Linux or download a free alternative. For example, <a href="https://notepad-plus-plus.org/">Notepad++</a> for Windows or <a href="https://www.sublimetext.com/">Sublime Text</a> for MacOS and Linux.
 
 Now choose one of the two options below:
 
@@ -124,7 +124,7 @@ Before proceeding with installation, make sure that your ASIC miner is supported
 * Innosilicon A9 ZMaster
 
 ## Installation
-Remotely connect to your worker using SSH. Visit the [Teleconsole](https://forum.hiveos.farm/t/teleconsole/3968) forum thread for more details. Then run the following command:
+Remotely connect to your worker using SSH. Visit the  <a href="https://forum.hiveos.farm/t/teleconsole/3968">Teleconsole</a> forum thread for more details. Then run the following command:
 
 `cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade`
 
@@ -139,7 +139,7 @@ You can use FARM_HASH to add your ASIC workers automatically without entering ri
 
 Replace the `your_hash_from_web` with your `FARM_HASH`.
 
-For more details regarding ASIC installation, please refer to this [GitHub page](https://github.com/minershive/hiveos-asic).
+For more details regarding ASIC installation, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.
 
 # Finishing Setup
 As soon as your worker connects to the dashboard, you’re all done! Your worker should now be ready for you to make a few final adjustments in the dashboard, which we will describe in our next article.

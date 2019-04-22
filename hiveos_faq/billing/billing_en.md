@@ -2,11 +2,11 @@
 The subscription system will charge once a day based on the number of paid workers in your account.
 
 # Can I get a discount?
-Yes, all discount plans can be viewed on the [pricing page](https://hiveos.farm/pricing/).
+Yes, all discount plans can be viewed on the <a href="https://hiveos.farm/pricing/">pricing page</a>.
 
 
 # Can I pay using a different payment system like PayPal instead of paying with cryptocurrency?
-Not at the moment. Payment is currently done only using cryptocurrency through the [CoinPayments](https://www.coinpayments.net/) service.
+Not at the moment. Payment is currently done only using cryptocurrency through the <a href="https://www.coinpayments.net/">CoinPayments</a> service.
 
 # Can I pay Hive directly and not via CoinPayments?
 No. The billing system was not designed to work that way.
@@ -15,10 +15,10 @@ No. The billing system was not designed to work that way.
 It all depends on the processing speed of CoinPayments service. We have no control over the transaction period.
 
 # What is CoinPayments?
-It's an integrated payment system for cryptocurrencies that can be used to pay for our services. More detail are available [here](https://www.coinpayments.net/).
+It's an integrated payment system for cryptocurrencies that can be used to pay for our services. More detail are available <a href="https://www.coinpayments.net/">here</a>.
 
 # I dislike the CoinPayments service, can I pay using a different payment method?
-Currently payments can only be done using cryptocurrency and only through [CoinPayments](https://www.coinpayments.net/) service.
+Currently payments can only be done using cryptocurrency and only through <a href="https://www.coinpayments.net/">CoinPayments</a> service.
 
 # I payed my monthly subscription, but received a message "Waiting for confirms… (0.00241/0.00253 received with 1 confirms)" in my payment status, what did I do wrong?
 You have payed without including a fee. There are 2 ways to deal with this:

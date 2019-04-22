@@ -8,4 +8,4 @@ It is a conditionally free operating system. If you use up to 3 workers — it i
 A worker is a term used to describe both types of mining hardware that is supported by Hive OS: a rig — a computer built with GPUs; and ASIC — an Application-Specific Integrated Circuit (ASIC) customized for cryptocurrency mining.
 
 # Do you have a referral program?
-Yes, we have a referral program. Create a referral link with your account ID and share it with others. New users that sign-up using your referral link will be marked as your referrals. You can also create promo codes. Find out more [here](https://hiveos.farm/pricing/).
+Yes, we have a referral program. Create a referral link with your account ID and share it with others. New users that sign-up using your referral link will be marked as your referrals. You can also create promo codes. Find out more <a href="https://hiveos.farm/pricing/">here</a>.

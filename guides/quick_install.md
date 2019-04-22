@@ -4,7 +4,7 @@
   src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/header.png"
   />
 
-Before installing Hive OS on your rig, we recommend [creating an account](creating an account) first, or logging into your [existing one](https://the.hiveos.farm/).
+Before installing Hive OS on your rig, we recommend <a href="https://the.hiveos.farm/">creating an account</a> first, or logging into your <a href="https://the.hiveos.farm/">existing one</a>.
 
 # Add Worker
 After creating an account, you will be greeted by your farm’s overview tab. Click the **add one** button to add a new rig.
@@ -32,7 +32,7 @@ You’ll see a screen with tons of alternative installation options with which y
 _Downloading the rig.conf file_
 
 # Download Image
-Go to the [download](https://hiveos.farm/install/) page to get the latest version of Hive OS. Choose between a .zip or a .torrent file.
+Go to the <a href="https://hiveos.farm/install/">download</a> page to get the latest version of Hive OS. Choose between a .zip or a .torrent file.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/install.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/install.png"
@@ -41,7 +41,7 @@ Go to the [download](https://hiveos.farm/install/) page to get the latest versio
 _Choosing a download option_
 
 # Flash Image
-Insert a USB drive with 8Gb or more into your PC or Mac. Windows, MacOS and Linux users can use [Win32 Disk Imager](https://sourceforge.net/projects/win32diskimager/), [Etcher](https://etcher.io/), [Rufus](https://rufus.akeo.ie/) or any other software of their choice. This example shows using Etcher to flash the image:
+Insert a USB drive with 8Gb or more into your PC or Mac. Windows, MacOS and Linux users can use <a href="https://sourceforge.net/projects/win32diskimager/">Win32 Disk Imager</a>, <a href="https://etcher.io/">Etcher</a>, <a href="https://rufus.akeo.ie/">Rufus</a> or any other software of their choice. This example shows using Etcher to flash the image:
 
 **1. Select Image**
 

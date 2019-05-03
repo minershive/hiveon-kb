@@ -1,4 +1,4 @@
-# hiveon-kb
+# Hiveon Knowledge Base
 
 Languages
 =================

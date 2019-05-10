@@ -7,12 +7,13 @@
 />
 
 Welcome to [HiveON Knowledge Base repository](https://github.com/minershive/hiveon-kb)
-Pay attention, that this repository is also available at [hiveos.farm](http://hiveos.farm/knowledge-base)
-Сontribution like opening issues or forking is welcome.
+This repository is published at [hiveos.farm](http://hiveos.farm/knowledge-base)
+Сontribution like opening issues or forking is welcomed.
 
 # Сontribution rules
 
 Rules are as follows:
+- Be professional in what you do
 
 TBD
 

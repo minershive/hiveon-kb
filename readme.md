@@ -14,6 +14,8 @@ Pay attention, that this repository is also available at [hiveos.farm](http://hi
 
 Rules are as follows:
 
+TBD
+
 # Get started
 
 [🇬🇧](knowledge-base.md#hiveon-kb)

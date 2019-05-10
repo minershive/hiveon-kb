@@ -4,6 +4,8 @@ Languages
 =================
 [🇬🇧](knowledge-base.md#hiveon-kb) | [🇷🇺](knowledge-base_ru.md#hiveon-kb)
 
+# Hive OS
+
 Table of Contents
 =================
 ## [Guides](guides/guides.md)
@@ -13,10 +15,78 @@ Table of Contents
 - [Getting Started with Hive OS — Adding A Custom Miner](guides/start_custom_miner.md)
 ___
 - [Hive OS Quick Installation Guide](guides/quick_install.md)
-___
-- [Hiveon ASIC — New User’s Initial Installation and Setup Manual](guides/hiveon_asic_new.md)
-- [Hiveon ASIC — Existing User’s Upgrade and Setup Manual](guides/hiveon_asic_old.md)
 
+___
+## Introduction to the System
+- [What is Hive OS](guides/what_is_hive.md)
+- [Installation](guides/new_install.md)
+- [Monitoring](guides/monitoring.md)
+- [Overclocking](guides/oc.md)
+- [Flight Sheets](guides/fs.md)
+- [Watchdogs](guides/watchdogs.md)
+- [Autofan](guides/autofan.md)
+- [Linux Commands for Beginners](guides/linux.md)
+- [OS Live Replacement](guides/hive_replace.md)
+- [Farm Hash](guides/fh.md)
+- [Wallet](guides/wallet.md)
+
+## Security
+- [Security](guides/security.md)
+- [Security reminder](guides/security_rem.md)
+
+## Drivers
+- [Nvidia drivers update guide and CUDA 10](guides/nvidia_dr.md)
+- [Drivers Update](guide/driver_upd.md)
+- [AMD Drivers installation](guides/amd_dr.md)
+
+## ASIC
+- [HiveOS on an ASIC](guides/hive_asic.md)
+
+## GPU Hub
+- [GPU Hub](guides/gpu_hub.md)
+
+## AMD GPU
+- [Setting-up RX550](guides/amd_rx550.md)
+
+## Hive OS Billing
+- [Billing](guides/bill.md)
+- [Payments](guides/payment.md)
+
+## Miners
+- [Implementing Miners](guides/miners.md)
+- [Custom Miner Integration](guides/custom_miner.md)
+
+## Coins
+- [GRIN](guides/coin_grin.md)
+- [EXCC](guides/coin_excc.md)
+
+## Troubleshooting
+- [Booting Problems](guides/boot.md)
+- [Bad Riser](guides/riser.md)
+- [Drives](guides/drive.md)
+- [Connection Problems](guides/conn.md)
+- [General Motherboard Setup](guides/mb_setup.md)
+- [Version Downgrade](guides/downgrade.md)
+- [Selfupgrade](guides/selfupgrade.md)
+- [Logs](guides/logs.md)
+
+## Network and Remote Access
+- [WiFi Setup](guides/wifi.md)
+- [Teleconsole](guides/teleconsole.md)
+- [Static IP](guides/ip.md)
+- [OpenVPN](guides/openvpn.md)
+- [Know Your IP](guides/yourip.md)
+- [IPv6](guides/ipv6.md)
+
+___
+# Hiveon Pool
+- [Setting-up](hiveon/hiveon.md)
+
+___
+# Hiveon ASIC
+- [Hiveon ASIC — New User’s Initial Installation and Setup Manual](hiveon_asic/hiveon_asic_new.md)
+- [Hiveon ASIC — Existing User’s Upgrade and Setup Manual](hiveon_asic/hiveon_asic_old.md)
+___
 ## [Hiveon Pool FAQ](hiveon_pool_faq/pool_faq.md)
   - [General Pool FAQ](hiveon_pool_faq/general_pool_faq/general_faq_en.md)
   - [Hiveon FAQ](hiveon_pool_faq/hiveon_payouts_faq/payouts_faq_en.md)

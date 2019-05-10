@@ -15,6 +15,8 @@ This repository is published at [hiveos.farm](http://hiveos.farm/knowledge-base)
 Rules are as follows:
 - Be professional in what you do
 
+TBD
+
 # Get started
 
 [🇬🇧](knowledge-base.md#hiveon-kb)

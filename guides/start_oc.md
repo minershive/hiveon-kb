@@ -74,7 +74,7 @@ The **Algo** field is used to specify overclock settings for a specific algorith
 * __Fan (%)__ — controls the speed of your GPU fan/fans. 0 will always be the GPU’s default (factory) value. Your GPU’s BIOS will determine the default speed of the fan, not the miner.
 * __Power Limit (W)__ — controls the power consumption. These values must be absolute, unlike in AfterBurner, where the values are percentile. You can check your power limit values in your GPU list of the rig. For example, Power Limit 60.00 W, 120.00 W, 140.00 W means that the first value, 60.00 W — the minimum, 120.00 W — the default, and 140.00 W — the maximum. The setting won’t apply if your values are less or greater than the min/max values of your specific GPU.
 * __Turn Off LEDs__ — this turns off the LED lights on your GPU, if there are any. This option may not work on some GPUs.
-* __OhGodAnETHlargementPill__ — works only with Nvidia GTX 1080 series. Provided by OhGodACompany. Check their [GitHub](https://github.com/OhGodACompany/OhGodAnETHlargementPill) page for details.
+* __OhGodAnETHlargementPill__ — works only with Nvidia GTX 1080 series. Provided by OhGodACompany. Check their <a href="https://github.com/OhGodACompany/OhGodAnETHlargementPill">GitHub</a> page for details.
 * Click **Save** and you’re done.
 
 ## Example: Nvidia GTX 1060 Overclocking

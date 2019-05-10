@@ -108,7 +108,7 @@ Once you’re done click the Create Flight Sheet button. Remember, you can have 
 ## Example: Setting-up Monero on Nicehash
 Now that we showed you how to setup your worker, let’s put it to practice by setting-up Monero (XMR) on Nicehash using the CryptoNoghtv7 miner algorithm as an example.
 
-Go to your **Wallets** and click the **Add Wallet** button. In the **New Wallet** window start by typing nicehash into the Coin field and you should see an entire list of various Nicehash supported algorithms. They are not listed by default in the dropdown list as they’re not actual coins per se. Choose the _Nicehash-CryptoNightV7_ protocol, then enter your Nicehash wallet address. Note, that if you want to see your stats in the [Nicehash Dashboard](https://www.nicehash.com/dashboard) you should use the generated wallet address provided when [registering](https://www.nicehash.com/register). You can name your new wallet optionally, then click **Create**.
+Go to your **Wallets** and click the **Add Wallet** button. In the **New Wallet** window start by typing nicehash into the Coin field and you should see an entire list of various Nicehash supported algorithms. They are not listed by default in the dropdown list as they’re not actual coins per se. Choose the _Nicehash-CryptoNightV7_ protocol, then enter your Nicehash wallet address. Note, that if you want to see your stats in the <a href="https://www.nicehash.com/dashboard">Nicehash Dashboard</a> you should use the generated wallet address provided when <a href="https://www.nicehash.com/register">registering</a>. You can name your new wallet optionally, then click **Create**.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/wallet_nh.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/wallet_nh.gif"
@@ -149,7 +149,7 @@ Note that the threads number will vary depending on the number of cores your CPU
 
 _Miner Config settings_
 
-For more details regarding Nicehash and it’s fine tuning, please refer to their [Help](https://www.nicehash.com/help) section.
+For more details regarding Nicehash and it’s fine tuning, please refer to their <a href="https://www.nicehash.com/help">Help</a> section.
 
 Continue following the instructions below to apply your newly created Flight Sheet to your worker.
 

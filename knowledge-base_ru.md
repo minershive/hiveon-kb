@@ -4,6 +4,8 @@
 =================
 [🇬🇧](knowledge-base.md#hiveon-kb) | [🇷🇺](knowledge-base_ru.md)
 
+# Hive OS
+
 Содержание
 =================
 ## [Гайды](guides/guides_ru.md)
@@ -61,6 +63,8 @@ ___
 - [Обзор. Настройка](hiveon/hiveon_ru.md)
 
 ___
-## [Частые Вопросы и Ответы Hiveon Пула](guides/hiveon_pool_faq/pool_faq.md)
+## [Частые Вопросы и Ответы Hiveon Пула](hiveon_pool_faq/pool_faq.md)
 
-## [Частые Вопросы и Ответы Hive OS](guides/hiveos_faq/hiveos_faq.md)
+## [Частые Вопросы и Ответы Hive OS](hiveos_faq/hiveos_faq.md)
+
+## [Частые Вопросы и Ответы Hiveon ASIC](hiveon_asic_faq/asic_faq_ru.md)

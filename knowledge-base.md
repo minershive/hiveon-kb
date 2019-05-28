@@ -39,8 +39,8 @@ ___
 - [Drivers Update](guide/driver_upd.md)
 - [AMD Drivers installation](guides/amd_dr.md)
 
-## HiveOS for ASICs
-- [HiveOS on a ASIC](guides/hive_asic.md)
+## ASIC
+- [HiveOS for ASICs](guides/hive_asic.md)
 
 ## GPU Hub
 - [GPU Hub](guides/gpu_hub.md)

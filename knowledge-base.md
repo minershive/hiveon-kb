@@ -36,7 +36,7 @@ ___
 
 ## Drivers
 - [Nvidia drivers update guide and CUDA 10](guides/nvidia_dr.md)
-- [Drivers Update](guide/driver_upd.md)
+- [Drivers Update](guides/driver_upd.md)
 - [AMD Drivers installation](guides/amd_dr.md)
 
 ## ASIC
@@ -94,3 +94,5 @@ ___
 ## [Hive OS FAQ](hiveos_faq/hiveos_faq.md)
   - [General Questions](hiveos_faq/general/general_en.md)
   - [Billing](hiveos_faq/billing/billing_en.md)
+
+## [Hiveon ASIC FAQ](hiveon_asic_faq/asic_faq.md)   

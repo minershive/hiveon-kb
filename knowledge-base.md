@@ -78,21 +78,22 @@ ___
 - [Know Your IP](guides/yourip.md)
 - [IPv6](guides/ipv6.md)
 
-___
+
 # Hiveon Pool
 - [Setting-up](hiveon/hiveon.md)
 
-___
+
 # Hiveon ASIC
 - [Hiveon ASIC — New User’s Initial Installation and Setup Manual](hiveon_asic/hiveon_asic_new.md)
 - [Hiveon ASIC — Existing User’s Upgrade and Setup Manual](hiveon_asic/hiveon_asic_old.md)
-___
+
 ## [Hiveon Pool FAQ](hiveon_pool_faq/pool_faq.md)
-  - [General Pool FAQ](hiveon_pool_faq/general_pool_faq/general_faq_en.md)
-  - [Hiveon FAQ](hiveon_pool_faq/hiveon_payouts_faq/payouts_faq_en.md)
+- [General Pool FAQ](hiveon_pool_faq/general_pool_faq/general_faq_en.md)
+- [Hiveon FAQ](hiveon_pool_faq/hiveon_payouts_faq/payouts_faq_en.md)
 
 ## [Hive OS FAQ](hiveos_faq/hiveos_faq.md)
-  - [General Questions](hiveos_faq/general/general_en.md)
-  - [Billing](hiveos_faq/billing/billing_en.md)
+- [General Questions](hiveos_faq/general/general_en.md)
+- [Billing](hiveos_faq/billing/billing_en.md)
 
-## [Hiveon ASIC FAQ](hiveon_asic_faq/general/asic_faq.md)   
+## [Hiveon ASIC FAQ](hiveon_asic_faq/general/asic_faq.md)
+- [General Questions](hiveon_asic/general/asic_faq.md)

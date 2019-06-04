@@ -1,3 +1,8 @@
+<span class="kb-breadcrumbs">[Root](/knowledge-base)</span>
+<span class="kb-breadcrumbs"> / </span>
+<span class="kb-breadcrumbs">[Hiveos FAQ](/hiveos_faq-hiveos_faq)</span>
+____
+
 # How does Hive's billing system work?
 Hive OS is a prepaid system. You need to do a deposit to have more than 3 free workers in your farm. Deposit can be as small as you wish. There's no need to prepay for the whole month, you can pay $1, for example, just to give Hive OS a try. Workers are billed daily, not monthly.
 

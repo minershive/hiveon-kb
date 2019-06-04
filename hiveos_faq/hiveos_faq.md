@@ -1,3 +1,6 @@
+<span class="kb-breadcrumbs">[Root](/knowledge-base)</span>
+____
+
 Table of Contents
 =================
 

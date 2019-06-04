@@ -93,4 +93,5 @@ ___
 - [General Questions](hiveos_faq/general/general_en.md)
 - [Billing](hiveos_faq/billing/billing_en.md)
 
-## [Hiveon ASIC FAQ](hiveon_asic_faq/asic_faq.md)   
+## [Hiveon ASIC FAQ](hiveon_asic_faq/general/asic_faq.md)
+- [General Questions](hiveon_asic_faq/general/asic_faq.md)

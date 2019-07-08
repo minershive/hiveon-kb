@@ -16,7 +16,14 @@ This is a custom firmware from Hive OS for Antminer S9, S9i and S9j.
 * Hive OS is free when using Hiveon ASIC firmware!
 
 # Which models are supported by the firmware?
-The firmware is available for Antminer S9, S9i and S9j. T9, L3 and S17 are currently in development.
+The firmware is available for Antminer S9, S9i and S9j. T9, L3 are currently in development.
+
+# Do you have Hiveon ASIC firmware for Antminer T15, T17 or S17?
+Stock firmware with built-in Hive OS client is already available for Antminer T15, T17 and S17. So you can monitor all your mining processes.
+There is no demand for firmware like Hiveon ASIC - optimization and auto-tuning are already built-in on these models.
+
+# Why is there no firmware available for S11, Z9?
+On these models the power wiring won’t allow to squeeze more out of them, so it makes no sense to make custom firmware. You should use the stock one.
 
 # Do I need to pay to use the firmware?
 No. The firmware takes a 2% dev fee automatically. This is done in parallel mining, without hashrate dips or suspension of the main mining process.
@@ -49,6 +56,7 @@ Firewall or another internet issue blocks the firmware download. Try to download
 The latest BitMain firmware enables protection against custom firmware. You can try the following options:
 Try to flash through using an SD card. Flash the recovery image onto the SD card - http://bit.ly/2Hu3RSR (image)
 Video: https://www.youtube.com/watch?v=dzArOe8KuHI
+Manual on forum - https://forum.hiveos.farm/t/antminer-s9-cannot-find-signature-fix/12466
 Service centers can flash through the com port.
 
 # I download the firmware from the farm settings. The name of the firmware includes my farm_hash. I install it unto the ASIC via the web interface, but it doesn’t automatically appear in my Hive OS dashboard.
@@ -84,6 +92,3 @@ According to the manufacturer’s specifications and tests, the working temperat
 At this working temperature, the hash rate is higher
 Less noise
 Less fan wear.
-
-# Why is there no firmware available for S11, Z9?
-On these models the power wiring won’t allow to squeeze more out of them, so it makes no sense to make custom firmware. You should use the stock one.

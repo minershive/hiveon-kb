@@ -1,6 +1,6 @@
-<span class="kb-breadcrumbs">[Root](/knowledge-base)</span>
-<span class="kb-breadcrumbs"> / </span>
-<span class="kb-breadcrumbs">[Hiveos FAQ](/hiveos_faq-hiveos_faq)</span>
+<span kb-breadcrumbs>[Root](/knowledge-base)</span>
+<span kb-breadcrumbs> / </span>
+<span kb-breadcrumbs>[Hiveos FAQ](/hiveos_faq-hiveos_faq)</span>
 ____
 
 # How does Hive's billing system work?

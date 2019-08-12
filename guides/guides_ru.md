@@ -6,6 +6,7 @@ ___
 - [Что такое Hive OS](guides/what_is_hive_ru.md)
 - [Установка с Нуля](guides/new_install_ru.md)
 - [Вачдоги](guides/watchdogs_ru.md)
+- [Планировщик](guides/schedules_ru.md)
 - [Команды Linux для начинающих](guides/linux_ru.md)
 - [Перенос HiveOS с флешки на SDD/HDD средствами самой HiveOS](guides/hdd_move.md)
 - [Farm Hash](guides/fh_ru.md)
@@ -28,6 +29,7 @@ ___
 
 ## AMD ГПУ
 - [Прошиваем карты AMD](guides/amd_flash_ru.md)
+- [RX Буст - AmdMemTweak](guides/rx_boost_ru.md)
 
 ## Биллинг в Hive OS
 - [Биллинг](guides/bill_ru.md)

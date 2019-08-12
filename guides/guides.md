@@ -17,6 +17,7 @@ ___
 - [Flight Sheets](guides/fs.md)
 - [Watchdogs](guides/watchdogs.md)
 - [Autofan](guides/autofan.md)
+- [Schedules](guides/schedules.md)
 - [Linux Commands for Beginners](guides/linux.md)
 - [OS Live Replacement](guides/hive_replace.md)
 - [Farm Hash](guides/fh.md)
@@ -39,6 +40,7 @@ ___
 
 ## AMD GPU
 - [Setting-up RX550](guides/amd_rx550.md)
+- [RX Boost - AMDMemTweak](guides/rx_boost.md)
 
 ## Hive OS Billing
 - [Billing](guides/bill.md)

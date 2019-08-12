@@ -12,6 +12,7 @@ ___
 ## Introduction to the System
 - [What is Hive OS](guides/what_is_hive.md)
 - [Installation](guides/new_install.md)
+- [Hive OS Deploy PXE - deploy hundreds of rigs](guides/pxe.md)
 - [Monitoring](guides/monitoring.md)
 - [Overclocking](guides/oc.md)
 - [Flight Sheets](guides/fs.md)
@@ -37,6 +38,9 @@ ___
 
 ## Hive Shell
 - [Hive Shell](guides/hshell.md)
+
+## GPU Hub
+- [GPU Hub](guides/gpu_hub.md)
 
 ## AMD GPU
 - [Setting-up RX550](guides/amd_rx550.md)

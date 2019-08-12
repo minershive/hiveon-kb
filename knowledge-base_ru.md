@@ -13,6 +13,7 @@ ___
 ## Знакомство с Системой
 - [Что такое Hive OS](guides/what_is_hive_ru.md)
 - [Установка с Нуля](guides/new_install_ru.md)
+- [Hive OS Deploy PXE - как развернуть сотни ригов](guides/pxe_ru.md)
 - [Вачдоги](guides/watchdogs_ru.md)
 - [Планировщик](guides/schedules_ru.md)
 - [Команды Linux для начинающих](guides/linux_ru.md)

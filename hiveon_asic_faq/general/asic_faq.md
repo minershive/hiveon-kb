@@ -38,10 +38,10 @@ It restarts the miner and waits for the connection to reappear. In contrast to t
 Mere Kilobits are used by the ASIC, the speed is not a main requirement. Ping is more important: the lower the ping to the pool, the better.
 
 # How do I install the firmware if I'm not a Hive OS user yet?
-Follow the instructions from our installation guide - http://goo.gl/rNPdWc
+Follow the instructions from our <a href="http://goo.gl/rNPdWc">installation guide</a>
 
 # How do I install the firmware via Hive OS web interface?
-Follow the instructions from our installation guide - http://goo.gl/RXsfjL
+Follow the instructions from our <a href="http://goo.gl/RXsfjL">installation guide</a> 
 
 # What is the latest version of the Hiveon ASIC firmware?
 Hiveon 1.01
@@ -54,11 +54,12 @@ Firewall or another internet issue blocks the firmware download. Try to download
 
 # The ASIC is flashed with the latest BitMain firmware. I can‘t flash it with Hiveon ASIC.
 The latest BitMain firmware enables protection against custom firmware. You can try the following options:
-Try to flash through using an SD card. Flash the recovery image onto the SD card - http://bit.ly/2Hu3RSR (image)
-Video: <a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
+Try to flash through using an SD card. Flash the recovery image onto the SD card
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
 " target="_blank"><img src="http://img.youtube.com/vi/dzArOe8KuHI/0.jpg"
 alt="Recovery NAND antminer s9 t9 via micro SD card" width="630" height="400" border="10" /></a>
-Manual on forum - https://forum.hiveos.farm/t/antminer-s9-cannot-find-signature-fix/12466
+- <a href="https://forum.hiveos.farm/t/antminer-s9-cannot-find-signature-fix/12466">Manual on forum</a>
+
 Service centers can flash through the com port.
 
 # I download the firmware from the farm settings. The name of the firmware includes my farm_hash. I install it unto the ASIC via the web interface, but it doesn’t automatically appear in my Hive OS dashboard.

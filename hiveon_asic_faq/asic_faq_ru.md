@@ -38,10 +38,10 @@
 Килобиты на асик, скорость почти не нужна. Важен пинг: чем ниже до пула, тем лучше.
 
 # Как установить прошивку, если я еще не пользователь Hive OS?
-Следуйте инструкции с нашего гайда по установке - http://goo.gl/rNPdWc
+Следуйте инструкции с нашего <a href="http://goo.gl/rNPdWc">гайда по установке</a>
 
 # Как установить прошивку через веб-интерфейс Hive OS?
-Следуйте инструкции с нашего гайда по установке - http://goo.gl/RXsfjL
+Следуйте инструкции с нашего <a href="http://goo.gl/RXsfjL">гайда по установке</a>
 
 # Какая последняя версия прошивки Hiveon ASIC?
 Hiveon 1.01
@@ -57,7 +57,7 @@ Hiveon 1.01
 У последних битмайновских прошивок включена защита от кастомных прошивок. Варианты:
 1.
 - Пробовать прошить через SD карту. Заливать на карту образ восстановления.
-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
 " target="_blank"><img src="http://img.youtube.com/vi/dzArOe8KuHI/0.jpg"
 alt="Recovery NAND antminer s9 t9 via micro SD card" width="630" height="400" border="10" /></a>
 

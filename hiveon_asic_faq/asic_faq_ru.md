@@ -56,8 +56,10 @@ Hiveon 1.01
 # Асик прошит последней битмайновской прошивкой. Не могу поставить Hiveon ASIC.
 У последних битмайновских прошивок включена защита от кастомных прошивок. Варианты:
 1. Пробовать прошить через SD карту. Заливать на карту образ восстановления - http://bit.ly/2Hu3RSR
-https://www.youtube.com/watch?v=dzArOe8KuHI
-https://forum.hiveos.farm/t/antminer-s9-cannot-find-signature-fix/12466
+Видео: <a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
+" target="_blank"><img src="http://img.youtube.com/vi/dzArOe8KuHI/0.jpg"
+alt="Recovery NAND antminer s9 t9 via micro SD card" width="630" height="400" border="10" /></a>
+Форум: https://forum.hiveos.farm/t/antminer-s9-cannot-find-signature-fix/12466
 
 2. В сервисном центре могут прошить через com порт.
 

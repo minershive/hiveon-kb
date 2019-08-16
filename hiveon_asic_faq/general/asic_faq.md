@@ -55,7 +55,9 @@ Firewall or another internet issue blocks the firmware download. Try to download
 # The ASIC is flashed with the latest BitMain firmware. I can‘t flash it with Hiveon ASIC.
 The latest BitMain firmware enables protection against custom firmware. You can try the following options:
 Try to flash through using an SD card. Flash the recovery image onto the SD card - http://bit.ly/2Hu3RSR (image)
-Video: https://www.youtube.com/watch?v=dzArOe8KuHI
+Video: <a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
+" target="_blank"><img src="http://img.youtube.com/vi/dzArOe8KuHI/0.jpg"
+alt="Recovery NAND antminer s9 t9 via micro SD card" width="630" height="400" border="10" /></a>
 Manual on forum - https://forum.hiveos.farm/t/antminer-s9-cannot-find-signature-fix/12466
 Service centers can flash through the com port.
 

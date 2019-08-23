@@ -1,9 +1,7 @@
 # What is the Hiveon ASIC?
-This is a custom firmware from Hive OS for Antminer S9, S9i and S9j.
+This is a custom firmware from Hive OS for Antminer S9, S9i, S9j and T9, T9+.
 
 # What do I get with the firmware?
-* 16.4 TH/s with a standard PSU, 24 Th/s with liquid cooling;
-* 75W/TH with undervolt - energy savings of up to 25%;
 * Speeding up of worn ASIC chips;
 * Manual and automatic selection of voltage and frequencies;
 * Individual fine tuning of frequencies;
@@ -15,8 +13,15 @@ This is a custom firmware from Hive OS for Antminer S9, S9i and S9j.
 * Watchdogs for temperature and hashrate;
 * Hive OS is free when using Hiveon ASIC firmware!
 
+For Antminer S9, S9i and S9j:
+* 16.4 TH/s with a standard PSU, 24 Th/s with liquid cooling;
+* 75W/TH with undervolt - energy savings of up to 25%.
+
+For Antminer T9, T9+:
+* Up to 14.7 Th/s with standard PSU compared to the 10.5 Th/s on the stock firmware.
+
 # Which models are supported by the firmware?
-The firmware is available for Antminer S9, S9i and S9j. T9, L3 are currently in development.
+The firmware is available for Antminer S9, S9i, S9j and T9, T9+. L3 are currently in development.
 
 # Do you have Hiveon ASIC firmware for Antminer T15, T17 or S17?
 Stock firmware with built-in Hive OS client is already available for Antminer T15, T17 and S17. So you can monitor all your mining processes.
@@ -41,10 +46,11 @@ Mere Kilobits are used by the ASIC, the speed is not a main requirement. Ping is
 Follow the instructions from our <a href="http://goo.gl/rNPdWc">installation guide</a>
 
 # How do I install the firmware via Hive OS web interface?
-Follow the instructions from our <a href="http://goo.gl/RXsfjL">installation guide</a> 
+Follow the instructions from our <a href="http://goo.gl/RXsfjL">installation guide</a>
 
 # What is the latest version of the Hiveon ASIC firmware?
-Hiveon 1.01
+For S9 - Hiveon 1.01.
+For T9 - Hiveon 1.02.
 
 # How can I upgrade to a new firmware version?
 Straight from the Hive OS web interface.
@@ -90,8 +96,6 @@ To display a correct approximation of consumption, any overclocking profile shou
 # I get unrealistic numbers on the fan speeds, for example, 30600 rpm and 509%.
 This is caused either by a broken fan or sensor. Antminers often write 30600 if they have a problem with obtaining stats from sensors. Recheck the connectors or replace fans.
 
-# Why did the ASIC temperature become higher on Hiveon firmware than it was on the stock firmware?
-According to the manufacturer’s specifications and tests, the working temperature of the chips, on which they give more optimal hashrate and produce fewer errors, is 75-80 degrees. Lower temperatures produce worse results. Hiveon firmware adjusts ASICs to this temperature. Now this temperature can be adjusted. As a result, we have several pros:
-At this working temperature, the hash rate is higher
-Less noise
-Less fan wear.
+№ Why Hiveon ASIC firmware shows higher temperature than the stock one while having the same hashrate?
+There are many PCB revisions on S9 and T9 with different models of thermal sensors. Standard Bitmain firmware works with one model of the temperature sensor. If the model is unknown, Bitmain firmware takes PCB's temperature, adds 15 degrees to it and shows the result as the chips temperature. In fact, the temperature can be much higher. In Hiveon ASIC, sensors are being checked constantly, and if there is software on them, then the real temperature is checking. Bitmain firmware endangers ASIC by showing the incorrect low chips temperature. If you see the difference between PCB temperature and the chips in 15 degrees, the chips temperature is incorrect.
+The temperature above 90 degrees is undesirable. 80-90 degrees - optimal working temperature.

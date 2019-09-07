@@ -1,5 +1,5 @@
 # What is the Hiveon ASIC?
-This is a custom firmware from Hive OS for Antminer S9, S9i, S9j and T9, T9+.
+This is a custom firmware from Hive OS for Antminer S9, S9i, S9j and T9+.
 
 # What do I get with the firmware?
 * Speeding up of worn ASIC chips;
@@ -17,11 +17,11 @@ For Antminer S9, S9i and S9j:
 * 16.4 TH/s with a standard PSU, 24 Th/s with liquid cooling;
 * 75W/TH with undervolt - energy savings of up to 25%.
 
-For Antminer T9, T9+:
+For Antminer T9+:
 * Up to 14.7 Th/s with standard PSU compared to the 10.5 Th/s on the stock firmware.
 
 # Which models are supported by the firmware?
-The firmware is available for Antminer S9, S9i, S9j and T9, T9+. L3 are currently in development.
+The firmware is available for Antminer S9, S9i, S9j and T9+. L3 are currently in development.
 
 # Do you have Hiveon ASIC firmware for Antminer T15, T17 or S17?
 Stock firmware with built-in Hive OS client is already available for Antminer T15, T17 and S17. So you can monitor all your mining processes.
@@ -50,7 +50,7 @@ Follow the instructions from our <a href="http://goo.gl/RXsfjL">installation gui
 
 # What is the latest version of the Hiveon ASIC firmware?
 For S9 - Hiveon 1.01.
-For T9 - Hiveon 1.02.
+For T9+ - Hiveon 1.02.
 
 # How can I upgrade to a new firmware version?
 Straight from the Hive OS web interface.

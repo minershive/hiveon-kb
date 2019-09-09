@@ -96,6 +96,6 @@ To display a correct approximation of consumption, any overclocking profile shou
 # I get unrealistic numbers on the fan speeds, for example, 30600 rpm and 509%.
 This is caused either by a broken fan or sensor. Antminers often write 30600 if they have a problem with obtaining stats from sensors. Recheck the connectors or replace fans.
 
-№ Why Hiveon ASIC firmware shows higher temperature than the stock one while having the same hashrate?
+# Why Hiveon ASIC firmware shows higher temperature than the stock one while having the same hashrate?
 There are many PCB revisions on S9 and T9 with different models of thermal sensors. Standard Bitmain firmware works with one model of the temperature sensor. If the model is unknown, Bitmain firmware takes PCB's temperature, adds 15 degrees to it and shows the result as the chips temperature. In fact, the temperature can be much higher. In Hiveon ASIC, sensors are being checked constantly, and if there is software on them, then the real temperature is checking. Bitmain firmware endangers ASIC by showing the incorrect low chips temperature. If you see the difference between PCB temperature and the chips in 15 degrees, the chips temperature is incorrect.
 The temperature above 90 degrees is undesirable. 80-90 degrees - optimal working temperature.

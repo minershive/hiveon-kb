@@ -33,7 +33,7 @@ ___
 
 ## Драйвера
 - [Инструкция по установке драйверов NVidia](guides/nvidia_dr_ru.md)
-- [Обновление Драйверов](guide/driver_upd_ru.md)
+- [Обновление Драйверов](guides/driver_upd_ru.md)
 
 ## ASIC
 - [HiveOS для ASIC](guides/hive_asic_ru.md)

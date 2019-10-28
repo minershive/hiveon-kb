@@ -30,7 +30,7 @@ ___
 
 ## Drivers
 - [Nvidia drivers update guide and CUDA 10](guides/nvidia_dr.md)
-- [Drivers Update](guide/driver_upd.md)
+- [Drivers Update](guides/driver_upd.md)
 - [AMD Drivers installation](guides/amd_dr.md)
 
 ## ASIC

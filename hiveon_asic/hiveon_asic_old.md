@@ -11,7 +11,7 @@ In this part two we’ll discuss the options for:
 * __Updating existing ASICs via Hive OS’s web interface__ — suitable for those who’re already using Hive with their ASICs;
 * __Bulk updating existing ASICs__ — suitable for updating entire farms in a few clicks.
 
-If you’re a new user, here’s what [part one](guides/hiveon_asic_new.md) covered:
+If you’re a new user, here’s what [part one](guides/hiveon_asic.md) covered:
 
 * __Installing using ASICs via web interface__ — suitable for installing on a handful of machines for users who haven’t used Hive OS before;
 * __Bulk installation__ — suitable for installing unto entire farms.

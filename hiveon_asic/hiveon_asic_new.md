@@ -14,7 +14,7 @@ Part one will cover the following topics:
 * __Installing using ASICs via web interface__ — suitable for installing on a handful of machines for users who haven’t used Hive OS before;
 * __Bulk installation__ — suitable for installing unto entire farms.
 
-[Part two](hiveon_asic_old.md) will discuss the options for:
+[Part two](/hiveon_asic/hiveon_asic_old.md) will discuss the options for:
 
 * __Updating existing ASICs via Hive OS’s web interface__ — suitable for those who’re already using Hive with their ASICs;
 * __Bulk updating existing ASICs__ — suitable for updating entire farms in a few clicks.

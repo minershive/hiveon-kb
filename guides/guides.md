@@ -59,14 +59,14 @@ ___
 - [EXCC](guides/coin_excc.md)
 
 ## Troubleshooting
-- [Booting Problems](guides/boot.md)
-- [Bad Riser](guides/riser.md)
-- [Drives](guides/drive.md)
-- [Connection Problems](guides/conn.md)
-- [General Motherboard Setup](guides/mb_setup.md)
-- [Version Downgrade](guides/downgrade.md)
-- [Selfupgrade](guides/selfupgrade.md)
-- [Logs](guides/logs.md)
+- [Booting Problems](troubleshooting/boot.md)
+- [Bad Riser](troubleshooting/riser.md)
+- [Drives](troubleshooting/drive.md)
+- [Connection Problems](troubleshooting/conn.md)
+- [General Motherboard Setup](troubleshooting/mb_setup.md)
+- [Version Downgrade](troubleshooting/downgrade.md)
+- [Selfupgrade](troubleshooting/selfupgrade.md)
+- [Logs](troubleshooting/logs.md)
 
 ## Network and Remote Access
 - [WiFi Setup](guides/wifi.md)

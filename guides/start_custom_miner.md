@@ -1,12 +1,13 @@
-# Getting Started with Hive OS — Adding A Custom Miner
+title: Getting Started with Hive OS — Adding A Custom Miner
 
+## Getting Started with Hive OS — Adding A Custom Miner
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/header.png"
   />
 
 Hive OS supports several popular miner algorithms, but not every single one. For this purpose we added a new feature called Custom Miner Integration that allows users to add a miner that’s not “baked” into the distribution image of the OS. You have the option to either install a pre-created package or create one yourself. But in this guide we’ll mostly cover the steps required to install a pre-created package.
 
-# Installing A Custom Miner
+### Installing A Custom Miner
 Start by going to the <a href="http://download.hiveos.farm/custom/">custom miner download</a> page and simply copy the URL to the file.
 
 <img
@@ -15,9 +16,9 @@ Start by going to the <a href="http://download.hiveos.farm/custom/">custom miner
 
 _Custom miner repository_
 
-To install a custom archive manually on the rig you can download it and unpack it to `/hive/custom` folder. Do note that even though you did copy it locally you will still need the URL for the Flight Sheet to work.
+To install a custom archive manually on the rig you can download it and unpack it to `/hive/custom` folder. Note that even though you did copy it locally you will still need the URL for the Flight Sheet to work.
 
-## Setting Up The Flight Sheet
+### Setting Up The Flight Sheet
 We covered the process of creating a Flight Sheets and Wallets, which you will also require, in one of our [previous articles](guides/start_dashboard_setup.md), so we won’t go into the details, assuming you already know how to do it.
 
 Got to the **Flight Sheets** tab in your farm’s Dashboard. In the **Add New Flight Sheet** section, start filling in the following fields:
@@ -41,7 +42,7 @@ Because we’re setting up a Custom miner we need to manually configure these se
 
 Once you’re done click the **Create Flight Sheet** button. You can now apply the Flight Sheet you’ve created.
 
-## Example: Adding and Setting-up Phoenix Miner
+### Example: Adding and Setting-up Phoenix Miner
 Now that we showed you how to setup a custom miner, let’s put it to practice by setting-up Phoenix Miner 3.5c on <a href="https://www.hiveon.net/">Hiveon Pool</a> using the ethash miner algorithm as an example.
 
 <img
@@ -80,9 +81,12 @@ Now we need to configure the miner. Click **Setup Miner Config** button in **Min
 * __Extra config arguments__ — in our case we leave this field blank.
 * Click **Apply Changes** and you’re all done.
 
-# How build your own package?
-Hive 2.0 supports custom miners that you can “cook” yourself and you’ll need to implement using several easy scripts in order to get your miner to work and send stats to Hive. We won’t cover the process of creating these scripts in this article though.
+### How to build your own package?
+Hive 2.0 supports custom miners that you can “cook” yourself and you’ll need to implement using several easy scripts in order to get your miner to work and send stats to Hive. Please take existing integrations as a starting point.
 
-If you don’t see a specific miner you’d like to use on our <a href="http://download.hiveos.farm/custom/">custom miner download</a> page, check the <a href="https://forum.hiveos.farm/t/custom-miner-integration/4521">Custom Miner Integration forum thread</a> for more packages that our enthusiasts have created to be used with Hive OS.
+
+The integration doc is <a href="https://github.com/minershive/hiveos-linux/blob/master/hive/miners/custom/README.md">here</a>. To install custom archive manually you can just unpack it to /hive/miners/custom.
+
+To install it from URL run `/hive/miners/custom/custom-get url-to-your-superminer`. Use “-f” argument at the end to reinstall it: `/hive/miners/custom/custom-get url-to-your-superminer -f`. Since v0.6 for updating Custom miner, it is just enough to change URL in your Flight Sheet for the new one.
 
 Additionally, you can refer to the <a href="https://github.com/minershive/hiveos-linux/tree/master/hive/custom">custom miner integration Readme on GitHub</a> for script templates and examples on how to create and integrate your own miner.

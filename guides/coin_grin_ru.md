@@ -1,7 +1,6 @@
-# GRIN
+title; GRIN Ru
 
-## Видео
-
+## GRIN
 - <a href="https://www.youtube.com/watch?v=FjJlpJdrhu4">Hive OS - Настройка майнинга GRIN coin на красных и зелёных</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=FjJlpJdrhu4

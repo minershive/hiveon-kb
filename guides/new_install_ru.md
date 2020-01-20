@@ -1,8 +1,9 @@
-# Установка с Нуля
+title: Установка с нуля
 
+## Установка с Нуля
 - <a href="https://hiveos.farm/install/">Install</a>
 
-## Видео
+### Видео
 
 - <a href="https://www.youtube.com/watch?v=pPtRIOPHC18">Hive OS 2.0 Настройка майнинг фермы по wifi</a>
 
@@ -47,7 +48,7 @@ alt="Hive OS установка и настройка МАЙНИНГ" width="630
 alt="Учиться.. Учиться... HiveOS еще 10 настроек" width="630" height="400" border="10" /></a>
 
 
-## Внешние Ресурсы
+### Внешние Ресурсы
 - <a href="https://just-work.ru/ustanovka-i-nastrojka-hive-os">Установка и настройка Hive OS</a>
 - <a href="https://altcoinlog.com/kak-nastroit-usanovit-hive-os/">Как Настроить И Установить Hive OS 2.0 Для Майнинга</a>
 - <a href="https://tehnoobzor.com/cryptolife/mining/2800-obzor-hive-os-i-pula-hiveonnet-dlya-maynerov.html">Обзор Hive OS и пула hiveon.net для майнеров</a>

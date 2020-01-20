@@ -1,3 +1,5 @@
+title: Pool FAQ
+
 Table of Contents
 =================
 

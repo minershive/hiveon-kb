@@ -1,3 +1,5 @@
+title: Guides
+
 Table of Contents
 =================
 ## Guides
@@ -9,7 +11,7 @@ ___
 - [Hive OS Quick Installation Guide](guides/quick_install.md)
 
 ___
-## Introduction to the System
+### Introduction to the System
 - [What is Hive OS](guides/what_is_hive.md)
 - [Installation](guides/new_install.md)
 - [Hive OS Deploy PXE - deploy hundreds of rigs](guides/pxe.md)
@@ -24,41 +26,41 @@ ___
 - [Farm Hash](guides/fh.md)
 - [Wallet](guides/wallet.md)
 
-## Security
+### Security
 - [Security](guides/security.md)
 - [Security reminder](guides/security_rem.md)
 
-## Drivers
+### Drivers
 - [Nvidia drivers update guide and CUDA 10](guides/nvidia_dr.md)
 - [Drivers Update](guides/driver_upd.md)
 - [AMD Drivers installation](guides/amd_dr.md)
 
-## ASIC
+### ASIC
 - [HiveOS on an ASIC](guides/hive_asic.md)
 
-## Hive Shell
+### Hive Shell
 - [Hive Shell](guides/hshell.md)
 
-## GPU Hub
+### GPU Hub
 - [GPU Hub](guides/gpu_hub.md)
 
-## AMD GPU
+### AMD GPU
 - [Setting-up RX550](guides/amd_rx550.md)
 - [RX Boost - AMDMemTweak](guides/rx_boost.md)
 
-## Hive OS Billing
+### Hive OS Billing
 - [Billing](guides/bill.md)
 - [Payments](guides/payment.md)
 
-## Miners
+### Miners
 - [Implementing Miners](guides/miners.md)
 - [Custom Miner Integration](guides/custom_miner.md)
 
-## Coins
+### Coins
 - [GRIN](guides/coin_grin.md)
 - [EXCC](guides/coin_excc.md)
 
-## Troubleshooting
+### Troubleshooting
 - [Booting Problems](guides/boot.md)
 - [Bad Riser](guides/riser.md)
 - [Drives](guides/drive.md)
@@ -68,7 +70,7 @@ ___
 - [Selfupgrade](guides/selfupgrade.md)
 - [Logs](guides/logs.md)
 
-## Network and Remote Access
+### Network and Remote Access
 - [WiFi Setup](guides/wifi.md)
 - [Teleconsole](guides/teleconsole.md)
 - [Static IP](guides/ip.md)

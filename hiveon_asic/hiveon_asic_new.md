@@ -1,12 +1,13 @@
-# Hiveon ASIC — New User’s Initial Installation and Setup Manual
+title: Hiveon ASIC — New User’s Initial Installation and Setup Manual
 
+## Hiveon ASIC — New User’s Initial Installation and Setup Manual
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/header.jpeg?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/header.jpeg"
   />
 
 Our firmware includes a 2% devfee while you’ll still be getting higher profit than with the stock firmware.
 
-# Installation Options
+### Installation Options
 There are no one-size-fits-all instructions, instead we’re going to cover three scenarios of installing or updating your machines with Hiveon ASIC. We’ve split the process into two articles.
 
 Part one will cover the following topics:
@@ -19,7 +20,7 @@ Part one will cover the following topics:
 * __Updating existing ASICs via Hive OS’s web interface__ — suitable for those who’re already using Hive with their ASICs;
 * __Bulk updating existing ASICs__ — suitable for updating entire farms in a few clicks.
 
-# Installing using ASIC’s web interface
+### Installing using ASIC’s web interface
 
 **Before we go into the installation details, keep in mind that currently this custom firmware is available for Antminer S9, S9i and S9j only. Other models will be available soon.**
 
@@ -29,7 +30,7 @@ Go to your farm’s **Settings** tab, there you will see the **Download Firmware
   src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/fh.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/fh.png"
   />
 
-When your ASIC is powered up and assuming it’s on the same network with you, connect to it using a computer or a mobile device. Enter your miner’s IP address. Most miners come with DHCP enabled thus you do not have to manually set an IP address, for it. Instead look at the IP table on your router or use a scanning tool.
+When your ASIC is powered up and assuming it’s on the same network with you, connect to it using a computer or a mobile device. Enter your miner’s IP address. Most miners come with DHCP enabled thus you do not have to set an IP address for it manually. Instead look at the IP table on your router or use a scanning tool.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/antminer_overview.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/antminer_overview.png"
@@ -57,7 +58,7 @@ As soon as the ASIC was flashed and rebooted, reconnect to it and go to the **Hi
 
 _You’re done, now you can configure your ASIC._
 
-# Hiveon ASIC auto tuner configuration
+### Hiveon ASIC auto tuner configuration
 After installing the new firmware you can now login back into your ASIC miner. This time you’ll be greeted by the new Hiveon ASIC UI overview page. Lets look at **Profiles** and basic configs for the time being.
 
 _**Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**_
@@ -72,9 +73,9 @@ In order to choose the **Profile** you want, go to the **Miner Configuration** t
   src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/asic_profiles.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/asic_profiles.png"
   />
 
-Then click the **Apply Changes** button at the bottom of the page and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hasrates may wildly fluctuate during the process — this is normal.
+Then click the **Apply Changes** button at the bottom of the page and wait for the algorithm to finish auto-tuning the ASIC. This may take up to an hour depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
 
-# Bulk Installation
+### Bulk Installation
 To bulk install our firmware across multiple ASICs, you’ll need either a computer with Linux or a rig with Hive OS installed on it, that’s on the same network with your other ASIC machines.
 
 To install from a computer with Linux (or a rig running Hive OS), download the bulk install scripts first by running the following command:
@@ -107,8 +108,8 @@ Once you’re done, run the firmware.sh script to install the custom firmware. T
 
 _For more details regarding other ASIC installation options, please refer to this [GitHub page](https://github.com/minershive/hiveos-asic)._
 
-# Hive OS web UI auto tuner configuration
-Once your ASICs were successfully flashed, you can now go into the use our pre-created auto tuning profiles. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure in any of our articles as this profile is too difficult to explain in a short comprehensive form.
+### Hive OS web UI auto tuner configuration
+Once your ASICs were successfully flashed, you can now go into the use our pre-created auto-tuning profiles. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in fine-tuning an ASIC manually.** We won’t be covering the manual procedure in any of our articles as this profile is too difficult to explain in a short comprehensive form.
 
 _**Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**_
 
@@ -124,7 +125,7 @@ You’ll see several actions appear in the top right corner of the screen. Click
   src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/oc.png"
   />
 
-Select the profile you want then click the **Apply Changes** button at the bottom of the window and wait for the algorithm to finish auto tuning the ASIC. **This may take up to an hour** depending on the selected profile. Your hasrates may wildly fluctuate during the process — this is normal.
+Select the profile you want then click the **Apply Changes** button at the bottom of the window and wait for the algorithm to finish auto-tuning the ASIC. **This may take up to an hour** depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/power_profiles.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/hiveon_asic_new/power_profiles.png"

@@ -1,7 +1,6 @@
-# GRIN
+title: GRIN
 
-## Video
-
+## GRIN
 - <a href="https://www.youtube.com/watch?v=OhKs95AAO5c">Mining Grin on HiveOS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=OhKs95AAO5c

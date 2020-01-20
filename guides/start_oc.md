@@ -1,17 +1,18 @@
-# Getting Started with Hive OS — Overclocking Profiles Basics
+title: Getting Started with Hive OS — Overclocking Profiles Basics
 
+## Getting Started with Hive OS — Overclocking Profiles Basics
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/header.png"
   />
 
-The previous article covered the basics of creating Fight Sheets for your workers, in this article we’ll dive deeper into fine-tuning your worker with Overclocking Profiles.
+The previous article covered the basics of creating Flight Sheets for your workers, in this article we’ll dive deeper into fine-tuning your worker with Overclocking Profiles.
 
 >_Disclaimer: Any settings that deviate from factory values may cause your system to become unstable. Use at your own risk._
 
-# What Is An Overclocking Profile
+### What Is An Overclocking Profile
 In general terms, overclocking is pushing your hardware beyond it’s factory specs thus possibly improving its performance. An Overclocking Profile can also be used for other purposes, like downvolting — reducing your hardware’s power consumption. There are many applications for overclocking and we’ll try to cover some of them in this article.
 
-Overclocking is a process of trial and error and requires patience to achieve the desired results. You should always let your hardware run with each set of new Overclocking Profiles for some time to see if those specific parameters will stay stable. Hardware can behave differently sometime yelding unpredictable results. One way to see if your overclocking changes were successful is whether or not you start getting rejected shares.
+Overclocking is a process of trial and error and requires patience to achieve the desired results. You should always let your hardware run with each set of new Overclocking Profiles for some time to see if those specific parameters will stay stable. Hardware can behave differently sometime giving out unpredictable results. One way to see if your overclocking changes were successful is whether or not you start getting rejected shares.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/rejects.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/rejects.png"
@@ -23,7 +24,7 @@ Rejected shares — shares that your miner worked but they were either not s
 
 This said, most users leave their hardware at default settings as overclocking results may vary for each user. It also greatly depends on the actual components a manufacturer uses as some components are capable of being overclocked beyond spec and some simply don’t perform so great.
 
-# Creating An Overclocking Profile
+### Creating An Overclocking Profile
 All Overclocking Profiles are created individually for each farm and can’t be shared across farms. You can either create a farm-wide profile or a worker specific profile. The worker specific settings will always override any farm-wide settings. For example, this way you can set the optimal desired settings for the whole farm and then fine-tune each rig individually.
 
 To add a new profile, go to your farm’s Overclocking Profiles tab and click the **Add OC Profile** button. In the **Save Overclocking as Template** window give your profile a name and click **Save**.
@@ -46,7 +47,7 @@ To edit your overclocking profile click the plus icon next to your the profile�
 
 _Editing the OC template_
 
-## Overclocking Nvidia GPUs
+### Overclocking Nvidia GPUs
 Before changing any settings you can run the nvidia-smi command to find out your current GPU settings. To do this remotely from your dashboard, go to your worker and click the **Run Command** button in the toolbar at the top of the screen.
 
 <img
@@ -77,7 +78,7 @@ The **Algo** field is used to specify overclock settings for a specific algorith
 * __OhGodAnETHlargementPill__ — works only with Nvidia GTX 1080 series. Provided by OhGodACompany. Check their <a href="https://github.com/OhGodACompany/OhGodAnETHlargementPill">GitHub</a> page for details.
 * Click **Save** and you’re done.
 
-## Example: Nvidia GTX 1060 Overclocking
+### Example: Nvidia GTX 1060 Overclocking
 Here’s an example of an Overclocking Profile for an Nvidia GTX 1060 GPU.
 
 _Note, these values are for example purposes. Use at your own risk._
@@ -97,7 +98,7 @@ _Nvidia OC example settings_
 * __OhGodAnETHlargementPill__ — this is available only for the 1080 series GPUs, so we skipped this setting
 * Click __Save__ and you’re done.
 
-# Overclocking AMD GPUs
+### Overclocking AMD GPUs
 Before changing any settings you can run the `amd-info` command to find out your current GPU settings. To do this remotely from your dashboard, go to your worker and click the **Run Command** button in the toolbar at the top of the screen.
 
 <img
@@ -129,7 +130,7 @@ The **Algo** field is used to specify overclock settings for a specific algorith
 * __Aggressive undervolting__ — chooses a set overclocked parameter for each DPM state.
 * Click __Save__ and you’re done.
 
-## Example: AMD RX 580 Overclocking
+### Example: AMD RX 580 Overclocking
 
 Here’s an example of an Overclocking Profile for an AMD RX 580 GPU.
 
@@ -151,7 +152,7 @@ _AMD OC example settings_
 * __Aggressive undervolting__ — set to active
 * Click __Save__ and you’re done.
 
-# Applying An Overclocking Profile
+### Applying An Overclocking Profile
 
 You can now apply the Overclocking Profile you’ve created by going to the Workers tab, then clicking the checkboxes on the left side of the workers to which you want to apply the Overclocking Profile. You should see a speedometer icon appear in the menu bar in the top right corner.
 

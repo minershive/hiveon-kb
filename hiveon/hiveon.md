@@ -1,6 +1,6 @@
-# Setting-up
+title: Setting-up
 
-## Video
+## Setting-up
 - <a href="https://www.youtube.com/watch?v=IHbpypI_0fM">HIVE 2.0 - Earn more ETHEREUM on the HIVEON Pool</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=IHbpypI_0fM

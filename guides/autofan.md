@@ -1,7 +1,6 @@
-# Autofan
+title: Autofan
 
-## Videos
-
+## Autofan
 - <a href="https://www.youtube.com/watch?v=WMKMfwq9m2g">Autofans in HiveOS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=WMKMfwq9m2g

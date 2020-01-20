@@ -1,3 +1,5 @@
+title: Hiveos FAQ
+
 <span kb-breadcrumbs>[Root](/knowledge-base)</span>
 ____
 

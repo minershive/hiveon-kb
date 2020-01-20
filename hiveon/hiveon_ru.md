@@ -1,6 +1,6 @@
-# Обзор. Настройка
+title: Обзор. Настройка
 
-## Видео
+## Обзор. Настройка
 - <a href="https://www.youtube.com/watch?v=CTneKYGOBzg">Новый пул для майнинга ETH + ETC + XMR = Hiveon Pool</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=CTneKYGOBzg

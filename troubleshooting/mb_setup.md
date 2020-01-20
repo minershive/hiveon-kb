@@ -1,4 +1,6 @@
+---
 title: General Motherboard Setup
+---
 
 ## General Motherboard Setup
 Here are some steps you can take if you have some problems with booting your system or the card is not detected, and so on:

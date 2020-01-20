@@ -1,4 +1,6 @@
+---
 title: Overclocking
+---
 
 ## Overclocking
 - <a href="https://www.youtube.com/watch?v=1BcRnR6zRBA">Overclocking in HiveOS</a>

@@ -1,4 +1,6 @@
+---
 title: RX Boost - AmdMemTweak
+---
 
 ## RX Boost - AmdMemTweak
 Thanks to the efforts of the programmer under the nickname Eliovp, the amdmemorytweak utility is available on [Bitcointalk](https://bitcointalk.org/index.php?topic=5123724.0) and [Github](https://github.com/Eliovp/amdmemorytweak), which allows you to work with the GDDR5 and HBM2 video memory timings of video cards on the AMD platform on the fly.

@@ -1,4 +1,6 @@
+---
 title: Custom miner
+---
 
 ## Custom Miner
 

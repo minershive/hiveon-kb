@@ -1,4 +1,6 @@
+---
 title: IPv6
+---
 
 ## IPv6
 Some users might want to disable IPv6 on the system (if it’s not disabled in the image release). The best way to disable it is router. Nevertheless here is how to do it for one host by executing the following one-liner.

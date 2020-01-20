@@ -1,4 +1,6 @@
+---
 title: Hive OS Deploy PXE - deploy hundreds of rigs
+---
 
 ## Hive OS Deploy PXE - deploy hundreds of rigs
 

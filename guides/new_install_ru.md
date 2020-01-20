@@ -1,4 +1,6 @@
+---
 title: Установка с нуля
+---
 
 ## Установка с Нуля
 - <a href="https://hiveos.farm/install/">Install</a>

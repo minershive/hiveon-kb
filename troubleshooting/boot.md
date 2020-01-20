@@ -1,4 +1,6 @@
+---
 title: Booting problems
+---
 
 ## Booting problems
 In general you just plug your drive in the rig and it goes. But sometimes it just doesn’t work.

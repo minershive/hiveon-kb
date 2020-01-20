@@ -1,4 +1,6 @@
-title; GRIN Ru
+---
+title: GRIN Ru
+---
 
 ## GRIN
 - <a href="https://www.youtube.com/watch?v=FjJlpJdrhu4">Hive OS - Настройка майнинга GRIN coin на красных и зелёных</a>

@@ -1,4 +1,6 @@
+---
 title: Hive OS Quick Installation Guide
+---
 
 ## Hive OS Quick Installation Guide
 <img

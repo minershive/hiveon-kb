@@ -1,4 +1,6 @@
+---
 title: Static IP
+---
 
 ## Static IP
 This is very simple.

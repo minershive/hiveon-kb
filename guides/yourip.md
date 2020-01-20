@@ -1,4 +1,6 @@
+---
 title: Know your IP
+---
 
 ## Know Your IP
 In web panel there are 2 IPs at least listed once you connect your rig.

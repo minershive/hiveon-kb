@@ -1,4 +1,6 @@
+---
 title: GeekCash
+---
 
 ## GeekCash
 Как майнить GeekCash на HiveOS?

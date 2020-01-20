@@ -1,4 +1,6 @@
+---
 Title: GPU Hub Ru
+---
 
 ## GPU Hub
 <a href="https://youtu.be/t2FyPFxhThU

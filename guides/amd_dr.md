@@ -1,4 +1,6 @@
+---
 title: AMD Drivers installation
+---
 
 ## AMD Drivers installation
 Script for the easy installation of AMD Drivers on HiveOS/Ubuntu based OS: https://github.com/CryptoLuigi/AMD_Installer.

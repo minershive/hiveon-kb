@@ -1,4 +1,6 @@
+---
 title: Installation
+---
 
 ## Installation
 - <a href="https://hiveos.farm/install/">Install</a>

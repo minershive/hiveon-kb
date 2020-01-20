@@ -1,4 +1,6 @@
+---
 title: Implementing miners
+---
 
 ## Implementing Miners
 Hive team is asked to implement this or that miner almost every day. Here we will explain why we don’t do this until it becomes popular.

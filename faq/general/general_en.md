@@ -1,4 +1,6 @@
+---
 title: General En
+---
 
 ### What is Hive OS?
 Hive OS is an operating system based on the Linux distribution of Ubuntu 16.04 LTS, which main task is to provide the user with a convenient interface for mining crypto-currency on GPU rigs and ASIC miners while managing them by using a web interface.

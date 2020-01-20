@@ -1,4 +1,6 @@
+---
 title: Teleconsole
+---
 
 ## Teleconsole
 Teleconsole is an SSH tunnel to your rig. In few words you start it on the rig and open SSH in browser or in Linux/Mac console. This does not require any VPN or being in local network.

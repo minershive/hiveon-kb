@@ -1,4 +1,6 @@
+---
 title: Beam Ru
+---
 
 ## Beam
 - <a href="https://www.youtube.com/watch?v=1Emo9dA1bcc">Майнинг Beam coin на Hive OS. Биржа hotbit.io</a>

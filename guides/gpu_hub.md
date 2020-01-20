@@ -1,4 +1,6 @@
+---
 title: GPU Hub
+---
 
 ## GPU Hub
 <a href="https://youtu.be/FFD7tPpGqUk

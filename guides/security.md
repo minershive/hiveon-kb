@@ -1,4 +1,6 @@
+---
 title: Security
+---
 
 ## Security
 To change system password for user (for SSH and VNC also) please use the following command: `hive-passwd yournewsecurepass`.

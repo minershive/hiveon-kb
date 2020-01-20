@@ -1,4 +1,6 @@
+---
 title: NVidia Drivers Update Guide and CUDA 10.x
+---
 
 ## NVidia Drivers Update Guide and CUDA 10.x
 nvidia-driver-update default installation version: 440.36 (updated December 05, 2019)

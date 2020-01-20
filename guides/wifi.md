@@ -1,4 +1,6 @@
+---
 title: Wi-Fi
+---
 
 ## Wi-Fi
 Wifi, adapters and Linux have tough relations. Though some of them are supported and you can try to use it.

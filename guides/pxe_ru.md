@@ -1,4 +1,6 @@
+---
 title: Hive OS Deploy PXE - как развернуть сотни ригов
+---
 
 ## Hive OS Deploy PXE - как развернуть сотни ригов
 

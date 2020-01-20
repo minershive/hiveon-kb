@@ -1,4 +1,6 @@
+---
 title: Bad Riser
+---
 
 ## Bad Riser
 The error look like this:

@@ -1,4 +1,6 @@
+---
 title: How to Set Up Your HiveOS Wallet
+---
 
 ## How to Set Up Your HiveOS Wallet
 

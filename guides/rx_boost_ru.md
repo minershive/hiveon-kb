@@ -1,4 +1,6 @@
+---
 title: RX Буст - AmdMemTweak
+---
 
 ## RX Буст - AmdMemTweak
 ### AMDMemTweak – чтение/запись таймингов памяти

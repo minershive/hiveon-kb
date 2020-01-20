@@ -1,4 +1,6 @@
+---
 title: Connection problems
+---
 
 ## Connection Problems
 The common question is: my rig is mining, but it’s offline in Hive.

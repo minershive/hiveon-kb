@@ -1,4 +1,6 @@
+---
 title: Драйвера NVidia
+---
 
 ## Драйвера NVidia
 На этой неделе мы обновили драйвера NVidia в нашем [каталоге](http://download.hiveos.farm/drivers/drivers). Все версии драйверов CUDA 10 совместимые.

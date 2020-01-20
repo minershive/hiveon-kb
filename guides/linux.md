@@ -1,4 +1,6 @@
+---
 title: Linux Commands for Beginners
+---
 
 ## Linux Commands for Beginners
 

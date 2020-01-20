@@ -1,4 +1,6 @@
+---
 title: Selfupgrade
+---
 
 ## Selfupgrade
 Sometimes there can be situation when Ubuntu repo is out of sync and it can’t find some package. This happens because Hive is updating itself only but not the whole Ubuntu to minimize traffic. In a long run some package can be required and then it needs to be downloaded and Ubuntu’s repo cache old to know where it is.

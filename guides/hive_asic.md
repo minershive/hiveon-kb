@@ -1,4 +1,6 @@
+---
 title: HiveOS for ASICs
+---
 
 ## HiveOS for ASICs
 Supported Asics:

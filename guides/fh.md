@@ -1,4 +1,6 @@
+---
 title: Farm Hash
+---
 
 ## Farm Hash
 You can find FARM_HASH on the web. Using it you can easily add rigs in bulk without creating rigs on the web and getting RIG_ID. Hash is unique for each farm.

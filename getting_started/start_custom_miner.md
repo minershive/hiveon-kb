@@ -1,4 +1,6 @@
+---
 title: Getting Started with Hive OS — Adding A Custom Miner
+---
 
 ## Getting Started with Hive OS — Adding A Custom Miner
 <img

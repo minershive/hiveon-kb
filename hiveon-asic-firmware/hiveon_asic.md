@@ -1,4 +1,6 @@
+---
 title: Hiveon ASIC — Existing User’s Upgrade and Setup Manual
+---
 
 ## Hiveon ASIC — Existing User’s Upgrade and Setup Manual
 <img

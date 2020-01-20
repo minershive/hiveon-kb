@@ -1,4 +1,6 @@
+---
 title: Nicecash
+---
 
 ## Nicehash
 <img src="http://forum.hiveos.farm/uploads/editor/vp/1fs7ux2lalf8.png" width="205" height="67">

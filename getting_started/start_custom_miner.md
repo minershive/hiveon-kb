@@ -18,8 +18,8 @@ _Custom miner repository_
 
 To install a custom archive manually on the rig you can download it and unpack it to `/hive/custom` folder. Note that even though you did copy it locally you will still need the URL for the Flight Sheet to work.
 
-### Setting Up The Flight Sheet
-We covered the process of creating a Flight Sheets and Wallets, which you will also require, in one of our [previous articles](guides/start_dashboard_setup.md), so we won’t go into the details, assuming you already know how to do it.
+## Setting Up The Flight Sheet
+We covered the process of creating a Flight Sheets and Wallets, which you will also require, in one of our [previous articles](getting_started/start_dashboard_setup.md), so we won’t go into the details, assuming you already know how to do it.
 
 Got to the **Flight Sheets** tab in your farm’s Dashboard. In the **Add New Flight Sheet** section, start filling in the following fields:
 

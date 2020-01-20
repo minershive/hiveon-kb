@@ -5,7 +5,7 @@ title: Getting Started with Hive OS — Dashboard Basics & Setup
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/header.png"
   />
 
-In our [previous article](guides/start_worker_setup.md) we discussed all the various ways you can setup Hive OS onto your workers and how to add them to your Farm’s dashboard. In this article we’ll continue our introduction to Hive and its features and show you how to work with its key functions starting with Farms.
+In our [previous article](getting_started/start_worker_setup.md) we discussed all the various ways you can setup Hive OS onto your workers and how to add them to your Farm’s dashboard. In this article we’ll continue our introduction to Hive and it’s features and show you how to work with it’s key functions starting with Farms.
 
 ### Working With Farms
 Farm is a group of workers that you combine together to form a separate project. For example, you can have a separate Farm for all your workers or you can create several Farms for different groups of workers within a location, for example, a data center, like “_1st floor rigs_”, “_2nd floor rigs_”, “_rigs on East str_”, etc. The number of Farms per account is unlimited, both yours and those which access was shared with you by other users. Other users can share access to their Farms or even transfer them wholly between accounts. This way it’s easy to set up an entire farm for a client and then transfer full ownership to his account. You can even organize your own farm setup business, if you desire.

@@ -114,3 +114,25 @@ This is caused either by a broken fan or sensor. Antminers often write 30600 if 
 ### Why Hiveon ASIC firmware shows higher temperature than the stock one while having the same hashrate?
 There are many PCB revisions on S9 and T9 with different models of thermal sensors. Standard Bitmain firmware works with one model of the temperature sensor. If the model is unknown, Bitmain firmware takes PCB's temperature, adds 15 degrees to it and shows the result as the chips temperature. In fact, the temperature can be much higher. In Hiveon ASIC, sensors are being checked constantly, and if there is software on them, then the real temperature is checking. Bitmain firmware endangers ASIC by showing the incorrect low chips temperature. If you see the difference between PCB temperature and the chips in 15 degrees, the chips temperature is incorrect.
 The temperature above 90 degrees is undesirable. 80-90 degrees - optimal working temperature.
+
+### Are there any problems with reverse firmware?
+There are no problems with reverse firmware, but the most suitable version for this case is the firmware version without a signature (“nosign”).
+Version with signature (“sign”) - it could also be flashed upon with any other firmware, but first, through the Hive web interface, it will be necessary to send a command to the ASIC to disable signature verification. No programmers are needed. Also, through the SD card or the “IP report” button, you can flash from signed version to any.
+
+### How to flash from signed firmware?
+The signed firmware can be updated ONLY to another signed Hiveon firmware via ASIC’s web interface or BTC_TOOLS. Third-party or official firmware can’t be installed in this way. However, you can use the `rm -rf /etc/bitmain-pub.pem` command — send it to your ASICs via the Hive web. It will temporarily delete the certificate, but you can reboot your ASIC to bring it back. After this, you will be able to move to any firmware via the firmware update menu (in the Hive web). It will be possible to choose the firmware from the list or to use the URL.
+
+### After the firmware I can’t get into the ASIC interface, what should I do?
+Here is the list of default logins and passwords:
+
+S9 1.01 - root:root
+
+S9 1.02 - root:root@
+
+All the others: root:root
+
+If all these logins and passwords don't work, try root:admin@.
+
+### An error occurs during installation `tar: short read`.
+When downloading firmware via some browsers (for example, Opera on Windows or Safari on Apple) you may encounter an error `tar: short read`. In this case, we recommend using a different browser, such as Google Chrome.
+Also, this situation may occur if there is no space on the ASIC, for example due to the large number of log files. In this case we recommend to reboot the ASIC and try again.

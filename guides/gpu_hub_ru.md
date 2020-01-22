@@ -1,5 +1,5 @@
 ---
-Title: GPU Hub Ru
+Title: GPU Hub 
 ---
 
 ## GPU Hub

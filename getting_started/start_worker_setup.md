@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Hive OS — Worker Installation and Setup
+title: Worker Installation and Setup
 ---
 
 ## Getting Started with Hive OS — Worker Installation and Setup

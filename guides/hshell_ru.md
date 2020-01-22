@@ -1,5 +1,5 @@
 ---
-title: Hive Shell Ru
+title: Hive Shell 
 ---
 
 ## Hive Shell

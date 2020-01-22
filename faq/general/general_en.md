@@ -1,5 +1,5 @@
 ---
-title: General En
+title: General Hive OS FAQ
 ---
 
 ### What is Hive OS?

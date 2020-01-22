@@ -1,5 +1,5 @@
 ---
-title: Beam Ru
+title: Майнинг Beam 
 ---
 
 ## Beam

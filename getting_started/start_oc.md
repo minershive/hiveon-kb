@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Hive OS — Overclocking Profiles Basics
+title: Overclocking Profiles Basics
 ---
 
 ## Getting Started with Hive OS — Overclocking Profiles Basics

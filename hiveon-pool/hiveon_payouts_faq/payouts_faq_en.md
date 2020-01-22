@@ -1,5 +1,5 @@
 ---
-title: Payouts FAQ En
+title: Payouts FAQ 
 ---
 
 ### What is Hiveon.net's payout type?

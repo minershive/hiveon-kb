@@ -3,7 +3,7 @@ title: Security reminder
 ---
 
 ## Security reminder
-If you have received notifications about wrong password logins"
+If you have received notifications about wrong password logins:
 
 - Yes, botnets are scanning
 - Yes, we block them but can’t do that with one click

@@ -1,5 +1,5 @@
 ---
-title: ASIC FAQ Ru
+title: ASIC ЧаВо
 ---
 
 ### Что такое Hiveon ASIC?

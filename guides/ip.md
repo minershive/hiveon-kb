@@ -5,7 +5,7 @@ title: Static IP
 ## Static IP
 This is very simple.
 
-All network configs are here linked here:
+All network configs are linked here:
 
 /hive-config/network/20-ethernet.network
 

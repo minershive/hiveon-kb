@@ -1,8 +1,8 @@
 ---
-title: Implementing miners
+title: Adding miners
 ---
 
-## Implementing Miners
+## Adding Miners
 Hive team is asked to implement this or that miner almost every day. Here we will explain why we don’t do this until it becomes popular.
 
 <img src="http://forum.hiveos.farm/uploads/editor/r6/dyqion5c9r9u.png">

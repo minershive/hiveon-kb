@@ -1,5 +1,5 @@
 ---
-title: Teleconsole Ru
+title: Teleconsole 
 ---
 
 ## Teleconsole

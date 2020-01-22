@@ -1,5 +1,5 @@
 ---
-title: Getting Started with Hive OS — Dashboard Basics & Setup
+title: Dashboard Basics & Setup
 ---
 
 ## Getting Started with Hive OS — Dashboard Basics & Setup

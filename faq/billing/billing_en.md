@@ -1,5 +1,5 @@
 ---
-title: Billing En
+title: Billing FAQ
 ---
 
 <span kb-breadcrumbs>[Root](/knowledge-base)</span>

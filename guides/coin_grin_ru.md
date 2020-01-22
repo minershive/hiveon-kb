@@ -1,5 +1,5 @@
 ---
-title: GRIN Ru
+title: Майнинг GRIN 
 ---
 
 ## GRIN

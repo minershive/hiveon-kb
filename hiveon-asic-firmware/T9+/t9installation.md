@@ -3,6 +3,7 @@ title: Installation Guide T9+
 ---
 
 ## Hiveon ASIC Firmware Installation Guide: T9+
+___The installation here is described on the example of S9 - the process is the same for T9+.___
 
 While current cryptocurrency prices keep wildly fluctuating, miners need any advantage they can get in order to stay on top of their game and keep making profits. With that in mind we set out to make something that will give them that advantage and decided to bring some love to our ASIC users by introducing Hiveon ASIC.
 

@@ -4,7 +4,7 @@ title: Adding ASIC to Hive OS
 
 ## Adding ASIC to Hive OS
 ### Installation
-You can install via firmware file or via ssh.
+You can install Hive OS Client on your ASIC via firmware file or via ssh.
 
 **DO NOT upgrade your Antminer to firmware newer than 10.06.2019. This firmware is protected by Bitmain against changes.**.
 

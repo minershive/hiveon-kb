@@ -1,8 +1,8 @@
 ---
-title: Security reminder
+title: Security Reminder
 ---
 
-## Security reminder
+## Security Reminder
 If you have received notifications about wrong password logins:
 
 - Yes, botnets are scanning

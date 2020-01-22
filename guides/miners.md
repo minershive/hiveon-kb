@@ -1,5 +1,5 @@
 ---
-title: Adding miners
+title: Adding Miners
 ---
 
 ## Adding Miners

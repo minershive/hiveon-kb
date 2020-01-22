@@ -1,8 +1,8 @@
 ---
-title: Hive OS Deploy PXE - deploy hundreds of rigs
+title: Hive OS Deploy PXE - Deploy Hundreds of Rigs
 ---
 
-## Hive OS Deploy PXE - deploy hundreds of rigs
+## Hive OS Deploy PXE - Deploy Hundreds of Rigs
 
 ### Introduction
 If you own a large farm with hundreds or thousands of GPU rigs and you are planning to migrate to HiveOS, Hive OS Deploy PXE can significantly reduce migration time and gain complete control over the deployment process.

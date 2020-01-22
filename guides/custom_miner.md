@@ -1,5 +1,5 @@
 ---
-title: Custom miner
+title: Custom Miner
 ---
 
 ## Custom Miner

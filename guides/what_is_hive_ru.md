@@ -1,8 +1,8 @@
 ---
-title: Знакомство с системой
+title: Знакомство с Системой
 ---
 
-## Знакомство с системой
+## Знакомство с Системой
 
 <img src="http://forum.hiveos.farm/uploads/editor/cr/nst8nd7f9nkx.png" >
 

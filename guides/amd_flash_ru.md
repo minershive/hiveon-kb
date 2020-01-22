@@ -1,8 +1,8 @@
 ---
-title: Прошиваем карты AMD
+title: Прошиваем Карты AMD
 ---
 
-## Прошиваем карты AMD
+## Прошиваем Карты AMD
 - <a href="https://www.youtube.com/watch?v=DyQbj45Hfvs">Прошиваем карты AMD через HiveOS 2.0 + SRBPolaris</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=DyQbj45Hfvs

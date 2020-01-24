@@ -42,7 +42,7 @@ One of the criteria sufficient to block addresses by the anti-hacking system is 
 The payout blocking system works as follows: if the percentage of stale shares exceeds the threshold value, which is 5% at the moment, the system will automatically put your address on the blacklist. If within 48 hours the percentage of stale shares is reduced below the set threshold, the system will automatically unlock the address. If the unlocking has not occurred, the withdrawal of funds can be done manually. Read below how to do this.
 
 ### So what should I do now? How can I withdraw the funds?
-In this case, you need to publish your **dashboard url** `https://hiveon.net/eth/?miner=0xВстАВЬтесюдаАдрЕСВашЕгоКошЕлЬка` with a brief comment on what happened. Chat administrators will pass all the necessary information to the pool technical support for verification. If the suspicions are not confirmed, your account will be unblocked, and your funds will be withdrawn.
+In this case, you need to publish your **dashboard url** `https://hiveon.net/eth/?miner=0xInsertHereYourWalletAddress` with a brief comment on what happened. Chat administrators will pass all the necessary information to the pool technical support for verification. If the suspicions are not confirmed, your account will be unblocked, and your funds will be withdrawn.
 
 ### I don't plan to continue mining on your pool. How can I withdraw my balance, which is less than the payout threshold?
 Remaining balances less than 0.1 ETH are no longer paid. In order to withdraw funds to your wallet, you need to mine the minimum withdrawal amount.

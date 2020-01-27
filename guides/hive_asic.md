@@ -29,6 +29,6 @@ Supported Asics:
 - Zig Z1/Z1+
 
 
-Actual list can be always found on <a href="https://github.com/minershive/hiveos-asic">github</a>.
+Actual list can be always found on <a href="https://github.com/minershive/hiveos-asic">GitHub</a>.
 
 For any information you may need about ASICs, please check <a href="https://forum.hiveos.farm/c/asic">our forum</a>.

@@ -14,16 +14,15 @@ That’s a significant boost, but how is it achieved? Unlike the stock firmware,
 The chip tuning is as simple as choose a profile from a preset list with the desired power consumption level that gives you an approximation of the expected hashrate. Then the autotune script initiates and begins fine tuning each chip individually, checking for potential chip errors, checks optimal load, etc. This can easily take up to half an hour or more until the script finds the ideal parameters for each chip.
 **Our firmware includes a 2% devfee** while you’ll still be getting higher profit than with the stock firmware.
 
-### Installation Options
+## Installation Options
 There are no one-size-fits-all instructions, instead we’re going to cover three scenarios of installing or updating your machines with Hiveon ASIC. The following topics will be covered:
-
 
 - Installing using ASICs via web interface — suitable for installing on a handful of machines for users who haven’t used Hive OS before;
 - Bulk installation — suitable for installing unto entire farms.
 - Updating existing ASICs via Hive OS’s web interface — suitable for those who’re already using Hive with their ASICs;
 - Bulk updating existing ASICs — suitable for updating entire farms in a few clicks.
 
-### Installing using ASIC’s web interface
+### Option 1: Installing using ASIC’s web interface
 Go to your farm’s **Settings** tab, there you will see the **Download Firmware** button, click it to begin downloading the file locally.
 
 <img class="nz pv eq t u hy ak ih" width="1255" height="315" role="presentation" src="https://miro.medium.com/max/1569/0*7hZoOcAZB2chkUG_">
@@ -47,20 +46,7 @@ As soon as the ASIC was flashed and rebooted, reconnect to it and go to the **Hi
 
 You’re done, now you can configure your ASIC.
 
-### Hiveon ASIC auto tuner configuration
-After installing the new firmware you can now login back into your ASIC miner. This time you’ll be greeted by the new Hiveon ASIC UI overview page. Lets look at Profiles and basic configs for the time being.
-
-**Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**
-
-<img class="nz pv eq t u hy ak ih" width="1278" height="700" role="presentation" src="https://miro.medium.com/max/1598/0*p_4TaOOpSKRnJPP9">
-
-In order to choose the **Profile** you want, go to the **Miner Configuration** tab, then click the **Auto tuner configuration** tab. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure as this profile is too difficult to explain in a short comprehensive form.
-
-<img class="nz pv eq t u hy ak ih" width="1271" height="356" role="presentation" src="https://miro.medium.com/max/1589/0*pNPYfVdlrcuFH7fg">
-
-Then click the **Apply Changes** button at the bottom of the page and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
-
-### Bulk Installation
+### Option 2: Bulk Installation
 To bulk install our firmware across multiple ASICs, you’ll need either a computer with Linux or a rig with Hive OS installed on it, that’s on the same network with your other ASIC machines.
 To install from a computer with Linux (or a rig running Hive OS), download the bulk install scripts first by running the following command:
 
@@ -92,26 +78,22 @@ Once you’re done, run the firmware.sh script to install the custom firmware. T
 
 *For more details regarding other ASIC installation options, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.*
 
-### Hive OS web UI auto tuner configuration
-Once your ASICs were successfully flashed, you can now go into the use our pre-created auto tuning profiles. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure as this profile is too difficult to explain in a short comprehensive form.
+## Hiveon ASIC Auto Tuner Configuration
+After installing the new firmware you can now login back into your ASIC miner. This time you’ll be greeted by the new Hiveon ASIC UI overview page. Lets look at Profiles and basic configs for the time being.
 
 **Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**
 
-In the **Worker** tab, select the workers you want to run the auto tuning script on.
+<img class="nz pv eq t u hy ak ih" width="1278" height="700" role="presentation" src="https://miro.medium.com/max/1598/0*p_4TaOOpSKRnJPP9">
 
-<img class="nz pv eq t u hy ak ih" width="1272" height="451" role="presentation" src="https://miro.medium.com/max/1590/0*jkNP0uk8V5WSWKW7">
+In order to choose the **Profile** you want, go to the **Miner Configuration** tab, then click the **Auto tuner configuration** tab. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure as this profile is too difficult to explain in a short comprehensive form.
 
-You’ll see several actions appear in the top right corner of the screen. Click the **Overclocking** button and a new context window will appear.
+<img class="nz pv eq t u hy ak ih" width="1271" height="356" role="presentation" src="https://miro.medium.com/max/1589/0*pNPYfVdlrcuFH7fg">
 
-<img class="nz pv eq t u hy ak ih" width="767" height="102" role="presentation" src="https://miro.medium.com/max/1534/0*A53q_pbbcD0X6GCN">
+Then click the **Apply Changes** button at the bottom of the page and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
 
-Select the profile you want then click the **Apply Changes** button at the bottom of the window and wait for the algorithm to finish auto tuning the ASIC. **This may take up to an hour** depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
+## Updating Options
 
-<img class="nz pv eq t u hy ak ih" width="448" height="688" role="presentation" src="https://miro.medium.com/max/560/0*lBTqkt0e4j2H5j4k">
-
-And you’re all done! Congratulations and happy mining!
-
-### Updating using Hive OS’s web interface
+### Option 1: Updating using Hive OS’s web interface
 Assuming you’re already using Hive OS with your ASICs, you’ll need to update them to the compatible firmware first. If your ASIC model is compatible, you’ll see a yellow **Switch** text near the OS version at the bottom of your worker **Overview** page.
 
 <img class="nu pq eq t u hy ak ih" width="343" height="169" role="presentation" src="https://miro.medium.com/max/429/0*SY96QIG33Br2aa8_">
@@ -128,20 +110,7 @@ You’re done, now you can configure your ASIC using the auto tuner.
 
 For more details regarding other ASIC installation options, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.
 
-### Hive OS web UI auto tuner configuration
-Once your ASIC is back online, you can now go into the **Overclocking** tab to use our pre-created auto tuning profiles.
-
-**Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**
-
-<img class="nu pq eq t u hy ak ih" width="740" height="237" role="presentation" src="https://miro.medium.com/max/925/0*O5wOOFlscK4xIwTA">
-
-In the **Overclock profiles** section, choose the profile you want to autotune your ASIC. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure as this profile is too difficult to explain in a short comprehensive form.
-
-Then click the **Apply Changes** button at the bottom of the page and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
-
-And you’re done! Happy mining!
-
-### Bulk Update
+### Option 2: Bulk Update
 Assuming you’re already using Hive OS with your ASICs, you’ll need to update them to the compatible firmware first.
 
 <img class="nu pq eq t u hy ak ih" width="1272" height="451" role="presentation" src="https://miro.medium.com/max/1590/0*6FpiMVYCUCghtbC1">
@@ -162,7 +131,7 @@ You’re done, now you can configure your ASIC using the auto tuner.
 
 For more details regarding other ASIC installation options, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.
 
-### Hive OS web UI auto tuner configuration
+## Hive OS Web UI Auto Tuner Configuration
 Once your ASICs were successfully flashed, you can then set our pre-created auto tuning profiles. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure as this profile is too difficult to explain in a short comprehensive form.
 
 **Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**

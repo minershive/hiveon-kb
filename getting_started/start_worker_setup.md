@@ -14,7 +14,7 @@ In this article we’ll walk you through the first time installation process and
 ### Creating An Account
 Before installing Hive OS on your rig, we recommend <a href="https://the.hiveos.farm/">creating an account</a> first, or logging into your <a href="https://the.hiveos.farm/">existing one</a>. Make sure to create a secure password.
 
->_We strongly suggest setting up Two Factor Authentication (2FA) for additional account security. You can find these settings by clicking on your user name in the top right corner and then going to the Account tab. Scroll down to the Two-factor Authentication option and switch 2FA on then follow the onscreen instructions carefully._
+>_We strongly suggest setting up Two Factor Authentication (2FA) for additional account security. You can find these settings by clicking on your user name in the top right corner and then going to the Account tab. Scroll down to the Two-factor Authentication option and switch 2FA on. Then follow the onscreen instructions carefully._
 
 ### Adding Your Workers
 As soon as you’re done with setting up your account, it’s time to connect your rigs to the dashboard. GPU rigs and ASICs are uniformly referred to as workers. You will have two options of connecting your workers, via **Farm Hash** or via **manual setup**. Farm Hash is used for connecting your workers to a Farm without pre-creating the rig in the dashboard. This is our new and fast method of connecting a worker to a Farm, so we recommend this setup method for most users. We will go into more details on Farms and how to use them in our next articles.
@@ -64,7 +64,7 @@ Go to the <a href="https://hiveos.farm/install/">download</a> page to get the la
 >_We recommend installing the OS image to an SSD. SSDs are much more reliable and we advise using them in production environments. Because many users still prefer using a USB flash drive, we have the logs turned off by default. If you installed the OS on an SSD, you can optionally turn logging back on by running the logs-on command after installation._
 
 Here is some more information on flash drives, SSD and HDD:
-When to use flash drives? Firstly when you want to test. This is easy, you just grab one you have and in a dozen of minutes you can plug it in and test Hive without ruining your current Windows, for instance). Any flash will work, USB 3.0 is not required. It’s just a matter of boot speed. Then if you are happy with it you can leave it as it is.
+When to use flash drives? Firstly when you want to test. This is easy, you just grab one you have and in a dozen of minutes you can plug it in and test Hive without ruining your current Windows, for instance. Any flash will work, USB 3.0 is not required. It’s just a matter of boot speed. Then if you are happy with it you can leave it as it is.
 
 The downfalls of using flash pen drives. They are slow to write. Even if it’s 3.0 it still may have slow writes speed line 10-15mbps, while reading can be 60-100mbps. So waste time on writing new images if you have a lot of rigs.
 
@@ -92,19 +92,19 @@ Your USB settings should have Legacy mode On. Like for mouse and keyboard to wor
 IOMMU might be an issue on some motherboards. Sometimes it’s called CSM (compatibility support module)
 <img src="https://forum.hiveos.farm/uploads/editor/sa/nkq21zwkxe4t.jpg" alt="legacy mode"/>
 
-Okay, drive is detected it starts but fails after like this:
+Okay, drive is detected, it starts but fails after like this:
 <img src="https://forum.hiveos.farm/uploads/editor/bn/ebj16b6y9jub.jpg" alt="drive failure"/>
 This tells you that’s there is some problem with the image written. Usually it’s solved with trying to write the image with alternative software:
-<a href="https://www.balena.io/etcher/">Etcher</a>
-<a href="https://rufus.ie">Rufus</a>
-<a href="http://www.chrysocome.net/dd">Chrysocome</a>
-<a href="https://sourceforge.net/projects/win32diskimager/">Source Forge</a>
-<a href="http://hddguru.com/software/HDD-Raw-Copy-Tool/">HDD Raw Copy Tool</a>
+- <a href="https://www.balena.io/etcher/">Etcher</a>
+- <a href="https://rufus.ie">Rufus</a>
+- <a href="http://www.chrysocome.net/dd">Chrysocome</a>
+- <a href="https://sourceforge.net/projects/win32diskimager/">Source Forge</a>
+- <a href="http://hddguru.com/software/HDD-Raw-Copy-Tool/">HDD Raw Copy Tool</a>
 
 ### GPU Installation
 
 #### Writing Disk Image
-You will need to write Hive OS image onto an SSD. Although many user prefer to use USB drives, we recommend opting to an SSD instead. Start by extracting the image from the .zip file first and then writing the .img file onto a drive.
+You will need to write Hive OS image onto an SSD. Although many users prefer to use USB drives, we recommend opting to an SSD instead. Start by extracting the image from the .zip file first and then writing the .img file onto a drive.
 
 **Windows** user can write the image using <a href="http://hddguru.com/software/HDD-Raw-Copy-Tool/">HDD Raw Copy Tool</a>, <a href="https://sourceforge.net/projects/win32diskimager/">Win32 Disk Imager</a>, <a href="https://rufus.akeo.ie/">Rufus</a> or <a href="https://etcher.io/">Etcher</a>.
 
@@ -149,26 +149,40 @@ That’s it, just save your config file and rename it into rig.conf. Proceed by 
 ### ASIC Installation
 Before proceeding with installation, make sure that your ASIC miner is supported. The current list of supported models:
 
-* Antminer S9
-* Antminer S9i
-* Antminer L3+
-* Antminer L3++
-* Antminer D3
-* Antminer A3
-* Antminer T9+
-* Antminer Z9-Mini
-* Antminer E3
-* Antminer X3
+- Antminer S9/S9i/S9j/S9k/S9SE/S9-Hydro/S9(VNISH)/S9(mskminer)/S11
+- Antminer S17/S17 Pro **
+- Antminer T17 **
+- Antminer S15 **
+- Antminer T15 **
+- Antminer L3+/L3++
+- Antminer D3/D3(Blissz)
+- Antminer DR3
+- Antminer A3
+- Antminer T9/T9+
+- Antminer Z9/Z9-Mini
+- Antminer X3
+- Antminer E3
+- Antminer B3
+- Antminer S7
+- Antminer Z11
+- Innosilicon T3H+/T3+/T2Th+/T2Thf+/T2Thl+/T2Th/T2Tz-30T/T2Thm/T2Thf/T2T+(32T)/T2Ts-26T/T2Ti-25T/T2T-24T
+- Innosilicon A9 ZMaster
+- Innosilicon D9 DecredMaster
+- Innosilicon S11 SiaMaster
+- Innosilicon T3 BTCMiner
+- Innosilicon A5/A8 (need test)
+- Zig Z1/Z1+
 
-* Innosilicon A9 ZMaster
+Actual list can be always found on <a href="https://github.com/minershive/hiveos-asic">GitHub</a>.
 
 #### Installation
-Remotely connect to your worker using SSH. You can do it with <a href="https://www.teleconsole.com/">Teleconsole</a>. Teleconsole is an SSH tunnel to your rig. In few words you start it on the rig and open SSH in browser or in Linux/Mac console. Does not require any VPN or being in local network. To start it run `telec start` with Linux Shell Execute on web. Then copy-paste the given link to the browser. Or run `teleconsole join <given id>` on your Linux/Mac terminal. Run “telec” to see if it’s running, check other commands like stop, log open.
+Remotely connect to your worker using SSH. You can do it with <a href="https://www.teleconsole.com/">Teleconsole</a>. Teleconsole is an SSH tunnel to your rig. In few words you start it on the rig and open SSH in browser or in Linux/Mac console. Does not require any VPN or being in local network. To start it run `telec start` with Linux Shell Execute on web. Then copy-paste the given link to the browser. Or run `teleconsole join <given id>` on your Linux/Mac terminal. Run `telec` to see if it’s running, check other commands like `stop`, `log open`.
 
-Security
-Teleconsole IS NOT started automatically. You need to start it from web. Given session id is almost impossible to guess, it’s alsmost like to guess a private key for your bitcoin wallet. Treat it like a random login and password.
+#### Security
 
-If you don’t connect for 60 minutes the link will expire and teleconsole daemon will be terminated on the rig.
+Teleconsole IS NOT started automatically. You need to start it from web. Given session ID is almost impossible to guess, it’s alsmost like to guess a private key for your Bitcoin wallet. Treat it like a random login and password.
+
+If you don’t connect for 60 minutes the link will expire and Teleconsole Daemon will be terminated on the rig.
 
 After you are done with Teleconsole run the following command:
 

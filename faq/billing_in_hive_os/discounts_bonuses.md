@@ -1,7 +1,7 @@
 ---
-title: Discounts and Bonuses in Hive OS
+title: Discounts and Bonuses
 ---
-## Discounts and Bonuses in Hive OS: How to Pay Less
+# Discounts and Bonuses: How to Pay Less
 
 >Please not, that all current discount plans can be viewed on the <a href="https://hiveos.farm/pricing/">pricing page</a>.
 

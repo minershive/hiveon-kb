@@ -4,7 +4,7 @@ title: Adding ASIC to Hive OS
 
 ## Adding ASIC to Hive OS
 ### Installation
-You can install Hive OS Client on your ASIC via firmware file or via ssh.
+You can install Hive OS Client on your ASIC via firmware file or via SSH.
 
 **DO NOT upgrade your Antminer to firmware newer than 10.06.2019. This firmware is protected by Bitmain against changes.**.
 
@@ -12,7 +12,7 @@ You can install Hive OS Client on your ASIC via firmware file or via ssh.
 Client for Antminer 3/7/9 series before 10.06.2019 firmware:
 <a href="http://download.hiveos.farm/asic/repo/unsig/hive_install_unsig_antminers.tar.gz">hive_install_unsig_antminers.tar.gz</a>
 
-Stock Bitmain firmware + intergated Hiveos client + Hiveos tab on web interface for **farm_hash**:
+Stock Bitmain firmware + intergated Hive OS client + Hive OS tab on web interface for **farm_hash**:
 - <a href="http://download.hiveos.farm/asic/repo/unsig/S11-hive.tar.gz">Antminer S11</a>
 - <a href="http://download.hiveos.farm/asic/repo/unsig/S15-hive.tar.gz">Antminer S15</a>
 - <a href="http://download.hiveos.farm/asic/repo/unsig/T15-hive.tar.gz">Antminer T15</a>
@@ -23,9 +23,9 @@ Stock Bitmain firmware + intergated Hiveos client + Hiveos tab on web interface 
 ### SSH
 Default SSH login and password:
 
-Antminer - default user:**root**, default password:**admin**
+Antminer - default user: **root**, default password: **admin**
 
-Innosilicon - default (ssh/telnet) user:**root**, default password:**blacksheepwall** or **innot1t2** or **t1t2t3a5**
+Innosilicon - default (ssh/telnet) user:**root**, default password: **blacksheepwall** or **innot1t2** or **t1t2t3a5**
 
 Login with SSH to your miner and run the following command:
 
@@ -35,22 +35,22 @@ For Antminer D3 **Blissz**, before installation run:
 
 `ln -s /usr/lib/libcurl-gnutls.so.4 /usr/lib/libcurl.so.5`
 
-Force setup FARM_HASH or RIG ID and password, change api url:
+Force set up FARM_HASH or RIG ID and password, change API URL:
 `firstrun` or `firstrun FARM_HASH` - set when there is no config
 
 `firstrun -f` or `firstrun FARM_HASH -f` - force set to replace the config
 
-Prompt installation
-You can use FARM_HASH to add ASIC automatically without entering rig id and password. Get your hash and put it on the commandline. (FARM_HASH=$FARM_HASH)
+#### Prompt installation
+You can use FARM_HASH to add ASIC automatically without entering rig ID and password. Get your hash and put it on the command line. (FARM_HASH=$FARM_HASH)
 
 `cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web sh selfupgrade`
 
-Change api server. (HIVE_HOST_URL=$HIVE_HOST_URL)
+Change API server. (HIVE_HOST_URL=$HIVE_HOST_URL)
 
 `cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web HIVE_HOST_URL=http://api.exaple.com sh selfupgrade`
 
 ### Bulk installation
-You can install Hive on all the ASICs you have on your local network. Or you can install firmware on Antminer S9/i/j. For this you need to have running Linux computer (maybe Hive OS on GPU rig) or Antminer ASIC with hive client, download files with this command:
+You can install Hive on all the ASICs you have on your local network. Or you can install firmware on Antminer S9/i/j. For this you need to have running Linux computer (maybe Hive OS on GPU rig) or Antminer ASIC with Hive client. Download files with this command:
 
 <pre><code>
 apt-get install -y sshpass curl
@@ -60,8 +60,9 @@ cd /tmp/hive-bulk-install
 
 Edit `config.txt` to set your FARM_HASH or firmware URL, edit `ips.txt` to set IPs list of your new ASICs. Or you can scan the local network to search for Antminer. Example: `ipscan.sh 192.168.0.1/24 > ips.txt`
 
-Optionally, you can add WORKER_NAME to `ips.txt` (e.g. `192.168.1.100 asic_01`)
-To install hive just run `install.sh`.
+Optionally, you can add WORKER_NAME to `ips.txt` (e.g. `192.168.1.100 asic_01`).
+
+To install Hive just run `install.sh`.
 
 To install firmware on Antminer S9/i/j just run `firmware.sh`.
 
@@ -71,7 +72,7 @@ If IP was connected then it will become commented in file.
 Manual: https://forum.hiveos.farm/t/innosilicon-t2t-t3-series/13610
 
 ### Downgrade and Version change
-If you want to install specific version or downgrade please append version as an argument to selfupgrade. E.g. 0.1-02
+If you want to install specific version or downgrade please append version as an argument to selfupgrade. E.g. 0.1-02:
 
 `cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade 0.1-02`
 
@@ -82,10 +83,10 @@ Locally on ASIC you can run `selfupgrade command`. To install specific version y
 ### Uninstall
 `hive-uninstall`
 
-A cron jobs might have to be removed manually with crontab -e even if they are left there the would do nothing.
+Cron jobs might have to be removed manually with `crontab -e`, even if they are left there they would do nothing.
 
 ### Innosilicon old models
-Some innosilicon factory firmware have a memory leak, and ASIC freezes every few days. To solve this problem, you can enable the miner or ASIC reboot every 24 hours. Run the following commands:
+Some Innosilicon factory firmware have a memory leak, and ASIC freezes every few days. To solve this problem, you can enable the miner or ASIC reboot every 24 hours. Run the following commands:
 
 <pre><code>
 inno-reboot miner enable/disable

@@ -51,7 +51,7 @@ You can give access to your Farm to another user by going to the **Farm** tab th
 ## Setting-up Wallets
 Now that you’ve got yourself acquainted with Farms, you can start setting up your Wallets. Several wallets can be created for any coin you like. In fact, if you plan on mining multiple coins, we suggest creating different wallets that you can later pair with different miners and different pools. When selecting a coin to mine in Flight Sheets, you’ll see that depending on the coin you choose, the selection of wallets will be limited to that specific coin.
 
-To add a new wallet, go the **Wallets** tab and click the **Add Wallet** button. You’ll see a pop-up window with the following fields:
+To add a new wallet, go to the **Wallets** tab and click the **Add Wallet** button. You’ll see a pop-up window with the following fields:
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_wallet.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_wallet.gif"

@@ -1,5 +1,6 @@
 ---
-title: Майнинг GRIN 
+title: Майнинг GRIN
+category: Гайды
 ---
 
 ## GRIN

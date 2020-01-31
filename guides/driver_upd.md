@@ -1,5 +1,6 @@
 ---
 title: Drivers Update
+category: Guides
 ---
 
 ## Drivers Update

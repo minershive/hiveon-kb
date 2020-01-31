@@ -1,5 +1,6 @@
 ---
 title: Wi-Fi
+category: Guides
 ---
 
 ## Wi-Fi

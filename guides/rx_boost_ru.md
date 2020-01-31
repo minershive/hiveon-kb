@@ -1,5 +1,6 @@
 ---
 title: RX Буст - AmdMemTweak
+category: Гайды
 ---
 
 ## RX Буст - AmdMemTweak

@@ -1,5 +1,6 @@
 ---
 title: Перенос HiveOS с Флешки на SDD/HDD Средствами Самой HiveOS
+category: Гайды
 ---
 
 ## Перенос HiveOS с Флешки на SDD/HDD Средствами Самой HiveOS

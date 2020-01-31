@@ -1,5 +1,6 @@
 ---
 title: OpenVPN
+category: Guides
 ---
 
 ## OpenVPN

@@ -1,5 +1,6 @@
 ---
-title: Hive Shell 
+title: Hive Shell
+category: Гайды
 ---
 
 ## Hive Shell

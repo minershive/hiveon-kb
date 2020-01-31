@@ -1,5 +1,6 @@
 ---
 title: Драйвера NVidia
+category: Гайды
 ---
 
 ## Драйвера NVidia

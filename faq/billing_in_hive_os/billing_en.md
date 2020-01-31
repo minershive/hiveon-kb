@@ -82,7 +82,7 @@ For paid users who mine Ethereum cryptocurrency, there is an optional opportunit
 
 Please note that this method is applicable only to devices mining Ethereum on the Hiveon pool, and the standard tariff will be applied to other devices.
 
-### Dev Fee of HiveOn ASIC
+### Dev Fee of Hiveon ASIC
 With Hiveon ASIC firmware, there is no charge for using Hive OS, and such ASICs are not counted in the total number of devices for calculating payments. However, they are taken into account to get a discount on the number of devices.
 The firmware has a dev fee from 2% to 2.8%, depending on the ASIC model.
 

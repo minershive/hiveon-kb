@@ -1,5 +1,6 @@
 ---
 title: General FAQ
+category: General pool FAQ
 ---
 ## General FAQ
 ### What is a mining pool?

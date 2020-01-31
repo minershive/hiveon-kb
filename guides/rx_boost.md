@@ -1,5 +1,6 @@
 ---
 title: RX Boost - AmdMemTweak
+category: Guides
 ---
 
 ## RX Boost - AmdMemTweak

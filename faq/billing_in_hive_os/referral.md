@@ -1,5 +1,6 @@
 ---
 title: Referral Rewards System
+category: Billing in Hive OS
 ---
 ## Referral Rewards System: How to earn with Hive OS
 

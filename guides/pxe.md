@@ -1,5 +1,6 @@
 ---
 title: Hive OS Deploy PXE - Deploy Hundreds of Rigs
+category: Guides
 ---
 
 ## Hive OS Deploy PXE - Deploy Hundreds of Rigs

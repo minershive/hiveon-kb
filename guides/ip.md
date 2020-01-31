@@ -1,5 +1,6 @@
 ---
 title: Static IP
+category: Guides
 ---
 
 ## Static IP

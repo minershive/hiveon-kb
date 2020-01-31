@@ -1,5 +1,6 @@
 ---
 title: Watchdogs
+category: Guides
 ---
 
 ## Watchdogs

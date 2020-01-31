@@ -1,7 +1,8 @@
 ---
-title: HiveOS для ASIC
+title: Hive OS для ASIC
+category: Гайды
 ---
-## HiveOS для ASIC
+## Hive OS для ASIC
 Поддерживаемые ASICи:
 - Antminer S9/S9i/S9j/S9k/S9SE/S9-Hydro/S9(VNISH)/S9(mskminer)/S11
 - Antminer S17/S17 Pro **

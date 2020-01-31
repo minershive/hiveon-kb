@@ -1,5 +1,6 @@
 ---
 title: Hive Shell
+category: Guides
 ---
 
 ## Hive Shell

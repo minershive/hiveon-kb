@@ -1,5 +1,6 @@
 ---
 title: General Hive OS FAQ
+category: General
 ---
 ## General Hive OS FAQ
 ### What is Hive OS?

@@ -1,12 +1,14 @@
 ---
-title: AMD Drivers installation
+title: AMD Drivers Installation
+category: Guides
 ---
 
 ## AMD Drivers installation
-Script for the easy installation of AMD Drivers on HiveOS/Ubuntu based OS: https://github.com/CryptoLuigi/AMD_Installer.
+Script for the easy installation of AMD Drivers on Hive OS/Ubuntu based OS: https://github.com/CryptoLuigi/AMD_Installer.
 
-Please note: Drivers with the 18.04 suffix require an OS upgrade
-Please note: We recommend not to remove drivers when upgrading.
+**Please note:** Drivers with the 18.04 suffix require an OS upgrade.
+
+**Please note:** We recommend not to remove drivers when upgrading.
 
 <pre><code>
 root@Miner:~# ./amd_install.sh
@@ -25,7 +27,7 @@ Please note Drivers with the 18.04 suffix require an OS upgrade
 Please enter your choice Drivers:
 </code></pre>
 
-Then the program will ask if they want to remove current driver before installing new ones.
+Then the program will ask if you want to remove current driver before installing new ones.
 
 For a guided installation enter the following 3 commands:
 
@@ -35,9 +37,9 @@ For a guided installation enter the following 3 commands:
 
 `./amd_install.sh`
 
-We’ve tested the script and it’s working. But please note it’s still in beta, so feel free to report issues and provide as many details as possible (like what you did recently and what your running, and so on).
+We’ve tested the script and it’s working. But please note it’s still in beta, so feel free to report issues and provide as many details as possible (like what you did recently and what you are running, and so on).
 
 
 <a href="https://youtu.be/58pia_gBZ4s
 " target="_blank"><img src="http://img.youtube.com/vi/58pia_gBZ4s/0.jpg"
-alt="Обзорное видео по HiveOS" width="630" height="400" border="10" /></a>
+alt="Hive OS Tutorial: Easy AMD Driver Install/Update" width="630" height="400" border="10" /></a>

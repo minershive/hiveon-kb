@@ -1,5 +1,6 @@
 ---
 title: Hive OS Quick Installation Guide
+category: Getting Started
 ---
 
 ## Hive OS Quick Installation Guide

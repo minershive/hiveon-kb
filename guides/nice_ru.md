@@ -1,5 +1,6 @@
 ---
 title: Nicecash
+category: Гайды
 ---
 
 ## Nicehash

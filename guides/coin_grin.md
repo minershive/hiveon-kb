@@ -1,5 +1,6 @@
 ---
 title: GRIN
+category: Guides
 ---
 
 ## GRIN

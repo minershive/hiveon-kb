@@ -1,7 +1,8 @@
 ---
 title: Payouts FAQ
+category: Hiveon payouts FAQ
 ---
-
+## Payouts FAQ
 ### What is Hiveon.net's payout type?
 The pool has a PPS+ payout model. This means that payment is made for each decision (share) sent, regardless of how long you have joined the pool.
 
@@ -45,4 +46,4 @@ The payout blocking system works as follows: if the percentage of stale shares e
 In this case, you need to publish your **dashboard url** `https://hiveon.net/eth/?miner=0xInsertHereYourWalletAddress` with a brief comment on what happened. Chat administrators will pass all the necessary information to the pool technical support for verification. If the suspicions are not confirmed, your account will be unblocked, and your funds will be withdrawn.
 
 ### I don't plan to continue mining on your pool. How can I withdraw my balance, which is less than the payout threshold?
-Remaining balances less than 0.1 ETH are no longer paid. In order to withdraw funds to your wallet, you need to mine the minimum withdrawal amount.
+In case you have less than 0.1 ETH, and you want to stop mining on our pool, the remaining amount will be automatically transferred to your wallet at the end of the month, around the 28th, 07:30 GMT.

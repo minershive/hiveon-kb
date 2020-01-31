@@ -1,5 +1,6 @@
 ---
 title: Discounts and Bonuses
+category: Billing in Hive OS
 ---
 # Discounts and Bonuses: How to Pay Less
 

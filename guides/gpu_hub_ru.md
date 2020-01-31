@@ -1,5 +1,6 @@
 ---
-Title: GPU Hub 
+Title: GPU Hub
+category: Гайды
 ---
 
 ## GPU Hub

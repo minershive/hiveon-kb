@@ -1,5 +1,6 @@
 ---
 title: Payments
+category: Billing in Hive OS
 ---
 
 ## Payments

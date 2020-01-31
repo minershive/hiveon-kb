@@ -1,8 +1,9 @@
 ---
-title: HiveOS for ASICs
+title: Hive OS for ASICs
+category: Guides
 ---
 
-## HiveOS for ASICs
+## Hive OS for ASICs
 Supported Asics:
 - Antminer S9/S9i/S9j/S9k/S9SE/S9-Hydro/S9(VNISH)/S9(mskminer)/S11
 - Antminer S17/S17 Pro **

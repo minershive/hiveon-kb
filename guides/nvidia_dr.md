@@ -1,5 +1,6 @@
 ---
 title: NVidia Drivers Update Guide and CUDA 10.x
+category: Guides
 ---
 
 ## NVidia Drivers Update Guide and CUDA 10.x

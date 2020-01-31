@@ -1,5 +1,6 @@
 ---
 title: Как Добавить ASIC в Hive OS
+category: Гайды
 ---
 
 ## Как добавить ASIC в Hive OS

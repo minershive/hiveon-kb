@@ -1,5 +1,6 @@
 ---
 title: Autofan
+category: Guides
 ---
 
 ## Autofan

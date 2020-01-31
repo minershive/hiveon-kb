@@ -1,5 +1,6 @@
 ---
 title: Linux Commands for Beginners
+category: Guides
 ---
 
 ## Linux Commands for Beginners

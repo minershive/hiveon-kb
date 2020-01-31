@@ -1,5 +1,6 @@
 ---
 title: Know your IP
+category: Guides
 ---
 
 ## Know Your IP

@@ -1,5 +1,6 @@
 ---
 title: Farm Hash
+category: Гайды
 ---
 
 ## Farm Hash

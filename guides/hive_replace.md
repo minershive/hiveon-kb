@@ -1,5 +1,6 @@
 ---
 title: OS Live Replacement
+category: Guides
 ---
 
 ## OS Live Replacement

@@ -1,5 +1,6 @@
 ---
-title: Teleconsole 
+title: Teleconsole
+category: Гайды
 ---
 
 ## Teleconsole

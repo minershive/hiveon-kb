@@ -1,5 +1,6 @@
 ---
 title: Farm Hash
+category: Guides
 ---
 
 ## Farm Hash

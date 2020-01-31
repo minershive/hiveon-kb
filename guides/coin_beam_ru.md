@@ -1,5 +1,6 @@
 ---
-title: Майнинг Beam 
+title: Майнинг Beam
+category: Гайды
 ---
 
 ## Beam

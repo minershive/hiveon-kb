@@ -1,5 +1,6 @@
 ---
 title: IPv6
+category: Guides
 ---
 
 ## IPv6

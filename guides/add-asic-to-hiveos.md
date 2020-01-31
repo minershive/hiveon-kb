@@ -1,5 +1,6 @@
 ---
 title: Adding ASIC to Hive OS
+category: Guides
 ---
 
 ## Adding ASIC to Hive OS

@@ -1,5 +1,6 @@
 ---
 title: Hive OS ЧаВо
+category: Общие Вопросы
 ---
 ## Hive OS ЧаВо
 ### Что такое Hive OS?

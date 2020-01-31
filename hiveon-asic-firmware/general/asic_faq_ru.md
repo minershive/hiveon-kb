@@ -1,5 +1,6 @@
 ---
 title: ASIC ЧаВо
+category: Общие Вопросы
 ---
 
 ### Что такое Hiveon ASIC?

@@ -1,5 +1,6 @@
 ---
 title: Schedules
+category: Guides
 ---
 
 ## Schedules

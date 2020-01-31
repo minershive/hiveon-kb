@@ -1,5 +1,6 @@
 ---
 title: GPU Hub
+category: Guides
 ---
 
 ## GPU Hub

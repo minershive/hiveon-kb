@@ -1,5 +1,6 @@
 ---
 title: ASIC FAQ
+category: General
 ---
 
 ### What is the Hiveon ASIC?

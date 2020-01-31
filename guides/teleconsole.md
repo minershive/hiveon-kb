@@ -1,5 +1,6 @@
 ---
 title: Teleconsole
+category: Guides
 ---
 
 ## Teleconsole

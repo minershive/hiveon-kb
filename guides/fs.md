@@ -1,5 +1,6 @@
 ---
 title: Flight Sheets
+category: Guides
 ---
 
 ## Flight Sheets

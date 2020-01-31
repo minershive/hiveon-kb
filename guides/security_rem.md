@@ -1,5 +1,6 @@
 ---
 title: Security Reminder
+category: Guides
 ---
 
 ## Security Reminder

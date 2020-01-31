@@ -1,5 +1,6 @@
 ---
 title: Adding Miners
+category: Guides
 ---
 
 ## Adding Miners

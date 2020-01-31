@@ -1,5 +1,6 @@
 ---
 title: Adding A Custom Miner
+category: Getting Started
 ---
 
 ## Getting Started with Hive OS — Adding A Custom Miner

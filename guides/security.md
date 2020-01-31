@@ -1,5 +1,6 @@
 ---
 title: Security
+category: Guides
 ---
 
 ## Security

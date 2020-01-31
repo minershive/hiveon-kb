@@ -1,5 +1,6 @@
 ---
 title: GeekCash
+category: Гайды
 ---
 
 ## GeekCash

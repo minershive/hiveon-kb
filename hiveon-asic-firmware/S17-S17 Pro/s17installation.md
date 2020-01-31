@@ -1,5 +1,6 @@
 ---
 title: Installation Guide S17 (S17 Pro)
+category: S17, S17 Pro
 ---
 
 ## Hiveon ASIC Firmware Installation Guide: S17, S17 Pro

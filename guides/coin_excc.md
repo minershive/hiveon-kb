@@ -1,5 +1,6 @@
 ---
 title: EXCC
+category: Guides
 ---
 
 ## EXCC

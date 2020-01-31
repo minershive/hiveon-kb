@@ -1,10 +1,11 @@
 ---
 title: Setting-up RX550
+category: Guides
 ---
 
 ## Setting-up RX550
 
-Thanks to Hive user Igor Shulga there is a guide how to make RX 550 to work in Hive OS. The main idea is to have 4.13 kernel and OpenCL from 16.60 driver. If you can, do `amdgpu-pro-uninstall`.
+Here is a guide on how to make RX 550 to work in Hive OS. The main idea is to have 4.13 kernel and OpenCL from 16.60 driver. If you can, do `amdgpu-pro-uninstall`.
 
 Download 4.13 kernel:
 <pre><code>

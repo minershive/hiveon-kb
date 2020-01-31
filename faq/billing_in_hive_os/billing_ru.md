@@ -1,5 +1,6 @@
 ---
 title: Как работает Биллинг в Hive
+parent category: ЧаВо
 category: Биллинг в Hive OS
 ---
 ## Как работает Биллинг в Hive

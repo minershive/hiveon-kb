@@ -1,5 +1,6 @@
 ---
 title: ASIC ЧаВо
+parent category: Прошивка Hiveon ASIC
 category: Общие Вопросы
 ---
 

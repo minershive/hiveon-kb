@@ -1,5 +1,6 @@
 ---
 title: Installation Guide S9 (S9i, S9j)
+parent category: Hiveon ASIC Firmware
 category: S9 (S9i, S9j)
 ---
 

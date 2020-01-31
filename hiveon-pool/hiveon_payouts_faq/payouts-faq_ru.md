@@ -1,5 +1,6 @@
 ---
 title: Выплаты на пуле
+parent category: Пул Hiveon
 category: Выплаты на пуле Hiveon
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: ЧаВо
+parent category: Пул Hiveon
 category: Общие вопросы по пулу Hiveon
 ---
 

@@ -1,5 +1,7 @@
 ---
 title: Hive Billing Explained
+parent category: FAQ
+category: Billing in Hive OS
 ---
 
 ## Hive Billing Explained

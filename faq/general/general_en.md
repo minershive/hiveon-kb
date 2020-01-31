@@ -1,5 +1,6 @@
 ---
 title: General Hive OS FAQ
+parent category: FAQ
 category: General
 ---
 ## General Hive OS FAQ

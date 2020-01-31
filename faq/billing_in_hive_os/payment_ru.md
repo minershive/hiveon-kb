@@ -1,5 +1,6 @@
 ---
 title: Платежи
+parent category: ЧаВо
 category: Биллинг в Hive OS
 ---
 

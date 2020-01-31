@@ -1,5 +1,6 @@
 ---
 title: General FAQ
+parent category: Hiveon Pool
 category: General pool FAQ
 ---
 ## General FAQ

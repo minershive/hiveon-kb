@@ -1,5 +1,6 @@
 ---
 title: Payments
+parent category: FAQ
 category: Billing in Hive OS
 ---
 

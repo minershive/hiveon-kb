@@ -29,7 +29,7 @@ uname -a
 Linux rig2 4.13.12-mytest #1 SMP Thu Nov 9 15:31:09 EET 2017 x86_64
  x86_64 x86_64 GNU/Linux
 </code></pre>
-Go to folder with drivers in hive and install only OpenCL from 16.60 version:
+Go to folder with drivers in Hive and install only OpenCL from 16.60 version:
 <pre><code>
 cd /hive-drivers-pack
 tar xvf amdgpu-pro-16.60-379184.tar.xz
@@ -38,7 +38,7 @@ cd amdgpu-pro-16.60-379184
 </code></pre>
 And, finally, reboot.
 
-For sgminer get attached kernel.tar.gz and replace kernels in /hive/sgminer_gm folder on the rig. RX 550 has only 512 shader cores so there is no sense to set 'rawintensity' > 512 as it will crash.
+For sgminer get attached kernel.tar.gz and replace kernels in **/hive/sgminer_gm** folder on the rig. RX 550 has only 512 shader cores so there is no sense to set 'rawintensity' over 512.
 
 Recommended settings are:
 
@@ -46,4 +46,4 @@ Recommended settings are:
 
 “gpu-threads”: “2”
 
-And in case you are lazy, you can try [this image](http://193.111.83.51/test/hive-0.5-20-rx550_sgminer.zip). It works for RX 550 only and is based on the latest HiveOs 0.5-20 with the core 4.13.
+And in case you are lazy, you can try [this image](http://193.111.83.51/test/hive-0.5-20-rx550_sgminer.zip). It works for RX 550 only and is based on the latest Hive OS 0.5-20 with the core 4.13.

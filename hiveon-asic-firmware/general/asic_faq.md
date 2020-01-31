@@ -1,5 +1,6 @@
 ---
 title: ASIC FAQ
+parent category: Hiveon ASIC Firmware
 category: General
 ---
 

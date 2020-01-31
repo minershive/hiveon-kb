@@ -1,5 +1,6 @@
 ---
 title: Payouts FAQ
+parent category: Hiveon Pool
 category: Hiveon payouts FAQ
 ---
 ## Payouts FAQ

@@ -151,7 +151,7 @@ HBM2 память используется в семействе карт Vega (
 ### Hive RXboost
 Утилита amdmemtweak включена в дистрибутив Hive OS. С обновлением Hive до v0.6-45 новая опция появляется в настройках AMD OC. Этот параметр позволяет применить так называемый rxboost, твик ставший известным после появления 14 версии майнера Claymore’s Dual ETH Miner к картам серии RX 4xx / 5xx. Другими словами, это то же самое, что выполнение `amdmemtweak` с параметром `--REF`.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd4564ddc1ebfe5aee3530837c35220d4a099db8.png" alt="%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" width="196" height="114">
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd4564ddc1ebfe5aee3530837c35220d4a099db8.png">
 
 Если поле пустое (значение по умолчанию), то опция не применяется. Чтобы применить значение для всех карт, введите одно значение. Если нужно применить для разных карт и указать индивидуальные значения, то введите значения, разделенные пробелами.
 Вот короткое видео о том, как использовать эту функцию:
@@ -159,4 +159,4 @@ HBM2 память используется в семействе карт Vega (
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0zJsU07Lgvc
 " target="_blank"><img src="http://img.youtube.com/vi/0zJsU07Lgvc/0.jpg"
-alt="RX Буст в Hive OS: максимум с ваших RX карт" width="630" height="400" border="10" /></a>
+alt="RX Буст в Hive OS: максимум с ваших RX карт"></a>

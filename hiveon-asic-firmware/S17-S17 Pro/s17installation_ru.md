@@ -33,7 +33,7 @@ category: S17, S17 Pro
 
 Теперь давайте посмотрим на основные профили потребления на S17.
 
-<img class="nm ph eq t u hy ak ih" width="800" height="450" role="presentation" src="https://miro.medium.com/max/1000/0*L4brHN5bMKa06B_3">
+<img src="https://miro.medium.com/max/1000/0*L4brHN5bMKa06B_3">
 
 Более развернутые данные вы можете увидеть в вашей учетной записи Hive OS.
 

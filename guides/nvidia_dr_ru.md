@@ -40,7 +40,7 @@ category: Гайды
 
 Процедура обновления драйвера занимает 5-10 минут, если вы используете SSD / HDD, и 30+ минут, если вы используете медленный диск, например флешку USB 2.0.
 Если процедура обновления завершится успешно, вы увидите следующее сообщение:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9553243cace241898daa33377c83112c9118e588.png" alt="%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" width="381" height="21">
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9553243cace241898daa33377c83112c9118e588.png">
 
 Теперь вы можете перезагрузить Ваш риг. После перезагрузки проверьте версию драйвера и работоспособность майнера.
 
@@ -53,17 +53,17 @@ category: Гайды
 ### Возможные проблемы и их решение
 #### Ошибка установки драйвера (модуль nvidia-drm)
 В некоторых случаях процедура обновления может иногда завершаться с ошибкой:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/7/7d1e38ce4bf5ac78cc65a1a3c9f6012faf262f07.png" alt="%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" width="690" height="137" data-small-upload="https://forum.hiveos.farm/uploads/default/optimized/2X/7/7d1e38ce4bf5ac78cc65a1a3c9f6012faf262f07_2_10x10.png">
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/7/7d1e38ce4bf5ac78cc65a1a3c9f6012faf262f07.png">
 В этом случае повторите процедуру обновления - в большинстве случаев это поможет исправить ошибку.
 
 #### Ошибка установки драйвера (nvidia-uvm)
 Если установка останавливается со следующей ошибкой:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png" alt="%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" width="690" height="264" class="d-lazyload">
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png">
 В таком случае, перегрузите риг и повторите процедуру обновления.
 
 #### Ошибка при удалении предыдущего драйвера
 Во время установки нового драйвера nvidia-driver-update удаляет сначала предыдущую версию драйвера. Если удаление прекращается со следующей ошибкой (Received signal SIGBUS; aborting):
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd971d757777318adb5a70eb39a1ba9fa136b5d4.png" alt="%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" width="690" height="123" data-small-upload="https://forum.hiveos.farm/uploads/default/optimized/2X/d/dd971d757777318adb5a70eb39a1ba9fa136b5d4_2_10x10.png">
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd971d757777318adb5a70eb39a1ba9fa136b5d4.png">
 Пока нет решения. Не воспроизводится.
 
 #### Не хватает места на диске
@@ -92,10 +92,10 @@ reboot
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=_Ld5XmrYf7Q
 " target="_blank"><img src="http://img.youtube.com/vi/_Ld5XmrYf7Q/0.jpg"
-alt="Hive OS 2 - обновление, откат драйверов NVIDIA подробная инструкция" width="630" height="400" border="10" /></a>
+alt="Hive OS 2 - обновление, откат драйверов NVIDIA подробная инструкция"></a>
 
-- <a href="https://www.youtube.com/watch?v=7gmDYUyznM8">Hive 2.0 Как обновить драйвера видеокарт NVidia Нвидиа</a>
+- <a href="https://www.youtube.com/watch?v=7gmDYUyznM8">Hive 2.0 Как обновить драйвера видеокарт NVidia</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=7gmDYUyznM8
 " target="_blank"><img src="http://img.youtube.com/vi/7gmDYUyznM8/0.jpg"
-alt="Hive 2.0 Как обновить драйвера видеокарт NVidia Нвидиа" width="630" height="400" border="10" /></a>
+alt="Hive 2.0 Как обновить драйвера видеокарт NVidia"></a>

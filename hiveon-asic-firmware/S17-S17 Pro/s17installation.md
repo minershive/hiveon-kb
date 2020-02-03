@@ -31,7 +31,7 @@ Have you decided to upgrade your ASIC Antminer S17 or S17 Pro with our custom fi
 
 Now let’s take a look at the main consumption profiles on S17.
 
-<img class="nm ph eq t u hy ak ih" width="800" height="450" role="presentation" src="https://miro.medium.com/max/1000/0*XhFx9hkUNcd-90Nd">
+<img src="https://miro.medium.com/max/1000/0*XhFx9hkUNcd-90Nd">
 
 Check the full list in your Hive OS account.
 

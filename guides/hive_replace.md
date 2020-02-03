@@ -7,7 +7,7 @@ category: Guides
 With 'hive-replace' script you can replace your running Linux with Hive on the fly. You can run this on any standard Ubuntu, or other competitor mining OS (like e**os, s*os, …). This can also be used to replace/upgrade system on a running Hive installation.
 
 After successful writing you will reboot with a new system. This is how it looks like:
-<img src="https://forum.hiveos.farm/uploads/default/optimized/2X/1/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_476x500.png" alt="hive-replace" width="476" height="500" class="d-lazyload" srcset="https://forum.hiveos.farm/uploads/default/optimized/2X/1/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_476x500.png, https://forum.hiveos.farm/uploads/default/optimized/2X/1/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_714x750.png 1.5x, https://forum.hiveos.farm/uploads/default/optimized/2X/1/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_952x1000.png 2x">
+<img src="https://forum.hiveos.farm/uploads/default/optimized/2X/1/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_476x500.png">
 
 ### Before you start
 Ideally you should download system image ZIP file and VERSIONS.txt. Then make them available on your local network via HTTP, FTP, NFS, SMB (Windows). Yes, it’s possible to provide image URL from official repository but the download speed will be slow and as it was said it’s better to store it in local network.

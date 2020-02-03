@@ -45,7 +45,7 @@ Step 2 - Execute the following commands:
 The driver update procedure takes 5-10 min if you’re using an SSD/HDD and 30+ min if you’re using a slow drive such as an USB 2.0 stick.
 If the update procedure will finish successfully you will see the following message:
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9553243cace241898daa33377c83112c9118e588.png" alt="%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" data-base62-sha1="liZgVAZA7LsaL26yusfmLS7GtNm" width="381" height="21">
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9553243cace241898daa33377c83112c9118e588.png">
 
 Now you can reboot your rig. After reboot check driver version and miner functionality.
 

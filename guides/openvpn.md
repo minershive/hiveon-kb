@@ -231,7 +231,7 @@ Your OpenVPN server should be running with no errors.
 
 OpenVPN server should be running after booting and running if you used Debian package install, if not or manually installed, you need to get “openvpn server.conf” at the initscript.
 
-For the “client.conf” file you need to upload to HiveOS website:
+For the “client.conf” file you need to upload to Hive OS website:
 <pre><code>
 client
 dev tun

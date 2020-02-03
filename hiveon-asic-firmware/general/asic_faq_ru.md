@@ -72,7 +72,7 @@ category: Общие Вопросы
 - Пробовать прошить через SD карту. Заливать на карту образ восстановления.
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
 " target="_blank"><img src="http://img.youtube.com/vi/dzArOe8KuHI/0.jpg"
-alt="Recovery NAND antminer s9 t9 via micro SD card" width="630" height="400" border="10" /></a>
+alt="Recovery NAND antminer s9 t9 via micro SD card"></a>
 
 - <a href="https://forum.hiveos.farm/t/antminer-s9-cannot-find-signature-fix/12466">Инструкция на форуме</a>
 

@@ -110,7 +110,7 @@ Also, check out these guides and videos if you still need a help with installati
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=ESi8k3Egs0c
 " target="_blank"><img src="http://img.youtube.com/vi/ESi8k3Egs0c/0.jpg"
-alt="Getting Started & Connecting to HiveOS" width="630" height="400" border="10" /></a>
+alt="Getting Started & Connecting to HiveOS"></a>
 
 ### External Links
 - <a href="http://den-pirate.ru/bez-rubriki/30-vazhnyh-shagov-kak-pravilno-registrirovatsja-v-hiveos-2-0-kak-nastroit-hiveos-2-0.html">30 important steps how to register in HiveOS 2.0. How to configure HiveOS 2.0?</a>

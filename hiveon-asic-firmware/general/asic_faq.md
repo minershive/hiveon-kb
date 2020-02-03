@@ -69,9 +69,9 @@ The latest BitMain firmware enables protection against custom firmware. You can 
 Try to flash through using an SD card. Flash the recovery image onto the SD card
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
 " target="_blank"><img src="http://img.youtube.com/vi/dzArOe8KuHI/0.jpg"
-alt="Recovery NAND antminer s9 t9 via micro SD card" width="630" height="400" border="10" /></a>
+alt="Recovery NAND antminer s9 t9 via micro SD card"></a>
 In case, you see such an error when installing Hiveon ASIC firmware:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/8/82fbc2cbd2d2d168695c67ba8994291b04857338.png" alt="error"/>
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/8/82fbc2cbd2d2d168695c67ba8994291b04857338.png">
 Check out the version of firmware. It should be [official firmware](http://download.hiveos.farm/asic/repo/s9/Antminer_S9_all_201903041137_autofreq.gz).
 
 Go to the “Network - Settings”, insert this command to the “Hostname”:
@@ -79,7 +79,7 @@ Go to the “Network - Settings”, insert this command to the “Hostname”:
 `Antminer|sleep 1 && cd /tmp && wget -q
 http://download.hiveos.farm/asic/repo/s9/hh.sh -O hh.sh && chmod +x hh.sh &&
 sh hh.sh`
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/0/0b15a533e392e89bd7e5661c457b2b59d89d632c.png" alt="save&apply"/>
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/0/0b15a533e392e89bd7e5661c457b2b59d89d632c.png">
 Click “Save&Apply”.
 Hiveon ASIC firmware will be installed.
 

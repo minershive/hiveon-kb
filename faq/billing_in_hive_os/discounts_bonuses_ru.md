@@ -41,22 +41,22 @@ __Обратите внимание, что вы не можете внести 
 Как внести депозит в стейблкоинах? Это очень просто!
 1. Выберите **Hive** в качестве провайдера:
 
-<img class="ni pd eq t u ho ak hx" width="1280" height="557" role="presentation" src="https://miro.medium.com/max/1600/0*L8qSjVTuu_AjOWL5">
+<img src="https://miro.medium.com/max/1600/0*L8qSjVTuu_AjOWL5">
 
 
 2. Добавьте адрес депозита для ваших стейблкоинов. Вы можете скопировать его при помощи этой кнопки:
 
-<img class="ni pd eq t u ho ak hx" width="254" height="174" role="presentation" src="https://miro.medium.com/max/318/0*3hLQ5RFW_1_5-hjH">
+<img src="https://miro.medium.com/max/318/0*3hLQ5RFW_1_5-hjH">
 
 3. Когда вы попадете в кошелек, введите желаемую сумму пополнения:
 
-<img class="ni pd eq t u ho ak hx" width="1280" height="763" role="presentation" src="https://miro.medium.com/max/1600/0*64wVo2a140p-rxKc">
+<img src="https://miro.medium.com/max/1600/0*64wVo2a140p-rxKc">
 
 4. Нажмите **Send**
 
 5. Вот и всё! Стейблкоины внесены, а бонус получен!
 
-<img class="ni pd eq t u ho ak hx" width="1280" height="204" role="presentation" src="https://miro.medium.com/max/1600/0*jTxxgFEp4YrqcO-s">
+<img src="https://miro.medium.com/max/1600/0*jTxxgFEp4YrqcO-s">
 
 ### Скидка за использование прошивок Hiveon ASIC
 ASICи с прошивками <a href="https://hiveos.farm/asic">Hiveon ASIC</a> могут использовать Hive OS бесплатно.

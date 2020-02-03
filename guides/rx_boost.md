@@ -147,7 +147,7 @@ With above settings achieved 50MH/s when mining at ethash algorithm.
 ### Hive RXboost
 The amdmemtweak utility is included in the Hive OS distribution. With Hive update to v0.6-45 new option appears in AMD OC settings. This parameter allows you to apply the so-called rxboost tweak that became known after the appearance in the Claymore’s Dual ETH Miner v14 and can be applied to the RX 4xx/5xx series cards. In other words it’s the same as execution `amdmemtweak` with `--REF parameter`.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd4564ddc1ebfe5aee3530837c35220d4a099db8.png" alt="%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5" width="196" height="114">
+<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd4564ddc1ebfe5aee3530837c35220d4a099db8.png">
 
 When the field is empty (default value) then Refresh Rate is not applied. To apply the value of all the cards, enter the same value. If you need to apply individual values for different cards, enter values separated by spaces.
 Here some short video how to use this feature:
@@ -155,4 +155,4 @@ Here some short video how to use this feature:
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0zJsU07Lgvc
 " target="_blank"><img src="http://img.youtube.com/vi/0zJsU07Lgvc/0.jpg"
-alt="RX Boost in Hive OS: get more from your RX cards" width="630" height="400" border="10" /></a>
+alt="RX Boost in Hive OS: get more from your RX cards"></a>

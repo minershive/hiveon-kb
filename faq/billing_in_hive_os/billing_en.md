@@ -69,15 +69,13 @@ The system remains free as long as you have **4** workers and all the conditions
 
 ### Paying for the system: deposits
 Hive OS accepts only cryptocurrency. There are several ways to pay for Hive OS:
-- to your personal Ethereum address generated in your account
+- to your personal Ethereum address generated in your account.
 
-- to your personal ERC20 Stablecoins address generated in your account (we support USDT, USDC, TUSD)
+- to your personal ERC20 Stablecoins address generated in your account (we support USDT, USDC, TUSD). The detailed information can be found [here](https://hiveos.farm/faq-billing_in_hive_os-discounts_bonuses).
 
-- using a payment gateway [Coinpayments](https://www.coinpayments.net/) (we accept BTC, BEAM, ETC, LTC, XMR, XRP)
+- using a payment gateway [Coinpayments](https://www.coinpayments.net/) (we accept BTC, BEAM, ETC, LTC, XMR, XRP). The detailed information can be found [here](https://hiveos.farm/faq-billing_in_hive_os-payment).
 
-- at the cost of referral rewards (read below in the “Referral system” section)
-
-The detailed information regarding making payments can be found [here](https://hiveos.farm/faq-billing_in_hive_os-payment).
+- at the cost of referral rewards (read below in the “Referral system” section).
 
 ### Paying for the system: commission on the Hiveon pool
 For paid users who mine Ethereum cryptocurrency, there is an optional opportunity to pay for Hive OS by mining on Hiveon pool with a deducted commission of 3% as a payment for Hive OS.

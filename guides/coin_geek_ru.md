@@ -4,18 +4,18 @@ category: Гайды
 ---
 
 ## GeekCash
-Как майнить GeekCash на HiveOS?
-<img src="https://images.golos.io/DQmdua5LfZqEeuho8faPdsh2qt5WtzR57Yr9EXLnAY9L8bo/image.png" alt="image.png">
+Как майнить GeekCash на Hive OS?
+<img src="https://images.golos.io/DQmdua5LfZqEeuho8faPdsh2qt5WtzR57Yr9EXLnAY9L8bo/image.png">
 
-Для майнинга на HiveOS вам нужно:
+Для майнинга на Hive OS вам нужно:
 1. Добавьте адрес GeekCash кошелека куда будете майнить монетку:
-<img src="https://images.golos.io/DQmZworYwjUqAuhXi9pTqV5aiuZLxK2Cho5jMjdjagwvn9L/image.png" alt="image.png">
+<img src="https://images.golos.io/DQmZworYwjUqAuhXi9pTqV5aiuZLxK2Cho5jMjdjagwvn9L/image.png">
 
 2. Создайте полетный лист "Flight Sheet", где выберите монету и кошелек, и укажите "Custom miner" как майнер. Нажмите "Setup Miner Config":
-<img src="https://images.golos.io/DQmV2xvAt1FkDAGa5gG86aNU4Eit4JD5z8y3qYAwQ5Qvi7U/image.png" alt="image.png">
+<img src="https://images.golos.io/DQmV2xvAt1FkDAGa5gG86aNU4Eit4JD5z8y3qYAwQ5Qvi7U/image.png">
 
 3. Для видеокарт Nvidia в конфигурации майнера укажите:
-<img src="https://images.golos.io/DQmae8Gsror11SpLWAxPjdFcbMnJTxmE3bkE82HNZHFd3e6/image.png" alt="image.png">
+<img src="https://images.golos.io/DQmae8Gsror11SpLWAxPjdFcbMnJTxmE3bkE82HNZHFd3e6/image.png">
 
 Miner name: geekminer
 
@@ -36,7 +36,7 @@ Extra config arguments: -i 21
 ***Важно:*** при запуске GeekCash майнера подождите, пока скачается майнер (2-3 миуты, все зависит от скорости вашего интернета).
 
 4. Для видеокарт AMD в конфигурации майнера указываем:
-<img src="https://images.golos.io/DQmTnMKg6E3TToA3cdsNPTX5DcbWoU33eygUkogBRqqcE3n/image.png" alt="image.png">
+<img src="https://images.golos.io/DQmTnMKg6E3TToA3cdsNPTX5DcbWoU33eygUkogBRqqcE3n/image.png">
 
 Miner name: sgminer_geek
 

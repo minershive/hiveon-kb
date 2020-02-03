@@ -19,4 +19,4 @@ SLOT_NUMBER=4
 После ребута рига нужно выключить виндовый клиент (в интерфейсе есть отключение), иначе он вместе с ригом будет отправлять “пинги”.
 
 ### Внешние Ресурсы
-- <a href="http://finance-quality.ru/podklyuchenie-i-nastrojka-opendev-watchdog-v-hive-os/">Подключение и настройка OpenDev Watchdog в HIVE OS.</a>
+- <a href="http://finance-quality.ru/podklyuchenie-i-nastrojka-opendev-watchdog-v-hive-os/">Подключение и настройка OpenDev Watchdog в Hive OS.</a>

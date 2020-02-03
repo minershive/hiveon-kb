@@ -1,6 +1,6 @@
 ---
 title: Инструкция по Установке S17 (S17 Pro)
-parent category: Прошивка Hiveon ASIC
+parent_category: Прошивка Hiveon ASIC
 category: S17, S17 Pro
 ---
 

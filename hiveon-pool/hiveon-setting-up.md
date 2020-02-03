@@ -1,6 +1,6 @@
 ---
 title: Setting-up
-parent category: Hiveon Pool
+parent_category: Hiveon Pool
 category: Hiveon Pool
 ---
 

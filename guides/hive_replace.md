@@ -4,9 +4,10 @@ category: Guides
 ---
 
 ## OS Live Replacement
-With 'hive-replace' script you can replace your running Linux with Hive on the fly. You can run this on any standard Ubuntu, or other competitor mining OS (like e**os, s*os, …). This can also be used to replace/upgrade system on a running Hive installation.
+With `hive-replace` script you can replace your running Linux with Hive on the fly. You can run this on any standard Ubuntu, or other competitor mining OS. This can also be used to replace/upgrade system on a running Hive installation.
 
 After successful writing you will reboot with a new system. This is how it looks like:
+
 <img src="https://forum.hiveos.farm/uploads/default/optimized/2X/1/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_476x500.png">
 
 ### Before you start
@@ -16,7 +17,7 @@ If you run this from Hive then current `rig.conf` will be preserved. In other Li
 
 The best way to run this command is to use direct SSH connection (from other Linux/Mac or with Putty from Windows). ShellInABox should work. OpenVPN connection is also OK. Teleconsole connection will be closed so you will not see the progress.
 
-***WARNING: This command can potentially ruin your system installation. So please do some experiments when you are close the rig physically.***
+***WARNING: This command can potentially ruin your system installation. So please do some experiments when you close the rig physically.***
 
 ### Usage Instructions
 You need to update Hive from web to get the latest script version. If you are running other Linux then the script should be downloaded from [Git repository](https://github.com/minershive/hiveos-linux).
@@ -47,7 +48,7 @@ Get image via HTTP:
 
 `hive-replace http://192.168.0.100/hiveos-0.6-01@181121.zip`
 
-Use locally downloaded file (though this has little sense it’s possible):
+Use locally downloaded file (though this has little sense, it’s possible):
 
 `hive-replace /tmp/hiveos-0.6-01@181121.zip`
 

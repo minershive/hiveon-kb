@@ -1,6 +1,6 @@
 ---
 title: Installation Guide S17 (S17 Pro)
-parent category: Hiveon ASIC Firmware
+parent_category: Hiveon ASIC Firmware
 category: S17, S17 Pro
 ---
 

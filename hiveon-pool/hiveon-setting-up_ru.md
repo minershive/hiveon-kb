@@ -1,6 +1,6 @@
 ---
 title: Обзор. Настройка
-parent category: Пул Hiveon
+parent_category: Пул Hiveon
 category: Пул Hiveon
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Скидки и Бонусы в Hive OS
-parent category: ЧаВо
+parent_category: ЧаВо
 category: Биллинг в Hive OS
 ---
 ## Скидки и Бонусы в Hive OS: Как Платить Меньше

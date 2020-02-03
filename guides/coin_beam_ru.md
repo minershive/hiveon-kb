@@ -1,5 +1,5 @@
 ---
-title: Майнинг Beam
+title: Майнинг Beam на Hive OS
 category: Гайды
 ---
 

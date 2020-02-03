@@ -1,5 +1,5 @@
 ---
-title: How to mine EXCC with Hive OS
+title: How to Mine EXCC with Hive OS
 category: Guides
 ---
 
@@ -9,13 +9,13 @@ Mining EXCC with Hive OS is very easy and it can be done with only a few clicks.
 ***Step 1.*** Log in to your farm. The first thing you need to do is adding a new Wallet:
 <img src="https://support.excc.co/hc/article_attachments/360020929152/hive1.png">
 
-Please mind that you will have to create ExchangeCoin coin as there is no EXCC built in Hive OS (yet). Just start typing ExchangeCoin in coin field and the system will let you save a new coin. The address is your EXCC address where you want your mined coins to be sent. We strongly recommend using Exilibrium software for this purpose.
+Please mind that you will have to create ExchangeCoin coin as there is no EXCC built in Hive OS (yet). Just start typing ExchangeCoin in the **Coin** field and the system will let you save a new coin. The address is your EXCC address where you want your mined coins to be sent. We strongly recommend using Exilibrium software for this purpose.
 
 ***Step 2.*** Once you've created a Wallet and new coin, the next step is to create a new Flight Sheet. Click on the Flight Sheets from Hive OS menu and fill it as on the below example:
-- Coin - pick ExchangeCoin, if it's not there it means you didn't create it properly during the step 1
+- Coin - pick ExchangeCoin (if it's not there it means you didn't create it properly during the Step 1)
 - Wallet - pick the Wallet you've just created recently
-- Pool - pick Configure In Miner
-- Miner - select lolMiner and click Setup Miner Config
+- Pool - pick **Configure In Miner**
+- Miner - select lolMiner and click **Setup Miner Config**
 
 <img src="https://support.excc.co/hc/article_attachments/360020853671/mceclip0.png">
 
@@ -30,7 +30,7 @@ Please mind that you will have to create ExchangeCoin coin as there is no EXCC b
 
 <img src="https://support.excc.co/hc/article_attachments/360020929572/mceclip2.png">
 
-***Step 4.*** Once you are done, just go back to your Workers list, check your workers, click Rocker icon from the top and choose your freshly made Flight Sheet.
+***Step 4.*** Once you are done, just go back to your Workers list, check your workers, click Rocket icon from the top and choose your freshly made Flight Sheet.
 
 <img src="https://support.excc.co/hc/article_attachments/360020929612/mceclip3.png">
 

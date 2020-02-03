@@ -1,6 +1,6 @@
 ---
 title: Installation Guide T9+
-parent category: Hiveon ASIC Firmware
+parent_category: Hiveon ASIC Firmware
 category: T9+
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: ASIC FAQ
-parent category: Hiveon ASIC Firmware
+parent_category: Hiveon ASIC Firmware
 category: General
 ---
-
+## ASIC FAQ
 ### What is the Hiveon ASIC?
 This is a custom firmware from Hive OS for Antminer S9, S9i, S9j and T9+.
 

@@ -1,6 +1,6 @@
 ---
 title: Hive OS ЧаВо
-parent category: ЧаВо
+parent_category: ЧаВо
 category: Общие Вопросы
 ---
 ## Hive OS ЧаВо

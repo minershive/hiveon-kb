@@ -37,7 +37,7 @@ Deposit can be minimum, there is no need to prepay the entire month. You can dep
 
 Workers are billed every day, not on a monthly basis. Tariffication within the day is calculated every 5 minutes. This means that a worker which was active only for a while, will be charged in proportion to its active time, and not for the whole day. If the worker was online, and we see it in the statistics, it will be taken into account. If the worker has been disabled, it is not taken into account - you do not need to deactivate it in the interface to stop billing for it.
 
-Charging balance is done after the passed day. Example: $0.5 is charged from your balance at 02:15 AM on the 4th of June for 5 rigs online from 02:15 AM of the 3rd of June to 02:15 AM of 4th of June.
+Charging balance is done after the passed day. Example: $0.5 is charged from your balance at 04:00 AM on the 4th of June for 5 rigs online from 04:00 AM of the 3rd of June to 04:00 AM of 4th of June.
 
 >Please note! If we notice fraudulent actions with tariffication made by a user, the bill will be issued in full.
 

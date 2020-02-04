@@ -11,6 +11,9 @@ Find the “Pay” button in your account https://the.hiveos.farm/funds.
 After paying please check the status in the Deposits Tab.
 And you will have a bunch of emails from Coinpayments with the link to their bill and all the instructions.
 
+### When and how often is the account billed?
+Your account is billed every day at 04:00 UTC.
+
 ### Exchange and Wallets, how to pay
 Exchanges like Bittrex, Poloniex, YoBit and others have high Withdrawal Fees and can have minimal withdrawal amount. Bitcoin BTC has very high TX Fee also. So it’s not reasonable to pay $5 form exchange with BTC (the worst case).
 What is advised is to have your own wallet like Jaxx or Exodus and put some money to it. There you can easily exchange assets, BTC->ETC, ETH->LTC for example. And to pay cents for transaction instead of dollars. ETC, BCH, LTC has very low fees.

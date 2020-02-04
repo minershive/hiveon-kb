@@ -4,7 +4,7 @@ category: Гайды
 ---
 
 ## Установка с Нуля
-- <a href="https://hiveos.farm/install/">Install</a>
+- Вот <a href="https://hiveos.farm/install/">здесь</a> можно скачать все необходимые файлы.
 
 ### Видео
 

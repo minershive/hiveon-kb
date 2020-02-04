@@ -5,8 +5,8 @@ category: Guides
 
 ## How to Set Up Your Hive OS Wallet
 
-### Step 1) Decide Which Coin to Mine and Which Mining Pool
-If you decided to mine in a pool, you will have to register within that pool directly from their website. For example, Suprnova’s pool website is https://suprnova.cc/ The great part about Hive OS is that they have automated many of the major pools. You simply have to register within the pools’ platform, create a worker and password for that worker, and get that information ready for the next steps within Hive OS.
+### Step 1) Decide on the coin and the mining pool
+If you decided to mine in a pool, you will have to register within that pool directly from their website. For example, Suprnova’s pool website is https://suprnova.cc/. The great part about Hive OS is that they have automated many of the major pools. You simply have to register within the pools’ platform, create a worker and password for that worker, and get that information ready for the next steps within Hive OS.
 
 <img src="https://miro.medium.com/max/334/0*15xxIauan7l9q8pW.png">
 
@@ -16,7 +16,7 @@ If you decided to mine in a pool, you will have to register within that pool dir
 
 <img src="https://miro.medium.com/max/800/0*pvFVB_ORr6tG-9CC.png">
 
-### Step 2) Click on Your Worker & Navigate to Wallet
+### Step 2) Click on your worker & navigate to wallet
 Click on “Create Wallet” and then enter in the information required. It is best to know which coin you wish to mine for along with which mining pool you wish to use. Hive OS also gives you the option to set up your miner with whatever configuration you wish, so you can mine coins solo if you prefer.
 
 This wallet contains the pool wallet address that your mining rewards goes to. After you sign up to a certain pool, for example: Suprnova, you will then have to input your personal wallet address you want your mining balance to go to after it reaches a certain threshold. For Hive OS platform, for Suprnova, the wallet address you need will be ‘workername.password’. On step 1, the demo worker name was ‘Demoboiz’ and the password was ‘Yuh’. So the wallet address for Supernova on Hive OS would be Demoboiz.Yuh

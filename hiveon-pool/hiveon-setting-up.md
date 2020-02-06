@@ -26,12 +26,12 @@ To create a Flight Sheet, go to the **Flight Sheets** tab. You will see the foll
 
 Now it is time to fill the fields:
 
-Coin: choose ETH
-Wallet: choose your Ethereum wallet
-Pool: choose Hiveon from the dropdown list
-Miner: choose your preferred miner
-Name: enter the name for your Flight Sheet (that’s optional)
-Click the **Create Flight Sheet** button
+- Coin: choose ETH
+- Wallet: choose your Ethereum wallet
+- Pool: choose Hiveon from the dropdown list
+- Miner: choose your preferred miner
+- Name: enter the name for your Flight Sheet (that’s optional)
+- Click the **Create Flight Sheet** button
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool3.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool3.png"
@@ -73,7 +73,7 @@ Open the file with a text editor (Notepad++) and write your data there:
 
 - Enter the location (yours or the closest one) in `POOL_URL - RU, EU, NAW`
 
-Now save the file, launch it and use Hiveon pool. Happy mining!
+Now save the file, launch it and start using Hiveon pool. Happy mining!
 
 ## Video
 The video below provides more details on the Hiveon pool and setting it up. Check it out if you need more information. Besides, if you have any questions regarding the Hiveon pool, you can always get in touch with us [here](https://t.me/hiveon_en).

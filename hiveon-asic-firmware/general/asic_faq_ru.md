@@ -1,9 +1,9 @@
 ---
-title: ASIC ЧаВо
+title: Прошивка Hiveon ASIC - ЧаВо
 parent_category: Прошивка Hiveon ASIC
 category: Общие Вопросы
 ---
-## ASIC ЧаВо
+## Прошивка Hiveon ASIC: ЧаВо
 ### Что такое Hiveon ASIC?
 Это кастомная прошивка от Hive OS для Antminer S9, S9i, S9j и T9+.
 

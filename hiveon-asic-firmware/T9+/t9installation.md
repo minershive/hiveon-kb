@@ -21,7 +21,7 @@ The chip tuning is as simple as choose a profile from a preset list with the des
 There are no one-size-fits-all instructions, instead we’re going to cover three scenarios of installing or updating your machines with Hiveon ASIC. The following topics will be covered:
 
 - Installing using ASICs via web interface — suitable for installing on a handful of machines for users who haven’t used Hive OS before;
-- Bulk installation — suitable for installing unto entire farms.
+- Bulk installation — suitable for installing unto entire farms;
 - Updating existing ASICs via Hive OS’s web interface — suitable for those who’re already using Hive with their ASICs;
 - Bulk updating existing ASICs — suitable for updating entire farms in a few clicks.
 

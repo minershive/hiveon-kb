@@ -5,6 +5,7 @@ category: S9 (S9i, S9j)
 ---
 
 ## Hiveon ASIC Firmware Installation Guide: S9 (S9i, S9j)
+___The installation process is the same for T9+.___
 
 While current cryptocurrency prices keep wildly fluctuating, miners need any advantage they can get in order to stay on top of their game and keep making profits. With that in mind we set out to make something that will give them that advantage and decided to bring some love to our ASIC users by introducing Hiveon ASIC.
 
@@ -20,7 +21,7 @@ The chip tuning is as simple as choose a profile from a preset list with the des
 There are no one-size-fits-all instructions, instead we’re going to cover three scenarios of installing or updating your machines with Hiveon ASIC. The following topics will be covered:
 
 - Installing using ASICs via web interface — suitable for installing on a handful of machines for users who haven’t used Hive OS before;
-- Bulk installation — suitable for installing unto entire farms.
+- Bulk installation — suitable for installing unto entire farms;
 - Updating existing ASICs via Hive OS’s web interface — suitable for those who’re already using Hive with their ASICs;
 - Bulk updating existing ASICs — suitable for updating entire farms in a few clicks.
 

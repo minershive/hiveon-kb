@@ -14,17 +14,17 @@ category: Гайды
 " target="_blank"><img src="http://img.youtube.com/vi/pPtRIOPHC18/0.jpg"
 alt="Hive OS 2.0 Настройка майнинг фермы по WiFi"></a>
 
-- <a href="https://www.youtube.com/watch?v=CnzLH5tdr5A">Настройка Hive OS 2 0 с нуля + настройка КОШЕЛЬКА + 10 $ в подарок</a>
+- <a href="https://www.youtube.com/watch?v=CnzLH5tdr5A">Настройка Hive OS 2.0 с нуля + настройка КОШЕЛЬКА + 10 $ в подарок</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=CnzLH5tdr5A
 " target="_blank"><img src="http://img.youtube.com/vi/CnzLH5tdr5A/0.jpg"
-alt="Настройка Hive OS 2 0 с нуля + настройка КОШЕЛЬКА + 10 $ в подарок"></a>
+alt="Настройка Hive OS 2.0 с нуля + настройка КОШЕЛЬКА + 10 $ в подарок"></a>
 
-- <a href="https://www.youtube.com/watch?v=g6LvYdDlogY">Простой способ Установить и Настроить Hive OS</a>
+- <a href="https://www.youtube.com/watch?v=g6LvYdDlogY">Простой способ установить и настроить Hive OS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=g6LvYdDlogY
 " target="_blank"><img src="http://img.youtube.com/vi/g6LvYdDlogY/0.jpg"
-alt="Простой способ Установить и Настроить Hive OS"></a>
+alt="Простой способ установить и настроить Hive OS"></a>
 
 - <a href="https://www.youtube.com/watch?v=2HmwyT081x0">Установка и настройка Hive OS от чайника для чайников. И немного о Hive</a>
 
@@ -38,17 +38,17 @@ alt="Установка и настройка Hive OS от чайника для
 " target="_blank"><img src="http://img.youtube.com/vi/zQgdxQzJzDM/0.jpg"
 alt="Библия Майнера / 30 настроек для Hive OS (часть 1)"></a>
 
-- <a href="https://www.youtube.com/watch?v=1uyLzVdCCLY">Hive OS установка и настройка МАЙНИНГ</a>
+- <a href="https://www.youtube.com/watch?v=1uyLzVdCCLY">Hive OS. Установка и настройка. Майнинг</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1uyLzVdCCLY
 " target="_blank"><img src="http://img.youtube.com/vi/1uyLzVdCCLY/0.jpg"
-alt="Hive OS установка и настройка МАЙНИНГ"></a>
+alt="Hive OS. Установка и настройка. Майнинг"></a>
 
-- <a href="https://www.youtube.com/watch?v=0gbd-ElmQH8">Учиться.. Учиться... Hive OS, еще 10 настроек</a>
+- <a href="https://www.youtube.com/watch?v=0gbd-ElmQH8">Hive OS, еще 10 настроек</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0gbd-ElmQH8
 " target="_blank"><img src="http://img.youtube.com/vi/0gbd-ElmQH8/0.jpg"
-alt="Учиться.. Учиться... Hive OS, еще 10 настроек"></a>
+alt="Hive OS, еще 10 настроек"></a>
 
 
 ### Внешние Ресурсы

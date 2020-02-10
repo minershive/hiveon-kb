@@ -14,6 +14,13 @@ And you will have a bunch of emails from Coinpayments with the link to their bil
 ### When and how often is the account billed?
 Your account is billed every day at 04:00 UTC.
 
+### Why does the daily payment for Hive OS differ from month to month?
+In the tariff plan, the price is indicated for a calendar month - 3 USD / month for 1 rig. Charging takes place daily, on the next day based on the number of active rigs.
+
+Historically, the number of days in a month is not the same, so the amount of daily charge also differs from month to month.
+
+For example, February in a leap year 2020 has 29 days, so the amount of daily payment for 1 rig is: $3/29 days = $0.103. Accordingly, for 6 rigs the total amount of payment will be $0.62 per day. The next month, March, has 31 days and, accordingly, the daily payment will be 0.58.
+
 ### Exchange and Wallets, how to pay
 Exchanges like Bittrex, Poloniex, YoBit and others have high Withdrawal Fees and can have minimal withdrawal amount. Bitcoin BTC has very high TX Fee also. So it’s not reasonable to pay $5 form exchange with BTC (the worst case).
 What is advised is to have your own wallet like Jaxx or Exodus and put some money to it. There you can easily exchange assets, BTC->ETC, ETH->LTC for example. And to pay cents for transaction instead of dollars. ETC, BCH, LTC has very low fees.

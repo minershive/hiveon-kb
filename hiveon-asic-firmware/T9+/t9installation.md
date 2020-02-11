@@ -61,13 +61,13 @@ cd /tmp && curl -L — insecure -s -O https://raw.githubusercontent.com/minershi
 cd /tmp/hive-bulk-install
 </code></pre>
 
-Once all the files are downloaded go to the `/tmp/hive-bulk-install` directory. You’ll need to add the ASICs’ IPs into `ips.txt`. If you know the list of IPs already then enter them one per line in `ips.txt` file. If the full list of IPs isn’t known to you, then you can scan your LAN and search for all ant-miners using the following command:
+Once all the files are downloaded go to the `/tmp/hive-bulk-install` directory. You’ll need to add the ASICs’ IPs into `ips.txt`. If you know the list of IPs already then enter them one per line in `ips.txt` file. If the full list of IPs isn’t known to you, then you can scan your LAN and search for all Antminers using the following command:
 
 `ipscan.sh 192.168.0.1/24> ips.txt`
 
 **Warning! The script will find all the ASICs in the network, not just S9, S9i, S9j, T9 or T9+. And you must not flash anything other than S9/T9 series with this firmware!**
 
-Now we’ll need to get your Farm Hash in the <a href="https://the.hiveos.farm/">Hive OS web UI</a>. Go to your farm’s **Settings tab**, there you will see the **Download Firmware** and copy the link. It will be pre-formatted to include your Farm Hash. For example:
+Now we’ll need to get your Farm Hash in the <a href="https://the.hiveos.farm/">Hive OS web UI</a>. Go to your farm’s **Settings** tab, there you will see the **Download Firmware** and copy the link. It will be pre-formatted to include your Farm Hash. For example:
 
 `http://download.hiveos.farm/asic/s9/Antminer-S9-all-Hiveon-YOUR_FARMHASH.tar.gz`
 
@@ -111,7 +111,7 @@ The ASIC will go offline and reboot, then it will re-appear as online shortly an
 
 You’re done, now you can configure your ASIC using the auto tuner.
 
-For more details regarding other ASIC installation options, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.
+*For more details regarding other ASIC installation options, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.*
 
 ## Option 2: Bulk Update
 Assuming you’re already using Hive OS with your ASICs, you’ll need to update them to the compatible firmware first.
@@ -122,7 +122,7 @@ In the **Workers** tab, select the workers you want to update. You’ll see seve
 
 <img src="https://miro.medium.com/max/911/0*KkPY3QOPvbUkbrpd">
 
-Click the **ASIC Firmware** button and a new **Change ASIC Firmwares** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the Antminer-S9-all-Hiveon. Click **Apply**.
+Click the **ASIC Firmware** button and a new **Change ASIC Firmwares** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon**. Click **Apply**.
 
 <img src="https://miro.medium.com/max/1260/0*AWw3uCKwWV_jvxNB">
 
@@ -132,14 +132,14 @@ The ASICs will go offline and reboot, then they will re-appear as online shortly
 
 You’re done, now you can configure your ASIC using the auto tuner.
 
-For more details regarding other ASIC installation options, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.
+*For more details regarding other ASIC installation options, please refer to this <a href="https://github.com/minershive/hiveos-asic">GitHub page</a>.*
 
 ## Hive OS web UI auto tuner configuration
 Once your ASICs were successfully flashed, you can then set our pre-created auto tuning profiles. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure as this profile is too difficult to explain in a short comprehensive form.
 
 **Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**
 
-In the **Worker** tab, select the workers you want to run the auto tuning script on.
+In the **Workers** tab, select the workers you want to run the auto tuning script on.
 
 <img src="https://miro.medium.com/max/1590/0*VaoCeqoiLP3rbK8k">
 
@@ -147,7 +147,7 @@ You’ll see several actions appear in the top right corner of the screen. Click
 
 <img src="https://miro.medium.com/max/959/0*OGNBrUL3NWFR-CVn">
 
-Select the profile you want then click the **Apply Changes** button at the bottom of the window and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hasrates may wildly fluctuate during the process — this is normal.
+Select the profile you want then click the **Apply Changes** button at the bottom of the window and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
 
 <img src="https://miro.medium.com/max/560/0*RYEhl5muvMs9S8su">
 

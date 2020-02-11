@@ -1,6 +1,10 @@
 ---
 title: Прошиваем Карты AMD
-category: Гайды
+parent_category: Гайды
+path: /guides-amd_flash_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Прошиваем Карты AMD

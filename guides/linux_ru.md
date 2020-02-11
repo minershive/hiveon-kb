@@ -1,6 +1,10 @@
 ---
 title: Команды Linux для Начинающих
-category: Гайды
+parent_category: Гайды
+path: /guides-linux_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Команды Linux для начинающих

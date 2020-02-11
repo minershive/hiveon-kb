@@ -1,6 +1,10 @@
 ---
 title: Как Майнить GeekCash на Hive OS?
-category: Гайды
+parent_category: Гайды
+path: /guides-coin_geek_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Как майнить GeekCash на Hive OS?

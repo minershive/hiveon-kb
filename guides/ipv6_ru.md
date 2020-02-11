@@ -1,6 +1,10 @@
 ---
 title: IPv6
-category: Гайды
+parent_category: Гайды
+path: /guides-ipv6_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## IPv6

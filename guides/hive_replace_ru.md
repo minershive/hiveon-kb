@@ -1,6 +1,10 @@
 ---
 title: Замена Работающего Linux на Hive
-category: Гайды
+parent_category: Гайды
+path: /guides-hive_replace_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Замена Работающего Linux на Hive

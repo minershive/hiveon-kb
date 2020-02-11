@@ -2,6 +2,11 @@
 title: Система реферальных вознаграждений
 parent_category: ЧаВо
 category: Биллинг в Hive OS
+path: /faq-billing_in_hive_os-referral_ru
+lang: ru
+parent_category_path: /faq_ru
+category_path: /faq-billing_in_hive_os_ru
+order: 1
 ---
 ## Система реферальных вознаграждений: Как зарабатывать с Hive OS
 

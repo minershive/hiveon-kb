@@ -1,6 +1,10 @@
 ---
 title: Быстрая Установка Hive OS
-category: Начало Работы
+parent_category: Начало Работы
+path: /getting_started-quick_install_ru
+lang: ru
+parent_category_path: /getting_started_ru
+order: 1
 ---
 
 ## Быстрая Установка Hive OS

@@ -1,6 +1,10 @@
 ---
 title: Ваш IP
-category: Гайды
+parent_category: Гайды
+path: /guides-yourip_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 ## Ваш IP
 После подключения рига в веб-панели будут указаны как минимум два IP-адреса.

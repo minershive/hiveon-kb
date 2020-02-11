@@ -2,6 +2,11 @@
 title: Помощь и Поддержка
 parent_category: ЧаВо
 category: Общие Вопросы
+path: /faq-general-support_ru
+lang: ru
+parent_category_path: /faq_ru
+category_path: /faq-general_ru
+order: 1
 ---
 
 ## Hive OS: Помощь и Поддержка

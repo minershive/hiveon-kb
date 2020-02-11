@@ -1,7 +1,10 @@
 ---
 title: Как Начать Майнить на Пуле Hiveon
 parent_category: Пул Hiveon
-category: Пул Hiveon
+path: /hiveon-pool-hiveon-setting-up_ru
+lang: ru
+parent_category_path: /hiveon-pool_ru_ru
+order: 1
 ---
 
 # Как Начать Майнить на Пуле Hiveon

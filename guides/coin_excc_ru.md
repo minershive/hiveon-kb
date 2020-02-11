@@ -1,6 +1,10 @@
 ---
 title: Как Майнить EXCC с Hive OS
-category: Гайды
+parent_category: Гайды
+path: /guides-coin_excc_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Как майнить EXCC с Hive OS

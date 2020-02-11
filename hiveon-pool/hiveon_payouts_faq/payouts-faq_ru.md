@@ -2,6 +2,11 @@
 title: Выплаты на пуле
 parent_category: Пул Hiveon
 category: Выплаты на пуле Hiveon
+path: /hiveon-pool-hiveon_payouts_faq-payouts-faq_ru
+lang: ru
+parent_category_path: /hiveon-pool_ru
+category_path: /hiveon-pool-hiveon_payouts_faq_ru
+order: 1
 ---
 
 ## Выплаты на пуле

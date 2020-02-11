@@ -1,6 +1,10 @@
 ---
 title: Знакомство с Системой
-category: Гайды
+parent_category: Гайды
+path: /guides-what_is_hive_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Знакомство с Системой

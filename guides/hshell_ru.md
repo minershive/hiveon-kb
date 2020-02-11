@@ -1,6 +1,10 @@
 ---
 title: Hive Shell
-category: Гайды
+parent_category: Гайды
+path: /guides-hshell_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Hive Shell

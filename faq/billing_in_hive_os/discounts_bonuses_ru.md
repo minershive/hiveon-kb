@@ -2,6 +2,11 @@
 title: Скидки и Бонусы в Hive OS
 parent_category: ЧаВо
 category: Биллинг в Hive OS
+path: /faq-billing_in_hive_os-discounts_bonuses_ru
+lang: ru
+parent_category_path: /faq_ru
+category_path: /faq-billing_in_hive_os_ru
+order: 1
 ---
 ## Скидки и Бонусы в Hive OS: Как Платить Меньше
 

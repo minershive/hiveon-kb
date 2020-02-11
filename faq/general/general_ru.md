@@ -2,6 +2,11 @@
 title: Hive OS ЧаВо
 parent_category: ЧаВо
 category: Общие Вопросы
+path: /faq-general-general_ru
+lang: ru
+parent_category_path: /faq_ru
+category_path: /faq-general_ru
+order: 1
 ---
 ## Hive OS ЧаВо
 ### Что такое Hive OS?

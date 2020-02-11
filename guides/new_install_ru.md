@@ -1,6 +1,10 @@
 ---
 title: Установка с Нуля
-category: Гайды
+parent_category: Гайды
+path: /guides-new_install_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Установка с Нуля

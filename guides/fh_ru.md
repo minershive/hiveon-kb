@@ -1,6 +1,10 @@
 ---
 title: Farm Hash
-category: Гайды
+parent_category: Гайды
+path: /guides-fh_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Farm Hash

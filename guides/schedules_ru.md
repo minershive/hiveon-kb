@@ -1,6 +1,10 @@
 ---
 title: Планировщик
-category: Гайды
+parent_category: Гайды
+path: /guides-schedules_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Планировщик

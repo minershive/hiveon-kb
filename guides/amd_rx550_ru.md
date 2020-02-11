@@ -1,6 +1,10 @@
 ---
 title: Настройка RX550
-category: Гайды
+parent_category: Гайды
+path: /guides-amd_rx550_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Настройка RX550

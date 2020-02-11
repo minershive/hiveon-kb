@@ -1,6 +1,10 @@
 ---
 title: Установка Драйверов AMD
-category: Гайды
+parent_category: Гайды
+path: /guides-amd_dr_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Установка Драйверов AMD

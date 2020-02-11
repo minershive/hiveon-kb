@@ -1,6 +1,10 @@
 ---
 title: Профили Разгона
-category: Начало Работы
+parent_category: Начало Работы
+path: /getting_started-start_oc_ru
+lang: ru
+parent_category_path: /getting_started_ru
+order: 1
 ---
 
 ## Профили Разгона

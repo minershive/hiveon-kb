@@ -1,6 +1,10 @@
 ---
 title: Панель Управления
-category: Начало Работы
+parent_category: Начало Работы
+path: /getting_started-start_dashboard_setup_ru
+lang: ru
+parent_category_path: /getting_started_ru
+order: 1
 ---
 
 ## Панель Управления

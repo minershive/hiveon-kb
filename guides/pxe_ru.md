@@ -1,6 +1,10 @@
 ---
 title: Hive OS Deploy PXE - Как Развернуть Сотни Ригов
-category: Гайды
+parent_category: Гайды
+path: /guides-pxe_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Hive OS Deploy PXE - Как Развернуть Сотни Ригов

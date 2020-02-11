@@ -1,6 +1,10 @@
 ---
 title: Добавление Кастомного Майнера
-category: Начало Работы
+parent_category: Начало Работы
+path: /getting_started-start_custom_miner_ru
+lang: ru
+parent_category_path: /getting_started_ru
+order: 1
 ---
 
 ## Добавление Кастомного Майнера

@@ -1,6 +1,10 @@
 ---
 title: RX Буст - AmdMemTweak
-category: Гайды
+parent_category: Гайды
+path: /guides-rx_boost_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## RX Буст - AmdMemTweak

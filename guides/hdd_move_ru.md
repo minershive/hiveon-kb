@@ -1,6 +1,10 @@
 ---
 title: Перенос Hive OS с Флешки на SDD/HDD Средствами Самой Hive OS
-category: Гайды
+parent_category: Гайды
+path: /guides-hdd_move_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Перенос Hive OS с Флешки на SDD/HDD Средствами Самой Hive OS

@@ -1,6 +1,10 @@
 ---
 title: Майнинг Beam на Hive OS
-category: Гайды
+parent_category: Гайды
+path: /guides-coin_beam_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Майнинг Beam на Hive OS

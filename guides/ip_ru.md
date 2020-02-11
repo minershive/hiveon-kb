@@ -1,6 +1,10 @@
 ---
 title: Статический IP
-category: Гайды
+parent_category: Гайды
+path: /guides-ip_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 ## Статический IP
 Здесь всё очень просто. Все сетевые настройки привязаны здесь:

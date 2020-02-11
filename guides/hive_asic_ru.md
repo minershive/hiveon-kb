@@ -1,6 +1,10 @@
 ---
 title: Hive OS для ASIC
-category: Гайды
+parent_category: Гайды
+path: /guides-hive_asic_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 ## Hive OS для ASIC
 Поддерживаемые ASICи:

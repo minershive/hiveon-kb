@@ -1,6 +1,10 @@
 ---
 title: Wi-Fi
-category: Гайды
+parent_category: Гайды
+path: /guides-wifi_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 ## Wi-Fi
 Отношения между wi-fi, адаптерами и Linux весьма непросты. Тем не менее, некоторые из них поддерживаются, и вы можете попробовать их использовать.

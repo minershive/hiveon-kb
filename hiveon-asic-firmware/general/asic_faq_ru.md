@@ -2,6 +2,11 @@
 title: Прошивка Hiveon ASIC - ЧаВо
 parent_category: Прошивка Hiveon ASIC
 category: Общие Вопросы
+path: /hiveon-asic-firmware-general-asic_faq_ru
+lang: ru
+parent_category_path: /hiveon-asic-firmware_ru
+category_path: /hiveon-asic-firmware-general_ru
+order: 1
 ---
 ## Прошивка Hiveon ASIC: ЧаВо
 ### Что такое Hiveon ASIC?

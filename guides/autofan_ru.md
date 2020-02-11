@@ -1,6 +1,10 @@
 ---
 title: Автофан
-category: Гайды
+parent_category: Гайды
+path: /guides-autofan_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## Автофан

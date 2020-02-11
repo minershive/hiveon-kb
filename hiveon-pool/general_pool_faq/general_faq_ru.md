@@ -2,6 +2,11 @@
 title: ЧаВо
 parent_category: Пул Hiveon
 category: Общие вопросы по пулу Hiveon
+path: /hiveon-pool-general_pool_faq-general_faq_ru
+lang: ru
+parent_category_path: /hiveon-pool_ru
+category_path: /hiveon-pool-general_pool_faq_ru
+order: 1
 ---
 
 ## ЧаВо

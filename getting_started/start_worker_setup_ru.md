@@ -1,6 +1,10 @@
 ---
 title: Установка и Настройка Воркера
-category: Начало Работы
+parent_category: Начало Работы
+path: /getting_started-start_worker_setup_ru
+lang: ru
+parent_category_path: /getting_started_ru
+order: 1
 ---
 
 ## Установка и настройка воркера

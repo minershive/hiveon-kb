@@ -1,6 +1,10 @@
 ---
 title: OpenVPN
-category: Гайды
+parent_category: Гайды
+path: /guides-openvpn_ru
+lang: ru
+parent_category_path: /guides_ru
+order: 1
 ---
 
 ## OpenVPN

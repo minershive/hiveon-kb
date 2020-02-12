@@ -28,7 +28,7 @@ _Добавление нового воркера_
 
 _Добавление данных воркера_
 
-Вы увидите экран с множеством альтернативных вариантов установкиwith (ознакомиться с ними можно [здесь](getting_started\start_worker_setup_ru.md). Нажмите `rig.conf`, чтобы скачать этот файл.
+Вы увидите экран с множеством альтернативных вариантов установки (ознакомиться с ними можно [здесь](https://hiveos.farm/getting_started-start_worker_setup_ru). Нажмите `rig.conf`, чтобы скачать этот файл.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/dl_rig_conf.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/dl_rig_conf.png"
@@ -99,4 +99,4 @@ _Пример экрана, который вы должны увидеть по
 
 _Ваш новый риг появится в вашей ферме_
 
-А вот [здесь](getting_started\start_dashboard_setup_ru.md) можно узнать, как настроить ваш риг.
+А вот [здесь](https://hiveos.farm/getting_started-start_dashboard_setup_ru) можно узнать, как настроить ваш риг.

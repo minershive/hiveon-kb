@@ -27,7 +27,7 @@ Enter a name for your rig and a password. Optionally you can add a description o
 
 _Filling out the worker details_
 
-You’ll see a screen with tons of alternative installation options with which you can get acquainted [here](getting_started/start_worker_setup.md). Click the `rig.conf` to download this file.
+You’ll see a screen with tons of alternative installation options with which you can get acquainted [here](https://hiveos.farm/getting_started-start_worker_setup). Click the `rig.conf` to download this file.
 
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/dl_rig_conf.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/dl_rig_conf.png"
@@ -98,7 +98,7 @@ Done! It will connect to Hive and you can start working with your rig.
 
 _Your new rig will appear in your farm_
 
-Check this article to find out how to [configure your rig](start_dashboard_setup.md).
+Check this article to find out how to [configure your rig](https://hiveos.farm/getting_started-start_dashboard_setup).
 
 Also, check out these guides and videos if you still need a help with installation:
 

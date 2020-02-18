@@ -69,9 +69,6 @@ To install firmware on Antminer S9/i/j just run `firmware.sh`.
 
 If IP was connected then it will become commented in file.
 
-### Innosilicon new models
-Manual: https://forum.hiveos.farm/t/innosilicon-t2t-t3-series/13610
-
 ### Downgrade and Version change
 If you want to install specific version or downgrade please append version as an argument to selfupgrade. E.g. 0.1-02:
 
@@ -86,15 +83,6 @@ Locally on ASIC you can run `selfupgrade command`. To install specific version y
 
 Cron jobs might have to be removed manually with `crontab -e`, even if they are left there they would do nothing.
 
-### Innosilicon old models
-Some Innosilicon factory firmware have a memory leak, and ASIC freezes every few days. To solve this problem, you can enable the miner or ASIC reboot every 24 hours. Run the following commands:
-
-<pre><code>
-inno-reboot miner enable/disable
-inno-reboot asic enable/disable
-inno-reboot status
-</code></pre>
-
 ### asic-find (Antminer)
 To search for an Antminer ASIC among a large number of ASICs, you can flash a red LED on it. To do this, execute the command via the web interface or via SSH:
 
@@ -107,6 +95,27 @@ To rename the workers in the Hive web interface as the hostname, run the command
 
 `hello hostname`
 
+### Antminer S9 improved firmware (deprecated)
+<a href="https://forum.hiveos.farm/t/hiveon-asic-s9-firmware-v1-02/13944">Manual</a>
+
+<a href="https://forum.hiveos.farm/t/hiveon-asic-installation-antminer-s9-cannot-find-signature-fix/12466">Solving "Cannot find signature" issue</a>
+
+### Antminer S17/S17 Pro/T17 (deprecated)
+
+<a href="https://forum.hiveos.farm/t/antminer-s17-t17/12415">Manual</a>
+
+### Innosilicon new models
+<a href="https://forum.hiveos.farm/t/innosilicon-t2t-t3-series/13610">Manual</a>
+
+### Innosilicon old models
+Some Innosilicon factory firmware have a memory leak, and ASIC freezes every few days. To solve this problem, you can enable the miner or ASIC reboot every 24 hours. Run the following commands:
+
+<pre><code>
+inno-reboot miner enable/disable
+inno-reboot asic enable/disable
+inno-reboot status
+</code></pre>
+
 ### Zig Z1+
 <a href="https://github.com/minershive/hiveos-asic/blob/master/hive/share/zig/README.md">Zig Z1+ ssh manual</a>
 
@@ -116,16 +125,19 @@ or
 
 `cd /tmp && wget https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web bash selfupgrade`
 
-### Antminer S9 signed (deprecated)
-<a href="https://forum.hiveos.farm/t/antminer-s9-signed/12466">Manual</a>
-
-### Antminer S17/S17 Pro/T17 (deprecated)
-
-<a href="https://forum.hiveos.farm/t/antminer-s17-t17/12415">Manual</a>
-
-<a href="bee@hiveos.farm">Support</a>
-
 ### Recovery Antminer
-S17/S17pro/T17
+You can find recovery boot images at [Bitmain's official repository](https://service.bitmain.com/support/download?product=Flashing%20SD%20card%20with%20image).
 
-Download <a href="http://download.hiveos.farm/asic/repo/t17-s17/recovery_sd/t17_rec.zip">Recovery image</a>, unzip to SD card. Boot ASIC with SD card. Flash tar.gz firmware via web interface.
+>Please note the two different file formats of images. -`.img` file, must be written to SD with a special imaging software -`.zip` file containing files like `u-boot.img` and `uImage.bin` inside, must be unzipped to SD card formatted with FAT32.
+
+- [S9 Recovery image](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/Recovery_S9.img)
+- S17, S17 Pro, T17
+	- Download [recovery boot image](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/SD_S17-T17_650M.05.06.2019.zip)
+	- Use SD card <16 Gb
+	- Format SD card with FAT32
+	- Unzip it to SD card
+	- Boot ASIC with SD card
+	- ASIC booted in recovery mode
+	- Flash any suitable [old stock Bitmain firmware](https://download.hiveos.farm/asic/) (.tar.gz format) via web interface.
+
+In case of issues, please read Bitmain's [control board program recovery manual](https://support.bitmain.com/hc/en-us/articles/360033757513-S17-S17Pro-S9-SE-S9k-Z11-control-board-program-recovery-SD-card-flashing-with-customized-PW-).

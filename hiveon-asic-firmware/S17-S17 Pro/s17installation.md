@@ -50,12 +50,12 @@ Please note, that all the manual steps which involve using BTC_TOOLS can be done
 4. Download the firmware file (it has to have “Hiveon” in its title):
 http://download.hiveos.farm/asic/s17/
 
-For S17 and S17 Pro, we offer the same firmware file. However, there are two options: “signed” and “nosigned” firmware. The signed firmware can be updated ONLY to another signed Hiveon firmware via ASIC’s web interface or BTC_TOOLS. Third-party or official firmware can’t be installed in this way. However, you can use the `rm -rf /etc/bitmain-pub.pem` command — send it to your ASICs via the Hive web. It will temporarily delete the certificate, but you can reboot your ASIC to bring it back. After this, you will be able to move to any firmware via the firmware update menu (in the Hive web). It will be possible to choose the firmware from the list or to use the URL.
+For S17 and S17 Pro, we offer the same firmware file. However, there are two options: “improved” and “standard” firmware. The improved firmware can be updated ONLY to another improved Hiveon firmware, via ASIC’s web interface or BTC_TOOLS. Third-party or official firmware can’t be installed in this way. However, you can use the `rm -rf /etc/bitmain-pub.pem` command — send it to your ASICs via the Hive web. It will temporarily delete the certificate, but you can reboot your ASIC to bring it back. After this, you will be able to move to any firmware via the firmware update menu (in the Hive web). It will be possible to choose the firmware from the list or to use the URL.
 
-The signed firmware can be downloaded here:
+The improved firmware can be downloaded here:
 http://download.hiveos.farm/asic/s17/Antminer-S17-S17pro-Hiveon-1.00-sign.tar.gz
 
-You can learn more about signed and unsigned firmware <a href="https://forum.hiveos.farm/t/hiveon-asic-s9-firmware-v1-02/13944">here</a>.
+You can learn more about standard and improved firmware <a href="https://forum.hiveos.farm/t/hiveon-asic-s9-firmware-v1-02/13944">here</a>.
 
 Now, let’s talk about 3 ways of installation in detail.
 

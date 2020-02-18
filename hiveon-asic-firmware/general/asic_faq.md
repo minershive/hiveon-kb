@@ -118,11 +118,11 @@ There are many PCB revisions on S9 and T9 with different models of thermal senso
 The temperature above 90 degrees is undesirable. 80-90 degrees - optimal working temperature.
 
 ### Are there any problems with reverse firmware?
-There are no problems with reverse firmware, but the most suitable version for this case is the firmware version without a signature (“nosign”).
-Version with signature (“sign”) - it could also be flashed upon with any other firmware, but first, through the Hive web interface, it will be necessary to send a command to the ASIC to disable signature verification. No programmers are needed. Also, through the SD card or the “IP report” button, you can flash from signed version to any.
+There are no problems with reverse firmware, but the most suitable version for this case is the standard version of firmware.
+Improved version - it could also be flashed upon with any other firmware, but first, through the Hive web interface, it will be necessary to send a command to the ASIC to disable signature verification. No programmers are needed. Also, through the SD card or the “IP report” button, you can flash from improved version to any.
 
-### How to flash from signed Hiveon ASIC firmware?
-The signed firmware can be updated ONLY to another signed Hiveon firmware via ASIC’s web interface or BTC_TOOLS. Third-party or official firmware can’t be installed in this way. However, you can use the `rm -rf /etc/bitmain-pub.pem` command — send it to your ASICs via the Hive web. It will temporarily delete the certificate, but you can reboot your ASIC to bring it back. After this, you will be able to move to any firmware via the firmware update menu (in the Hive web). It will be possible to choose the firmware from the list or to use the URL.
+### How to flash from improved Hiveon ASIC firmware?
+The improved firmware can be updated ONLY to another improved Hiveon firmware, via ASIC’s web interface or BTC_TOOLS. Third-party or official firmware can’t be installed in this way. However, you can use the `rm -rf /etc/bitmain-pub.pem` command — send it to your ASICs via the Hive web. It will temporarily delete the certificate, but you can reboot your ASIC to bring it back. After this, you will be able to move to any firmware via the firmware update menu (in the Hive web). It will be possible to choose the firmware from the list or to use the URL.
 
 ### After the firmware I can’t get into the ASIC interface, what should I do?
 Here is the list of default logins and passwords:

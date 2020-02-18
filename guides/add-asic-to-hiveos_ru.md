@@ -73,9 +73,6 @@ cd /tmp/hive-bulk-install
 
 Если IP-адрес был подключен, это будет отмечено в файле.
 
-### Новые модель Innosilicon
-Мануал: https://forum.hiveos.farm/t/innosilicon-t2t-t3-series/13610
-
 ### Понижение и изменение версии
 Если вы хотите установить конкретную версию или же понизить версию, добавьте версию, как аргумент в selfupgrade. Например, 0.1-02:
 
@@ -90,15 +87,6 @@ cd /tmp/hive-bulk-install
 
 Задания cron jobs могут быть удалены вручную при помощи `crontab -e`. Но даже если они останутся, они ничего не изменят.
 
-### Старые модели Innosilicon
-Некоторые заводские прошивки Innosilicon "страдают" утечкой памяти, и ASIC зависает каждые несколько дней. Чтобы решить эту проблему, вы можете активировать ежедневную перезагрузку майнера или ASICа (каждые 24 часа). Запустите следующие команды:
-
-<pre><code>
-inno-reboot miner enable/disable
-inno-reboot asic enable/disable
-inno-reboot status
-</code></pre>
-
 ### asic-find (Antminer)
 Чтобы найти Antminer ASIC среди большого количества ASICов, вы можете запустить на нем мигание красного светодиода. Чтобы сделать этой, выполните эту команду через веб-интерфейс или SSH:
 
@@ -111,6 +99,27 @@ inno-reboot status
 
 `hello hostname`
 
+### Antminer S9: улучшенная прошивка
+<a href="https://forum.hiveos.farm/t/hiveon-asic-s9-firmware-v1-02/13944">Мануал</a>
+
+<a href="https://forum.hiveos.farm/t/hiveon-asic-installation-antminer-s9-cannot-find-signature-fix/12466">Как решить проблему "Cannot find signature"</a>
+
+### Antminer S17/S17 Pro/T17
+
+<a href="https://forum.hiveos.farm/t/antminer-s17-t17/12415">Мануал</a>
+
+### Новые модели Innosilicon
+<a href="https://forum.hiveos.farm/t/innosilicon-t2t-t3-series/13610">Мануал</a>
+
+### Старые модели Innosilicon
+Некоторые заводские прошивки Innosilicon "страдают" утечкой памяти, и ASIC зависает каждые несколько дней. Чтобы решить эту проблему, вы можете активировать ежедневную перезагрузку майнера или ASICа (каждые 24 часа). Запустите следующие команды:
+
+<pre><code>
+inno-reboot miner enable/disable
+inno-reboot asic enable/disable
+inno-reboot status
+</code></pre>
+
 ### Zig Z1+
 <a href="https://github.com/minershive/hiveos-asic/blob/master/hive/share/zig/README.md">Zig Z1+ SSH мануал</a> (на английском)
 
@@ -120,16 +129,19 @@ inno-reboot status
 
 `cd /tmp && wget https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web bash selfupgrade`
 
-### Antminer S9 с подписью
-<a href="https://forum.hiveos.farm/t/antminer-s9-signed/12466">Мануал</a>
-
-### Antminer S17/S17 Pro/T17
-
-<a href="https://forum.hiveos.farm/t/antminer-s17-t17/12415">Мануал</a>
-
-<a href="bee@hiveos.farm">Поддержка</a>
-
 ### Восстановление Antminer
-S17/S17pro/T17
+You can find recovery boot images at [Bitmain's official repository](https://service.bitmain.com/support/download?product=Flashing%20SD%20card%20with%20image).
 
-Скачайте <a href="http://download.hiveos.farm/asic/repo/t17-s17/recovery_sd/t17_rec.zip">образ восстановления</a>, распакуйте на SD карту. Загрузите ASIC с SD картой. Запишите прошивку tar.gz через веб-интерфейс.
+>Please note the two different file formats of images. -`.img` file, must be written to SD with a special imaging software -`.zip` file containing files like `u-boot.img` and `uImage.bin` inside, must be unzipped to SD card formatted with FAT32.
+
+- [Образ восстановления S9](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/Recovery_S9.img)
+- S17, S17 Pro, T17
+	- Скачайте [образ восстановления](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/SD_S17-T17_650M.05.06.2019.zip)
+	- Используйте SD-карту <16 Гб
+	- Отформатируйте SD-карту в FAT32
+	- Распакуйте на SD-карту
+	- Загрузите ASIC с SD картой
+	- ASIC загрузился в режиме восстановления
+	- Запишите любую подходящую [старую стоковую прошивку Bitmain](https://download.hiveos.farm/asic/) (формат .tar.gz) через веб интерфейс.
+
+В случае возникновения проблем, пожалуйста, прочтите [данный мануал от Bitmain](https://support.bitmain.com/hc/en-us/articles/360033757513-S17-S17Pro-S9-SE-S9k-Z11-control-board-program-recovery-SD-card-flashing-with-customized-PW-).

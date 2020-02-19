@@ -130,9 +130,9 @@ inno-reboot status
 `cd /tmp && wget https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web bash selfupgrade`
 
 ### Восстановление Antminer
-You can find recovery boot images at [Bitmain's official repository](https://service.bitmain.com/support/download?product=Flashing%20SD%20card%20with%20image).
+Вы можете найти образы восстановления [здесь](https://service.bitmain.com/support/download?product=Flashing%20SD%20card%20with%20image).
 
->Please note the two different file formats of images. -`.img` file, must be written to SD with a special imaging software -`.zip` file containing files like `u-boot.img` and `uImage.bin` inside, must be unzipped to SD card formatted with FAT32.
+>Обратите внимание на два разных формата изображений. Файл `.img`  должен быть записан на SD карту при помощи специальной программы. Файл `.zip`, содержащий файлы `u-boot.img` и `uImage.bin`, должен быть разархивирован на SD карту, отформатированную в FAT32.
 
 - [Образ восстановления S9](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/Recovery_S9.img)
 - S17, S17 Pro, T17

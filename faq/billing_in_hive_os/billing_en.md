@@ -89,6 +89,8 @@ The firmware has a dev fee from 2% to 2.8%, depending on the ASIC model.
 ### Refund
 Since the Hive OS balance is a prepaid system, no refunds or withdrawals are available. You can transfer funds between users and farms, but there is no withdrawal option.
 
+And if you, for instance, decided to stop mining completely, you can check [this chat]( https://t.me/HiveOS_FleaMarket). You can find there a person who would like to buy your balance.
+
 ### Referral system
 You can invite friends and your audience to Hive OS, and make money on it - 10% of what every referral you bring pays for using Hive OS. Referral rewards are paid once a month to the ETH address specified in the settings.
 

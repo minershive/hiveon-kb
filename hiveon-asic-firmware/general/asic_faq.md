@@ -36,6 +36,9 @@ There is no demand for firmware like Hiveon ASIC - optimization and auto-tuning 
 ### Why is there no firmware available for S11, Z9?
 On these models the power wiring won’t allow to squeeze more out of them, so it makes no sense to make custom firmware. You should use the stock one.
 
+### Is it possible to add S15 to Hive OS?
+At this moment, for this model we offer only a client for monitoring. Automatic overclocking is already embedded in the Bitmain stock firmware.
+
 ### Do I need to pay to use the firmware?
 No. The firmware takes a 2% dev fee automatically. This is done in parallel mining, without hashrate dips or suspension of the main mining process.
 
@@ -48,15 +51,24 @@ It restarts the miner and waits for the connection to reappear. In contrast to t
 ### What is the minimum Internet speed requirement for the firmware?
 Mere Kilobits are used by the ASIC, the speed is not a main requirement. Ping is more important: the lower the ping to the pool, the better.
 
+### Where to download the firmware?
+Here: https://hiveos.farm/asic/.
+
 ### How do I install the firmware if I'm not a Hive OS user yet?
 Follow the instructions from our <a href="http://goo.gl/rNPdWc">installation guide</a>.
 
 ### How do I install the firmware via Hive OS web interface?
 Follow the instructions from our <a href="http://goo.gl/RXsfjL">installation guide</a>.
 
+### Where to download firmware for recovery?
+Here: https://download.hiveos.farm/asic/repo/fw/Antminer/.
+
 ### What is the latest version of the Hiveon ASIC firmware?
 For S9 - Hiveon 1.01.
 For T9+ - Hiveon 1.02.
+
+### Can someone create firmware specifically for my ASIC?
+Yes, but that's pretty expensive. Let's say, the developer's salary is $2500 per month. The project will take several months.
 
 ### How can I upgrade to a new firmware version?
 Straight from the Hive OS web interface.
@@ -123,6 +135,9 @@ Improved version - it could also be flashed upon with any other firmware, but fi
 
 ### How to flash from improved Hiveon ASIC firmware?
 The improved firmware can be updated ONLY to another improved Hiveon firmware, via ASIC’s web interface or BTC_TOOLS. Third-party or official firmware can’t be installed in this way. However, you can use the `rm -rf /etc/bitmain-pub.pem` command — send it to your ASICs via the Hive web. It will temporarily delete the certificate, but you can reboot your ASIC to bring it back. After this, you will be able to move to any firmware via the firmware update menu (in the Hive web). It will be possible to choose the firmware from the list or to use the URL.
+
+### How to identify if I have improved firmware?
+First of all, you can try to flash. Secondly - launch `ls /etc/bitmain-pub.pem`. If there is a file, the firmware is improved.
 
 ### After the firmware I can’t get into the ASIC interface, what should I do?
 Here is the list of default logins and passwords:

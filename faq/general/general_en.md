@@ -17,3 +17,24 @@ A worker is a term used to describe both types of mining hardware that is suppor
 
 ### Do you have a referral program?
 Yes, we have a referral program. Create a referral link with your account ID and share it with others. New users that sign-up using your referral link will be marked as your referrals. You can also create promo codes. Find out more <a href="https://hiveos.farm/pricing/">here</a>.
+
+### How to block an account by IP?
+For account blocking issues, please contact the official support email - bee@hiveos.farm.
+
+### How to protect Hive OS account from hacking?
+You can protect your account from hacking with 2FA authentication.
+To do this, you need to install the Google Authenticator or Authy application on your phone.
+
+To reset 2FA, send an email to bee@hiveos.farm. In the letter, indicate the following information:
+
+- your login, name and email account in Hive OS
+- the number of workers and their names
+- wallet address from the "Wallets" section (the primary one, if you have several wallets)
+- the last IP address from which the account was logged in and the time of successful login
+
+All fields are required.
+
+If you do not know your external IP address, you can find it out at https://hiveos.farm/myip.
+
+### What is the difference between a regular Hive OS update and a forced one?
+With a forced update, the repositories are cleaned, updated, and their installation is repeated.

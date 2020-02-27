@@ -116,6 +116,8 @@ inno-reboot asic enable/disable
 inno-reboot status
 </code></pre>
 
+>If other login and password values were set up before you, then reset the ASIC to the factory settings. To do this, on the turned on ASIC, hold the ipreport and reset buttons, hold for 20 seconds, turn off the power supply, without releasing the pressed buttons. Wait for 10 seconds, without releasing the ipreport and reset buttons, turn on the power supply and hold ipreport and reset for 20 more seconds. Then release and wait for the load.
+
 ### Zig Z1+
 <a href="https://github.com/minershive/hiveos-asic/blob/master/hive/share/zig/README.md">Zig Z1+ ssh manual</a>
 

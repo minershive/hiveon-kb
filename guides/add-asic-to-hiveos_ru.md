@@ -120,6 +120,8 @@ inno-reboot asic enable/disable
 inno-reboot status
 </code></pre>
 
+>Если до вас были установлены иные значения логина и пароля, то сбросьте настройки ASICа на заводские. Для этого на включенном ASICe зажмите ipreport и reset, держите 20 секунд, выключите блок питания, не отпуская зажатые кнопки. Ждите 10 секунд, не отпуская кнопки ipreport и reset, включите блок питания и еще 20 секунд держите ipreport и reset. Потом отпустите и дождитесь загрузки.
+
 ### Zig Z1+
 <a href="https://github.com/minershive/hiveos-asic/blob/master/hive/share/zig/README.md">Zig Z1+ SSH мануал</a> (на английском)
 

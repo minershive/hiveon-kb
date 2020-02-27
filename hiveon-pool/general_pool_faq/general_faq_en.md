@@ -48,3 +48,6 @@ Each pool operates on a different set of rules for their payouts, but here are a
 
 ### What is Pool Luck?
 It's a metric that shows how many shares the pool needed in order to find a block relative to the average number of shares needed for finding a block. If the luck is above 100% then the pool needs less shares then expected for a given difficulty. If the luck is below 100%, then more shares were needed. Luck only shows the history of the pool and cannot be used to predict future blocks. Finding a block is completely random, so joining a pool when there is high luck and then leaving when the luck is low, won't make any sense.
+
+### How to choose a pool server?
+For the best quality of working with the pool, it is best to use the server with which you have the fastest connection. You can check it with the `Ping` command. The lowest value will show the fastest connection. Also, we recommend specifying multiple servers. If the main server crashes, your ASIC will automatically switch to the spare one and avoid downtime.

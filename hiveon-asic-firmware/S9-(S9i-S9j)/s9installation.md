@@ -101,7 +101,7 @@ Assuming you’re already using Hive OS with your ASICs, you’ll need to update
 
 <img src="https://miro.medium.com/max/429/0*SY96QIG33Br2aa8_">
 
-Click it and a new **Change ASIC Firmwares** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon**. Click **Apply**.
+Click it and a new **Change ASIC Firmware** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon**. Click **Apply**.
 
 <img src="https://miro.medium.com/max/1260/0*ssmeT6INSpHJgLKg">
 
@@ -122,7 +122,7 @@ In the **Workers** tab, select the workers you want to update. You’ll see seve
 
 <img src="https://miro.medium.com/max/911/0*KkPY3QOPvbUkbrpd">
 
-Click the **ASIC Firmware** button and a new **Change ASIC Firmwares** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon**. Click **Apply**.
+Click the **ASIC Firmware** button and a new **Change ASIC Firmware** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon**. Click **Apply**.
 
 <img src="https://miro.medium.com/max/1260/0*AWw3uCKwWV_jvxNB">
 

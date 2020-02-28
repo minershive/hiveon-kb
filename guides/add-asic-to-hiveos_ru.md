@@ -8,29 +8,53 @@ order: 1
 ---
 
 ## Как добавить ASIC в Hive OS
+### Подготовка
+>Будьте осторожны с последними прошивками Bitmain
+- Antminer, серия 9 (S9/S9i/S9j/T9/T9+): никогда не обновляйтесь на прошивку новее 10 июня 2019
+- Antminer, серия 17: никогда не обновляйтесь на прошивку новее 1 декабря 2019
+
+Все более новые версии официальных прошивок имеют защитные меры против удаленного вмешательства, поэтому вы не сможете установить Hive OS Client или прошивку Hiveon ASIC.
+
+#### Получите FARM_HASH
+Чтобы привязать ASIC к вашей ферме Hive, вы можете использовать следующие опции (представлены в порядке сложности):
+
+- вкладка Hive OS в веб-интерфейсе ASICа (самый простой вариант!)
+- команда `firstrun` через SSH
+- скачайте специальный файл .tar.gz через BTC Tools (массовая установка)
+
+В любом случе, вам понадобится строка FARM_HASH. Вы найдете её в панели управления Hive OS, прямо во вкладке настроек фермы.
+
+#### Создайте и примените Полетный Лист
+Чтобы начать майнить, обязательно создайте Полетный Лист. Примените его, чтобы начать хеширование.
+
 ### Установка
-Вы можете установить Hive OS Клиент на ваш ASIC при помощи файла прошивки или через SSH.
+Вы можете установить Hive OS Client через загрузку файла прошивки или через SSH.
 
-**НЕ ОБНОВЛЯЙТЕ ваш Antminer до версии прошивки новее, чем 10.06.2019. Bitmain не допускает изменений в этой прошивке.**.
+#### Три базовые опции установки
+**1. Веб-интерфейс ASICа**
 
-### Веб-интерфейс или btc-инструменты
-Клиент для Antminer (серии 3/7/9) series, прошивка до 10.06.2019:
-<a href="http://download.hiveos.farm/asic/repo/unsig/hive_install_unsig_antminers.tar.gz">hive_install_unsig_antminers.tar.gz</a>
+**Antminer, серия 15, серия 17 и серия 9, модели S9k и S9SE**
 
-Стоковая прошивка Bitmain + интегрированный Hive OS клиент + вкладка Hive OS в веб-интерфейсе для **farm_hash**:
-- <a href="http://download.hiveos.farm/asic/repo/unsig/S11-hive.tar.gz">Antminer S11</a>
-- <a href="http://download.hiveos.farm/asic/repo/unsig/S15-hive.tar.gz">Antminer S15</a>
-- <a href="http://download.hiveos.farm/asic/repo/unsig/T15-hive.tar.gz">Antminer T15</a>
-- <a href="http://download.hiveos.farm/asic/repo/unsig/S17-hive.tar.gz">Antminer S17</a>
-- <a href="http://download.hiveos.farm/asic/repo/unsig/S17pro-hive.tar.gz">Antminer S17pro</a>
-- <a href="http://download.hiveos.farm/asic/repo/unsig/T17-hive.tar.gz">Antminer T17</a>
+Эти модели особенные. Они загружают операционную систему прямо в оперативную память в режиме "только для чтения". Установка клиента Hive OS возможна только путем обновления ASICа специальным файлом прошивки. Этот файл содержит стандартную прошивку Bitmain со встроенным клиентом Hive OS:
 
-### SSH
-Логины и пароли SSH по умолчанию:
+- [Antminer S9k](http://download.hiveos.farm/asic/repo/unsig/S9k-hive.tar.gz)
+- [Antminer S9SE](http://download.hiveos.farm/asic/repo/unsig/S9se-hive.tar.gz)
+- [Antminer S11](http://download.hiveos.farm/asic/repo/unsig/S11-hive.tar.gz)
+- [Antminer S15](http://download.hiveos.farm/asic/repo/unsig/S15-hive.tar.gz)
+- [Antminer T15](http://download.hiveos.farm/asic/repo/unsig/T15-hive.tar.gz)
+- [Antminer T17](http://download.hiveos.farm/asic/repo/unsig/T17-hive.tar.gz)
 
-Antminer - пользователь по умолчанию: **root**, пароль по умолчанию: **admin**
+>После успешной прошивки необходимо открыть веб-интерфейс ASICа, нажать на вкладку Hive OS и ввести свой FARM_HASH, а затем нажать кнопку "Apply&Save". Страница обновится сама. Подождите минуту, и воркер появится в панели управления Hive.
 
-Innosilicon - пользователь по умолчанию (ssh/telnet): **root**, пароль по умолчанию: **blacksheepwall** или **innot1t2** или **t1t2t3a5**
+**Все остальные Antminer, серии 3/7/9**
+
+Hive OS Client для Antminer, серии 3/7/9, дата прошивки до 10.06.2019. Просто обновите прошивку ASICа при помощи [hive_install_unsig_antminers.tar.gz](http://download.hiveos.farm/asic/repo/unsig/hive_install_unsig_antminers.tar.gz).
+
+**2. BTC Tools**
+
+Все, что вы делаете с помощью веб-интерфейса ASICа, вы можете сделать лучше с помощью утилиты [BTC Tools](https://url.btc.com/btc-tools-download). Это лучший выбор, если у вас большое количество ASICов. Просканируйте вашу сеть, выберите ASICи для обновления и затем нажмите "Firmware Upgrade".
+
+**3. SSH**
 
 Войдите в ваш майнер через SSH и запустите следующую команду:
 
@@ -40,38 +64,66 @@ Innosilicon - пользователь по умолчанию (ssh/telnet): **r
 
 `ln -s /usr/lib/libcurl-gnutls.so.4 /usr/lib/libcurl.so.5`
 
-Принудительно настройте FARM_HASH или RIG ID и password, измените API URL:
+Принудительно настройте FARM_HASH или RIG ID и пароль, измените API URL:
+
 `firstrun` или `firstrun FARM_HASH` - когда нет конфигурации
 
 `firstrun -f` или `firstrun FARM_HASH -f` - для замены конфигурации
 
+Логины и пароли SSH по умолчанию:
+
+Antminer - пользователь по умолчанию: **root**, пароль по умолчанию: **admin**
+
+Innosilicon - пользователь по умолчанию (ssh/telnet): **root**, пароль по умолчанию: **blacksheepwall** или **innot1t2** или **t1t2t3a5**
+
+>Если до вас были установлены иные значения логина и пароля, то сбросьте настройки ASICа на заводские. Для этого на включенном ASICe зажмите ipreport и reset, держите 20 секунд, выключите блок питания, не отпуская зажатые кнопки. Ждите 10 секунд, не отпуская кнопки ipreport и reset, включите блок питания и еще 20 секунд держите ipreport и reset. Потом отпустите и дождитесь загрузки.
+
+### Варианты автоматизации
 #### Быстрая установка
-Вы можете использовать FARM_HASH, чтобы добавить ASIC автоматически, без введения ID рига и его пароля. Поместите ваш хеш в командную строку. (FARM_HASH=$FARM_HASH)
+Вы можете добавить ASIC без ввода RIG_ID, пароля и URL API сервера.
 
-`cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web sh selfupgrade`
+**Чтобы добавить ASIC без ввода RIG_ID и пароля, вам нужно заполнить переменную FARM_HASH.**
 
-Измените сервер API. (HIVE_HOST_URL=$HIVE_HOST_URL)
+Получите ваш FARM_HASH из панели управления Hive OS. В строке, которую вы видите ниже, замените `your_farm_hash` вашим FARM_HASH. Затем запустите как одну команду:
 
-`cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web HIVE_HOST_URL=http://api.exaple.com sh selfupgrade`
+`cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH='your_farm_hash' sh selfupgrade`
+
+**Чтобы использовать другой API сервер, вам нужно заполнить переменную HIVE_HOST_URL.**
+
+В строке, которую вы видите ниже, замените `http://your_api_server` вашей URL API сервера. Затем запустите как одну команду:
+
+`cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && HIVE_HOST_URL='http://your_api_server' sh selfupgrade`
+
+**Вы также можете установить FARM_HASH и API сервер одновременно.**
+
+В строке, которую вы видите ниже, замените `your_farm_hash` вашим FARM_HASH. Также замените `http://your_api_server` вашей URL API сервера. Затем запустите как одну команду:
+
+`cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH='your_farm_hash' HIVE_HOST_URL='http://your_api_server' sh selfupgrade`
 
 ### Массовая установка
-Вы можете установить Hive на все ASICи вашей локальной сети, или же установить прошивку на Antminer S9/i/j. Для этого вам нужен работающий Linux компьютер (возможно, Hive OS на GPU риге) или Antminer ASIC с Hive клиентом. Скачайте файлы при помощи этой команды:
+Вы можете установить Hive OS Client на все ASICи, которые есть в вашей локальной сети. Для этого вам нужно иметь работающий Linux-модуль (возможно, Hive OS на GPU риге) или Antminer ASIC с клиентом Hive OS. Вы можете сделать это всего тремя командами.
 
-<pre><code>
-apt-get install -y sshpass curl
-cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/hive-asic-net-installer/download.sh && sh download.sh
-cd /tmp/hive-bulk-install
-</code></pre>
+1. Если у вас ASIC с клиентом Hive OS, этот шаг можно пропустить. Установите sshpass и curl:
 
-Отредактируйте `config.txt`, чтобы настроить ваш FARM_HASH или URL прошивки. Отредактируйте `ips.txt`, чтобы настроить список IP адресов для ваших новых ASICов. Вы также можете просканировать локальную сеть для поиска Antminer. Пример: `ipscan.sh 192.168.0.1/24 > ips.txt`
+`apt-get install -y sshpass curl`
 
-Опционально, вы можете добавить имя воркера в `ips.txt` (например, `192.168.1.100 asic_01`).
+2. Скачайте скрипт:
+
+`cd /tmp && curl -L --insecure -s -O https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/hive-asic-net-installer/download.sh && sh download.sh`
+
+3. Выполните его:
+
+`cd /tmp/hive-bulk-install`
+
+Отредактируйте `config.txt`, чтобы настроить ваш FARM_HASH или URL прошивки. Отредактируйте `ips.txt`, чтобы настроить список IP адресов для ваших новых ASICов. Вы также можете просканировать локальную сеть для поиска Antminer. Пример: `ipscan.sh 192.168.0.1/24 > ips.txt`.
 
 Чтобы установить Hive, просто запустите команду `install.sh`.
 
 Чтобы установить прошивку на Antminer S9/i/j, запустите команду `firmware.sh`.
 
-Если IP-адрес был подключен, это будет отмечено в файле.
+>Опционально, вы можете добавить имя воркера в `ips.txt` (например, `192.168.1.100 asic_01`).
+
+>Если IP-адрес был подключен, он будет отмечен как #commented.
 
 ### Понижение и изменение версии
 Если вы хотите установить конкретную версию или же понизить версию, добавьте версию, как аргумент в selfupgrade. Например, 0.1-02:
@@ -87,31 +139,24 @@ cd /tmp/hive-bulk-install
 
 Задания cron jobs могут быть удалены вручную при помощи `crontab -e`. Но даже если они останутся, они ничего не изменят.
 
-### asic-find (Antminer)
-Чтобы найти Antminer ASIC среди большого количества ASICов, вы можете запустить на нем мигание красного светодиода. Чтобы сделать этой, выполните эту команду через веб-интерфейс или SSH:
+### Другие модели
 
-`asic-find 5`
+#### Antminer S9 улучшенная версия (deprecated)
+[Установка Hiveon ASIC - Antminer S9, как решить проблему "Cannot find signature"](https://forum.hiveos.farm/t/hiveon-asic-installation-antminer-s9-cannot-find-signature-fix/12466)
 
-Пример: `asic-find 15`, красный светодиод будет мигать в течение 15 минут.
+[Прошивка Hiveon ASIC 1.02 для S9 - мануал по установке](https://forum.hiveos.farm/t/hiveon-asic-s9-firmware-v1-02/13944)
 
-### Как переименовать ASICи
-Чтобы переименовать воркеры в веб-интерфейсе Hive по имени узла, запустите следующую команду из веб-интерфейса:
+#### Antminer S9 (mskminer), S10 (mskminer)
+Вам не нужно будет разблокировать SSH или делать что-то сложное. Для любого ASICа с кастомной прошивкой mskminer, вам нужно скачать [Установщик Hive OS Client для прошивки mskminer](http://download.hiveos.farm/asic/repo/s9/hive-msk-installer.tar.gz), и затем прошить им ASIC. Это все.
 
-`hello hostname`
+#### Antminer S17/S17 Pro/T17 (deprecated)
 
-### Antminer S9: улучшенная прошивка
-<a href="https://forum.hiveos.farm/t/hiveon-asic-s9-firmware-v1-02/13944">Мануал</a>
+[Hive OS Client: мануал по установке для S17/T17](https://forum.hiveos.farm/t/antminer-s17-t17/12415)
 
-<a href="https://forum.hiveos.farm/t/hiveon-asic-installation-antminer-s9-cannot-find-signature-fix/12466">Как решить проблему "Cannot find signature"</a>
+#### Новые модели Innosilicon
+[Hive OS Client: мануал по установке для Innosilicon](https://forum.hiveos.farm/t/innosilicon-t2t-t3-series/13610)
 
-### Antminer S17/S17 Pro/T17
-
-<a href="https://forum.hiveos.farm/t/antminer-s17-t17/12415">Мануал</a>
-
-### Новые модели Innosilicon
-<a href="https://forum.hiveos.farm/t/innosilicon-t2t-t3-series/13610">Мануал</a>
-
-### Старые модели Innosilicon
+#### Старые модели Innosilicon
 Некоторые заводские прошивки Innosilicon "страдают" утечкой памяти, и ASIC зависает каждые несколько дней. Чтобы решить эту проблему, вы можете активировать ежедневную перезагрузку майнера или ASICа (каждые 24 часа). Запустите следующие команды:
 
 <pre><code>
@@ -120,23 +165,25 @@ inno-reboot asic enable/disable
 inno-reboot status
 </code></pre>
 
->Если до вас были установлены иные значения логина и пароля, то сбросьте настройки ASICа на заводские. Для этого на включенном ASICe зажмите ipreport и reset, держите 20 секунд, выключите блок питания, не отпуская зажатые кнопки. Ждите 10 секунд, не отпуская кнопки ipreport и reset, включите блок питания и еще 20 секунд держите ipreport и reset. Потом отпустите и дождитесь загрузки.
-
-### Zig Z1+
-<a href="https://github.com/minershive/hiveos-asic/blob/master/hive/share/zig/README.md">Zig Z1+ SSH мануал</a> (на английском)
+#### Zig Z1+
+[Hive OS Client: мануал по установке Zig Z1+](https://github.com/minershive/hiveos-asic/blob/master/hive/share/zig/README.md)
 
 `cd /tmp && wget https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && bash selfupgrade`
 
 или
 
-`cd /tmp && wget https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=your_hash_from_web bash selfupgrade`
+`cd /tmp && wget https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && FARM_HASH=replace_with_your_farm_hash bash selfupgrade`
 
-### Восстановление Antminer
-Вы можете найти образы восстановления [здесь](https://service.bitmain.com/support/download?product=Flashing%20SD%20card%20with%20image).
+### Восстановление: загрузочные образы
+#### Antminer
+Вы можете найти загрузочные образы для восстановления в [репозитории](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/) (рекомендуемый вариант) или на [официальном сайте Bitmain](https://service.bitmain.com/support/download?product=Flashing%20SD%20card%20with%20image).
 
->Обратите внимание на два разных формата изображений. Файл `.img`  должен быть записан на SD карту при помощи специальной программы. Файл `.zip`, содержащий файлы `u-boot.img` и `uImage.bin`, должен быть разархивирован на SD карту, отформатированную в FAT32.
+>Обратите внимание на два разных формата изображений.
+- Файл `.img`  должен быть записан на SD карту при помощи специальной программы.
+- Файл `.zip`, содержащий файлы `u-boot.img` и `uImage.bin`, должен быть разархивирован на SD карту, отформатированную в FAT32.
 
-- [Образ восстановления S9](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/Recovery_S9.img)
+- [S9: образ восстановления](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/Recovery_S9.img)
+- [S17 Hiveon: образ восстановления (бета)](http://download.hiveos.farm/asic/repo/test/sd/)
 - S17, S17 Pro, T17
 	- Скачайте [образ восстановления](https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/SD_S17-T17_650M.05.06.2019.zip)
 	- Используйте SD-карту <16 Гб
@@ -147,3 +194,16 @@ inno-reboot status
 	- Запишите любую подходящую [старую стоковую прошивку Bitmain](https://download.hiveos.farm/asic/) (формат .tar.gz) через веб интерфейс.
 
 В случае возникновения проблем, пожалуйста, прочтите [данный мануал от Bitmain](https://support.bitmain.com/hc/en-us/articles/360033757513-S17-S17Pro-S9-SE-S9k-Z11-control-board-program-recovery-SD-card-flashing-with-customized-PW-).
+
+### Полезные команды
+##№# asic-find (Antminer)
+Чтобы найти Antminer ASIC среди большого количества ASICов, вы можете запустить на нем мигание красного светодиода. Чтобы сделать это, выполните эту команду через веб-интерфейс или SSH:
+
+`asic-find 5`
+
+Красный светодиод будет мигать в течение 5 минут.
+
+##№# Как переименовать воркеры
+Чтобы переименовать воркеры в веб-интерфейсе Hive по имени узла, запустите следующую команду из веб-интерфейса:
+
+`hello hostname`

@@ -38,7 +38,7 @@ order: 1
 
 Теперь давайте посмотрим на основные профили потребления на S17.
 
-<img src="https://miro.medium.com/max/1000/0*L4brHN5bMKa06B_3">
+<img src="https://miro.medium.com/max/1000/1*KkyVKuSSz0GTqCxOV1Wrrg.jpeg">
 
 Более развернутые данные вы можете увидеть в вашей учетной записи Hive OS.
 

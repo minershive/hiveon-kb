@@ -2,7 +2,7 @@
 title: Разница Между Стандартной и Улучшенной Прошивками
 parent_category: Прошивка Hiveon ASIC
 category: Общие Вопросы
-path: /hiveon-asic-firmware-general-asic_faq_ru
+path: /hiveon-asic-firmware-general-standard_improved_firmware_ru
 lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-general_ru

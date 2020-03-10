@@ -8,7 +8,7 @@ category: General
 ### What is standard firmware?
 With standard firmware, it is possible to change firmware via the web interface without Hive. But if the password for the web interface is standard or simple, then viruses, picking up the password, can infect your device. You need to be sure that there are no infected devices on the network.
 
-In any case, we strongly recommend changing the username and password to access the ASIC through SSH. Keep in mind that most viruses have a list of the most common passwords, so you should not use passwords like 1234567890. One infected ASIC brought to the farm infects all the surrounding ASICs that have the standard password. Modern viruses, such as antbuild v2, cannot be "cured" or removed. The issue can only be resolved by replacing the entire processor or control board.
+In any case, we strongly recommend changing the username and password to access the ASIC through SSH. Keep in mind that most viruses have a list of the most common passwords, so you should not use passwords like 1234567890. One infected ASIC brought to the farm infects all the surrounding ASICs that have the standard password. Modern viruses, such as Antbuild v2, cannot be "cured" or removed. The issue can only be resolved by replacing the entire processor or control board.
 
 ### What is  improved firmware?
 Improved firmware gives maximum protection against viruses.

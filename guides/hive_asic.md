@@ -43,7 +43,15 @@ Actual list can be always found on <a href="https://github.com/minershive/hiveos
 
 **2. [Hiveon ASIC Firmware](https://hiveos.farm/asic/)**
 
-It's a custom firmware that does replace the stock one. Supports only selected models: Antminer S17, S17 Pro, S9, S9i, S9j and T9+. Hiveon Firmware for other ASIC models like S9k/S9SE/T17 are coming soon, so stay tuned!
+It's a custom firmware that replaces the stock one. Supports only selected models: Antminer S17, S17 Pro, S9, S9i, S9j, S10 and T9+.
+
+- **S17:** up to 72 Th/s with air cooling
+- **S17 Pro:** up to 80.1 Th/s with standard PSU, up to 85 Th/s with liquid cooling
+- **S9, S9i, S9j:** up to 16.8 Th/s with standard PSU, up to 19.1 Th/s with the custom one
+- **S10:** up to 21.5 Th/s with standard PSU, up to 23.5 Th/s with the custom one
+- **T9+:** up to 13.6 Th/s with standard PSU
+
+>Hiveon Firmware for other ASIC models like S9k/S9SE/T17 are coming soon, so stay tuned!
 
 Hiveon ASIC Firmware features:
 

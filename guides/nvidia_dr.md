@@ -82,7 +82,7 @@ No solution yet… Not reproducible.
 
 #### Not enough disk space
 - use disk-expand tool to enlarge disk to use all space
-- remove unused drivers at /hive-driver-pack
+- remove unused drivers at /hive-driver-pack (to do this, send the `rm /hive-drivers-pack/NV*` command to your worker - it will delete all the available Nvidia driver archives)
 - uninstall miners by hpkg tool
 
 #### Installation fail when unpacking driver

@@ -73,5 +73,4 @@ Paid users can now use Hive OS at the expense of a commission of 3% for Ethereum
 | 500+              | 40%      |1.8%|
 | 1000+             | 50%      |1.5%|
 
-
-To learn more about this update, carefully read [this article](https://hiveos.farm/faq-billing-billing-updates).
+To learn more about this option, please read [this article](https://medium.com/hiveon/hiveon-pool-important-updates-cd4f1be00f0a).

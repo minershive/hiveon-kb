@@ -37,6 +37,14 @@ Usually there is a somewhat significant difference between reported hashrate and
 
 * Higher average hashrates are better for your performance. Remember, this is not a race, but a marathon.
 
+### The hashrate on the pool and in the Hive OS dashboard is different. Why?
+The hashrate on the pool is calculated from the number of decisions made by the pool for a certain unit of time, and displays the average value.
+Keep in mind that not all decisions sent by your worker are correct or arrive on time.
+It depends on the quality of the connection and speed (Ping). The less the ping is, the faster the pool will receive decisions from your worker.
+Therefore, it is less likely that the solution will not be relevant, and the pull will not reject it. Thus, the speed displayed on the pool will be closer to that displayed on the dashboard. But it will always be a little lower.
+
+The effective miner hashrate on the pool is different since only accepted and stale shares are taken into account.
+
 ### What type of mining rewards are there?
 Each pool operates on a different set of rules for their payouts, but here are a few of the most popular ones:
 

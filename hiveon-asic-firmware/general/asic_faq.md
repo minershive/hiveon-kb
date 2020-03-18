@@ -26,7 +26,8 @@ And [here](https://hiveos.farm/guides-hive_asic) you can discover the difference
 
 #### Do you have Hiveon ASIC firmware for Antminer T15, T17?
 Stock firmware with built-in Hive OS client is already available for Antminer T15, T17 and S17. So you can monitor all your mining processes.
-There is no demand for firmware like Hiveon ASIC - optimization and auto-tuning are already built-in on these models.
+
+For T17, you can try our beta [Hiveon firmware](http://download.hiveos.farm/asic/t17/Antminer-T17-Hiveon-1.00-beta-nosign.tar.gz).
 
 #### Why is there no firmware available for S11, Z9?
 On these models the power wiring won’t allow to squeeze more out of them, so it makes no sense to make custom firmware. You should use the stock one.
@@ -88,11 +89,15 @@ Firewall or another internet issue blocks the firmware download. Try to download
 #### The ASIC is flashed with the latest BitMain firmware. I can‘t flash it with Hiveon ASIC.
 The latest BitMain firmware enables protection against custom firmware. You can try the following options:
 Try to flash through using an SD card. Flash the recovery image onto the SD card
+
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=dzArOe8KuHI
 " target="_blank"><img src="http://img.youtube.com/vi/dzArOe8KuHI/0.jpg"
 alt="Recovery NAND antminer s9 t9 via micro SD card"></a>
+
 In case you see such an error when installing Hiveon ASIC firmware:
+
 <img src="https://forum.hiveos.farm/uploads/default/original/2X/8/82fbc2cbd2d2d168695c67ba8994291b04857338.png">
+
 Check out the version of firmware. It should be [official firmware](http://download.hiveos.farm/asic/repo/s9/Antminer_S9_all_201903041137_autofreq.gz).
 
 Go to the “Network - Settings”, insert this command to the “Hostname”:
@@ -162,6 +167,8 @@ When downloading firmware via some browsers (for example, Opera on Windows or Sa
 Also, this situation may occur if there is no space on the ASIC, for example due to the large number of log files. In this case we recommend to reboot the ASIC and try again.
 
 There will appear a tab in ASIC for linking via farm_hash. And then you will have to make a choice: to use the current firmware + Hive OS Client, or to change the firmware. You can flash to Hiveon or any other firmware in the Hive dashboard.
+
+Please, also make sure that for flashing you use the ".tar.gz" file, not ".tar".
 
 #### Resetting the settings and rolling back to the factory firmware
 >Please note: resetting to the factory settings and rolling back to the factory firmware are different actions.

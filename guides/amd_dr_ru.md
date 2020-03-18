@@ -50,3 +50,5 @@ Please enter your choice Drivers:
 <a href="https://youtu.be/58pia_gBZ4s
 " target="_blank"><img src="http://img.youtube.com/vi/58pia_gBZ4s/0.jpg"
 alt="Hive OS Tutorial: Easy AMD Driver Install/Update" width="630" height="400" border="10" /></a>
+
+>Для обновления драйверов AMD - обновите ваш образ Hive OS до последней версии. Отдельно обновлять драйвера AMD не рекомендуется.

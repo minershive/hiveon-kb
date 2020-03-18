@@ -43,3 +43,5 @@ We’ve tested the script and it’s working. But please note it’s still in be
 <a href="https://youtu.be/58pia_gBZ4s
 " target="_blank"><img src="http://img.youtube.com/vi/58pia_gBZ4s/0.jpg"
 alt="Hive OS Tutorial: Easy AMD Driver Install/Update" width="630" height="400" border="10" /></a>
+
+>To update AMD drivers - upgrade your Hive OS image to the latest version. Updating AMD drivers separately is not recommended.

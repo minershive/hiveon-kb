@@ -28,6 +28,14 @@ order: 1
 <img src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers4.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers4.png"
   />
 
+| Данные воркера | Значения      | Что указывать                                               |
+|----------------|---------------|-------------------------------------------------------------|
+| ID             | Только цифры  | ID воркера (если вы, например, сделаете экспорт 4 воркеров, и у двух из них удалите только ID, будут созданы 2 новых воркера с новыми ID - в общем, их станет 6) |
+| Name           | Буквы и цифры | Имя воркера                                                 |
+| Description    | Буквы и цифры | Описание воркера                                            |
+| Power draw     | Только цифры  | Потребляемая мощность                                       |
+| PSU efficiency | Только цифры  | КПД блока питания                                           |
+
 5. Сохраните изменения в файле.
 
 6. Вернитесь в свой аккаунт Hive OS и нажмите на кнопку **Import CSV**:

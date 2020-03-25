@@ -28,6 +28,14 @@ Welcome the new Hive OS feature — import of CSV files. With this function, you
 <img src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers4.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers4.png"
   />
 
+| Worker fields  | Values              | What to write                                            |
+|----------------|---------------------|----------------------------------------------------------|
+| ID             | Only numbers        | ID of a worker (if, for example, you export 4 workers and delete IDs of 2 of them, 2 new workers with new IDs will be created - there will be 6 of them in total) |
+| Name           | Letters and numbers | Name of a worker                                         |
+| Description    | Letters and numbers | Description of a worker                                  |
+| Power draw     | Only numbers        | Hardware power consumption                               |
+| PSU efficiency | Only numbers        | Power supply unit efficiency                             |
+
 5. Save the changes.
 
 6. Go back to your Hive OS account and click the **Import CSV** button:

@@ -36,6 +36,8 @@ All fields are required.
 
 If you do not know your external IP address, you can find it out at https://hiveos.farm/myip.
 
+Apart from this, you can revoke unknown tokens in the "Authentication tokens" section (https://the.hiveos.farm/account). One more way to protect your account is removing unknown persons from the Access tab of your farm.
+
 ### What is the difference between a regular Hive OS update and a forced one?
 With a forced update, the repositories are cleaned, updated, and their installation is repeated.
 

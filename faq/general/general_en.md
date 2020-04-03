@@ -15,6 +15,9 @@ ASICs using <a href="https://hiveos.farm/asic">Hiveon ASIC Firmware</a> are not 
 ### What is a worker?
 A worker is a term used to describe both types of mining hardware that is supported by Hive OS: a rig — a computer built with GPUs; and ASIC — an Application-Specific Integrated Circuit (ASIC) customized for cryptocurrency mining.
 
+### What is a watchdog?
+It is a special program integrated in Hive OS. There are two types of watchdogs: one of them watches the miner’s hashrate, the other monitors the temperature. If the hashrate drops, the watchdog will restart the miner. If restarting does not help, then it will reboot the rig. The temperature watchdog reboots the system or stops mining if the equipment reaches a critical temperature.
+
 ### Do you have a referral program?
 Yes, we have a referral program. Create a referral link with your account ID and share it with others. New users that sign-up using your referral link will be marked as your referrals. You can also create promo codes. Find out more <a href="https://hiveos.farm/pricing/">here</a>.
 
@@ -39,7 +42,11 @@ If you do not know your external IP address, you can find it out at https://hive
 Apart from this, you can revoke unknown tokens in the "Authentication tokens" section (https://the.hiveos.farm/account). One more way to protect your account is removing unknown persons from the Access tab of your farm.
 
 ### What is the difference between a regular Hive OS update and a forced one?
-With a forced update, the repositories are cleaned, updated, and their installation is repeated.
+With a forced update, the repositories are cleaned, updated, and their installation is repeated. To do this, send the following commands (one by one) to your worker:
+
+`apt update`
+
+`selfupgrade`
 
 ### How to downgrade the Hive OS version?
 If you want to downgrade to the previous version of Hive OS, you need to click the arrow icon on the toolbar:

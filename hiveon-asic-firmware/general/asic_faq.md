@@ -129,6 +129,28 @@ The firmware from the farm settings is automatically tied to Hive OS only via bu
 #### When I enter my farm_hash or API server in the ASIC web interface in the Hive OS tab, why aren’t they saved?
 The server API is saved in the ASIC configuration, it is not displayed in the web interface. Farmhash is needed only to add the ASIC, rig ID and password are obtained with its help, which are saved to the config file. And the farmhash is not saved anywhere.
 
+#### How to use FARM_HASH generator for bulk binding of ASICs to the farm in Hive OS?
+You can use our FARM_HASH generator.
+
+Any Antminer with Hive OS Client for ASIC:
+http://download.hiveos.farm/asic/repo/farm_hash/
+
+Antminer S9 / T9 with Hiveon ASIC firmware: http://download.hiveos.farm/asic/repo/farm_hash_hiveon/
+
+Antminer S17 / T17 with Hiveon ASIC firmware: http://download.hiveos.farm/asic/repo/farm_hash_hiveon_17/
+
+You should enter your farm_hash in the web form. The generator then provides you with the **special.tar.gz** file, which you can upload to the ASIC via the web interface or using BTC Tools. This is not a Hiveon firmware file, it is a small configuration file.
+
+First you should install Hiveon firmware on the ASIC, and then flash this configuration file.
+
+>Please note: after flashing the configuration file, BTC Tools will report an error. Don’t worry, we did this on purpose. The goal is to prevent the standard reboot procedure after flashing. Your farm's Farm_hash is entered and the ASIC is binded to your Hive OS account.
+
+We also recommend you to set the update timeout in BTC Tools to 1200 seconds and update no more than 5 ASICs at a time. To do this, go to the BTC Tools settings and set these parameters:
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png"
+  />
+
 #### If I move the ASICs and they are not in the internal network, do I need to re-configure anything?
 No. The ASICs aren’t tied to networks and connect from anywhere, all they need is internet.
 >But, if you set up the network manually, and didn’t get an IP automatically (in most cases), you may have to re-configure.
@@ -143,6 +165,37 @@ When your ASIC is on and assumed to be on the same network as you, connect to it
 On the ASIC’s web in the settings of the watchdog. Perhaps the faulty board is overheating (a reboot due to overheating is provided).
 
 Also, due to a faulty board, the autotuner can work for a very long time. You can wait for the tuner to finish working or manually set the frequency and voltage settings on the boards.
+
+#### How to get information regarding the ASIC's errors?
+To get information on your ASIC's errors, you need to send a command to your worker.
+
+**For S9/S9i/S9j/S10:**
+`(./get_kernel_log.cgi; ./get_watchdog_log.cgi; ./get_auto_tune_log.cgi) | grep -iE 'red.*chip|chip.*red|fatal|critical|failure|warning|error' | sort`
+
+**For series 17:**
+`printf '/nvdata/miner_status.log:\n\n'; grep -Ev 'STATUS_INIT|STATUS_OK' /nvdata/miner_status.log | tail -n 20; printf '\n/config/watchdog.log:\n\n'; tail -n 20 /config/watchdog.log; printf '\ndmesg:\n\n'; dmesg | tail -n 20; printf '\n/var/volatile/log/log:\n\n'; tail -n 20 /var/volatile/log/log; printf '\nERRORS:\n\n'; grep -iE 'red.*chip|chip.*red|fatal|critical|fail|warning|error|out of' /var/volatile/log/log /var/volatile/log/dmesg.log /var/volatile/log/messages; printf '\n\nMESSAGES:\n\n'; grep -vhE '\.notice|\.info|compile time|api_stats|API run' $( find /nvdata -name messages -mtime -10 -type f )  | tail -n 100`
+
+**For Т9:**
+`Dmesg`
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png"
+  />
+
+#### ASIC's errors and their description
+- (ERROR_SOC_INIT) - driver initialization error
+- (ERROR_REOPEN_CORE) - error when reopening the cores
+- (ERROR_FAN_LOST) - loss of one or more coolers
+- (ERROR_POWER_LOST) - error in setting the voltage, error in determining the type of PSU
+- (ERROR_EEPROM_INFO) - error when reading the contents of the EEPROM (invalid format)
+- (ERROR_TEMP_LOST) - the temperature sensor is lost two or more times
+- (ERROR_TEMP_TOO_LOW) - the temperature is too low
+- (ERROR_PIC_LOST) - PIC initialization error on any board
+- ERROR_TEMP_LOST_1ST - restart cgminer to check the type of temperature sensor again (this is probably the sensor lost for the first time)
+- ERROR_UNBALANCE - an imbalance has occurred, reboot
+- ERROR_TEMP_TOO_HIGH - over the maximum temperature
+- WARN_NET_LOST - temporary loss of network connection
+- ERROR_NET_LOST - network connection loss
 
 #### Why use a Flight Sheet with the firmware?
 Without it, the ASIC mines using old parameters, and doesn’t show hashrates in Hive OS web interface.
@@ -244,6 +297,31 @@ or
 
 Kernel log can be checked right in Hive OS. Click the pickaxe icon, and move to the Miner Log. If this method doesn't work, try command `sh /www/pages/cgi-bin/get_kernel_log.cgi`.
 
+#### How to discover the current overclocking profile of ASIC?
+You can find out the current overclocking profile of your ASICs by sending them the command:
+
+`profile='/config/profile.txt'; unknown=100; factory=99; profiles=(36 42 48 54 57 60 66 72 78 80 [factory]=factory [unknown]=unknown); emoji="$(printf '\xE2\x9A\xA1')"; if [ -e "$profile" ]; then . "$profile"; [[ $tune_profile =~ ^[0-9]$ ]] || tune_profile="$unknown"; if [[ $tune_status != '2' ]]; then message tag "${emoji} tuning (#$tune_status)"; fi; else tune_profile="$factory"; fi; message tag "${emoji} ${profiles[tune_profile]}"`
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq1.png"
+  />
+
+After its completion, you can see the tag about the current profile:
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq2.png"
+  />
+
+#### How to change the ASIC's password?
+To change the web password of your ASIC, send the following command to the worker:
+
+`echo "root:antMiner Configuration:$(echo -n "root:antMiner Configuration:$new_pw" | md5sum | cut -b -32)" > /config/lighttpd-htdigest.user`
+
+Instead of **$new_pw** specify the new password.
+
+#### How to find out the ASIC's time zone?
+Enter the command `date`. It will show the current time and date set on the ASIC.
+
 #### How to remove Hive from T2T?
 Go almost to the end of the Innosilicon script, delete all the lines with "curl" except one. There you will execute the command. Replace the command `systemctl start ....` with `systemctl disable ...`
 This will disable Hive autostart. Scripts will remain, but will not interfere.
@@ -259,7 +337,7 @@ Go to your Hive account, create workers and copy the farm_hash. Then, in the ASI
 Monitoring itself consumes approximately 80-90 megabytes of traffic per month. Mining - 70-90 megabytes. In total, this means 150-180 megabytes per month from one ASIC.
 
 #### I decided to update the image remotely (hive-replace). How to monitor the status of the update?
-Log into your rig on HiveShell. After entering the update command, you will see the download and installation process.
+Log into your rig on Hive Shell. After entering the update command, you will see the download and installation process.
 
 ### Autotune
 #### Does autotune lower or increase the voltage?

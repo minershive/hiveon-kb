@@ -92,3 +92,28 @@ The next step is very simple.
 - that’s it! Pretty simple, isn’t it?
 
 <img src="https://forum.hiveos.farm/uploads/default/original/2X/0/05a5d4e929357b43263cb5db2f57a0df83ae7a11.png">
+
+### Remote update of the Hive OS image
+With the help of Hive Shell, you can also remotely update your Hive OS image.
+
+Log in to your worker using  Hive Shell:
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\hshell\hshell1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hshell\hshell1.png"
+  />
+
+Enter the command `hive-replace --list`:
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu12eng.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu12eng.png"
+  />
+
+After that, press the number 1.
+
+The latest stable Hive OS image will automatically boot, unpack, and install.
+
+Please note that if you have a slow Internet connection, downloading may take a considerable amount of time.
+
+To prevent the Hive Shell session from interrupting (by default, 30 minutes) perform periodic actions in the window (for example, a mouse click)
+
+After the update is completed, the rig will automatically reboot and the last stable image will be installed

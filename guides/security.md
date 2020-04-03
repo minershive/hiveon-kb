@@ -6,6 +6,8 @@ category: Guides
 ## Security
 To change system password for user (for SSH and VNC also) please use the following command: `hive-passwd yournewsecurepass`.
 
+Instead of **yournewsecurepass** you should enter your new password.
+
 Usually you rig is connected to the internet through the router. In this case you just relax and enjoy. If your rig is exposed to outer world or even a large internal network then you should bother about security. Or you will find you rig mining to other wallet or some hidden CPU or even GPU miner.
 
 Change SSH password. This is easy. Being in terminal windows type: `passwd user`.

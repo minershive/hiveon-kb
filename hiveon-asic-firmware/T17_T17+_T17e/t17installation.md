@@ -1,42 +1,13 @@
 ---
-title: Installation Guide S17 (S17 Pro)
+title: Installation Guide T17, T17+, T17E
 parent_category: Hiveon ASIC Firmware
-category: S17, S17 Pro
+category: T17, T17+, T17E
 ---
 
-## Hiveon ASIC Firmware Installation Guide: S17, S17 Pro
-
-Have you decided to upgrade your ASIC Antminer S17 or S17 Pro with our custom firmware? Great! Here is a guide on how to install your new firmware. But before we go through the installation details, let us quickly explain to you what cool features our custom firmware has.
-
-### Hiveon ASIC Firmware Features
-**S17:**
-- Up to 72TH/s with air cooling.
-
-**S17 Pro:**
-- 80.1TH/s with standard PSU connected;
-- 85TH/s with liquid cooling.
-
-**Moreover:**
-- Higher energy efficiency thanks to undervolting;
-- When ASIC is offline, the chips turn off;
-- ASIC chips overclocking;
-- Auto-tuning of worn ASIC chips (so they will live longer);
-- Easy integration with Hive OS: only 2.8% dev fee (Hive OS is free for you in case you are a Hiveon ASIC user);
-- Bugs of the stock firmware are fixed;
-- If a fan or a chip fails, the LED will start blinking, so you will notice the problem immediately;
-- Temperature and hashrate watchdogs;
-- A wattmeter embedded in the web interface;
-- Reliable virus protection;
-- Recovery of those devices which were affected by viruses in the past.
-
-Now let’s take a look at the main consumption profiles on S17.
-
-<img src="https://miro.medium.com/max/1000/1*KkyVKuSSz0GTqCxOV1Wrrg.jpeg">
-
-Check the full list in your Hive OS account.
+## Hiveon ASIC Firmware Installation Guide: T17, T17+, T17E
 
 ### Important Notes
-And now let’s go back to the installation process. There is no universal manual, for S17 and S17 Pro there are 3 versions of stock firmware. Therefore, every particular case has its own manual on the custom firmware installation. We will cover all of them.
+There is no universal manual, as for T17 series there are 3 versions of stock firmware. Therefore, every particular case has its own manual on the custom firmware installation. We will cover all of them.
 
 Please note, that all the manual steps which involve using BTC_TOOLS can be done via ASIC’s web interface (BTC_TOOLS is usually used for a large number of devices).
 
@@ -47,11 +18,8 @@ Please note, that all the manual steps which involve using BTC_TOOLS can be done
 
 3. Go to **config.ini** and check login and password for the ASIC’s SSH or web interface. If the password for the web interface was changed, the same would be for SSH. Set up **FARM_HASH** to connect to Hive or API, if necessary.
 
-4. Download the firmware file (it has to have “Hiveon” in its title):
-http://download.hiveos.farm/asic/s17/
-
-For S17 and S17 Pro, we offer the same firmware file. It can be downloaded here:
-http://download.hiveos.farm/asic/s17/Antminer-S17-S17pro-s17p-Hiveon.tar.gz
+4. Download the firmware file:
+http://download.hiveos.farm/asic/T17/Antminer-T17-Hiveon-latest.tar.gz
 
 Now, let’s talk about 3 ways of installation in detail.
 
@@ -75,5 +43,3 @@ Now, let’s talk about 3 ways of installation in detail.
 There are no installation methods yet, but we will immediately notify you when they become available.
 
 We **do not recommend** to upgrade Antminer devices to the latest official firmware, as Bitmain doesn’t allow to install custom firmware.
-
-So, now you know how to install our Hiveon ASIC firmware for Antminer S17 and S17 Pro. However, if you still have any questions, don’t hesitate to <a href="https://t.me/hiveonasic_en">contact us</a>.

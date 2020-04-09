@@ -1,5 +1,5 @@
 ---
-Title: GPU Hub
+title: GPU Hub
 parent_category: Гайды
 path: /guides-gpu_hub_ru
 lang: ru

@@ -1,5 +1,5 @@
 ---
-Title: GPU ЧаВо
+title: GPU ЧаВо
 parent_category: Гайды
 path: /guides-gpu_ru
 lang: ru

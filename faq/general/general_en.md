@@ -26,9 +26,9 @@ For account blocking issues, please contact the official support email - bee@hiv
 
 ### How to protect Hive OS account from hacking?
 You can protect your account from hacking with 2FA authentication.
-To do this, you need to install the Google Authenticator or Authy application on your phone.
+To do this, you need to install the Google Authenticator or Authy application on your phone. After this, go to your account settings and turn the 2FA on.
 
-To reset 2FA, send an email to bee@hiveos.farm. In the letter, indicate the following information:
+To reset the 2FA password, send an email to bee@hiveos.farm. In the letter, indicate the following information:
 
 - your login, name and email account in Hive OS
 - the number of workers and their names

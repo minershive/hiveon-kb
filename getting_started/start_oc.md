@@ -50,6 +50,8 @@ To edit your overclocking profile click the plus icon next to your the profileâ€
 
 _Editing the OC template_
 
+>Please note that you can use the most popular presets by going to the **Popular Presets** tab and finding the model of your GPU.
+
 ### Overclocking Nvidia GPUs
 Before changing any settings you can run the `nvidia-smi` command to find out your current GPU settings. To do this remotely from your dashboard, go to your worker and click the **Run Command** button in the toolbar at the top of the screen.
 

@@ -409,7 +409,7 @@ Apparently, something is wrong with the board, or the thermal paste on the chip 
 #### Why is the temperature of the chips 86 degrees, while the fans are not 100%?
 This is normal up to 90 degrees - less noise and fan wear. After 90 degrees the fan speed will increase.
 
-#### What number of HW is okay?
+#### What are HW and what number of them is okay?
 If the chip responds with a delay relative to perfect values, then HW (Hardware Warnings) appear. This is an indicator of how hard it is for the ASIC to overclock, or to what extent it is worn out. There are many reasons for the occurrence of HW: starting from incorrect overclocking parameters (low voltage, overclock), technical problems (for example, hashboard malfunction) and ending with software errors. HW don’t affect the number of invalid shares.
 
 HW do not occur only on perfect new chips. There are several theories regarding their allowable number. According to the basic one, if the number of HW does not exceed 100 per hour - everything is fine. If there are more, then it may be worth lowering the overclock. Sometimes it is also enough to change the pool, and the number of HW will change.

@@ -71,7 +71,7 @@ Now, let’s talk about 3 ways of installation in detail.
 
 4. Launch **“3_hash_farm_for_signed.cmd”** from the archive. The ASIC will get connected to the web.
 
-### Firmware released after December 2019
+### Firmware released after 1 December 2019
 In this case you will need an image for the SD card. Find the instruction [here](https://hiveos.farm/hiveon-asic-firmware-general-installation_sd_card).
 
 We **do not recommend** to upgrade Antminer devices to the latest official firmware, as Bitmain doesn’t allow to install custom firmware.

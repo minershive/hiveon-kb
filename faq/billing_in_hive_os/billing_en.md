@@ -91,6 +91,8 @@ Since the Hive OS balance is a prepaid system, no refunds or withdrawals are ava
 
 And if you, for instance, decided to stop mining completely, you can check [this chat]( https://t.me/HiveOS_FleaMarket). You can find there a person who would like to buy your balance.
 
+>According to the terms of use of the system, it is not possible to return to your personal wallet deposits, bonuses and funds that were deposited during the promotions and led to the receipt of bonuses.
+
 ### Referral system
 You can invite friends and your audience to Hive OS, and make money on it - 10% of what every referral you bring pays for using Hive OS. Referral rewards are paid once a month to the ETH address specified in the settings.
 

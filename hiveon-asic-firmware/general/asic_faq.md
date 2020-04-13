@@ -360,7 +360,9 @@ Also, if the chips are not working properly, they may require higher voltage to 
 If the chips work at the factory settings, constantly do not withstand the frequency and work with a hashrate downgrading, then after a while they die. Autotune prolongs their life.
 
 #### Do I need to run Autotune after the update?
-Yes. Or simply re-apply a profile. If done via Hive OS web interface, then apply a different profile, and then apply back the old one. For now, without a change, you cannot re-apply the current profile. You can do the same in case your ASIC turns off.
+Yes. Or simply re-apply a profile.
+
+If done via Hive OS web interface, then apply a different profile, and then apply back the old one. For now, without a change, you cannot re-apply the current profile. You can do the same in case your ASIC turns off.
 
 #### Does autotune work all the time?
 Autotune works for a finite time. On good chips - for about 20 minutes, on the "tired" ones - maybe even up to two days. During autotuning, the miner restarts to set the optimal frequencies and voltage. As soon as you stop seeing the “zebra” on the hashrate chart, the autotune has finished working. Then, every three hours a small part of the autotune is launched. It checks if red chips appeared (with a lower hashrate). If they appear, an adjustment occurs.
@@ -369,6 +371,12 @@ Autotune works for a finite time. On good chips - for about 20 minutes, on the "
 If you do not change the hash boards, then there is no sense in forcing autotune. Chips do not get better over time, and a deterioration in their performance is caught by a small part of the autotune, starting every 3 hours.
 
 But there is a case when it is necessary to apply autotune again: when updating the firmware. Each firmware has its own set of settings for autotune. With each new firmware version, we improve autotune.
+
+>Right after flashing the Hiveon firmware, the autotune is inactive. In order to launch it, you need to apply any profile.
+
+#### Autotune features in new firmware
+1. The process of tuning is much faster.
+2. The results of the tune are remembered. If you switch back to the previously configured profile, then mining starts immediately with the remembered settings (minus the classic 7-8 minutes required to start the miner).
 
 #### How to turn the autotune off?
 - Send the following command to the ASIC: `rm -rf /config/profile.txt`

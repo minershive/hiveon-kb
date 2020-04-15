@@ -34,7 +34,7 @@ When your ASIC is powered up and assuming it’s on the same network with you, c
 
 <img src="https://miro.medium.com/max/1594/0*eboE5sjqgcnXDAuM">
 
-Login into the miner. In our case we’re using an S9 as an example. The default username login is root and the password is also root. You’ll be logged in the system overview window. If this is your first time setting up an ASIC don’t forget change the password from the default in the Admin tab first.
+Log in into the miner. In our case we’re using an S9 as an example. The default username login is root and the password is also root. You’ll be logged in the system overview window. If this is your first time setting up an ASIC don’t forget change the password from the default in the Admin tab first.
 
 <img src="https://miro.medium.com/max/1594/0*CPGII9JKr1qVvZOL">
 

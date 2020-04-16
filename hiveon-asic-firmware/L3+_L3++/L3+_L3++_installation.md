@@ -23,7 +23,9 @@ Go to [this page](https://hiveos.farm/asic/) and download the firmware:
 
 When your ASIC is powered up and assuming it’s on the same network with you, connect to it using a computer or a mobile device. Enter your miner’s IP address. Most miners come with DHCP enabled thus you do not have to manually set an IP address, for it. Instead look at the IP table on your router or use a scanning tool.
 
-<img src="https://miro.medium.com/max/1594/0*eboE5sjqgcnXDAuM">
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha3.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha3.png"
+  />
 
 Log in into the miner. The default username login is root and the password is also root. You’ll be logged in the system overview window. If this is your first time setting up an ASIC don’t forget change the password from the default in the Admin tab first.
 
@@ -36,11 +38,15 @@ and repeat the process of flashing with the Hiveon firmware file.
 
 Now we’ll need to get your Farm Hash in the <a href="https://the.hiveos.farm/">Hive OS web UI</a>. Go to your farm’s **Settings** tab, there you will see your **Farm Hash**, copy it to clipboard.
 
-<img src="https://miro.medium.com/max/1569/0*wkNCiVtWtNRB92s7">
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha1.png"
+  />
 
 As soon as the ASIC was flashed and rebooted, reconnect to it and go to the **Hive OS** tab in the **System window**. Paste your Farm Hash in to the **FARM_HASH** field and click **Save & Apply**. Your ASIC will be added to your farm in Hive OS.
 
-<img src="https://miro.medium.com/max/1750/0*sPTOf6QkmcQhBkxI">
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha2.png"
+  />
 
 You’re done, now you can configure your ASIC.
 

@@ -4,7 +4,6 @@ parent_category: Hiveon ASIC Firmware
 category: Troubleshooting
 ---
 
-## ASIC Statuses Troubleshooting
 ### SUSPENDED
 Reboot is required. Alternatively, you can enable the hashrate-watchdog for automatic reboot.
 

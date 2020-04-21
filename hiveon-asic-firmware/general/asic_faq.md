@@ -6,7 +6,7 @@ category: General
 ## ASICs and Hiveon ASIC Firmware FAQ
 ### General questions
 #### What is the Hiveon ASIC?
-This is a custom firmware from Hive OS for Antminer S9, S9i, S9j, S10, S17, S17 Pro and T9+.
+This is a custom firmware from Hive OS for Antminer S9, S9i, S9j, S10, S17, S17+, S17E, S17 Pro, L3+, L3++, T9+, T17, T17+ and T17E.
 
 #### What do I get with the firmware?
 * Speeding up of worn ASIC chips;
@@ -24,10 +24,8 @@ To learn more about every firmware's features, check our [website](https://hiveo
 
 And [here](https://hiveos.farm/guides-hive_asic) you can discover the difference between Hiveon ASIC firmware and Hive OS Client.
 
-#### Do you have Hiveon ASIC firmware for Antminer T15, T17?
+#### Do you have Hiveon ASIC firmware for Antminer T15?
 Stock firmware with built-in Hive OS client is already available for Antminer T15, T17 and S17. So you can monitor all your mining processes.
-
-For T17, you can try our beta [Hiveon firmware](http://download.hiveos.farm/asic/t17/Antminer-T17-Hiveon-1.00-beta-nosign.tar.gz).
 
 #### Why is there no firmware available for S11, Z9?
 On these models the power wiring won’t allow to squeeze more out of them, so it makes no sense to make custom firmware. You should use the stock one.
@@ -39,7 +37,13 @@ At this moment, for this model we offer only a client for monitoring. Automatic 
 At the moment, there is no Hiveon firmware for this model, and we don't plan to develop it. However, you can install Hive OS Client. The guide is [here](https://github.com/minershive/hiveos-asic).
 
 #### Do I need to pay to use the firmware?
-The firmware takes a 2% dev fee. This is done in parallel mining, without hashrate dips or suspension of the main mining process.
+The firmware takes a dev fee. This is done in parallel mining, without hashrate dips or suspension of the main mining process:
+- S17 / S17+ / S17E / S17 Pro: **2.8%**
+- T17 / T17+ / T17E: **2.8%**
+- L3+ / L3++: **1.8%**
+- S10: **2%**
+- S9 / S9j / S9i: **2%**
+- T9+: **2%**
 
 #### If I already have 3 GPU workers and I connect an Antminer ASIC, will I need a paid account?
 No, with our firmware your account remains free. In the case of using third-party firmware with the Hive OS client, the standard price of up to 50 devices is $2/month for one ASIC.

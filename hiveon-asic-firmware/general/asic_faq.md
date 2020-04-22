@@ -397,6 +397,15 @@ The standard power supply provided with the ASIC is sometimes not designed for t
 
 We do not recommend choosing manual mode unless you have sufficient ASIC manual configuration skills.
 
+#### What will happen if I don't select the overclocking profile?
+If you do not select an overclocking profile at all, then the ASIC will operate at stock voltages and frequencies that are specified in the eeprom by Bitmain. They are not optimal, and the chips work with them worse.
+
+Why do you need to select the profile:
+
+1. It sets the optimal frequencies and voltages. ASIC will work more stably on them. Stable performance is not guaranteed on data from eeprom.
+
+2. Profile selection launches the tuning of chips. This will fine-tune the chips in a short time, and further tuning of the red chips will be done seldom (usually it doesn't take more than 24 hours), with a check every 3 hours. But if you don’t initially launch the tuning, the chips will not be tuned, and the check every 3 hours will take much more time, until the chips are tuned. It can even take days. And if you work at sub-optimal frequency and voltage ratios, more red chips will appear.
+
 #### Why does it take a while for the miner to start running?
 In the new tuning algorithm, there is a gradual acceleration in frequency. During this acceleration, the hashrates aren’t displayed. This is required for optimal overclocking results.
 

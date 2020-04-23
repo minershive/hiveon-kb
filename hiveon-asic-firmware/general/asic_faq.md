@@ -3,8 +3,7 @@ title: ASICs and Hiveon ASIC Firmware FAQ
 parent_category: Hiveon ASIC Firmware
 category: General
 ---
-## ASICs and Hiveon ASIC Firmware FAQ
-### General questions
+## General questions
 #### What is the Hiveon ASIC?
 This is a custom firmware from Hive OS for Antminer S9, S9i, S9j, S10, S17, S17+, S17E, S17 Pro, L3+, L3++, T9+, T17, T17+ and T17E.
 
@@ -58,7 +57,7 @@ For T9+ Hiveon 1.02.
 #### Can someone create firmware specifically for my ASIC?
 Yes, but that's pretty expensive. Let's say, the developer's salary is $2500 per month. The project will take several months.
 
-### Useful links
+## Useful links
 #### Where to download the firmware?
 You can download the firmware [here](https://hiveos.farm/asic/).
 
@@ -83,7 +82,7 @@ You can learn everything about ASIC's signal lights and ways to solve the proble
 #### How to set up notifications?
 You can receive notifications directly to Telegram or Discord. The instructions can be found [here](https://medium.com/hiveon/useful-notifications-how-it-works-3ddb63775f79).
 
-### Questions regarding installation, update, recovery and setting up
+## Questions regarding installation, update, recovery and setting up
 #### How can I upgrade to a new firmware version?
 Straight from the Hive OS web interface.
 
@@ -187,19 +186,19 @@ To get information on your ASIC's errors, you need to send a command to your wor
   />
 
 #### ASIC's errors and their description
-- (ERROR_SOC_INIT) - driver initialization error
-- (ERROR_REOPEN_CORE) - error when reopening the cores
-- (ERROR_FAN_LOST) - loss of one or more coolers
-- (ERROR_POWER_LOST) - error in setting the voltage, error in determining the type of PSU
-- (ERROR_EEPROM_INFO) - error when reading the contents of the EEPROM (invalid format)
-- (ERROR_TEMP_LOST) - the temperature sensor is lost two or more times
-- (ERROR_TEMP_TOO_LOW) - the temperature is too low
-- (ERROR_PIC_LOST) - PIC initialization error on any board
-- ERROR_TEMP_LOST_1ST - restart cgminer to check the type of temperature sensor again (this is probably the sensor lost for the first time)
-- ERROR_UNBALANCE - an imbalance has occurred, reboot
-- ERROR_TEMP_TOO_HIGH - over the maximum temperature
-- WARN_NET_LOST - temporary loss of network connection
-- ERROR_NET_LOST - network connection loss
+- ERROR\_SOC\_INIT - driver initialization error
+- ERROR\_REOPEN\_CORE - error when reopening the cores
+- ERROR\_FAN\_LOST - loss of one or more coolers
+- ERROR\_POWER\_LOST - error in setting the voltage, error in determining the type of PSU
+- ERROR\_EEPROM\_INFO - error when reading the contents of the EEPROM (invalid format)
+- ERROR\_TEMP\_LOST - the temperature sensor is lost two or more times
+- ERROR\_TEMP\_TOO\_LOW - the temperature is too low
+- ERROR\_PIC\_LOST - PIC initialization error on any board
+- ERROR\_TEMP\_LOST\_1ST - restart cgminer to check the type of temperature sensor again (this is probably the sensor lost for the first time)
+- ERROR\_UNBALANCE - an imbalance has occurred, reboot
+- ERROR\_TEMP\_TOO\_HIGH - over the maximum temperature
+- WARN\_NET\_LOST - temporary loss of network connection
+- ERROR\_NET\_LOST - network connection loss
 
 #### Why use a Flight Sheet with the firmware?
 Without it, the ASIC mines using old parameters, and doesn’t show hashrates in Hive OS web interface.
@@ -330,7 +329,7 @@ Enter the command `date`. It will show the current time and date set on the ASIC
 Go almost to the end of the Innosilicon script, delete all the lines with "curl" except one. There you will execute the command. Replace the command `systemctl start ....` with `systemctl disable ...`
 This will disable Hive autostart. Scripts will remain, but will not interfere.
 
-### Monitoring
+## Monitoring
 #### How to monitor profits?
 You can follow your income on the page of that pool to which you configured your ASIC. Usually this can be done on the main page by entering the address specified in the settings (may vary depending on the pool).
 
@@ -343,7 +342,7 @@ Monitoring itself consumes approximately 80-90 megabytes of traffic per month. M
 #### I decided to update the image remotely (hive-replace). How to monitor the status of the update?
 Log into your rig on Hive Shell. After entering the update command, you will see the download and installation process.
 
-### Autotune
+## Autotune
 #### Does autotune lower or increase the voltage?
 Autotune always starts with a high voltage, and gradually reduces it. It works from stable condition to the unstable one. Some chips can turn “red” (hash downgrading) if you run them immediately on the average voltage. And if you run them on high voltage and gradually lower them, then the chips work stably.
 
@@ -388,7 +387,7 @@ But there is a case when it is necessary to apply autotune again: when updating 
 - ASIC will boot with factory data
 - Autotune will not start until someone applies an overclocking profile manually
 
-### Technical questions
+## Technical questions
 #### Why does ASIC need a lot of time to start during the first launch?
 At the first start at Hiveon ASIC firmware, ASIC is automatically tuned, with the selection of optimal frequencies and voltage of the chips. This takes time, depending on the quality and deterioration of the chips from 10 minutes to an hour.
 
@@ -441,7 +440,7 @@ It restarts the miner and waits for the connection to reappear. In contrast to t
 #### What is the minimum Internet speed requirement for the firmware?
 Mere Kilobits are used by the ASIC, the speed is not a main requirement. Ping is more important: the lower the ping to the pool, the better.
 
-### S9 questions
+## S9 questions
 #### How long on average does an S9 starts with auto-tuning on Hiveon ASIC?
 The speed of auto-tuning depends on the state of the chips. If the ASIC is new, it takes up to 10 minutes. If the chips are worn, it could take half an hour or more, until each chip selects a parameter.
 
@@ -483,7 +482,7 @@ The recovery image: https://download.hiveos.farm/asic/repo/fw/Antminer/recovery/
 
 >Please note that this image can deal only with Antbuild v1. Modern viruses, such as Antbuild v2, cannot be "cured" or removed. The issue can only be resolved by replacing the entire processor or control board.
 
-### L3 questions
+## L3 questions
 
 #### L3+: monitoring and setting up
 Check [this video](https://youtu.be/rVSauk7Jzr4).

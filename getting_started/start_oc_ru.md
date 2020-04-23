@@ -163,28 +163,12 @@ _Окно разгона AMD_
 >_Учтите, что эти значения приведены в качестве примера. Используйте на свой риск._
 
 <img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc_eg.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc_eg.gif"
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\start_oc\neosaan_ru.jpg?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\start_oc\neosaan_ru.jpg"
   />
 
 _Пример настроек разгона AMD_
 
-* __Algo__ — мы выбрали **Default Config**, так как хотим применить его ко всем алгоритмам
-
-* __Core Clock (Mhz)__ — 1150
-
-* __Core State (Index)__ — 3
-
-* __Core Voltage (mV)__ — 875
-
-* __Memory Clock (Mhz)__ — 2200
-
-* __Mem State (Index)__ — оставлено пустым, так как у нашего GPU не было проблем с андервольтингом
-
-* __Fan (%)__ — оставлено пустым для значений по умолчанию
-
-* __Aggressive undervolting__ — переведено в активный режим
-
-* Нажмите __Save__, и всё.
+Нажмите __Save__, и всё.
 
 ### Применение профиля разгона
 Теперь вы можете применить созданный вами профиль разгона. Перейдите на вкладку воркеров, а затем поставьте флажки слева от тех воркеров, к которым вы хотите применить профиль разгона. Вы должны увидеть значок спидометра в строке меню в верхнем правом углу.

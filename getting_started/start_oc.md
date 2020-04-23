@@ -162,28 +162,12 @@ Here’s an example of an Overclocking Profile for an AMD RX 580 GPU.
 _Note, these values are for example purposes. Use at your own risk._
 
 <img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc_eg.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc_eg.gif"
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\start_oc\neosaan_eng.jpg?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\start_oc\neosaan_eng.jpg"
   />
 
 _AMD OC example settings_
 
-* __Algo__ — we set it to the **Default Config** as we want it to apply to all algorithms
-
-* __Core Clock (Mhz)__ — 1150
-
-* __Core State (Index)__ — 3
-
-* __Core Voltage (mV)__ — 875
-
-* __Memory Clock (Mhz)__ — 2200
-
-* __Mem State (Index)__ — left empty, as our GPU didn’t have an issue undervolting
-
-* __Fan (%)__ — left empty for default values
-
-* __Aggressive undervolting__ — set to active
-
-* Click __Save__ and you’re done.
+Click __Save__ and you’re done.
 
 ### Applying An Overclocking Profile
 

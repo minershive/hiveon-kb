@@ -364,21 +364,6 @@ Worker - Settings - Advanced - Transfer Rig
 
 Кернел лог можно просмотреть прямо в Hive OS. Кликните на иконку в виде кирки, и перейдите в пункт Miner Log. Если этот метод не срабатывает, выполните команду `sh /www/pages/cgi-bin/get_kernel_log.cgi`.
 
-#### Как узнать текущий профиль разгона ASIC-а?
-Узнать текущий профиль разгона ваших ASIC-ов, можно отправив им команду:
-
-`profile='/config/profile.txt'; unknown=100; factory=99; profiles=(36 42 48 54 57 60 66 72 78 80 [factory]=factory [unknown]=unknown); emoji="$(printf '\xE2\x9A\xA1')"; if [ -e "$profile" ]; then . "$profile"; [[ $tune_profile =~ ^[0-9]$ ]] || tune_profile="$unknown"; if [[ $tune_status != '2' ]]; then message tag "${emoji} tuning (#$tune_status)"; fi; else tune_profile="$factory"; fi; message tag "${emoji} ${profiles[tune_profile]}"`
-
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq1.png"
-  />
-
-После ее завершения вы сможете увидеть тэг о текущем профиле:
-
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq2.png"
-  />
-
 #### Как изменить пароль ASIC-а?
 Для смены пароля веба вашего ASIC-а, отправьте воркеру команду:
 

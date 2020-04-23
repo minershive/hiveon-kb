@@ -300,21 +300,6 @@ or
 
 Kernel log can be checked right in Hive OS. Click the pickaxe icon, and move to the Miner Log. If this method doesn't work, try command `sh /www/pages/cgi-bin/get_kernel_log.cgi`.
 
-#### How to discover the current overclocking profile of ASIC?
-You can find out the current overclocking profile of your ASICs by sending them the command:
-
-`profile='/config/profile.txt'; unknown=100; factory=99; profiles=(36 42 48 54 57 60 66 72 78 80 [factory]=factory [unknown]=unknown); emoji="$(printf '\xE2\x9A\xA1')"; if [ -e "$profile" ]; then . "$profile"; [[ $tune_profile =~ ^[0-9]$ ]] || tune_profile="$unknown"; if [[ $tune_status != '2' ]]; then message tag "${emoji} tuning (#$tune_status)"; fi; else tune_profile="$factory"; fi; message tag "${emoji} ${profiles[tune_profile]}"`
-
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq1.png"
-  />
-
-After its completion, you can see the tag about the current profile:
-
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaq2.png"
-  />
-
 #### How to change the ASIC's password?
 To change the web password of your ASIC, send the following command to the worker:
 

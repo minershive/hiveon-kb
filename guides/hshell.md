@@ -105,7 +105,7 @@ Log in to your worker using  Hive Shell:
 Enter the command `hive-replace --list`:
 
 <img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu12eng.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu12eng.png"
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\hshell\hshell2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hshell\hshell2.png"
   />
 
 After that, press the number 1.

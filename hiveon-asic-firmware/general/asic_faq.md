@@ -115,7 +115,10 @@ Hiveon ASIC firmware will be installed.
 Service centers can flash through the com port.
 
 #### How exactly to recover firmware using an SD-card?
-Turn on the control board and wait 60 seconds before the LEDs start flashing (the main thing is to wait for a constant periodic flashing).
+Turn on the control board and wait 60 seconds till the LEDs start flashing. The main thing is to wait for a constant periodic flashing.
+The LEDs will blink once after 2 seconds, and exactly after 60 - they will start flashing constantly.
+
+This image restores the firmware from any state - even with an empty flash drive.
 
 1. Turn off the miner
 2. Change the jumper to boot with the SD-card
@@ -281,7 +284,7 @@ Because the Hiveon firmware is so configured. You need to register on hiveos.far
 
 #### How to force upgrade of the Hive OS client on the ASIC?
 To do this, you need to send the following command to your ASIC:
-`/bin/sh -c 'screen -d -m -S selfupgrade selfupgrade master'`.
+`/bin/sh -c 'screen -d -m -S selfuprade /bin/sh -c "rm -rf /nvdata/latest.tar.gz /hive; /etc/rcS.d/S69hive; hello; message info AgentUpgradeDone"'`.
 
 
 #### How to roll back ASIC firmware
@@ -404,6 +407,8 @@ There are many PCB revisions on S9 and T9 with different models of thermal senso
 The temperature above 90 degrees is undesirable. 80-90 degrees is an optimal working temperature. The temperature limit after which the alert comes in Hive OS is set to 85 degrees by default. You can change this limit as you wish by clicking on the thermometer icon.
 
 **Please note that by raising this limit, you do everything at your own risk! Exceeding this temperature can affect the performance of the devices in a very negative way, and lead to their failure.**
+
+You can also use the command `sed -i 's/min-fan-temp=80/min-fan-temp=XX/ /config/config.conf`, where ХХ is your temperature. The main thing is to specify at least 70 degrees. Lower temperatures should be avoided. 
 
 #### What is the reason for the zero temperature of the chips and the reboot?
 Most likely, the matter is in ASIC hardware malfunction. Perhaps the temperature sensor has failed or one of the boards has become unusable. Try disabling the malfunctioning board.

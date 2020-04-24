@@ -6,7 +6,7 @@ category: Guides
 ## Linux Commands for Beginners
 
 ### Simple Commands
-`agent-screen` — show hive client agent (you can exit from it with Ctrl+A, D)
+`agent-screen` — show Hive client agent (you can exit from it with Ctrl+A, D)
 
 `firstrun -f` — ask for rig ID and password again
 

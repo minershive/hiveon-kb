@@ -2,7 +2,7 @@
 title: Инструкция по Установке T9+
 parent_category: Прошивка Hiveon ASIC
 category: T9+
-path: /hiveon-asic-firmware-T9-t9installation_ru
+path: /hiveon-asic-firmware-T9+-t9installation_ru
 lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-T9_ru

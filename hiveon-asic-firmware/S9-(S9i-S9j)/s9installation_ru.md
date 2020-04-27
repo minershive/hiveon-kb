@@ -2,7 +2,7 @@
 title: Инструкция по Установке S9 (S9i, S9j)
 parent_category: Прошивка Hiveon ASIC
 category: S9 (S9i, S9j)
-path: /hiveon-asic-firmware-S9-S9i-S9j-s9installation_ru
+path: /hiveon-asic-firmware-S9-(S9i-S9j)-s9installation_ru
 lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-S9-S9i-S9j_ru

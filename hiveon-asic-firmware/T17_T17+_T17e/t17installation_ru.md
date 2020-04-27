@@ -2,7 +2,7 @@
 title: Инструкция по Установке T17, T17+, T17E
 parent_category: Прошивка Hiveon ASIC
 category: T17, T17+, T17E
-path: /hiveon-asic-firmware-T17-T17-T17e-t17installation_ru
+path: /hiveon-asic-firmware-T17_T17+_T17e-t17installation_ru
 lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-T17-T17-T17e_ru

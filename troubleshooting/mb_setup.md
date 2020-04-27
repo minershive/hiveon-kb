@@ -1,8 +1,8 @@
 ---
-title: General Motherboard Setup
+title: General motherboard setup
 ---
 
-## General Motherboard Setup
+## General motherboard setup
 Here are some steps you can take if you have some problems with booting your system or the card is not detected, and so on:
 - Flash the latest BIOS. This is a must actually
 - Sometimes CMOS reset helps

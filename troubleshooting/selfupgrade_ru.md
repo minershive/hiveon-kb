@@ -1,11 +1,15 @@
 ---
-title: Selfupgrade
+title: Самостоятельное обновление
+parent_category: Исправление проблем
+path: /troubleshooting-selfupgrade_ru
+lang: ru
+parent_category_path: /troubleshooting_ru
+order: 1
 ---
+## Самостоятельное обновление
+Иногда может возникнуть ситуация, когда репозиторий Ubuntu не синхронизирован и не может найти какой-либо пакет. Это происходит потому, что Hive обновляет только себя, но не всю Ubuntu, чтобы минимизировать трафик. В долгосрочной перспективе может потребоваться какой-то пакет, и затем его необходимо загрузить, а старая кэш-память Ubuntu не знает, где он находится.
 
-## Selfupgrade
-Sometimes there can be situation when Ubuntu repo is out of sync and it can’t find some package. This happens because Hive is updating itself only but not the whole Ubuntu to minimize traffic. In a long run some package can be required and then it needs to be downloaded, and Ubuntu’s repo cache is too old to know where it is.
-
-It looks like this:
+Это выглядит вот так:
 <pre><code>
 Get:1 http://download.hiveos.farm/repo/binary  InRelease [1,741 B]
 Get:2 http://download.hiveos.farm/repo/binary  Packages [14.8 kB]
@@ -32,13 +36,13 @@ Upgrade failed
 </code></pre>
 <img src="https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_690x401.png" alt="55" width="690" height="401" class="d-lazyload" srcset="https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_690x401.png, https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_1035x601.png 1.5x, https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_1380x802.png 2x">
 
-This can be resolved with running `apt update` and then repeating `selfupgrade`.
-Though there can come up another problem with interactive dialog from grub:
+Это может быть решено запуском конмады `apt update`, а потом повторением `selfupgrade`.
+Хотя может возникнуть другая проблема с интерактивным диалогом из grub:
 <img src="https://forum.hiveos.farm/uploads/default/original/2X/0/0e0fc90430c2664fcbac3c18e20da11447a524d3.png" alt="image" width="631" height="442" class="d-lazyload">
 
-If you are upgrading in shell (SSH or Teleconsole) then it’s fine, but with running it from web it can be a problem.
+Если вы выполняете обновление в SSH или Teleconsole, то это нормально, но при запуске из Интернета это может стать проблемой.
 
-### Solution
+### Решение
 `nohup bash -c 'apt update; export DEBIAN_FRONTEND=noninteractive; apt-get -y --only-upgrade install hive; hello restartminer; screen -S agent -X quit; agent-screen' > /tmp/nohup.log 2>&1 &`
 
-A pretty long line, but paste it in Linux Execute and run.
+Весьма длинная строка, но скопируйте её, вставьте в Linux Execute и запустите.

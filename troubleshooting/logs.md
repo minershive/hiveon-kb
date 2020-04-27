@@ -5,23 +5,23 @@ title: Logs
 ## Logs
 
 ### Miner logs
-The simple way. Click on the “Log” button under the “Miner” selection:
+The simple way: click the **Log** button under the Miner selection:
 
 <img src="http://forum.hiveos.farm/uploads/editor/yr/nilcobp2yg17.png" >
 
-
-You will get a response with the current screen of the miner. Click on the “chat” icon near “miner log” balloon:
+You will get a response with the current screen of the miner. Click the **chat** icon near the **miner log** balloon:
 
 <img src="http://forum.hiveos.farm/uploads/editor/t1/j1eymexf8r2o.jpg">
 
-Actually this not a real log, it’s just a miners screen. The real file are stored in /var/log/miner/xxxx/*.log.
+Actually this not a real log, it’s just a miner's screen. The real files are stored in /var/log/miner/xxxx/*.log.
 
-So you open “mc” on the rig and go to /var/log/miner/claymore and find lastrun_noappend.log there.
+So you open **mc** on the rig and go to **/var/log/miner/claymore** and find **lastrun_noappend.log** there.
 <img src="http://forum.hiveos.farm/uploads/editor/r4/0z64iupn4v06.jpg">
 
 You can have a look at the last 100 lines of it with a command like this:
 
 `tail -n 100 /var/log/miner/claymore/lastrun_noappend.log.`
+
 Logs are rotating with each miner restart, so there are lastrun_noappend.1.log, lastrun_noappend.2.log,...
 
 ### System logs

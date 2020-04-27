@@ -1,5 +1,6 @@
 ---
 title: General FAQ
+path: /hiveon-pool-general_pool_faq-general_faq
 parent_category: Hiveon Pool
 category: General pool FAQ
 ---

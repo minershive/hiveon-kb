@@ -1,6 +1,7 @@
 ---
 title: Payouts FAQ
 parent_category: Hiveon Pool
+path: /hiveon-pool-hiveon_payouts_faq-payouts_faq
 category: Hiveon payouts FAQ
 ---
 ## Payouts FAQ

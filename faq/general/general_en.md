@@ -1,5 +1,6 @@
 ---
 title: General Hive OS FAQ
+path: /faq-general-general
 parent_category: FAQ
 category: General
 ---

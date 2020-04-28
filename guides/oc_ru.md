@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Разгон
 - <a href="https://www.youtube.com/watch?v=1BcRnR6zRBA">Разгон в Hive OS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1BcRnR6zRBA

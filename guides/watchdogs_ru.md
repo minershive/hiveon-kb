@@ -7,8 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Вачдоги
-
 ### SimpleRigResetter SRRv2 Вачдог
 https://shop.simplemining.net/ssrv2.html?___SID=U
 

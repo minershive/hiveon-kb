@@ -2,7 +2,6 @@
 title: Connection problems
 ---
 
-## Connection Problems
 The common question is: my rig is mining, but it’s offline in Hive.
 
 A bit of explanation. There is an agent on a rig that sends stats every 10 seconds to server. It starts as soon as the system boots. So your rig may be running but the agent fails to reach server for some reason. Or the common problem is a dead filesystem and agent just can’t save temp files to construct its package.

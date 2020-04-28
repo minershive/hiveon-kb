@@ -1,5 +1,5 @@
 ---
-title: Как работает Биллинг в Hive
+title: Как работает биллинг в Hive
 parent_category: ЧаВо
 category: Биллинг в Hive OS
 path: /faq-billing_in_hive_os-billing_ru
@@ -8,7 +8,7 @@ parent_category_path: /faq_ru
 category_path: /faq-billing_in_hive_os_ru
 order: 1
 ---
-## Как работает Биллинг в Hive
+
 ### Используемые термины
 
 **Майнинг** - вычисления, производимые устройством для добычи криптовалют.

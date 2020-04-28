@@ -1,10 +1,9 @@
 ---
-title: Difference Between Standard and Improved Firmware
+title: Difference between standard and improved firmware
 parent_category: Hiveon ASIC Firmware
 category: General
 ---
 
-## Difference Between Standard and Improved Firmware
 The difference between Improved and Standard firmware in the presence or absence of a digital signature. Hiveon firmware previously existed in two versions - Improved (with signature) and Standard (without signature).
 
 ### What is  improved firmware?

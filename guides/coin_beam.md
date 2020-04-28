@@ -3,7 +3,6 @@ title: Mining Beam with Hive OS
 category: Guides
 ---
 
-## Mining Beam with Hive OS
 - <a href="https://www.youtube.com/watch?v=1Emo9dA1bcc">Mining Beam with Hive OS. Platform hotbit.io</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1Emo9dA1bcc

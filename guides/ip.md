@@ -3,7 +3,6 @@ title: Static IP
 category: Guides
 ---
 
-## Static IP
 This is very simple.
 
 All network configs are linked here:

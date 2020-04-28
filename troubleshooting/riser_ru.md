@@ -7,7 +7,6 @@ parent_category_path: /troubleshooting_ru
 order: 1
 ---
 
-## Проблема с райзером
 Ошибка выглядит вот так:
 
 <pre><code>

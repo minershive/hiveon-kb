@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Безопасность
 Чтобы поменять пароль для user (для SSH и для VNC тоже) используйте команду:
 `hive-passwd yournewsecurepass`
 

@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Майнинг Beam на Hive OS
 - <a href="https://www.youtube.com/watch?v=1Emo9dA1bcc">Майнинг Beam coin на Hive OS. Биржа hotbit.io</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1Emo9dA1bcc

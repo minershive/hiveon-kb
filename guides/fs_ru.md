@@ -1,5 +1,5 @@
 ---
-title: Полетные Листы
+title: Полетные листы
 parent_category: Гайды
 path: /guides-fs_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Полетные Листы
 - <a href="https://www.youtube.com/watch?v=4si1DDsID3s">Полетные Листы в Hive OS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=4si1DDsID3s

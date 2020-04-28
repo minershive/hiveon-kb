@@ -3,7 +3,6 @@ title: Mining GRIN on Hive OS
 category: Guides
 ---
 
-## Mining GRIN on Hive OS
 - <a href="https://www.youtube.com/watch?v=OhKs95AAO5c">Mining Grin on Hive OS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=OhKs95AAO5c

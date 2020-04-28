@@ -1,9 +1,7 @@
 ---
-title: How to Set Up Your Hive OS Wallet
+title: How to set up your Hive OS wallet
 category: Guides
 ---
-
-## How to Set Up Your Hive OS Wallet
 
 ### Step 1) Decide on the coin and the mining pool
 If you decided to mine in a pool, you will have to register within that pool directly from their website. For example, Suprnova’s pool website is https://suprnova.cc/. The great part about Hive OS is that they have automated many of the major pools. You simply have to register within the pool's platform, create a worker and password for that worker, and get that information ready for the next steps within Hive OS.

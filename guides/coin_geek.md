@@ -1,9 +1,7 @@
 ---
-title: How to Mine GeekCash with Hive OS
+title: How to mine GeekCash with Hive OS
 category: Guides
 ---
-
-## How to Mine GeekCash with Hive OS
 
 <img src="https://images.golos.io/DQmdua5LfZqEeuho8faPdsh2qt5WtzR57Yr9EXLnAY9L8bo/image.png">
 

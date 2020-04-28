@@ -1,10 +1,9 @@
 ---
-title: Support Services
+title: Support services
 parent_category: FAQ
 category: General
 ---
 
-## Hive OS Support Services
 Hive takes care of its users, and that’s why we’ve created so many support channels. Check them out!
 
 ### Official channels

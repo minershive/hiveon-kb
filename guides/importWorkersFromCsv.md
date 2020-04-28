@@ -7,7 +7,6 @@ parent_category_path: /guides
 order: 1
 ---
 
-## Import workers from CSV
 Welcome the new Hive OS feature — import of CSV files. With this function, you can create or update any number of workers quickly and easily, as everything can be done in one file. This is how it works:
 
 1. Log in to your Hive OS account and go to the **Workers** tab.

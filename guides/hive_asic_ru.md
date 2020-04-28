@@ -6,7 +6,7 @@ lang: ru
 parent_category_path: /guides_ru
 order: 1
 ---
-## Hive OS для ASIC
+
 ### Доступное программное обеспечение для ASICов от Hive
 **1. [Hive OS Client](https://github.com/minershive/hiveos-asic/blob/master/README.md)**
 

@@ -1,13 +1,11 @@
 ---
-title: Панель Управления
+title: Панель управления
 parent_category: Начало Работы
 path: /getting_started-start_dashboard_setup_ru
 lang: ru
 parent_category_path: /getting_started_ru
 order: 1
 ---
-
-## Панель Управления
 
 В нашей [предыдущей статье](https://hiveos.farm/getting_started-start_worker_setup_ru) мы обсудили установку и настройку воркеров. Теперь же мы продолжим знакомить вас с Hive и покажем, как работать с её основными функциями. Начнем с ферм.
 

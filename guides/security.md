@@ -3,7 +3,6 @@ title: Security
 category: Guides
 ---
 
-## Security
 To change system password for user (for SSH and VNC also) please use the following command: `hive-passwd yournewsecurepass`.
 
 Instead of **yournewsecurepass** you should enter your new password.

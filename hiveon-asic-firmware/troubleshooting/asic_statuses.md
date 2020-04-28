@@ -1,5 +1,5 @@
 ---
-title: ASIC Statuses Troubleshooting
+title: ASIC statuses troubleshooting
 parent_category: Hiveon ASIC Firmware
 category: Troubleshooting
 ---
@@ -7,7 +7,7 @@ category: Troubleshooting
 ### SUSPENDED
 Reboot is required. Alternatively, you can enable the hashrate-watchdog for automatic reboot.
 
-### Tuning
+### TUNING
 Tuning is in progress, hashrate decrease and software restart are possible.
 
 ### ERROR\_TEMP\_TOO\_LOW

@@ -1,5 +1,5 @@
 ---
-title: Как Добавить ASIC в Hive OS
+title: Как добавить ASIC в Hive OS
 parent_category: Гайды
 path: /guides-add-asic-to-hiveos_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Как добавить ASIC в Hive OS
 ### Подготовка
 >Будьте осторожны с последними прошивками Bitmain
 - Antminer, серия 9 (S9/S9i/S9j/T9/T9+): никогда не обновляйтесь на прошивку новее 10 июня 2019

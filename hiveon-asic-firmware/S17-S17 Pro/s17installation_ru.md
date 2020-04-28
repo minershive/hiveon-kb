@@ -1,5 +1,5 @@
 ---
-title: Инструкция по Установке S17 (S17 Pro)
+title: Инструкция по установке S17 (S17 Pro)
 parent_category: Прошивка Hiveon ASIC
 category: S17, S17 Pro
 path: /hiveon-asic-firmware-S17-S17-Pro-s17installation_ru
@@ -9,7 +9,6 @@ category_path: /hiveon-asic-firmware-S17-S17Pro_ru
 order: 1
 ---
 
-## Прошивка Hiveon ASIC S17 и S17 Pro: Инструкция по Установке
 Чтобы облегчить процесс установки прошивок, мы приготовили для вас инструкцию. И перед тем, как объяснить все детали, позвольте напомнить вам, почему кастомная прошивка (особенно наша ;)) лучше заводской.
 
 ### Прошивка Hiveon ASIC: Характеристики

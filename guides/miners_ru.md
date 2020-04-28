@@ -1,5 +1,5 @@
 ---
-title: Как Мы Добавляем Майнеры
+title: Как мы добавляем майнеры
 parent_category: Гайды
 path: /guides-miners_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Как Мы Добавляем Майнеры
 Команду Hive просят внедрить тот или иной майнер практически каждый день. Здесь мы объясним, почему мы не делаем этого до тех пор, пока майнер не станет популярным.
 
 <img src="http://forum.hiveos.farm/uploads/editor/r6/dyqion5c9r9u.png">

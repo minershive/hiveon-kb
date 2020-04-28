@@ -4,8 +4,6 @@ parent_category: FAQ
 category: Billing in Hive OS
 ---
 
-## Payments
-
 ### Where to pay?
 Find the “Pay” button in your account https://the.hiveos.farm/funds.
 After paying please check the status in the Deposits Tab.

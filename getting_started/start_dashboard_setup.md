@@ -1,9 +1,8 @@
 ---
-title: Dashboard Basics & Setup
+title: Dashboard basics & setup
 category: Getting Started
 ---
 
-## Getting Started with Hive OS — Dashboard Basics & Setup
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/header.png"
   />

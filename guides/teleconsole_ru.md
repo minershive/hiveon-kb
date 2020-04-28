@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Teleconsole
 Teleconsole — это SSH тоннель с вашим ригом на HIVE OS. В двух словах: запускаете Teleconsole на риге, после чего можете подключиться к ригу по SSH соединению в браузере или через консоль Linux/Mac. Не требует VPN или нахождения в одной локальной сети с ригом.
 
 Официальный сайт продукта Teleconsole: https://www.teleconsole.com/

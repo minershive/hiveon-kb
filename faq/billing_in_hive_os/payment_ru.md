@@ -9,7 +9,6 @@ category_path: /faq-billing_in_hive_os_ru
 order: 1
 ---
 
-## Платежи
 ### Где платить?
 Найдите кнопку “Pay” у себя в профиле https://the.hiveos.farm/funds.
 После оплаты следите за статусом во вкладке “Deposits”.

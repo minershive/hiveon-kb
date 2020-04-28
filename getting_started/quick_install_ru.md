@@ -1,13 +1,11 @@
 ---
-title: Быстрая Установка Hive OS
+title: Быстрая установка Hive OS
 parent_category: Начало Работы
 path: /getting_started-quick_install_ru
 lang: ru
 parent_category_path: /getting_started_ru
 order: 1
 ---
-
-## Быстрая Установка Hive OS
 
 Перед установкой Hive OS на ваш риг, мы рекомендуем сначала <a href="https://the.hiveos.farm/">создать аккаунт</a>, или же войти в уже <a href="https://the.hiveos.farm/">существующий</a>.
 

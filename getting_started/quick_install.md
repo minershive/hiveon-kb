@@ -1,9 +1,8 @@
 ---
-title: Hive OS Quick Installation Guide
+title: Hive OS quick installation guide
 category: Getting Started
 ---
 
-## Hive OS Quick Installation Guide
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/header.png"
   />

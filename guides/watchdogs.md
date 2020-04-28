@@ -3,8 +3,6 @@ title: Watchdogs
 category: Guides
 ---
 
-## Watchdogs
-
 ### Videos
 - <a href="https://www.youtube.com/watch?v=6wPnq1Is6mA">Hashrate Watchdog in Hive OS</a>
 

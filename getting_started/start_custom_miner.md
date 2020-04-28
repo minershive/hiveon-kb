@@ -1,9 +1,8 @@
 ---
-title: Adding A Custom Miner
+title: Adding a custom miner
 category: Getting Started
 ---
 
-## Getting Started with Hive OS — Adding A Custom Miner
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/header.png"
   />

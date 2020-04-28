@@ -1,5 +1,5 @@
 ---
-title: RX Буст - AmdMemTweak
+title: RX Boost - AmdMemTweak
 parent_category: Гайды
 path: /guides-rx_boost_ru
 lang: ru
@@ -7,8 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## RX Буст - AmdMemTweak
-### AMDMemTweak – чтение/запись таймингов памяти
 Благодаря усилиям программиста под псевдонимом Eliovp, утилита AMDMemoryTweak доступна на [Bitcointalk](https://bitcointalk.org/index.php?topic=5123724.0) и [GitHub](https://github.com/Eliovp/amdmemorytweak), что позволяет вам работать с таймингами видеопамяти GDDR5 и HBM2 видеокарт на платформе AMD на лету.
 
 AmdMemoryTweak позволяет достичь максимальной скорости при майнинге на алгоритмах с интенсивным использованием памяти на видеокартах AMD. Многие называют эту утилиту “таблетка для красных” по аналогии с программой ETHEnlargment Pill, которая значительно повышает производительность видеокарт Nvidia с памятью GDDR5X. На самом деле это, безусловно, верно, но для достижения эффекта уровень подготовки пользователя должен быть намного выше.
@@ -159,8 +157,8 @@ HBM2 память используется в семействе карт Vega (
 
 Если поле пустое (значение по умолчанию), то опция не применяется. Чтобы применить значение для всех карт, введите одно значение. Если нужно применить для разных карт и указать индивидуальные значения, то введите значения, разделенные пробелами.
 Вот короткое видео о том, как использовать эту функцию:
-- <a href="https://www.youtube.com/watch?v=0zJsU07Lgvc">RX Буст в Hive OS: максимум с ваших RX карт</a>
+- <a href="https://www.youtube.com/watch?v=0zJsU07Lgvc">RX Boost в Hive OS: максимум с ваших RX карт</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=0zJsU07Lgvc
 " target="_blank"><img src="http://img.youtube.com/vi/0zJsU07Lgvc/0.jpg"
-alt="RX Буст в Hive OS: максимум с ваших RX карт"></a>
+alt="RX Boost в Hive OS: максимум с ваших RX карт"></a>

@@ -1,5 +1,5 @@
 ---
-title: Как Майнить EXCC с Hive OS
+title: Как майнить EXCC с Hive OS
 parent_category: Гайды
 path: /guides-coin_excc_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Как майнить EXCC с Hive OS
 Майнинг EXCC с Hive OS - это очень просто. Следуйте нашей инструкции:
 
 ***Шаг 1.*** Войдите в вашу ферму и, прежде всего, добавьте новый кошелек:

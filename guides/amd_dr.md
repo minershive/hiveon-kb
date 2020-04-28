@@ -1,9 +1,8 @@
 ---
-title: AMD Drivers Installation
+title: AMD drivers installation
 category: Guides
 ---
 
-## AMD Drivers installation
 Script for the easy installation of AMD Drivers on Hive OS/Ubuntu based OS: https://github.com/CryptoLuigi/AMD_Installer.
 
 **Please note:** Drivers with the 18.04 suffix require an OS upgrade.

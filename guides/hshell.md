@@ -3,7 +3,6 @@ title: Hive Shell
 category: Guides
 ---
 
-## Hive Shell
 <img src="https://forum.hiveos.farm/uploads/default/original/2X/8/8580c113d2e085d26be948283c7922532a00d90f.png">
 
 ### About Hive Shell

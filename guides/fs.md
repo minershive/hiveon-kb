@@ -1,9 +1,8 @@
 ---
-title: Flight Sheets
+title: Flight sheets
 category: Guides
 ---
 
-## Flight Sheets
 - <a href="https://www.youtube.com/watch?v=4si1DDsID3s">Flight Sheets in Hive OS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=4si1DDsID3s

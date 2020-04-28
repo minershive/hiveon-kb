@@ -1,9 +1,8 @@
 ---
-title: OS Live Replacement
+title: OS live replacement
 category: Guides
 ---
 
-## OS Live Replacement
 With `hive-replace` script you can replace your running Linux with Hive on the fly. You can run this on any standard Ubuntu, or other competitor mining OS. This can also be used to replace/upgrade system on a running Hive installation.
 
 After successful writing you will reboot with a new system. This is how it looks like:

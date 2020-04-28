@@ -1,9 +1,7 @@
 ---
-title: Linux Commands for Beginners
+title: Linux commands for beginners
 category: Guides
 ---
-
-## Linux Commands for Beginners
 
 ### Simple Commands
 `agent-screen` — show Hive client agent (you can exit from it with Ctrl+A, D)

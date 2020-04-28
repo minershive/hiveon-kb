@@ -4,7 +4,7 @@ parent_category: Hiveon Pool
 path: /hiveon-pool-hiveon_payouts_faq-payouts_faq
 category: Hiveon payouts FAQ
 ---
-## Payouts FAQ
+
 ### What is Hiveon.net's payout type?
 The pool has a PPS+ payout model. This means that payment is made for each decision (share) sent, regardless of how long you have joined the pool.
 

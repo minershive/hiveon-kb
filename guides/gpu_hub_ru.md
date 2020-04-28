@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## GPU Hub
 <a href="https://youtu.be/t2FyPFxhThU
 " target="_blank"><img src="http://img.youtube.com/vi/t2FyPFxhThU/0.jpg"
 alt="Обзорное видео по Hive OS"></a>

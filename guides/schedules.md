@@ -3,7 +3,6 @@ title: Schedules
 category: Guides
 ---
 
-## Schedules
 - <a href="https://www.youtube.com/watch?v=adKdAoul_N8">Schedules in Hive OS: control workers by time</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=adKdAoul_N8

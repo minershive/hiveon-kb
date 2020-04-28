@@ -1,5 +1,5 @@
 ---
-title: Как Начать Майнить на Пуле Hiveon
+title: Как начать майнить на пуле Hiveon
 parent_category: Пул Hiveon
 path: /hiveon-pool-hiveon-setting-up_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /hiveon-pool_ru
 order: 1
 ---
 
-# Как Начать Майнить на Пуле Hiveon
 Вы собираетесь начать майнить на пуле Hiveon? Прекрасно! Чтобы облегчить вам жизнь, мы подробно описали процесс перехода на пул как для пользователей Hive OS, так и для пользователей Windows. Следуйте данной инструкции.
 
 ## Если вы - пользователь Hive OS

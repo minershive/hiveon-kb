@@ -1,9 +1,8 @@
 ---
-title: Installation from Scratch
+title: Installation from scratch
 category: Guides
 ---
 
-## Installation from Scratch
 - <a href="https://hiveos.farm/install/">Here</a> you can download all the essential files.
 
 ### Videos

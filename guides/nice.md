@@ -3,7 +3,6 @@ title: NiceHash
 category: Guides
 ---
 
-## NiceHash
 <img src="http://forum.hiveos.farm/uploads/editor/vp/1fs7ux2lalf8.png">
 
 One of the most popular questions we get from new users is if Hive OS supports NiceHash, and how to set it up.
@@ -25,7 +24,7 @@ After you click the template, you just have to replace the wallet address with y
   src="https://github.com/minershive/hiveon-kb/raw/master/images/nice/6n0vbcqy513e.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/nice/6n0vbcqy513e.png"
   />
 
-Where to get this address? In your NiceHash account, in the “Wallets” menu. 
+Where to get this address? In your NiceHash account, in the “Wallets” menu.
 
 The second thing you need to know is the address and port for a specific algorithm.
 Where to get them? Go to [this page](https://www.nicehash.com/stratum-generator) and select algorithm and location:

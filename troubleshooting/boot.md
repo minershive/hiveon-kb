@@ -2,7 +2,6 @@
 title: Booting problems
 ---
 
-## Booting problems
 In general you just plug your drive in the rig and it goes. But sometimes it just doesn’t work.
 Firstly you should ensure you are not trying to boot from UEFI partition. Some BIOSes give you this option to choose, and you should not do it.
 

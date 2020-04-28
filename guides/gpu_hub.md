@@ -3,7 +3,6 @@ title: GPU Hub
 category: Guides
 ---
 
-## GPU Hub
 <a href="https://youtu.be/FFD7tPpGqUk
 " target="_blank"><img src="http://img.youtube.com/vi/FFD7tPpGqUk/0.jpg"
 alt="Обзорное видео по Hive OS"></a>

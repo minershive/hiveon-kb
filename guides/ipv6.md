@@ -3,7 +3,6 @@ title: IPv6
 category: Guides
 ---
 
-## IPv6
 Some users might want to disable IPv6 on the system (if it’s not disabled in the image release). Router is the best way to disable it. Nevertheless, here is how to do it for one host.
 
 This adds `ipv6.disable=1` to GRUB options, updates them and reboots:

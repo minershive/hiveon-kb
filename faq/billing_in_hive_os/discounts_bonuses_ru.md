@@ -1,5 +1,5 @@
 ---
-title: Скидки и Бонусы в Hive OS
+title: Скидки и бонусы в Hive OS
 parent_category: ЧаВо
 category: Биллинг в Hive OS
 path: /faq-billing_in_hive_os-discounts_bonuses_ru
@@ -8,9 +8,8 @@ parent_category_path: /faq_ru
 category_path: /faq-billing_in_hive_os_ru
 order: 1
 ---
-## Скидки и Бонусы в Hive OS: Как Платить Меньше
 
->Самую актуальную информацию о скидках можно узнать <a href="https://hiveos.farm/pricing/">здесь</a>.
+Самую актуальную информацию о скидках можно узнать <a href="https://hiveos.farm/pricing/">здесь</a>.
 
 ### Скидки по количеству воркеров
 Если у вас большое количество воркеров, вы можете рассчитывать на скидку. Вот как это работает:

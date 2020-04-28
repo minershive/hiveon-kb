@@ -1,5 +1,5 @@
 ---
-title: Инструкция по Установке L3+/L3++
+title: Инструкция по установке L3+/L3++
 parent_category: Прошивка Hiveon ASIC
 category: L3+/L3++
 path: /hiveon-asic-firmware-L3+_L3++-L3+_L3++_installation_ru
@@ -8,8 +8,6 @@ parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-L3_ru
 order: 1
 ---
-
-## Инструкция по установке прошивки Hiveon ASIC: L3+/L3++
 
 ## Варианты установки
 Поскольку универсальных инструкций не существует, мы рассмотрим три сценария установки или обновления вашего оборудования при помощи Hiveon ASIC. Будут рассмотрены следующие темы:

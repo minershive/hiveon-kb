@@ -1,9 +1,8 @@
 ---
-title: Referral Rewards System
+title: Referral rewards system
 parent_category: FAQ
 category: Billing in Hive OS
 ---
-## Referral Rewards System: How to earn with Hive OS
 
 Apart from mining, you can also earn from your referral payments! To start earning, follow this guide:
 

@@ -1,11 +1,10 @@
 ---
-title: Discounts and Bonuses
+title: Discounts and bonuses
 parent_category: FAQ
 category: Billing in Hive OS
 ---
-# Discounts and Bonuses: How to Pay Less
 
->Please note, that all current discount plans can be viewed on the <a href="https://hiveos.farm/pricing/">pricing page</a>.
+Please note, that all current discount plans can be viewed on the <a href="https://hiveos.farm/pricing/">pricing page</a>.
 
 ### Discounts for the number of Workers
 If you have a large number of workers, you can count on a discount from us. This is how it works:

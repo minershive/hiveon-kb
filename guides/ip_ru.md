@@ -6,7 +6,7 @@ lang: ru
 parent_category_path: /guides_ru
 order: 1
 ---
-## Статический IP
+
 Здесь всё очень просто. Все сетевые настройки привязаны здесь:
 
 /hive-config/network/20-ethernet.network

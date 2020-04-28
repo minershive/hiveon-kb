@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## NiceHash
 <img src="http://forum.hiveos.farm/uploads/editor/vp/1fs7ux2lalf8.png">
 
 Один из наиболее популярных вопросов от новичков - поддерживает ли Hive OS NiceHash и как его настроить.

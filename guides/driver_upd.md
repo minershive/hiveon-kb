@@ -1,9 +1,8 @@
 ---
-title: Drivers Update
+title: Drivers update
 category: Guides
 ---
 
-## Drivers Update
 Sometimes users want to try other drivers. Really advanced would not ask such questions,
 but if you want to play here is a guide.
 

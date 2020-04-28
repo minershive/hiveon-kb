@@ -1,10 +1,9 @@
 ---
-title: How to Start Mining on Hiveon Pool
+title: How to start mining on Hiveon Pool
 parent_category: Hiveon Pool
 category: Hiveon Pool
 ---
 
-# How to Start Mining on Hiveon Pool
 Are you going to start mining on Hiveon pool? Great! To make your life easier, we prepared a guide on how to switch to Hiveon pool, for both Hive OS and Windows users. Keep reading to discover more.
 
 ## If you are a Hive OS user

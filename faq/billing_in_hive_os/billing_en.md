@@ -1,11 +1,10 @@
 ---
-title: Hive Billing Explained
+title: Hive billing explained
 path: /faq-billing_in_hive_os-billing
 parent_category: FAQ
 category: Billing in Hive OS
 ---
 
-## Hive Billing Explained
 ### Terms used
 **Mining** - calculations made by a device for mining cryptocurrencies.
 

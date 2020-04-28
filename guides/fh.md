@@ -3,7 +3,6 @@ title: Farm Hash
 category: Guides
 ---
 
-## Farm Hash
 You can find FARM_HASH on the web. Using it you can easily add rigs in bulk without creating rigs on the web and getting RIG_ID. Hash is unique for each farm.
 
 Write Hive image as usual to your Flash/SSD. After the write you’ll find HIVE disk in Windows. It holds Hive config files, there is `rig-config-example.txt` in there. Open it, edit and save as `rig.conf`.

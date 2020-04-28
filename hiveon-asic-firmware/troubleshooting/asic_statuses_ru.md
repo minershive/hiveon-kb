@@ -1,5 +1,5 @@
 ---
-title: Статусы ASIC-а и Устранение Ошибок
+title: Статусы ASIC-а и устранение ошибок
 parent_category: Прошивка Hiveon ASIC
 category: Устранение Ошибок
 path: /hiveon-asic-firmware-troubleshooting-asic_statuses_ru
@@ -12,7 +12,7 @@ order: 1
 ### SUSPENDED
 Нужна перезагрузка. Как вариант, можно включить хешрейт-вачдог для автоматической перезагрузки.
 
-### Tuning
+### TUNING
 Процесс тюнинга, возможны просадка хеша и перезапуск софта.
 
 ### ERROR\_TEMP\_TOO\_LOW

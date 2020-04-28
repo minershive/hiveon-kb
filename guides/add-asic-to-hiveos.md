@@ -3,8 +3,6 @@ title: Adding ASIC to Hive OS
 category: Guides
 ---
 
-## Adding ASIC to Hive OS
-
 ### Prepare
 >Beware of recent Bitmain firmware
 - Antminer Series 9 (S9/S9i/S9j/T9/T9+): never upgrade to firmware newer than 10-Jun-2019

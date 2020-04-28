@@ -1,13 +1,11 @@
 ---
-title: Hive OS Deploy PXE - Как Развернуть Сотни Ригов
+title: Hive OS Deploy PXE - как развернуть сотни ригов
 parent_category: Гайды
 path: /guides-pxe_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
 ---
-
-## Hive OS Deploy PXE - Как Развернуть Сотни Ригов
 
 ### Вступление
 Если у вас есть большая ферма с сотнями или тысячами графических процессоров, и вы планируете перейти на Hive OS, в этом случае использование Hive OS Deploy PXE может значительно сократить время миграции и дать полный контроль над процессом развертывания.

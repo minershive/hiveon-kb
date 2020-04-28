@@ -1,10 +1,8 @@
 ---
-title: Installation Guide S17 (S17 Pro)
+title: Installation guide S17 (S17 Pro)
 parent_category: Hiveon ASIC Firmware
 category: S17, S17 Pro
 ---
-
-## Hiveon ASIC Firmware Installation Guide: S17, S17 Pro
 
 Have you decided to upgrade your ASIC Antminer S17 or S17 Pro with our custom firmware? Great! Here is a guide on how to install your new firmware. But before we go through the installation details, let us quickly explain to you what cool features our custom firmware has.
 

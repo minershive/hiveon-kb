@@ -1,10 +1,8 @@
 ---
-title: Installation Guide T17, T17+, T17E
+title: Installation guide T17, T17+, T17E
 parent_category: Hiveon ASIC Firmware
 category: T17, T17+, T17E
 ---
-
-## Hiveon ASIC Firmware Installation Guide: T17, T17+, T17E
 
 ### Important Notes
 There is no universal manual, as for T17 series there are 3 versions of stock firmware. Therefore, every particular case has its own manual on the custom firmware installation. We will cover all of them.

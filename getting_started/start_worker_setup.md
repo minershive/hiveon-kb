@@ -1,9 +1,8 @@
 ---
-title: Worker Installation and Setup
+title: Worker installation and setup
 category: Getting Started
 ---
 
-## Getting Started with Hive OS — Worker Installation and Setup
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png"
   />

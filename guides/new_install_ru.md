@@ -1,5 +1,5 @@
 ---
-title: Установка с Нуля
+title: Установка с нуля
 parent_category: Гайды
 path: /guides-new_install_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Установка с Нуля
 - Вот <a href="https://hiveos.farm/install/">здесь</a> можно скачать все необходимые файлы.
 
 ### Видео

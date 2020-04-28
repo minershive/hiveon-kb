@@ -3,7 +3,6 @@ title: Know your IP
 category: Guides
 ---
 
-## Know Your IP
 In web panel there are 2 IPs at least listed once you connect your rig.
 
 1st is you internal IP. In your internal network, you can access it only from your local network.

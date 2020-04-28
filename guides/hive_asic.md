@@ -2,7 +2,7 @@
 title: Hive OS for ASICs
 category: Guides
 ---
-## Hive OS for ASICs
+
 ### Available software for ASICs from Hive
 **1. [Hive OS Client](https://github.com/minershive/hiveos-asic/blob/master/README.md)**
 

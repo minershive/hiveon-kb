@@ -1,5 +1,5 @@
 ---
-title: Разница Между Стандартной и Улучшенной Прошивками
+title: Разница между стандартной и улучшенной прошивками
 parent_category: Прошивка Hiveon ASIC
 category: Общие Вопросы
 path: /hiveon-asic-firmware-general-standard_improved_firmware_ru
@@ -9,7 +9,6 @@ category_path: /hiveon-asic-firmware-general_ru
 order: 1
 ---
 
-## Разница Между Стандартной и Улучшенной Прошивками
 Отличие Improved и Standard прошивок в наличии или отсутствии цифровой подписи. Прошивки Hiveon ранее существовали в двух вариантах — улучшенная (Improved, с подписью) и стандартная (Standard, без подписи).
 
 ### Что такое улучшенная прошивка?

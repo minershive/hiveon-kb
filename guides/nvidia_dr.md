@@ -1,9 +1,8 @@
 ---
-title: NVidia Drivers Update Guide and CUDA 10.x
+title: NVidia drivers update guide and CUDA 10.x
 category: Guides
 ---
 
-## NVidia Drivers Update Guide and CUDA 10.x
 nvidia-driver-update default installation version: 440.36 (updated December 05, 2019)
 
 This week we update NVidia drivers in our [repository](http://download.hiveos.farm/drivers/drivers). All drivers are CUDA 10 compatible.

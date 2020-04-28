@@ -2,7 +2,7 @@
 title: GPU FAQ
 category: Guides
 ---
-## GPU FAQ
+
 ### The farm is constantly rebooting. If I turn logs-on via Hive Shell, what should I pay attention to?
 Pay attention to the log lines that appear right before the rig goes offline. Apart from this, you can launch this command via Hive Shell:
 `tail -f /var/log/syslog` (you can interrupt the command by pressing the keys Ctrl-C).

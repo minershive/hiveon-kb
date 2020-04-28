@@ -1,5 +1,5 @@
 ---
-title: Установка Драйверов AMD
+title: Установка драйверов AMD
 parent_category: Гайды
 path: /guides-amd_dr_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Установка Драйверов AMD
 Скрипт для простой установки драйверов AMD на Hive OS и ОС на основе Ubuntu: https://github.com/CryptoLuigi/AMD_Installer.
 
 **Обратите внимание:** Драйверы с суффиксом 18.04 требуют обновления операционной системы.

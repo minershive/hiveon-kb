@@ -1,9 +1,8 @@
 ---
-title: How to Mine EXCC with Hive OS
+title: How to mine EXCC with Hive OS
 category: Guides
 ---
 
-## How to mine EXCC with Hive OS
 Mining EXCC with Hive OS is very easy and it can be done with only a few clicks.
 
 ***Step 1.*** Log in to your farm. The first thing you need to do is adding a new Wallet:

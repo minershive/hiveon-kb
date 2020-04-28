@@ -1,10 +1,8 @@
 ---
-title: Installation Guide L3+/L3++
+title: Installation guide L3+/L3++
 parent_category: Hiveon ASIC Firmware
 category: L3+/L3++
 ---
-
-## Hiveon ASIC Firmware Installation Guide: L3+/L3++
 
 ## Installation Options
 There are no one-size-fits-all instructions, instead we’re going to cover three scenarios of installing or updating your machines with Hiveon ASIC. The following topics will be covered:

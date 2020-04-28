@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Hive Shell
 <img src="https://forum.hiveos.farm/uploads/default/original/2X/8/8580c113d2e085d26be948283c7922532a00d90f.png">
 
 ### О Hive Shell

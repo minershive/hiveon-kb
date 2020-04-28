@@ -3,7 +3,6 @@ title: Overclocking
 category: Guides
 ---
 
-## Overclocking
 - <a href="https://www.youtube.com/watch?v=1BcRnR6zRBA">Overclocking in Hive OS</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=1BcRnR6zRBA

@@ -3,7 +3,6 @@ title: OpenVPN
 category: Guides
 ---
 
-## OpenVPN
 ### The First Tutorial
 This is how to check the client’s service status on the rig when you upload config and it’s not working:
 <pre><code>

@@ -1,5 +1,5 @@
 ---
-title: Команды Linux для Начинающих
+title: Команды Linux для начинающих
 parent_category: Гайды
 path: /guides-linux_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Команды Linux для начинающих
 `miner` — открывает окно с запущенным майнером
 
 `miner start | stop` — запускает или останавливает настроенный майнер

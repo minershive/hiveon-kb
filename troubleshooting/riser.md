@@ -1,8 +1,7 @@
 ---
-title: Bad Riser
+title: Bad riser
 ---
 
-## Bad Riser
 The error look like this:
 
 <pre><code>

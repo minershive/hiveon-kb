@@ -1,13 +1,11 @@
 ---
-title: Знакомство с Системой
+title: Знакомство с системой
 parent_category: Гайды
 path: /guides-what_is_hive_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
 ---
-
-## Знакомство с Системой
 
 <img src="http://forum.hiveos.farm/uploads/editor/cr/nst8nd7f9nkx.png" >
 

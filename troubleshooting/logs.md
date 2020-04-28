@@ -2,8 +2,6 @@
 title: Logs
 ---
 
-## Logs
-
 ### Miner logs
 The simple way: click the **Log** button under the Miner selection:
 

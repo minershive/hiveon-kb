@@ -3,7 +3,6 @@ title: Wi-Fi
 category: Guides
 ---
 
-## Wi-Fi
 Wifi, adapters and Linux have tough relations. Though some of them are supported and you can try to use it.
 
 In general, it’s simple. On your first run, you’ll be asked for a rig password, but since you have no internet connection open a new terminal tab and run `wifi` command there. You will be prompted for SSID and password. If everything is ok then it just works.

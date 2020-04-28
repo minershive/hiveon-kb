@@ -3,7 +3,6 @@ title: Autofan
 category: Guides
 ---
 
-## Autofan
 ### What benefits does autofan in Hive OS have?
 With autofan, you can set up the target temperature and the minimum speed of coolers. In this way, the coolers will work, and not exceed the target temperature at the same time. What is the result? Less noise and  less wear of the coolers.
 

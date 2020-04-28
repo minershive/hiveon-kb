@@ -1,5 +1,5 @@
 ---
-title: Инструкция по Установке Прошивки Через SD-карту (серии S17 и Т17)
+title: Инструкция по установке прошивки через SD-карту (серии S17 и Т17)
 parent_category: Прошивка Hiveon ASIC
 category: Общие Вопросы
 path: /hiveon-asic-firmware-general-installation_sd_card_ru
@@ -8,8 +8,6 @@ parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-general_ru
 order: 1
 ---
-
-## Инструкция по Установке Прошивки Через SD-карту (серии S17 и Т17)
 
 ### Порядок действий:
 

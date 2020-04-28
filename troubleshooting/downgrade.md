@@ -2,7 +2,6 @@
 title: Version downgrade
 ---
 
-## Version downgrade
 Sometimes after update something is not working for you and you’d like to go back to the previous version. Though it can’t be done via web panel, you can do it manually either from SSH shell or “Linux Command Execute” on the web.
 
 Starting from version 0.5-67 you can just run `selfupgrade 0.5-67`.

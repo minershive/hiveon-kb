@@ -1,5 +1,5 @@
 ---
-title: Перенос Hive OS с Флешки на SDD/HDD Средствами Самой Hive OS
+title: Перенос Hive OS с флешки на SDD/HDD средствами самой Hive OS
 parent_category: Гайды
 path: /guides-hdd_move_ru
 lang: ru
@@ -7,7 +7,6 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-## Перенос Hive OS с Флешки на SDD/HDD Средствами Самой Hive OS
 Один из способов перенести Hive OS на SDD/HDD - скопировать её с работающей флешки.
 
 Для этого проделываем в консоли следующее:

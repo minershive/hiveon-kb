@@ -1,10 +1,9 @@
 ---
-title: Installation Guide S9 (S9i, S9j)
+title: Installation guide S9 (S9i, S9j)
 parent_category: Hiveon ASIC Firmware
 category: S9 (S9i, S9j)
 ---
 
-## Hiveon ASIC Firmware Installation Guide: S9 (S9i, S9j)
 ___The installation process is the same for T9+.___
 
 While current cryptocurrency prices keep wildly fluctuating, miners need any advantage they can get in order to stay on top of their game and keep making profits. With that in mind we set out to make something that will give them that advantage and decided to bring some love to our ASIC users by introducing Hiveon ASIC.

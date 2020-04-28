@@ -1,9 +1,8 @@
 ---
-title: Overclocking Profiles Basics
+title: Overclocking profiles basics
 category: Getting Started
 ---
 
-## Getting Started with Hive OS — Overclocking Profiles Basics
 <img
   src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/header.png"
   />

@@ -16,7 +16,7 @@ order: 1
 - Поддерживает множество моделей ASICов: Antminer, Innosilicon, Zig и даже некоторые FPGA майнеры.
 
 Поддерживаемые ASICи:
-- Antminer
+- **Antminer:**
 	- A3
 	- B3
 	- D3, D3 (Blissz)
@@ -24,30 +24,40 @@ order: 1
 	- E3
 	- L3+, L3++
 	- S7
-	- S9, S9i, S9j, S9k, S9SE, S9-Hydro, S9 (VNISH), S9 (mskminer), S11
-	- S10 (mskminer)
-	- S15, S17, S17 Pro (deprecated in favor of Hiveon firmware)
+	- S9, S9i, S9j, S9k, S9SE, S9-Hydro, S9 (VNISH), S9 (MSKMINER)
+	- S10 (S9 Dual MSKMINER)
+	- S11
+	- S15
+	- S17, S17+, S17E, S17 Pro
 	- T9, T9+
-	- T15, T17 (deprecated in favor of Hiveon firmware)
+	- T15
+	- T17, T17+, T17E
 	- X3
 	- Z9, Z9-Mini
 	- Z11
-- Innosilicon
+- **Innosilicon:**
 	- A5/A8 (need test)
 	- A9 ZMaster
 	- D9 DecredMaster
 	- S11 SiaMaster
 	- T3 BTCMiner
 	- T3H+, T3+, T2Th+, T2Thf+, T2Thl+, T2Th, T2Tz-30T, T2Thm, T2Thf, T2T+ (32T), T2Ts-26T, T2Ti-25T, T2T-24T
-- Zig
+- **Todek:**
+	- Toddminer C1, C1 PRO
+- **HashAltCoin:**
+	- Blackminer F1, F1+, F1-MINI
+	- Blackminer F1-Ultra, F1-MINI+
+- **Zig:**
 	- Z1, Z1+
 
 Самый актуальный список можно найти <a href="https://github.com/minershive/hiveos-asic">здесь</a>.
 
+**Инструкцию по установке Hive OS Client можно найти [здесь](https://hiveos.farm/guides-add-asic-to-hiveos_ru).**
+
 
 **2. [Hiveon ASIC Firmware](https://hiveos.farm/asic/)**
 
-Это кастомная прошивка, заменяющая заводскую. Поддерживает только некоторые модели: Antminer S17, S17 Pro, S9, S9i, S9j, S10 и T9+.
+Это кастомная прошивка, заменяющая заводскую. Поддерживает только некоторые модели: Antminer S17, S17+, S17E, S17 Pro, S9, S9i, S9j, S10, L3+, L3++, T9+, T17, T17+, T17E.
 
 - **S17:** до 72 Th/s с воздушным охлаждением
 - **S17 Pro:** до 80.1 Th/s на стандартном блоке питания, до 85 Th/s с жидким охлаждением
@@ -55,7 +65,7 @@ order: 1
 - **S10:** до 21.5 Th/s на стандартном блоке питания, до 23.5 Th/s на кастомном
 - **T9+:** до 13.6 Th/s на стандартном блоке питания
 
->Прошивки Hiveon для других моделей ASIC (например, S9k/S9SE/T17) уже в разработке, так что следите за обновлениями!
+>Прошивки Hiveon для других моделей ASIC уже в разработке, так что следите за обновлениями!
 
 Что дает прошивка:
 * Ускорение изношенных ASIC чипов;
@@ -69,6 +79,8 @@ order: 1
 * Вотчдоги по температуре, хешрейту;
 * При использовании прошивки, Hive OS - бесплатно.
 
+**Инструкции по установке прошивок можно найти [здесь](https://hiveos.farm/hiveon-asic-firmware_ru).**
+
 ### Hive OS Client и прошивка Hiveon ASIC: сравнение
 
 >Hive OS Client и прошивка Hiveon ASIC **не являются одним и тем же продуктом**.
@@ -81,30 +93,33 @@ order: 1
 |D3, D3 (Blissz)|*|*|*|*|
 |DR3|*|*|*|*|
 |E3|*|*|*|*|
-|L3+, L3++|*|*|*|*|
+|L3+, L3++|*|*|*|*|*|*|*|*|*|*|
 |S7|*|*|*|*|
 |S9, S9i, S9j|*|*|*|*|*|*|*|*|*|*|
 |S9k, S9SE, S9-Hydro|*|*|*|*|скоро|скоро|скоро|скоро|скоро|
-|S10 (mskminer)|*|*|*|*|
+|S10 (MSKMINER)|*|*|*|*|*|*|*|*|*|*|
 |S11|*|*|*|*|
 |S15|*|*|*|*|
-|S17, S17 Pro|*|*|*|*|*|*|*|*|*|*|
-|S17+|*|*|*|*|скоро|скоро|скоро|скоро|скоро|
+|S17, S17+, S17E, S17 Pro|*|*|*|*|*|*|*|*|*|*|
 |T9|*|*|*|*|
 |T9+|*|*|*|*|*|*|*|*|*|*|
 |T15|*|*|*|*|
-|T17|*|*|*|*|бета|бета|бета|бета|бета|
-|T17+|*|*|*|*|скоро|скоро|скоро|скоро|скоро|
+|T17, T17+, T17E|*|*|*|*|*|*|*|*|*|*|
 |X3|*|*|*|*|
 |Z9, Z9-Mini|*|*|*|*|
-Z11|*|*|*|*|
+|Z11|*|*|*|*|
 |**Innosilicon**|
-|A5/A8 (need test)|*|*|*|*|
+|A5/A8 (необходимо тестирование)|*|*|*|*|
 |A9 ZMaster|*|*|*|*|
 |D9 DecredMaster|*|*|*|*|
 |S11 SiaMaster|*|*|*|*|
 |T3 BTCMiner|*|*|*|*|
 |T3H+, T3+, T2Th+, T2Thf+, T2Thl+, T2Th, T2Tz-30T, T2Thm, T2Thf, T2T+ (32T), T2Ts-26T, T2Ti-25T, T2T-24T|*|*|*|*|
+|**Todek**|
+|Toddminer C1, C1 PRO|*|*|*|*|
+|**HashAltCoin**|
+|Blackminer F1, F1+, F1-MINI|*|*|*|*|
+|Blackminer F1-Ultra, F1-MINI+|*|*|*|*|
 |**Zig**|
 |Z1, Z1+|*|*|*|*|
 

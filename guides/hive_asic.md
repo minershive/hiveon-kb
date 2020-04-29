@@ -12,7 +12,7 @@ It's a lightweight application running on the stock (or custom firmware of your 
 - Supports a broad range of ASIC models: Antminer, Innosilicon, Zig and even some FPGA miners.
 
 Supported ASICs:
-- Antminer
+- **Antminer:**
 	- A3
 	- B3
 	- D3, D3 (Blissz)
@@ -20,30 +20,39 @@ Supported ASICs:
 	- E3
 	- L3+, L3++
 	- S7
-	- S9, S9i, S9j, S9k, S9SE, S9-Hydro, S9 (VNISH), S9 (mskminer), S11
-	- S10 (mskminer)
-	- S15, S17, S17 Pro (deprecated in favor of Hiveon firmware)
+	- S9, S9i, S9j, S9k, S9SE, S9-Hydro, S9 (VNISH), S9 (MSKMINER)
+	- S10 (S9 Dual MSKMINER)
+	- S11
+	- S15
+	- S17, S17+, S17E, S17 Pro
 	- T9, T9+
-	- T15, T17 (deprecated in favor of Hiveon firmware)
+	- T15
+	- T17, T17+, T17E
 	- X3
 	- Z9, Z9-Mini
 	- Z11
-- Innosilicon
+- **Innosilicon:**
 	- A5/A8 (need test)
 	- A9 ZMaster
 	- D9 DecredMaster
 	- S11 SiaMaster
 	- T3 BTCMiner
 	- T3H+, T3+, T2Th+, T2Thf+, T2Thl+, T2Th, T2Tz-30T, T2Thm, T2Thf, T2T+ (32T), T2Ts-26T, T2Ti-25T, T2T-24T
-- Zig
+- **Todek:**
+	- Toddminer C1, C1 PRO
+- **HashAltCoin:**
+	- Blackminer F1, F1+, F1-MINI
+	- Blackminer F1-Ultra, F1-MINI+
+- **Zig:**
 	- Z1, Z1+
-
 
 Actual list can be always found on <a href="https://github.com/minershive/hiveos-asic">GitHub</a>.
 
+**All the instructions on Hive OS Client installation can be found [here](https://hiveos.farm/guides-add-asic-to-hiveos).**
+
 **2. [Hiveon ASIC Firmware](https://hiveos.farm/asic/)**
 
-It's a custom firmware that replaces the stock one. Supports only selected models: Antminer S17, S17 Pro, S9, S9i, S9j, S10 and T9+.
+It's a custom firmware that replaces the stock one. Supports only selected models: Antminer S17, S17+, S17E, S17 Pro, S9, S9i, S9j, S10, L3+, L3++, T9+, T17, T17+, T17E.
 
 - **S17:** up to 72 Th/s with air cooling
 - **S17 Pro:** up to 80.1 Th/s with standard PSU, up to 85 Th/s with liquid cooling
@@ -51,7 +60,7 @@ It's a custom firmware that replaces the stock one. Supports only selected model
 - **S10:** up to 21.5 Th/s with standard PSU, up to 23.5 Th/s with the custom one
 - **T9+:** up to 13.6 Th/s with standard PSU
 
->Hiveon Firmware for other ASIC models like S9k/S9SE/T17 are coming soon, so stay tuned!
+>Hiveon Firmware for other ASIC models are coming soon, so stay tuned!
 
 Hiveon ASIC Firmware features:
 
@@ -66,6 +75,8 @@ Hiveon ASIC Firmware features:
 * Watchdogs for temperature and hashrate;
 * Hive OS is free when using Hiveon ASIC firmware!
 
+**All the instructions on firmware installation can be found [here](https://hiveos.farm/hiveon-asic-firmware).**
+
 ### Hive OS Client and Hiveon ASIC Firmware comparison
 
 >Hive OS Client and Hiveon ASIC Firmware **are not the same products**.
@@ -78,23 +89,21 @@ Hiveon ASIC Firmware features:
 |D3, D3 (Blissz)|*|*|*|*|
 |DR3|*|*|*|*|
 |E3|*|*|*|*|
-|L3+, L3++|*|*|*|*|
+|L3+, L3++|*|*|*|*|*|*|*|*|*|*|
 |S7|*|*|*|*|
 |S9, S9i, S9j|*|*|*|*|*|*|*|*|*|*|
 |S9k, S9SE, S9-Hydro|*|*|*|*|soon|soon|soon|soon|soon|
-|S10 (mskminer)|*|*|*|*|
+|S10 (MSKMINER)|*|*|*|*|*|*|*|*|*|*|
 |S11|*|*|*|*|
 |S15|*|*|*|*|
-|S17, S17 Pro|*|*|*|*|*|*|*|*|*|*|
-|S17+|*|*|*|*|soon|soon|soon|soon|soon|
+|S17, S17+, S17E, S17 Pro|*|*|*|*|*|*|*|*|*|*|
 |T9|*|*|*|*|
 |T9+|*|*|*|*|*|*|*|*|*|*|
 |T15|*|*|*|*|
-|T17|*|*|*|*|beta|beta|beta|beta|beta|
-|T17+|*|*|*|*|soon|soon|soon|soon|soon|
+|T17, T17+, T17E|*|*|*|*|*|*|*|*|*|*|
 |X3|*|*|*|*|
 |Z9, Z9-Mini|*|*|*|*|
-Z11|*|*|*|*|
+|Z11|*|*|*|*|
 |**Innosilicon**|
 |A5/A8 (need test)|*|*|*|*|
 |A9 ZMaster|*|*|*|*|
@@ -102,6 +111,11 @@ Z11|*|*|*|*|
 |S11 SiaMaster|*|*|*|*|
 |T3 BTCMiner|*|*|*|*|
 |T3H+, T3+, T2Th+, T2Thf+, T2Thl+, T2Th, T2Tz-30T, T2Thm, T2Thf, T2T+ (32T), T2Ts-26T, T2Ti-25T, T2T-24T|*|*|*|*|
+|**Todek**|
+|Toddminer C1, C1 PRO|*|*|*|*|
+|**HashAltCoin**|
+|Blackminer F1, F1+, F1-MINI|*|*|*|*|
+|Blackminer F1-Ultra, F1-MINI+|*|*|*|*|
 |**Zig**|
 |Z1, Z1+|*|*|*|*|
 

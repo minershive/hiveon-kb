@@ -210,16 +210,25 @@ Without it, the ASIC mines using old parameters, and doesn’t show hashrates in
 There are no problems with reverse firmware, but the most suitable version for this case is the standard version of firmware.
 Improved version - it could also be flashed upon with any other firmware, but first, through the Hive web interface, it will be necessary to send a command to the ASIC to disable signature verification. No programmers are needed. Also, through the SD card or the “IP report” button, you can flash from improved version to any.
 
-#### After the firmware I can’t get into the ASIC interface, what should I do?
-Here is the list of default logins and passwords:
+#### Default logins and passwords
+Default SSH logins and passwords:
 
-S9 1.01 - root:root
+Antminer - default user: **root**, default password: **admin**
 
-S9 1.02 - root:root@
+Innosilicon - default (ssh/telnet) user:**root**, default password: **blacksheepwall** or **innot1t2** or **t1t2t3a5**
 
-All the others: root:root
+>If other login and password values were set up before you, then reset the ASIC to the factory settings. To do this, on the turned on ASIC, hold the ipreport and reset buttons, hold for 20 seconds, turn off the power supply, without releasing the pressed buttons. Wait for 10 seconds, without releasing the ipreport and reset buttons, turn on the power supply and hold ipreport and reset for 20 more seconds. Then release and wait for the load.
 
-If all these logins and passwords don't work, try root:admin@.
+#### How to change the worker's RIG ID?
+To do this, you need to have physical access to the rig. Connect the keyboard and monitor to it , and enter the command: `firstrun -f`. As an option, you can use Hive Shell to do this remotely. Launch Hive Shell, and in a new window enter the command `firstrun -f`. After this specify RIG ID and password.
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png"
+  />
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png"
+  />
 
 #### An error occurs during installation `tar: short read`.
 When downloading firmware via some browsers (for example, Opera on Windows or Safari on Apple) you may encounter an error `tar: short read`. In this case, we recommend using a different browser, such as Google Chrome.
@@ -352,7 +361,7 @@ Why do you need to select the profile:
 In the new tuning algorithm, there is a gradual acceleration in frequency. During this acceleration, the hashrates aren’t displayed. This is required for optimal overclocking results.
 
 #### Why is the consumption in watts shown incorrectly?
-To display a correct approximation of consumption, any overclocking profile should be applied. Consumption will be displayed with an error of up to 10%.
+To display a correct approximation of consumption, any overclocking profile should be applied. Consumption will be displayed with an error from +3% to -10%.
 
 #### I get unrealistic numbers on the fan speeds, for example, 30600 rpm and 509%.
 This is caused either by a broken fan or sensor. Antminers often write 30600 if they have a problem with obtaining stats from sensors. Recheck the connectors or replace fans.

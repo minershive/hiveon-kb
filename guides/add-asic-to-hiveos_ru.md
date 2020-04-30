@@ -76,19 +76,19 @@ Innosilicon - пользователь по умолчанию (ssh/telnet): **r
 
 **Чтобы добавить ASIC без ввода RIG_ID и пароля, вам нужно заполнить переменную FARM_HASH.**
 
-Получите ваш FARM_HASH из панели управления Hive OS. В строке, которую вы видите ниже, замените `your_farm_hash` вашим FARM_HASH. Затем запустите как одну команду:
+Получите ваш FARM\_HASH из панели управления Hive OS. В строке, которую вы видите ниже, замените `your\_farm\_hash` вашим FARM\_HASH. Затем запустите как одну команду:
 
 `cd /tmp && curl -kLsO https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade --farm-hash=YOUR_FARM_HASH`
 
-**Чтобы использовать другой API сервер, вам нужно заполнить переменную HIVE_HOST_URL.**
+**Чтобы использовать другой API сервер, вам нужно заполнить переменную HIVE\_HOST\_URL.**
 
-В строке, которую вы видите ниже, замените `http://your_api_server` вашей URL API сервера. Затем запустите как одну команду:
+В строке, которую вы видите ниже, замените `http://your\_api\_server` вашей URL API сервера. Затем запустите как одну команду:
 
 `cd /tmp && curl -kLsO https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade --hive-host-url=http://your_api_server`
 
-**Вы также можете установить FARM_HASH и API сервер одновременно.**
+**Вы также можете установить FARM\_HASH и API сервер одновременно.**
 
-В строке, которую вы видите ниже, замените `your_farm_hash` вашим FARM_HASH. Также замените `http://your_api_server` вашей URL API сервера. Затем запустите как одну команду:
+В строке, которую вы видите ниже, замените `your\_farm\_hash` вашим FARM\_HASH. Также замените `http://your\_api\_server` вашей URL API сервера. Затем запустите как одну команду:
 
 `cd /tmp && curl -kLsO https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade --farm-hash=YOUR_FARM_HASH --hive-host-url=http://your_api_server`
 

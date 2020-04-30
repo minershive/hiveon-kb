@@ -58,7 +58,7 @@ Force set up FARM_HASH or RIG ID and password, change API URL:
 
 `firstrun -f` or `firstrun FARM_HASH -f` - force set to replace the config
 
-Default SSH login and password:
+Default SSH logins and passwords:
 
 Antminer - default user: **root**, default password: **admin**
 
@@ -72,19 +72,19 @@ You could add ASIC without entering RIG_ID, password and API Server URL.
 
 **To add ASIC without entering RIG_ID and password, you should fill FARM_HASH variable.**
 
-Get your FARM_HASH from Hive OS dashboard. Replace `your_farm_hash` string you see below with your FARM_HASH. Transform the text below and then run as a single command:
+Get your FARM\_HASH from Hive OS dashboard. Replace `your\_farm\_hash` string you see below with your FARM\_HASH. Transform the text below and then run as a single command:
 
 `cd /tmp && curl -kLsO https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade --farm-hash=YOUR_FARM_HASH`
 
-**To use another API Server, you should fill HIVE_HOST_URL variable.**
+**To use another API Server, you should fill HIVE\_HOST\_URL variable.**
 
-Replace `http://your_api_server` string you see below with your API Server URL. Transform the text below and then run as a single command:
+Replace `http://your\_api\_server` string you see below with your API Server URL. Transform the text below and then run as a single command:
 
 `cd /tmp && curl -kLsO https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade --hive-host-url=http://your_api_server`
 
-**Of course you could set FARM_HASH and API Server simultaneously.**
+**Of course you could set FARM\_HASH and API Server simultaneously.**
 
-Replace `your_farm_hash` string you see below with your FARM_HASH. Replace `http://your_api_server` string you see below with your API Server URL. Transform the text below and then run as a single command:
+Replace `your\_farm\_hash` string you see below with your FARM\_HASH. Replace `http://your\_api\_server` string you see below with your API Server URL. Transform the text below and then run as a single command:
 
 `cd /tmp && curl -kLsO https://raw.githubusercontent.com/minershive/hiveos-asic/master/hive/bin/selfupgrade && sh selfupgrade --farm-hash=YOUR_FARM_HASH --hive-host-url=http://your_api_server`
 

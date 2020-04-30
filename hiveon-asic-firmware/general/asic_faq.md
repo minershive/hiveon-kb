@@ -312,8 +312,14 @@ or
 
 Kernel log can be checked right in Hive OS. Click the pickaxe icon, and move to the Miner Log. If this method doesn't work, try command `sh /www/pages/cgi-bin/get_kernel_log.cgi`.
 
-#### How to change the ASIC's password?
-To change the web password of your ASIC, send the following command to the worker:
+#### How to change the worker's password?
+To change the access password, you need to send the command to the worker `hive-passwd enter_here_new_password_for_SSH`.
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png"
+  />
+
+If you have the old version of Hive OS Client, send the following command to the worker:
 
 `echo "root:antMiner Configuration:$(echo -n "root:antMiner Configuration:$new_pw" | md5sum | cut -b -32)" > /config/lighttpd-htdigest.user`
 

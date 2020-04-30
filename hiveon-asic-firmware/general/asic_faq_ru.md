@@ -376,8 +376,14 @@ Worker - Settings - Advanced - Transfer Rig
 
 Кернел лог можно просмотреть прямо в Hive OS. Кликните на иконку в виде кирки, и перейдите в пункт Miner Log. Если этот метод не срабатывает, выполните команду `sh /www/pages/cgi-bin/get_kernel_log.cgi`.
 
-#### Как изменить пароль ASIC-а?
-Для смены пароля веба вашего ASIC-а, отправьте воркеру команду:
+#### Как изменить пароль воркера?
+Для смены пароля доступа, нужно отправить воркеру команду `hive-passwd впишите_сюда_новый_пароль_для_SSH`.
+
+<img
+  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png"
+  />
+
+Если же у вас старая версия Hive OS Client, отправьте воркеру команду:
 
 `echo "root:antMiner Configuration:$(echo -n "root:antMiner Configuration:$new_pw" | md5sum | cut -b -32)" > /config/lighttpd-htdigest.user`
 

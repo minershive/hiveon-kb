@@ -26,8 +26,8 @@ T17E: http://download.hiveos.farm/asic/T17E/SD-T17E-Hiveon-latest.zip
 - No loaders, mbr, or extra sections
 
 **Step 3:** Unzip the downloaded file and copy its content to the MicroSD card. There are files in the root folder. Fill them, and ASIC will connect to Hive OS after flashing:
-- FARM_HASH - in this file, insert FARM_HASH from the farm settings
-- HIVE_HOST_URL - insert the API server, if it is essential to replace it. If the file is empty, the standard server is used (api.hiveos.farm)
+- FARM\_HASH - in this file, insert FARM\_HASH from the farm settings
+- HIVE\_HOST\_URL - insert the API server, if it is essential to replace it. If the file is empty, the standard server is used (api.hiveos.farm)
 
 **Step 4:** Remove the MicroSD card from the computer and insert it into the card slot on the control board.
 
@@ -35,7 +35,7 @@ T17E: http://download.hiveos.farm/asic/T17E/SD-T17E-Hiveon-latest.zip
 
 **Step 6:** Turn off the miner and remove the MicroSD card. Turn on the ASIC, it is already flashed with Hiveon firmware.
 
-**Step 7:** If you haven't filled the file with FARM_HASH during the Step 3, you can connect ASIC to Hive OS via the ASIC's web-interface (in the **FarmConfig** tab). You can also do bulk connection, via the flashing function in BTC Tools (with the file, generated with this link: http://download.hiveos.farm/asic/repo/farm_hash_hiveon_17/).
+**Step 7:** If you haven't filled the file with FARM\_HASH during the Step 3, you can connect ASIC to Hive OS via the ASIC's web-interface (in the **FarmConfig** tab). You can also do bulk connection, via the flashing function in BTC Tools (with the file, generated with this link: http://download.hiveos.farm/asic/repo/farm_hash_hiveon_17/).
 
 ### Possible solutions to fix a firmware error:
 

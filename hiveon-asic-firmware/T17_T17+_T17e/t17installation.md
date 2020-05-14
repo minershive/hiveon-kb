@@ -5,7 +5,7 @@ category: T17, T17+, T17E
 ---
 
 ### Important Notes
-There is no universal manual, as for T17 series there are 3 versions of stock firmware. Therefore, every particular case has its own manual on the custom firmware installation. We will cover all of them.
+There are three ways to install Hiveon ASIC firmware for T17, T17+ and T17E — everything depends on the stock firmware release date. We will cover all the options, so you will be able to install Hiveon ASIC firmware quickly and easily.
 
 Please note, that all the manual steps which involve using BTC_TOOLS can be done via ASIC’s web interface (BTC_TOOLS is usually used for a large number of devices).
 

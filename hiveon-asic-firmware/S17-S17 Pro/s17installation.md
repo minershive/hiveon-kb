@@ -5,7 +5,7 @@ category: S17, S17 Pro, S17E, S17+
 ---
 
 ### Important Notes
-There is no universal manual, for S17, S17 Pro, S17E and S17+ there are 3 versions of stock firmware. Therefore, every particular case has its own manual on the custom firmware installation. We will cover all of them.
+There are three ways to install Hiveon ASIC firmware for S17, S17 Pro, S17+ and S17E — everything depends on the stock firmware release date. We will cover all the options, so you will be able to install Hiveon ASIC firmware quickly and easily. 
 
 Please note, that all the manual steps which involve using BTC_TOOLS can be done via ASIC’s web interface (BTC_TOOLS is usually used for a large number of devices).
 

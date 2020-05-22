@@ -3,6 +3,8 @@ title: General Hive OS FAQ
 path: /faq-general-general
 parent_category: FAQ
 category: General
+meta_keywords: Test meta key
+meta_description: Test meta description
 ---
 
 ### What is Hive OS?

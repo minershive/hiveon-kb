@@ -5,7 +5,7 @@ category: Guides
 
 nvidia-driver-update default installation version: 440.36 (updated December 05, 2019)
 
-This week we update NVidia drivers in our [repository](http://download.hiveos.farm/drivers/drivers). All drivers are CUDA 10 compatible.
+This week we update NVidia drivers in our [repository](http://download.hiveos.farm/drivers/). All drivers are CUDA 10 compatible.
 Added drivers version:
 
 - 410.93 - R410 stable long term support (supported new RTX 2080 Ti, 2080, 2070)

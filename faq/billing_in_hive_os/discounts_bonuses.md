@@ -40,22 +40,22 @@ Being a Hive OS user means that you get a 3% bonus for any amount of replenishme
 How to make a deposit in stablecoins? That's very easy!
 1. Choose **Hive** as a provider:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*L8qSjVTuu_AjOWL5.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*L8qSjVTuu_AjOWL5.png">
 
 
 2. Add a deposit address for your stablecoins. You can copy it using this button:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*3hLQ5RFW_1_5-hjH.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*3hLQ5RFW_1_5-hjH.png">
 
 3. After you get into a wallet, enter the desired amount of replenishment:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*64wVo2a140p-rxKc.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*64wVo2a140p-rxKc.png">
 
 4. Click **Send**
 
 5. Well done! Stablecoins and bonuses are in place!
 
-<img src="https://lbd.hiveos.farm/kb/images/0*jTxxgFEp4YrqcO-s.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*jTxxgFEp4YrqcO-s.png">
 
 ### A discount for using Hiveon ASIC Firmware
 ASICs with <a href="https://hiveos.farm/asic">Hiveon ASIC Firmware</a> are not charged and can use Hive OS for free.

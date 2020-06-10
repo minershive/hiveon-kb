@@ -54,12 +54,8 @@ With a forced update, the repositories are cleaned, updated, and their installat
 ### How to downgrade the Hive OS version?
 If you want to downgrade to the previous version of Hive OS, you need to click the arrow icon on the toolbar:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\faqgeneral\eng1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\faqgeneral\eng1.png"
-  />
+<img src="https://lbd.hiveos.farm/kb/images/faqgeneral/eng1.png" />
 
 Then select the version you want to return to, and click "Downgrade":
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\faqgeneral\eng2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\faqgeneral\eng2.png"
-  />
+<img src="https://lbd.hiveos.farm/kb/images/faqgeneral/eng2.png" />

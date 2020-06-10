@@ -27,7 +27,7 @@ When your ASIC is powered up and assuming it’s on the same network with you, c
 
 Log in into the miner. The default username login is root and the password is also root. You’ll be logged in the system overview window. If this is your first time setting up an ASIC don’t forget change the password from the default in the Admin tab first.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*CPGII9JKr1qVvZOL.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*CPGII9JKr1qVvZOL.png">
 
 Go into the **Upgrade** tab, there you will see the **Flash new firmware** image section. Click the **Choose File** to choose the image you previously downloaded and then click the **Flash image…** button and wait for it to install.
 
@@ -59,11 +59,11 @@ After installing the new firmware you can now login back into your ASIC miner. T
 
 **Attention! In order to use most of these options, you need to have a custom power supply connected to your ASIC. The factory PSU is not powerful enough to handle the load and your ASIC will turn off.**
 
-<img src="https://lbd.hiveos.farm/kb/images/0*p_4TaOOpSKRnJPP9.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*p_4TaOOpSKRnJPP9.png">
 
 In order to choose the **Profile** you want, go to the **Miner Configuration** tab, then click the **Auto tuner configuration** tab. There you can choose the Profile that suits your needs best. A small disclaimer first: **We don’t recommend choosing Manual mode unless you have sufficient skills in manually fine tuning an ASIC.** We won’t be covering the manual procedure as this profile is too difficult to explain in a short comprehensive form.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*pNPYfVdlrcuFH7fg.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*pNPYfVdlrcuFH7fg.png">
 
 Then click the **Apply Changes** button at the bottom of the page and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
 
@@ -72,34 +72,34 @@ Then click the **Apply Changes** button at the bottom of the page and wait for t
 ### Option 1: Updating using Hive OS’s web interface
 Assuming you’re already using Hive OS with your ASICs, you’ll need to update them to the compatible firmware first. If your ASIC model is compatible, you’ll see a yellow **Switch** text near the OS version at the bottom of your worker **Overview** page.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*SY96QIG33Br2aa8_.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*SY96QIG33Br2aa8_.png">
 
 Click it and a new **Change ASIC Firmware** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon** (the process will be the same for L3+/L3++, just make sure you choose the appropriate file). Click **Apply**.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*ssmeT6INSpHJgLKg.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*ssmeT6INSpHJgLKg.png">
 
 The ASIC will go offline and reboot, then it will re-appear as online shortly and it’s model name will change from Antminer S9 to Antminer S9 Hiveon (from L3+ to L3+ Hiveon accordingly). The firmware version will also change.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*lp4ZUANA-e0btQfk.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*lp4ZUANA-e0btQfk.png">
 
 You’re done, now you can configure your ASIC using the auto tuner.
 
 ### Option 2: Bulk Update
 Assuming you’re already using Hive OS with your ASICs, you’ll need to update them to the compatible firmware first.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*6FpiMVYCUCghtbC1.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*6FpiMVYCUCghtbC1.png">
 
 In the **Workers** tab, select the workers you want to update. You’ll see several actions appear in the top right corner of the screen.
 
-<img src=https://lbd.hiveos.farm/kb/images/0*KkPY3QOPvbUkbrpd.png">
+<img src=https://lbd.hiveos.farm/kb/images/custom/0*KkPY3QOPvbUkbrpd.png">
 
 Click the **ASIC Firmware** button and a new **Change ASIC Firmware** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon** (the process will be the same for L3+/L3++, just make sure you choose the appropriate file). Click **Apply**.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*AWw3uCKwWV_jvxNB.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*AWw3uCKwWV_jvxNB.png">
 
 The ASICs will go offline and reboot, then they will re-appear as online shortly and their model names will change from Antminer S9 to Antminer S9 Hiveon (from L3+ to L3+ Hiveon accordingly). The firmware version will also change.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*869YrhWn8EAKGOhz.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*869YrhWn8EAKGOhz.png">
 
 You’re done, now you can configure your ASIC using the auto tuner.
 
@@ -110,14 +110,14 @@ Once your ASICs were successfully flashed, you can then set our pre-created auto
 
 In the **Workers** tab, select the workers you want to run the auto tuning script on.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*VaoCeqoiLP3rbK8k.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*VaoCeqoiLP3rbK8k.png">
 
 You’ll see several actions appear in the top right corner of the screen. Click the **Overclocking** button and a new context window will appear.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*OGNBrUL3NWFR-CVn.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*OGNBrUL3NWFR-CVn.png">
 
 Select the profile you want then click the **Apply Changes** button at the bottom of the window and wait for the algorithm to finish auto tuning the ASIC. This may take up to an hour depending on the selected profile. Your hashrates may wildly fluctuate during the process — this is normal.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*RYEhl5muvMs9S8su.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*RYEhl5muvMs9S8su.png">
 
 And you’re all done! Congratulations and happy mining!

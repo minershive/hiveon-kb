@@ -117,41 +117,41 @@ order: 1
 **Настройка уведомлений в Discord:**
 1. Если у вас ещё нет сервера, откройте Discord и нажмите на иконку в виде плюса. Далее введите название сервера, выберите регион и нажмите на кнопку **Create**. Мы используем “MyHive” в качестве примера.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*3RseCE2d5RrCVh2h.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*3RseCE2d5RrCVh2h.png">
 
 2. Создайте ссылку для приглашения.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*LqN6C0sDjr65u5nD.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*LqN6C0sDjr65u5nD.png">
 
 3. Перейдите на страницу настроек вашей фермы и выберите вкладку **Discord** в секции уведомлений. Вы увидите там ссылку — кликните на неё, чтобы пригласитть Discord-бот на ваш сервер.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*3Tjka9nTpUSpf60I.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*3Tjka9nTpUSpf60I.png">
 
 4. Авторизуйте добавление бота в Discord:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*mSb6iv6A063y7idn.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*mSb6iv6A063y7idn.png">
 
 5. Введите в Discord команду `hive.start`:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*E39DcffRYDJk9-P2.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*E39DcffRYDJk9-P2.png">
 
 6. Бот ответит вам кодом авторизации:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*kTzn-oAAJdTblItq.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*kTzn-oAAJdTblItq.png">
 
 7. Скопируйте код авторизации и вставьте его во вкладку уведомлений Discord в настройка фермы. Нажмите на кнопку **Subscribe** (Подписаться).
 
 8. Отправьте команду согласно инструкциям в веб-интерфейсе:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*CcOUwAvSYOo-3Hig.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*CcOUwAvSYOo-3Hig.png">
 
 Если вы всё сделали правильно, ваш статус изменится на **Subscribed**. В Discord-боте, это выглядит так:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*ZjpDxBNCJvFk6gnI.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*ZjpDxBNCJvFk6gnI.png">
 
 9. Протестируйте бот несколькими командами. Мы применили команду `hello` и несуществующую команду `hello11`:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*d_nrWUidrx9Ttt9J.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*d_nrWUidrx9Ttt9J.png">
 
 Сообщения от бота Discord Hive доступны на сервере - значит, все работает правильно.
 

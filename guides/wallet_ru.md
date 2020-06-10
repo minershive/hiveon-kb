@@ -10,13 +10,13 @@ order: 1
 ### Шаг 1) Определитесь с монетой и пулом для майнинга
 Если вы решили майнить в пуле, вам нужно будет зарегистрироваться в этом пуле непосредственно на его веб-сайте. Например, веб-сайт пула Suprnova - https://suprnova.cc/. Отличительной особенностью Hive OS является то, что многие основные пулы автоматизированы. Вам просто нужно зарегистрироваться на платформе пула, создать воркер и пароль для этого воркера, и подготовить эту информацию для следующих шагов в Hive OS.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*15xxIauan7l9q8pW.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*15xxIauan7l9q8pW.png">
 
 
-<img src="https://lbd.hiveos.farm/kb/images/0*wWUQhCTCthFEtGIR.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*wWUQhCTCthFEtGIR.png">
 
 
-<img src="https://lbd.hiveos.farm/kb/images/0*pvFVB_ORr6tG-9CC.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*pvFVB_ORr6tG-9CC.png">
 
 ### Шаг 2) Кликните на ваш воркер и перейдите к кошельку
 Нажмите **Create Wallet** и введите необходимую информацию. Лучше всего знать, какую монету вы хотите добывать, а также какой пул вы хотите использовать для майнинга. Hive OS также дает вам возможность настроить майнер с любой конфигурацией, так что вы можете добывать монеты в одиночку, если хотите.
@@ -25,24 +25,24 @@ order: 1
 
 Это не касается каждого пула для майнинга - иногда у пула настоящий адрес кошелька. В других случаях, он будет похож на Suprnova, в формате **workername.password**.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*Qw6q2uT1h5YgozKy.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*Qw6q2uT1h5YgozKy.png">
 
 Учтите, что формат **workername.pw** относится как к Suprnova, так и к Miningpoolhub, в то время как у NiceHash - собственный адрес кошелька (его можно найти в вашем аккаунте). Или же, если вы решите майнить в одиночку, он перейдет на адрес личного кошелька, который вы решите использовать, напрямую от майнера.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*g0MVchej7uecSTgq.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*g0MVchej7uecSTgq.png">
 
 ### Шаг 3) Нажмите на Полетные Листы
 Введите монету, которую вы хотите майнить, и кошелек, который вы хотите использовать (это должно было быть настроено на Шаге 2). Если же вам нужно добавить ещё один кошелек, нажмите на **Add Wallet**.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*D1f6FdBlRCyZ6dj3.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*D1f6FdBlRCyZ6dj3.png">
 
 Если вы выберете пул, он, естественно, даст вам возможность использовать так называемый stratum  (или URL майнинга), который хранится в базе данных. Обычно, stratum точен, но мы рекомендуем проверить это самостоятельно - поищите stratum для каждой монеты на сайте.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*SufrJy9NX0N_gHHm.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*SufrJy9NX0N_gHHm.png">
 
 Выберите сервер пула и убедитесь, что он правильный и актуальный.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*DH94ACYcWvzHBfpE.png">
+<img src="https://lbd.hiveos.farm/kb/images/custom/0*DH94ACYcWvzHBfpE.png">
 
 Выберите майнер из выпадающего списка. Если у вас компьютер NVIDIA (Intel Chip), используйте CC Miner. В случае AMD (Ryzen Chip), используйте SG Miner. Выпадающий список майнеров может меняться в зависимости от пула или монеты.
 

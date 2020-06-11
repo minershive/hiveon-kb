@@ -3,17 +3,17 @@ title: How to mine GeekCash with Hive OS
 category: Guides
 ---
 
-<img src="https://images.golos.io/DQmdua5LfZqEeuho8faPdsh2qt5WtzR57Yr9EXLnAY9L8bo/image.png">
+<img src="https://lbd.hiveos.farm/kbase/images/DQmdua5LfZqEeuho8faPdsh2qt5WtzR57Yr9EXLnAY9L8bo.png">
 
 To mine GeekCash with Hive OS you need to do the following:
 1. Add the address of your GeekCash wallet, where the mined coins will be sent:
-<img src="https://images.golos.io/DQmZworYwjUqAuhXi9pTqV5aiuZLxK2Cho5jMjdjagwvn9L/image.png">
+<img src="https://lbd.hiveos.farm/kbase/images/DQmZworYwjUqAuhXi9pTqV5aiuZLxK2Cho5jMjdjagwvn9L.png">
 
 2. Create a Flight Sheet, choose there a coin and a wallet, and select "Custom miner" as a miner. Click **Setup Miner Config**:
-<img src="https://images.golos.io/DQmV2xvAt1FkDAGa5gG86aNU4Eit4JD5z8y3qYAwQ5Qvi7U/image.png">
+<img src="https://lbd.hiveos.farm/kbase/images/DQmV2xvAt1FkDAGa5gG86aNU4Eit4JD5z8y3qYAwQ5Qvi7U.png">
 
 3. For Nvidia cards, specify the following in the miner configuration:
-<img src="https://images.golos.io/DQmae8Gsror11SpLWAxPjdFcbMnJTxmE3bkE82HNZHFd3e6/image.png">
+<img src="https://lbd.hiveos.farm/kbase/images/DQmae8Gsror11SpLWAxPjdFcbMnJTxmE3bkE82HNZHFd3e6.png">
 
 - Miner name: geekminer
 - Installation URL: http://files.miner.ninja/geekminer.tar.gz
@@ -28,7 +28,7 @@ Save the miner configuration and create a Flight Sheet: **Create Flight Sheet**.
 ***Important:*** when launching the GeekCash miner, wait until the miner is downloaded (2-3 minutes, everything depends on your Internet speed).
 
 4. For AMD cards, specify the following in the miner configuration:
-<img src="https://images.golos.io/DQmTnMKg6E3TToA3cdsNPTX5DcbWoU33eygUkogBRqqcE3n/image.png">
+<img src="https://lbd.hiveos.farm/kbase/images/DQmTnMKg6E3TToA3cdsNPTX5DcbWoU33eygUkogBRqqcE3n.png">
 
 - Miner name: sgminer_geek
 - Installation URL: http://files.miner.ninja/sgminer_geek.tar.gz

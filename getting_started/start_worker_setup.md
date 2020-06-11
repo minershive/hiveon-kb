@@ -3,9 +3,7 @@ title: Worker installation and setup
 category: Getting Started
 ---
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/header.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_worker_setup/header.png" />
 
 Hive OS is an all-in-one monitoring and management tool for your mining rigs. Whether its a single rig or several thousands, you and your team can easily manage them all from a single dashboard.
 
@@ -23,9 +21,7 @@ As soon as you’re done with setting up your account, it’s time to connect yo
 
 Each Farm has its unique Farm Hash. You can find your Farm Hash by going to your Farm’s Settings tab. Once you write the installation image, you may then add your `FARM_HASH` to the `rig.conf` file which you will find in the root folder of the image. We’ll explain this step in detail below.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/fh_sample.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_worker_setup/fh_sample.png" />
 
 Farm Hash can be effectively used with Hive Flasher for bulk rig installations. More details on Hive Flasher are available <a href="https://github.com/minershive/hive-flasher">here</a>.
 
@@ -35,9 +31,7 @@ Users that have previously used Hive OS will be familiar with this option of con
 
 Click on the plus in the top right corner and choose Add Worker option.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/add_worker.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/add_worker.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_worker_setup/add_worker.gif" />
 
 A window, Add New Worker, will pop up with the following fields:
 
@@ -69,7 +63,7 @@ When to use flash drives? Firstly when you want to test. This is easy, you just 
 The downfalls of using flash pen drives. They are slow to write. Even if it’s 3.0 it still may have slow writes speed line 10-15mbps, while reading can be 60-100mbps. So waste time on writing new images if you have a lot of rigs.
 
 They can work like forever or die in few days. Some show you corrupt file system with messages like this:
-<img src="https://forum.hiveos.farm/uploads/editor/4f/bggzcyridn1z.jpg" alt="corrupt file system"/>
+<img src="https://lbd.hiveos.farm/kbase/images/forum/bggzcyridn1z.jpg" alt="corrupt file system"/>
 
 Some even fail to boot.
 
@@ -80,20 +74,20 @@ But if your location is distant this is not your choice. Go SSD. SSD is the best
 HDD. This is the option if you just have it and that’s it. The price for 32gb SSD and 200gb HDD is roughly the same and there is no reason you should choose HDD over SSD.
 
 And the last thing. Buy a SSD USB 3.0 pocket or tray to connect it to your computer.
-<img src="https://forum.hiveos.farm/uploads/editor/ac/d1xfobk7avkl.jpg" alt="SSD USB 3.0 pocket"/>
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d1xfobk7avkl.jpg" alt="SSD USB 3.0 pocket"/>
 From version 0.5-30 you can run `logs-off` to put log in RAM to save your USB flash drive.
 
 And a few more words about common booting problems.
 In general you just plug your drive in the rig and it goes. But sometimes it just doesn’t.
 Firstly you should ensure you are not trying to boot from UEFI partition. Some bioses give you this option to choose and you should not do it.
-<img src="https://forum.hiveos.farm/uploads/editor/b0/5rpntezwp5sf.jpg" alt="booting problem"/>
+<img src="https://lbd.hiveos.farm/kbase/images/forum/5rpntezwp5sf.jpg" alt="booting problem"/>
 
 Your USB settings should have Legacy mode On. Like for mouse and keyboard to work at boot time, otherwise USB drive will not be detected.
 IOMMU might be an issue on some motherboards. Sometimes it’s called CSM (compatibility support module)
-<img src="https://forum.hiveos.farm/uploads/editor/sa/nkq21zwkxe4t.jpg" alt="legacy mode"/>
+<img src="https://lbd.hiveos.farm/kbase/images/forum/nkq21zwkxe4t.jpg" alt="legacy mode"/>
 
 Okay, drive is detected, it starts but fails after like this:
-<img src="https://forum.hiveos.farm/uploads/editor/bn/ebj16b6y9jub.jpg" alt="drive failure"/>
+<img src="https://lbd.hiveos.farm/kbase/images/forum/ebj16b6y9jub.jpg" alt="drive failure"/>
 This tells you that’s there is some problem with the image written. Usually it’s solved with trying to write the image with alternative software:
 - <a href="https://www.balena.io/etcher/">Etcher</a>
 - <a href="https://rufus.ie">Rufus</a>
@@ -117,9 +111,7 @@ Now choose one of the two options below:
 #### Optional Step — Farm Hash
 Once the image copy is complete, you can go to your drive in Windows, Linux or Mac and find `rig-config-example.txt` file in the root folder. Here’s how it looks:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_worker_setup/rig_conf_eg.png" />
 
 _The contents of rig-config-example.txt file_
 
@@ -132,9 +124,7 @@ No need to set RIG_ID or RIG_PASSWD in this case. That’s it, just save your co
 #### Optional Step — Manual Setup
 Once the image copy is complete, you can go to your drive in Windows, Linux or Mac and find rig-config-example.txt file in the root folder. Here’s how it looks:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg-2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_worker_setup/rig_conf_eg-2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_worker_setup/rig_conf_eg-2.png" />
 
 _The contents of rig-config-example.txt file_
 

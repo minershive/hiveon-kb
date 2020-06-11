@@ -78,10 +78,10 @@ Click Upload and you’ll see you ROM appear in the storage list above your GPUs
 ### Actions Toolbar
 As soon as you choose any number of GPUs, you’ll see a new toolbar appear on top with different actions. All these actions will apply across all rigs and GPUs that have been selected. Let’s take a closer look at these from left to right.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/f/f40f53f24ab2bf17dbdf0061b9d9f1fd41bf9fd5.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/f40f53f24ab2bf17dbdf0061b9d9f1fd41bf9fd5.png">
 
 #### Power Actions
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/f/f5b504370848c8478f575f73fccd62a5d97f595b.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/f5b504370848c8478f575f73fccd62a5d97f595b.png">
 
 You can perform the following actions across all your rigs:
 - Reboot
@@ -90,12 +90,12 @@ You can perform the following actions across all your rigs:
 
 
 #### Flash VBIOS
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/f/f3a886240f209860d64faa7e885afc19dc0b608b.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/f3a886240f209860d64faa7e885afc19dc0b608b.png">
 
 After clicking on this action, a new context window will open with options of choosing a ROM you want to flash across all your chosen GPUs. Details on the flashing process are described further down this article.
 
 #### Overclocking Templates
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/1/147921a211fef1549b4af6839f5ec1281acec4cd.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/147921a211fef1549b4af6839f5ec1281acec4cd.png">
 
 Here you can set global overclocks across all selected video cards. These can be set simultaneously for both AMD and Nvidia, but keep in mind that it’s preferable to set overclocks only across GPUs of the same type.
 
@@ -104,7 +104,7 @@ Here you can set global overclocks across all selected video cards. These can be
 If you’ve never done any overclocking in Hive OS before, you can read more on the subject in this <a href="https://medium.com/hiveon/getting-started-with-hive-os-overclocking-profiles-basics-5e239e4f1ae5">article</a>.
 
 #### Miner Actions
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/bf93d014bb6bfc82b28f89a586f9b271ae877105.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/bf93d014bb6bfc82b28f89a586f9b271ae877105.png">
 
 And finally, we have the miner actions. These are pretty self explanatory and by clicking on the action you’ll have the following two options:
 - Stop Miner
@@ -119,7 +119,7 @@ You can set the rigs to reboot after flashing ROMs. Also it’s possible to forc
 
 ***Although this would seem obvious, let us remind you not to flash a ROM across multiple GPU types that are not of the same technical parameters, like manufacturer, memory vendor, RAM size, etc.***
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/5/50d664435e37fa70123ed976b433efd78b89b877.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/50d664435e37fa70123ed976b433efd78b89b877.png">
 
 After selecting one of the ROMs you may have in the list, assuming you have multiple, the window will close and a new prompt will appear at the top of the video cards list. By clicking Flash cards, all selected GPUs will get flashed with your selected ROM. You can click Cancel in case you changed your mind.
 

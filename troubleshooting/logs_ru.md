@@ -10,16 +10,16 @@ order: 1
 ### Журналы майнера
 Простой способ: нажмите на кнопку **Log** под панелью выбора майнера.
 
-<img src="http://forum.hiveos.farm/uploads/editor/yr/nilcobp2yg17.png" >
+<img src="https://lbd.hiveos.farm/kbase/images/forum/nilcobp2yg17.png" >
 
 В ответ вы получите нечто подобное. Нажмите на иконку чата рядом с **miner log**:
 
-<img src="http://forum.hiveos.farm/uploads/editor/t1/j1eymexf8r2o.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/j1eymexf8r2o.jpg">
 
 На самом деле, это не настоящий журнал - это всего лишь экран майнера. Настоящие файлы хранятся в /var/log/miner/xxxx/*.log.
 
 Итак, откройте **mc** на риге и перейдите в **/var/log/miner/claymore**. Найдите там **lastrun_noappend.log**.
-<img src="http://forum.hiveos.farm/uploads/editor/r4/0z64iupn4v06.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/0z64iupn4v06.jpg">
 
 На последние 100 строк можно взглянуть при помощи следующей команды:
 

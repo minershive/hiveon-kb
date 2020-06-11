@@ -7,7 +7,7 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-<img src="http://forum.hiveos.farm/uploads/editor/cr/nst8nd7f9nkx.png" >
+<img src="https://lbd.hiveos.farm/kbase/images/forum/nst8nd7f9nkx.png" >
 
 
 - <a href="https://hiveos.farm/features/">Hive OS Features</a>

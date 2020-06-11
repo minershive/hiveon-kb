@@ -23,12 +23,12 @@ The following is what we actually do on the particular rig when it has such prob
 - `time curl http://hiveos.farm` to check if HTTP ports are open and there is no significant lag
 
 But the really-really first thing we recommend you to do is opening `agent-screen`. It will show you what it tries to send and gives you some hint what’s wrong. Like here:
-<img src="http://forum.hiveos.farm/uploads/editor/56/nvxqh2a34xub.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/nvxqh2a34xub.jpg">
 
 There is obviously some problem with server connection, to investigate this you might do all the upper stuff.
 
 Here is how the very bad situation with your internet looking. Very high packet loss:
-<img src="http://forum.hiveos.farm/uploads/editor/ve/iod0sqwp8nhm.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/iod0sqwp8nhm.jpg">
 
 This is a good command to test real times of opening the website. So you can see how much does it take to connect to server. If the value is high, like several seconds, then you have a bad connection:
 

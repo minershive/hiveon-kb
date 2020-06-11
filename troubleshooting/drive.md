@@ -8,7 +8,7 @@ The downfalls of using flash pen drives. They are slow to write. Even if it’s 
 
 Besides, they can work like forever or die in few days. Some show you corrupt file system with messages like this:
 
-<img src="http://forum.hiveos.farm/uploads/editor/4f/bggzcyridn1z.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/bggzcyridn1z.jpg">
 
 Some even fail to boot. We've seen Sandisks which booted only one time and waved you with a hand heading to a better world.
 
@@ -19,6 +19,6 @@ But what is great about the flash drives is that they are cheap. You can buy a b
 ***HDD.*** This is the option if you just have it and that’s it. The price for 32gb SSD and 200gb HDD is roughly the same and there is no reason you should choose HDD over SSD.
 
 And the last thing. Buy a SSD USB 3.0 pocket or tray to connect it to your computer.
-<img src="http://forum.hiveos.farm/uploads/editor/ac/d1xfobk7avkl.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d1xfobk7avkl.jpg">
 
 From version 0.5-30 you can run this to put log in RAM to save your USB flash drive: `logs-off`.

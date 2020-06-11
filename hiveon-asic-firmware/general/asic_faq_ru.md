@@ -216,9 +216,7 @@ Antminer S17 / T17 с прошивкой Hiveon ASIC: http://download.hiveos.far
 
 Также, рекомендуем установить в BTC Tools таймаут обновления 1200 секунд и обновлять за один раз не более 5ти ASIC-ов. Для этого нужно зайти в настройки BTC Tools и установить данные параметры:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/asicfaqhash.png" />
 
 #### Если увезти ASICи и они будут не во внутренней сети, нужно ли что-то перенастраивать?
 Нет. ASICи не привязаны к сетям и подключатся откуда угодно, где есть интернет.
@@ -248,9 +246,7 @@ Antminer S17 / T17 с прошивкой Hiveon ASIC: http://download.hiveos.far
 **Для Т9:**
 `Dmesg`
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/asicfaqerror.png" />
 
 #### Ошибки ASIC и их расшифровка
 - ERROR\_SOC\_INIT - ошибка инициализации драйвера
@@ -287,13 +283,9 @@ Innosilicon - пользователь по умолчанию (ssh/telnet): **r
 #### Как изменить RIG ID воркера?
 Для этого нужно иметь физический доступ к ригу. Подключите к нему клавиатуру и монитор, и введите команду `firstrun -f`. Как вариант, можно воспользоваться Hive Shell для удаленного изменения. Для этого запустите Hive Shell, и в открывшемся окне напишите команду `firstrun -f`. После этого укажите RIG ID и пароль.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/rigid1.png" />
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/rigid2.png" />
 
 #### При установке возникает ошибка `tar: short read`
 При скачивании прошивки через некоторые браузеры (например Opera на Windows или Safari на Apple), вы можете столкнуться с ошибкой `tar: short read`. В таком случае, рекомендуем воспользоваться другим браузером, например Google Chrome.
@@ -379,9 +371,7 @@ Worker - Settings - Advanced - Transfer Rig
 #### Как изменить пароль воркера?
 Для смены пароля доступа, нужно отправить воркеру команду `hive-passwd впишите_сюда_новый_пароль_для_SSH`.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/passwdchange.png" />
 
 Если же у вас старая версия Hive OS Client, отправьте воркеру команду:
 

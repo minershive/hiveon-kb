@@ -5,7 +5,7 @@ category: Guides
 
 Hive team is asked to implement this or that miner almost every day. Here we will explain why we don’t do this until it becomes popular.
 
-<img src="http://forum.hiveos.farm/uploads/editor/r6/dyqion5c9r9u.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/dyqion5c9r9u.png">
 
 Please look at the above screenshot. This coin gives +30% profit comparing to ETH at the moment we write this. **tdxminer** is doing this on RX cards.
 

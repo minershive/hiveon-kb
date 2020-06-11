@@ -43,7 +43,7 @@ order: 1
 
 Процедура обновления драйвера занимает 5-10 минут, если вы используете SSD / HDD, и 30+ минут, если вы используете медленный диск, например флешку USB 2.0.
 Если процедура обновления завершится успешно, вы увидите следующее сообщение:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9553243cace241898daa33377c83112c9118e588.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/9553243cace241898daa33377c83112c9118e588.png">
 
 Теперь вы можете перезагрузить Ваш риг. После перезагрузки проверьте версию драйвера и работоспособность майнера.
 
@@ -56,17 +56,17 @@ order: 1
 ### Возможные проблемы и их решение
 #### Ошибка установки драйвера (модуль nvidia-drm)
 В некоторых случаях процедура обновления может иногда завершаться с ошибкой:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/7/7d1e38ce4bf5ac78cc65a1a3c9f6012faf262f07.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/7d1e38ce4bf5ac78cc65a1a3c9f6012faf262f07.png">
 В этом случае повторите процедуру обновления - в большинстве случаев это поможет исправить ошибку.
 
 #### Ошибка установки драйвера (nvidia-uvm)
 Если установка останавливается со следующей ошибкой:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png">
 В таком случае, перегрузите риг и повторите процедуру обновления.
 
 #### Ошибка при удалении предыдущего драйвера
 Во время установки нового драйвера nvidia-driver-update удаляет сначала предыдущую версию драйвера. Если удаление прекращается со следующей ошибкой (Received signal SIGBUS; aborting):
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd971d757777318adb5a70eb39a1ba9fa136b5d4.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/dd971d757777318adb5a70eb39a1ba9fa136b5d4.png">
 Пока нет решения. Не воспроизводится.
 
 #### Не хватает места на диске

@@ -44,7 +44,7 @@ Step 2 - Execute the following commands:
 The driver update procedure takes 5-10 min if you’re using an SSD/HDD and 30+ min if you’re using a slow drive such as an USB 2.0 stick.
 If the update procedure will finish successfully you will see the following message:
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9553243cace241898daa33377c83112c9118e588.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/9553243cace241898daa33377c83112c9118e588.png">
 
 Now you can reboot your rig. After reboot check driver version and miner functionality.
 
@@ -57,26 +57,26 @@ For example downgrade to 396.54:
 #### Driver installation failed (module “nvidia-drm”)
 In some cases the update procedure can sometimes fail with the following error:
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png">
 In case this happens, please retry the update procedure - in most cases it will help fix the error.
 
 #### Driver installation failed (module “nvidia-uvm”)
 If installation stops with the following error:
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/b1821d4e57e3c64d131dec53c211fbfdea7e415a.png">
 in this case, reboot rig and repeat the update procedure.
 
 #### Error during uninstallation previous driver (module “nvidia”)
 During the installation new driver nvidia-driver-update uninstalls the previous version of the driver. If uninstallation stops with the following error:
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/8/8cc8ada3cf928143eb7626c7218a9152d30df546.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/8cc8ada3cf928143eb7626c7218a9152d30df546.png">
 
 It can be caused by falling current driver or application which is still using driver. Reboot the rig and retry the installation procedure.
 
 #### Error during uninstallation previous driver (signal SIGBUS)
 During installation new driver nvidia-driver-update uninstalls the previous version of the driver. If uninstallation stops with the following error (Received signal SIGBUS; aborting):
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dd971d757777318adb5a70eb39a1ba9fa136b5d4.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/dd971d757777318adb5a70eb39a1ba9fa136b5d4.png">
 No solution yet… Not reproducible.
 
 #### Not enough disk space

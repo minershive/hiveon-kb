@@ -53,7 +53,7 @@ Hive OS Deploy PXE использует технологию сетевой за
 Все команды установки и сценарии в оболочке должны выполняться с правами суперпользователя с помощью команды `sudo`.
 
 1. Скачайте установочный пакет
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/5/52e02a72d9b8d5babff66da3b112baae0b79ee13.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/52e02a72d9b8d5babff66da3b112baae0b79ee13.png">
 
 2. Запустите установочный скрипт:
 `./install-ubuntu.sh -f`
@@ -63,39 +63,39 @@ Hive OS Deploy PXE использует технологию сетевой за
 Следуйте этим шагам:
 
 3.1. Введите IP-адрес сервера развертывания в окне приглашения
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/6/6730de53d8ea8cde0c403457b3299f6ae6b7a65a.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/6730de53d8ea8cde0c403457b3299f6ae6b7a65a.png">
 
 Давайте предположим, что наш хост имеет IP-адрес 192.168.1.2, тогда вы увидите
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/d75b793a77119422ff452fe7b6629c08705f7719.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d75b793a77119422ff452fe7b6629c08705f7719.png">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/deeac25b5f9f1c44dfec0d8c9867298bbd767994.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/deeac25b5f9f1c44dfec0d8c9867298bbd767994.png">
 
 3.2. Запросит строку подключения БД по умолчанию, нажмите «Enter»
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/e/e83165987e6f851d3fc79bdd2b85aca37997aa7c.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/e83165987e6f851d3fc79bdd2b85aca37997aa7c.png">
 
 Настройки по умолчанию будут использоваться, если пользовательская БД не указана.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/f/fb5ba087742d5fff6b9ec34d3e92fe2fbe9e7cd6.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/fb5ba087742d5fff6b9ec34d3e92fe2fbe9e7cd6.png">
 
 3.3. Подождите, пока mysql сервер установится, а затем запросит пароль root по умолчанию с пустой строкой (нажмите Enter).
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/7/7546ec0f54e9b5dfb6fabab3c5048de23381d6a5.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/7546ec0f54e9b5dfb6fabab3c5048de23381d6a5.png">
 ^Этот экран может появляться несколько раз на этом этапе.
 
 3.4. Введите SMB пароли для ролей только для чтения и чтения-записи: password
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/d972d62fc0376240330a722fa450cecba502b0e9.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d972d62fc0376240330a722fa450cecba502b0e9.png">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/985ac3cde5988de56e3c6ac2e154754dacc13176.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/985ac3cde5988de56e3c6ac2e154754dacc13176.png">
 
 3.5. Скачайте и обновите образ Hive OS
 Последний стабильный образ Hive OS будет загружен и извлечен по умолчанию.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/e/e633e65418cb2416432ec63daf9f60a19ba7c7c1.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/e633e65418cb2416432ec63daf9f60a19ba7c7c1.png">
 
 3.6. Подождите, пока скрипт завершит установку, а затем подтвердите перезагрузку в окне приглашения, введя "y".
 
 4. Следующие шаги выполняются через веб-интерфейс.
 Перейдите по адресу http://<server_ip>/clonedeploy например, если ваш сервер имеет IP-адрес 192.168.1.2, введите в браузере http://192.168.1.2/clonedeploy, и вы увидите экран входа
-<img src="https://forum.hiveos.farm/uploads/default/optimized/2X/3/32a0de42f8fcbaa912e36c5ebf59805a59452882_2_444x375.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/32a0de42f8fcbaa912e36c5ebf59805a59452882_2_444x375.png">
 
 Войдите с учетными данными по умолчанию:
 
@@ -105,27 +105,27 @@ Hive OS Deploy PXE использует технологию сетевой за
 
 5. Перейдите Admin → PXE и нажмите “Update PXE settings”
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/8/831ef78884cc3c2b1d237a6ceb21703b4986a484.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/831ef78884cc3c2b1d237a6ceb21703b4986a484.png">
 
 
-<img src="https://forum.hiveos.farm/uploads/default/optimized/2X/1/10c90048b8fb5730db6775aa7791c634838c7555_2_517x231.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/10c90048b8fb5730db6775aa7791c634838c7555_2_517x231.png">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/c/c87da50269712077fe82e26ac23b7599f8c27081.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/c87da50269712077fe82e26ac23b7599f8c27081.png">
 
 6. Перейдите Admin → “Boot menu” и нажмите “Create Boot Files”
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/8/8f38172d6f16e9419aaaaddbaeb5a1f901157d7a.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/8f38172d6f16e9419aaaaddbaeb5a1f901157d7a.png">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/d26760bdd46211032ba988e4233395d2f045820a.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d26760bdd46211032ba988e4233395d2f045820a.png">
 
 7. Перейдите Groups → deploy → Computer Properties.
 Измените следующие поля:
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/5/5b2b0719d7e2b8816c6541eb51844110fcb7c3e4.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/5b2b0719d7e2b8816c6541eb51844110fcb7c3e4.png">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/f/f167942d86049e860c4de7801c9f4a0a240e191c.png"> <img src="https://forum.hiveos.farm/uploads/default/original/2X/f/fba425df09795b391c701a76f25c67e383fd4b3c.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/f167942d86049e860c4de7801c9f4a0a240e191c.png"> <img src="https://lbd.hiveos.farm/kbase/images/forum/fba425df09795b391c701a76f25c67e383fd4b3c.png">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/5/529f1f5f58fc221b878286fa0dd71054172640ef.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/529f1f5f58fc221b878286fa0dd71054172640ef.png">
 
 1. Custom Attribute 2 - NETWORK. Введите вашу сеть с маской сети, например, '192.168.1.0/24'
 2. Custom Attribute 3 - GATEWAY. Введите шлюз, например '192.168.1.1'
@@ -133,10 +133,10 @@ Hive OS Deploy PXE использует технологию сетевой за
 4. Custom Attribute 5 - FARM_HASH. Введите Ваш Farm hash, например '0a188b553e98efba264e7bc61dee'
 
 Примечание: Убедитесь, что флажки рядом с этими полями отмечены.
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/e/e7c39f756392be548ae2cb793bcf1533c22af14f.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/e7c39f756392be548ae2cb793bcf1533c22af14f.png">
 
 и нажмите кнопку “Update Properties”
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9566ee2525b1f086ae985e4b038fc9673d78bd3c.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/9566ee2525b1f086ae985e4b038fc9673d78bd3c.png">
 
 На этом установка серверной части завершена.
 
@@ -161,50 +161,50 @@ for TFTP server: `service tftpd-hpa status`
 Вы можете импортировать подготовленный список установок (см. Примеры в папке examples/clientlists)
 
 Идем в “Computers”
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/d9da23421b2deba27adc3dea1e8933a5bc852724.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d9da23421b2deba27adc3dea1e8933a5bc852724.png">
 
 Жмем “Import” и потом “Обзор”, указываем файл для импорта
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/7/7f7403e376f90869ab7ae3c65e956b99b6487c2f.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/7f7403e376f90869ab7ae3c65e956b99b6487c2f.png">
 
 и нажать кнопку “Upload”
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/4/4802ecf0e60ac6621d7dd4222b5d265b79035153.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/4802ecf0e60ac6621d7dd4222b5d265b79035153.png">
 
 Формат файла (смотрите примеры в examples/clientlists) для привязки MAC+IP: rig-001	08:00:27:4A:29:BB	     192.168.1.19
 
 Проверьте импортированные риги
-<img src="https://forum.hiveos.farm/uploads/default/optimized/2X/5/5c84be051b534751325b734d0225de39325b09e7_2_690x136.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/5c84be051b534751325b734d0225de39325b09e7_2_690x136.png">
 
 #### Процесс развертывания
 Нажмите “Task”
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/1/1274e00eff02e38e5662744a1ad2a34bb9a447d5.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/1274e00eff02e38e5662744a1ad2a34bb9a447d5.png">
 
 потом “Click Computer Task” -> Start Computer Task -> выбрать риги для развертывания
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/c/c85a4496aaba2c7cf40514f583ec52fad44ba838.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/c85a4496aaba2c7cf40514f583ec52fad44ba838.png">
 
 и нажмите “Deploy Selected”.
 
 Процесс развертывания на риге
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/a/a347dd139b206507452b7b5ed95b1a57564acc3e.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/a347dd139b206507452b7b5ed95b1a57564acc3e.png">
 
 За прогрессом можно следить через браузер
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/c/c0c4b3960fa4f97391258d582c8e42cc30bc34ec.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/c0c4b3960fa4f97391258d582c8e42cc30bc34ec.png">
 
 После загрузки необходимых файлов Hive OS Deploy PXE запишет образ Hive на носитель
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/db5f35e1e311ace3ea82b3c78ffe17677c5a3a18.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/db5f35e1e311ace3ea82b3c78ffe17677c5a3a18.png">
 
 После процесса перепрошивки, риг будет автоматически перезагружен, после чего при загрузке появится меню с целью по умолчанию «Boot To Local Machine», которая загрузит ваш риг после 5-секундной задержки.
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/dbc4b559b3800af167b664b9c163ded17ab45ad1.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/dbc4b559b3800af167b664b9c163ded17ab45ad1.png">
 
 Когда процесс загрузки будет завершен, мы сможем увидеть наш риг в веб интерфейсе Hive.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/927242a593fae6d2743febcdd156509a6c6294dd.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/927242a593fae6d2743febcdd156509a6c6294dd.png">
 
 ### Приложение
 - `install-ubuntu.sh` - скрипт для сценария установки Hive OS Deploy PXE
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/8/8b755459accceb0687b5abf3a59c79ba7a17290b.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/8b755459accceb0687b5abf3a59c79ba7a17290b.png">
 
 - `download.sh` - скрипт для загрузки образов на сервер Hive OS Deploy PXE
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/d/d800f1615dc923d7f1feac51e79a093190026fe9.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d800f1615dc923d7f1feac51e79a093190026fe9.png">
 
 
 - [Hive OS Deploy PXE репозиторий](https://git.tor.ph/hivedeploy/cd_package)

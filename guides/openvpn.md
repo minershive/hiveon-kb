@@ -203,7 +203,7 @@ On Windows: `build-dh`
 
 Now we will find our newly-generated keys and certificates in the keys subdirectory (my_ca/keys). Here is an explanation of the relevant files:
 
-<img src="http://forum.hiveos.farm/uploads/editor/13/jkzm45hrojam.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/jkzm45hrojam.jpg">
 
 The final step in the key generation process is to copy all files to the machines which need them, taking care to copy secret files over a secure channel.
 

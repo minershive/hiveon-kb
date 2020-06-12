@@ -71,7 +71,7 @@ Working with the VBIOS ROM Storage is pretty straightforward, you start by click
 
 Click Upload and you’ll see you ROM appear in the storage list above your GPUs. The number of ROMs that can be stored is unlimited. Once you upload a ROM, you can then download in to your local storage if needed or edit the description and name. Also the ROMs can be removed from the list if you don’t need them anymore.
 
-<img src="https://lbd.hiveos.farm/kbase/images/custom/0*Ubol5NEpIRII8xh6.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0_Ubol5NEpIRII8xh6.png">
 
 *Example of ROMs stored in the list*
 
@@ -99,7 +99,7 @@ After clicking on this action, a new context window will open with options of ch
 
 Here you can set global overclocks across all selected video cards. These can be set simultaneously for both AMD and Nvidia, but keep in mind that it’s preferable to set overclocks only across GPUs of the same type.
 
-<img src="https://lbd.hiveos.farm/kbase/images/custom/0*o5Y67yj4VpsNDTMe.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0_o5Y67yj4VpsNDTMe.png">
 
 If you’ve never done any overclocking in Hive OS before, you can read more on the subject in this <a href="https://medium.com/hiveon/getting-started-with-hive-os-overclocking-profiles-basics-5e239e4f1ae5">article</a>.
 
@@ -113,7 +113,7 @@ And finally, we have the miner actions. These are pretty self explanatory and by
 ### Flashing a VBIOS ROM
 After uploading the necessary ROMs into the Storage and selecting the GPUs you want to flash, click the Flash VBIOS button from the toolbar above and a new context window will open.
 
-<img src="https://lbd.hiveos.farm/kbase/images/custom/0*NqQ6Ag-lGkWfesHP.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0_NqQ6Ag-lGkWfesHP.png">
 
 You can set the rigs to reboot after flashing ROMs. Also it’s possible to force flash the ROM ignoring any security checks, this option will come in handy when flashing without a signed certified ROM.
 
@@ -127,11 +127,11 @@ After selecting one of the ROMs you may have in the list, assuming you have mult
 
 Once everything is set, you’ll see Preparing VBIOS text with the name of the ROM appear in each selected GPU indicating which ones will get flashed. Click Flash cards to proceed. The process of flashing can take some time depending on the number of GPUs, so be patient. There will be an indicator on the GPUs that got successfully flashed an those that failed.
 
-<img src="https://lbd.hiveos.farm/kbase/images/custom/0*zw5ROlCZ6ot4qw6y.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0_zw5ROlCZ6ot4qw6y.png">
 
 You can also individually flash a ROM onto a single GPU by clicking on the triple dot button on the left hand side of the video card list. The procedure is identical to flashing multiple GPUs, just click Flash cards and wait. Additionally you can individually overclock each GPU from that same pop-up menu.
 
-<img src="https://lbd.hiveos.farm/kbase/images/custom/0*2Mea19AM4q1Yaty5.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0_2Mea19AM4q1Yaty5.png">
 
 As a conclusion, the GPU Hub is a powerful tool that was designed to make life easier. But as it’s known, with great power comes great responsibility. Thus we can’t stress enough on the point that users should be careful when bulk flashing their GPUs as there’s plenty of space for potential errors.
 

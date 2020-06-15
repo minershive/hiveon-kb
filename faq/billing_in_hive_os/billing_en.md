@@ -78,9 +78,11 @@ Hive OS accepts only cryptocurrency. There are several ways to pay for Hive OS:
 - at the cost of referral rewards (read below in the “Referral system” section).
 
 ### Paying for the system: commission on the Hiveon pool
-For paid users who mine Ethereum cryptocurrency, there is an optional opportunity to pay for Hive OS by mining on Hiveon pool with a deducted commission of 3% as a payment for Hive OS.
+For paid users who mine Ethereum or Ethereum Classic cryptocurrency, there is an optional opportunity to pay for Hive OS by mining on Hiveon pool with a deducted commission of 3% as a payment for Hive OS.
 
-Please note that this method is applicable only to devices mining Ethereum on the Hiveon pool, and the standard tariff will be applied to other devices.
+Please note that this method is applicable only to devices mining Ethereum or Ethereum Classic on the Hiveon pool, and the standard tariff will be applied to other devices.
+
+You can learn more about this opportunity [here](https://medium.com/hiveon/hiveon-pool-important-updates-cd4f1be00f0a).
 
 ### Dev Fee of Hiveon ASIC
 With Hiveon ASIC firmware, there is no charge for using Hive OS, and such ASICs are not counted in the total number of devices for calculating payments. However, they are taken into account to get a discount on the number of devices.

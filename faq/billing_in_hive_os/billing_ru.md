@@ -82,7 +82,7 @@ Hive OS принимает только криптовалюту. Осущест
 
 - на генерируемый в личном кабинете ваш персональный адрес ERC20 стейблкоинов (поддерживаются USDT, USDC, TUSD).
 
-- с помощью платежного шлюза [Coinpayments](https://www.coinpayments.net/) (принимаются BTC, BEAM, ETC, LTC, XMR, XRP). Узнать об осуществлении платежей подробнее можно [здесь](https://hiveos.farm/faq-billing_in_hive_os-payment_ru).
+- с помощью платежного шлюза [Coinpayments](https://www.coinpayments.net/) (принимаются BTC, BEAM, ETC, LTC, XMR, XRP). Узнать об осуществлении платежей подробнее можно [здесь](https://hiveos.farm/faq-billing_in_hive_os-payment_ru/).
 
 - за счет реферальных вознаграждений (читайте ниже в разделе “Реферальная система”).
 

@@ -29,9 +29,9 @@ SLOT_NUMBER=4
 ### Китайские вачдоги
 На рынке есть много китайских вачдогов. Вы можете найти их на Aliexpress или Ebay. Они могут быть разных форм, но в их основе лежит один и тот же чип.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9bfddcddf808f2d89c34ce558beaec77255c723c.jpeg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/9bfddcddf808f2d89c34ce558beaec77255c723c.jpeg">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/b9e6090c9f33833ca3e4e3a3561590f9832a8071.jpeg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/b9e6090c9f33833ca3e4e3a3561590f9832a8071.jpeg">
 
 Чтобы проверить сброс, вы можете запустить следующую команду после подключения к системе: `hive/opt/qinheng/hl340 reset`
 
@@ -45,7 +45,7 @@ SLOT_NUMBER=4
 
 Существует также другой тип вачдога, с таким же ID, но на Arduino Nano. Он не может быть обнаружен. Чтобы использовать его, запустите команду `/hive/opt/qinheng/wd-nano on`.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/6/60d77df72b177f246c71d5d7bdf8ef65ae170192.jpeg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/60d77df72b177f246c71d5d7bdf8ef65ae170192.jpeg">
 
 ### OpenDev Вачдог
 Поддерживаемый вачдог - https://open-dev.ru/watchdog.

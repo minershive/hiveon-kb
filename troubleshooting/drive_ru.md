@@ -13,7 +13,7 @@ order: 1
 
 Кроме того, они могут работать вечно или умереть за несколько дней. Некоторые показывают вам поврежденную файловую систему с такими сообщениями:
 
-<img src="http://forum.hiveos.farm/uploads/editor/4f/bggzcyridn1z.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/bggzcyridn1z.jpg">
 
 Некоторые даже не загружаются. Мы видели флешки Sandisk, которые смогли загрузиться всего один раз - и всё.
 
@@ -25,6 +25,6 @@ order: 1
 
 И последнее. Купите SSD USB 3.0 карман или лоток для подключения к компьютеру.
 
-<img src="http://forum.hiveos.farm/uploads/editor/ac/d1xfobk7avkl.jpg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d1xfobk7avkl.jpg">
 
 Начиная с версии 0.5-30 вы можете использовать эту команду, чтобы поместить журнал в оперативную память для сохранения вашего USB-накопителя: `logs-off`.

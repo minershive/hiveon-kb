@@ -117,41 +117,41 @@ order: 1
 **Настройка уведомлений в Discord:**
 1. Если у вас ещё нет сервера, откройте Discord и нажмите на иконку в виде плюса. Далее введите название сервера, выберите регион и нажмите на кнопку **Create**. Мы используем “MyHive” в качестве примера.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*3RseCE2d5RrCVh2h.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*3RseCE2d5RrCVh2h.png">
 
 2. Создайте ссылку для приглашения.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*LqN6C0sDjr65u5nD.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*LqN6C0sDjr65u5nD.png">
 
 3. Перейдите на страницу настроек вашей фермы и выберите вкладку **Discord** в секции уведомлений. Вы увидите там ссылку — кликните на неё, чтобы пригласитть Discord-бот на ваш сервер.
 
-<img src="https://lbd.hiveos.farm/kb/images/0*3Tjka9nTpUSpf60I.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*3Tjka9nTpUSpf60I.png">
 
 4. Авторизуйте добавление бота в Discord:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*mSb6iv6A063y7idn.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*mSb6iv6A063y7idn.png">
 
 5. Введите в Discord команду `hive.start`:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*E39DcffRYDJk9-P2.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*E39DcffRYDJk9-P2.png">
 
 6. Бот ответит вам кодом авторизации:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*kTzn-oAAJdTblItq.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*kTzn-oAAJdTblItq.png">
 
 7. Скопируйте код авторизации и вставьте его во вкладку уведомлений Discord в настройка фермы. Нажмите на кнопку **Subscribe** (Подписаться).
 
 8. Отправьте команду согласно инструкциям в веб-интерфейсе:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*CcOUwAvSYOo-3Hig.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*CcOUwAvSYOo-3Hig.png">
 
 Если вы всё сделали правильно, ваш статус изменится на **Subscribed**. В Discord-боте, это выглядит так:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*ZjpDxBNCJvFk6gnI.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*ZjpDxBNCJvFk6gnI.png">
 
 9. Протестируйте бот несколькими командами. Мы применили команду `hello` и несуществующую команду `hello11`:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*d_nrWUidrx9Ttt9J.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*d_nrWUidrx9Ttt9J.png">
 
 Сообщения от бота Discord Hive доступны на сервере - значит, все работает правильно.
 
@@ -216,9 +216,7 @@ Antminer S17 / T17 с прошивкой Hiveon ASIC: http://download.hiveos.far
 
 Также, рекомендуем установить в BTC Tools таймаут обновления 1200 секунд и обновлять за один раз не более 5ти ASIC-ов. Для этого нужно зайти в настройки BTC Tools и установить данные параметры:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/asicfaqhash.png" />
 
 #### Если увезти ASICи и они будут не во внутренней сети, нужно ли что-то перенастраивать?
 Нет. ASICи не привязаны к сетям и подключатся откуда угодно, где есть интернет.
@@ -248,9 +246,7 @@ Antminer S17 / T17 с прошивкой Hiveon ASIC: http://download.hiveos.far
 **Для Т9:**
 `Dmesg`
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/asicfaqerror.png" />
 
 #### Ошибки ASIC и их расшифровка
 - ERROR\_SOC\_INIT - ошибка инициализации драйвера
@@ -287,13 +283,9 @@ Innosilicon - пользователь по умолчанию (ssh/telnet): **r
 #### Как изменить RIG ID воркера?
 Для этого нужно иметь физический доступ к ригу. Подключите к нему клавиатуру и монитор, и введите команду `firstrun -f`. Как вариант, можно воспользоваться Hive Shell для удаленного изменения. Для этого запустите Hive Shell, и в открывшемся окне напишите команду `firstrun -f`. После этого укажите RIG ID и пароль.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/rigid1.png" />
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/rigid2.png" />
 
 #### При установке возникает ошибка `tar: short read`
 При скачивании прошивки через некоторые браузеры (например Opera на Windows или Safari на Apple), вы можете столкнуться с ошибкой `tar: short read`. В таком случае, рекомендуем воспользоваться другим браузером, например Google Chrome.
@@ -379,9 +371,7 @@ Worker - Settings - Advanced - Transfer Rig
 #### Как изменить пароль воркера?
 Для смены пароля доступа, нужно отправить воркеру команду `hive-passwd впишите_сюда_новый_пароль_для_SSH`.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/passwdchange.png" />
 
 Если же у вас старая версия Hive OS Client, отправьте воркеру команду:
 

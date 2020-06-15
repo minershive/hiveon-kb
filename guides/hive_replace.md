@@ -7,7 +7,7 @@ With `hive-replace` script you can replace your running Linux with Hive on the f
 
 After successful writing you will reboot with a new system. This is how it looks like:
 
-<img src="https://forum.hiveos.farm/uploads/default/optimized/2X/1/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_476x500.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/1a226a504cd5b52dcd645fe0cc45e91249d25ac6_2_476x500.png">
 
 ### Before you start
 Ideally you should download system image ZIP file and VERSIONS.txt. Then make them available on your local network via HTTP, FTP, NFS, SMB (Windows). Yes, it’s possible to provide image URL from official repository but the download speed will be slow and as it was said it’s better to store it in local network.

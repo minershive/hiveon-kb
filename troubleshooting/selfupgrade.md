@@ -29,11 +29,11 @@ E: Failed to fetch http://us.archive.ubuntu.com/ubuntu/pool/main/i/intel-microco
 E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?
 Upgrade failed
 </code></pre>
-<img src="https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_690x401.png" alt="55" width="690" height="401" class="d-lazyload" srcset="https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_690x401.png, https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_1035x601.png 1.5x, https://forum.hiveos.farm/uploads/default/optimized/2X/d/d708a239fd934c9332e8274052a610939e6e8a66_2_1380x802.png 2x">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/d708a239fd934c9332e8274052a610939e6e8a66_2_690x401.png" alt="55" width="690" height="401" class="d-lazyload">
 
 This can be resolved with running `apt update` and then repeating `selfupgrade`.
 Though there can come up another problem with interactive dialog from grub:
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/0/0e0fc90430c2664fcbac3c18e20da11447a524d3.png" alt="image" width="631" height="442" class="d-lazyload">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/0e0fc90430c2664fcbac3c18e20da11447a524d3.png" alt="image" width="631" height="442" class="d-lazyload">
 
 If you are upgrading in shell (SSH or Teleconsole) then it’s fine, but with running it from web it can be a problem.
 

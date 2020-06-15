@@ -7,7 +7,7 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-<img src="http://forum.hiveos.farm/uploads/editor/vp/1fs7ux2lalf8.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/1fs7ux2lalf8.png">
 
 Один из наиболее популярных вопросов от новичков - поддерживает ли Hive OS NiceHash и как его настроить.
 Если кратко то да, Hive OS прекрасно работает с этим сервисом.
@@ -20,26 +20,22 @@ Hive OS же в свою содержит все необходимые прог
 Выплаты данный сервис может осуществлять как на внешний, так и внутренний кошелек. В большинстве случаев, выплата на внутренний кошелек более удобна, и именно она будет здесь рассматриваться.
 
 В меню управления ригом есть готовые шаблоны для NiceHash:
-<img src="https://forum.hiveos.farm/uploads/editor/ua/iq1dhcc4nq6u.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/iq1dhcc4nq6u.png">
 
 После клика на шаблон вам остается только заменить кошелек на свой, как показано на картинке:
 
-<img src="http://forum.hiveos.farm/uploads/editor/xw/6n0vbcqy513e.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/6n0vbcqy513e.png">
 
 Где взять этот адрес? В вашем личном кабинете NiceHash, в меню “Кошельки”.
 
 Второе что необходимо знать - это адрес и порт под определенный алгоритм.
 Где брать адрес и порт под определенный алгоритм? Переходим на [эту](https://www.nicehash.com/stratum-generator) страницу, выбираем алгоритм и локацию:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\nice\16ru.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\nice\16ru.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/nice/16ru.png" />
 
 И вуаля:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\nice\15ru.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\nice\15ru.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/nice/15ru.png" />
 
 Сервис NiceHash поддерживает разделение по ригам поэтому вы можете задать адрес в формате:
 

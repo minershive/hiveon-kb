@@ -34,9 +34,9 @@ After reboot please turn off windows client as it will send pings also.
 
 ### Chinese Watchdogs
 The are a lot on Chinese watchdogs on the market. You can find them on Aliexpress or Ebay. They can come in different shapes and flavors but based on the same chip.
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/9/9bfddcddf808f2d89c34ce558beaec77255c723c.jpeg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/9bfddcddf808f2d89c34ce558beaec77255c723c.jpeg">
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/b/b9e6090c9f33833ca3e4e3a3561590f9832a8071.jpeg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/b9e6090c9f33833ca3e4e3a3561590f9832a8071.jpeg">
 
 To test reset you can run the following command after connecting it to your system: `hive/opt/qinheng/hl340 reset`
 
@@ -50,7 +50,7 @@ Supported chips are:
 
 There is another kind of watchdog with the same ID but on Arduino Nano. It can’t be detected. To use it you need to run `/hive/opt/qinheng/wd-nano on`.
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/6/60d77df72b177f246c71d5d7bdf8ef65ae170192.jpeg">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/60d77df72b177f246c71d5d7bdf8ef65ae170192.jpeg">
 
 ### OpenDev Watchdog
 Supported watchdog https://open-dev.ru/watchdog.

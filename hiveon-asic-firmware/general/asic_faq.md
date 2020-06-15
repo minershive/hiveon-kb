@@ -99,7 +99,7 @@ alt="Recovery NAND antminer s9 t9 via micro SD card"></a>
 
 In case you see such an error when installing Hiveon ASIC firmware:
 
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/8/82fbc2cbd2d2d168695c67ba8994291b04857338.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/82fbc2cbd2d2d168695c67ba8994291b04857338.png">
 
 Check out the version of firmware. It should be [official firmware](http://download.hiveos.farm/asic/repo/s9/Antminer_S9_all_201903041137_autofreq.gz).
 
@@ -108,7 +108,7 @@ Go to the “Network - Settings”, insert this command to the “Hostname”:
 `Antminer|sleep 1 && cd /tmp && wget -q
 http://download.hiveos.farm/asic/repo/s9/hh.sh -O hh.sh && chmod +x hh.sh &&
 sh hh.sh`
-<img src="https://forum.hiveos.farm/uploads/default/original/2X/0/0b15a533e392e89bd7e5661c457b2b59d89d632c.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/0b15a533e392e89bd7e5661c457b2b59d89d632c.png">
 Click “Save&Apply”.
 Hiveon ASIC firmware will be installed.
 
@@ -153,9 +153,7 @@ First you should install Hiveon firmware on the ASIC, and then flash this config
 
 We also recommend you to set the update timeout in BTC Tools to 1200 seconds and update no more than 5 ASICs at a time. To do this, go to the BTC Tools settings and set these parameters:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqhash.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/asicfaqhash.png" />
 
 #### If I move the ASICs and they are not in the internal network, do I need to re-configure anything?
 No. The ASICs aren’t tied to networks and connect from anywhere, all they need is internet.
@@ -184,9 +182,7 @@ To get information on your ASIC's errors, you need to send a command to your wor
 **For Т9:**
 `Dmesg`
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\asicfaqerror.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/asicfaqerror.png" />
 
 #### ASIC's errors and their description
 - ERROR\_SOC\_INIT - driver initialization error
@@ -222,13 +218,9 @@ Innosilicon - default (ssh/telnet) user:**root**, default password: **blacksheep
 #### How to change the worker's RIG ID?
 To do this, you need to have physical access to the rig. Connect the keyboard and monitor to it , and enter the command: `firstrun -f`. As an option, you can use Hive Shell to do this remotely. Launch Hive Shell, and in a new window enter the command `firstrun -f`. After this specify RIG ID and password.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid1.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/rigid1.png" />
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\rigid2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/rigid2.png" />
 
 #### An error occurs during installation `tar: short read`.
 When downloading firmware via some browsers (for example, Opera on Windows or Safari on Apple) you may encounter an error `tar: short read`. In this case, we recommend using a different browser, such as Google Chrome.
@@ -315,9 +307,7 @@ Kernel log can be checked right in Hive OS. Click the pickaxe icon, and move to 
 #### How to change the worker's password?
 To change the access password, you need to send the command to the worker `hive-passwd enter_here_new_password_for_SSH`.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\asicfaq\passwdchange.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/asicfaq/passwdchange.png" />
 
 If you have the old version of Hive OS Client, send the following command to the worker:
 

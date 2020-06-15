@@ -45,22 +45,22 @@ __Обратите внимание, что вы не можете внести 
 Как внести депозит в стейблкоинах? Это очень просто!
 1. Выберите **Hive** в качестве провайдера:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*L8qSjVTuu_AjOWL5.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*L8qSjVTuu_AjOWL5.png">
 
 
 2. Добавьте адрес депозита для ваших стейблкоинов. Вы можете скопировать его при помощи этой кнопки:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*3hLQ5RFW_1_5-hjH.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*3hLQ5RFW_1_5-hjH.png">
 
 3. Когда вы попадете в кошелек, введите желаемую сумму пополнения:
 
-<img src="https://lbd.hiveos.farm/kb/images/0*64wVo2a140p-rxKc.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*64wVo2a140p-rxKc.png">
 
 4. Нажмите **Send**
 
 5. Вот и всё! Стейблкоины внесены, а бонус получен!
 
-<img src="https://lbd.hiveos.farm/kb/images/0*jTxxgFEp4YrqcO-s.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0*jTxxgFEp4YrqcO-s.png">
 
 ### Скидка за использование прошивок Hiveon ASIC
 ASICи с прошивками <a href="https://hiveos.farm/asic">Hiveon ASIC</a> могут использовать Hive OS бесплатно.

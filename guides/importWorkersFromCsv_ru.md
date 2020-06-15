@@ -13,19 +13,15 @@ order: 1
 
 2. Вы увидите список ваших воркеров и две кнопки с правой стороны: **Export CSV** ("Экспорт CSV") и **Import CSV** ("Импорт CSV"). Это первые две кнопки, расположенные справа от поля **Name** ("Имя").
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers1.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/importCSV/workers1.png" />
 
 3. Нажмите на кнопку **Export CSV**, чтобы скачать файл (файл будет включать в себя все воркеры, доступные на вкладке Workers). Когда загрузка завершится, откройте его. Вы увидите нечто подобное:
 
-<img src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers3.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers3.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/importCSV/workers3.png" />
 
 4. Теперь вы можете отредактировать файл. Менять можно следующие поля: имя воркера, описание, потребляемую мощность и КПД блока питания:
 
-<img src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers4.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers4.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/importCSV/workers4.png" />
 
 | Данные воркера | Значения      | Что указывать                                               |
 |----------------|---------------|-------------------------------------------------------------|
@@ -39,10 +35,8 @@ order: 1
 
 6. Вернитесь в свой аккаунт Hive OS и нажмите на кнопку **Import CSV**:
 
-<img src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/importCSV/workers2.png" />
 
 7. Выберите файл, который вы только что отредактировали и сохранили. Теперь проверьте вкладку **Workers** — данные (как в этом списке, так и в настройках каждого воркера) уже обновлены:
 
-<img src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers5.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\importCSV\workers5.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/importCSV/workers5.png" />

@@ -2,10 +2,9 @@
 title: Hive OS quick installation guide
 category: Getting Started
 ---
+Hive OS, the ultimate monitoring platform, is very easy to install. Here is how:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/quick_install/header.png"
-  />
+<img src="https://lbd.hiveos.farm/kb/images/header.png" alt="installing-hive-os">
 
 Before installing Hive OS on your rig, we recommend <a href="https://the.hiveos.farm/">creating an account</a> first, or logging into your <a href="https://the.hiveos.farm/">existing one</a>.
 

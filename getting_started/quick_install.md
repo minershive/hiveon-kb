@@ -2,7 +2,6 @@
 title: Hive OS quick installation guide
 category: Getting Started
 ---
-Hive OS, the ultimate monitoring platform, is very easy to install. Here is how:
 
 <img src="https://lbd.hiveos.farm/kb/images/header.png" alt="installing-hive-os">
 

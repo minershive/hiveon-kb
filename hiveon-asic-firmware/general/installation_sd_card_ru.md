@@ -53,3 +53,6 @@ T17E: http://download.hiveos.farm/asic/T17E/SD-T17E-Hiveon-latest.zip
 4. Попробуйте с другой, хорошо известной MicroSD. Не рекомендуется тип SDXC.
 
 5. Попробуйте MicroSD меньшего объема.
+
+### Полезные утилиты
+[Win32DiskImager](http://download.hiveos.farm/asic/utility/Win32DiskImager-1.0.0-binary.zip) - форматирует SD-карту и переносит образ на неё.

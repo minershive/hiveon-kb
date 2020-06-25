@@ -19,7 +19,9 @@ You can check the local time for your time zone, for example, <a href="https://t
 Since the transactions are covered by pool, at the moment it is impossible for users to change the payout thresholds.
 
 ### Are there payouts for stale shares?
-Yes, payment for stale shares is made, but using the coefficient of 0.5-0.8, depending on network delays.
+A valid share is contributed before the winning block. In turn, a stale share is a share that was sent after a block was already solved.
+
+Payment for stale shares is made, but using the coefficient of 0.5-0.8, depending on network delays.
 
 
 > __*Dear Miners*__

@@ -13,7 +13,7 @@ Apart from mining, you can also earn from your referral payments! To start earni
 3. New users that sign-up using your referral link will be marked as your referrals.
 
 ### Referrals who use only Hive OS
-If a referral **makes a deposit** and **adds miners**, you will receive **10%** of their daily payment. For example, a referral pays $3 today — you receive $0.3. In case a referral makes a deposit but adds no miners, the rewards system won’t work.
+If a referral **makes a deposit** and **adds miners**, you will receive **10%** of their daily payment. For example, a referral pays $200 today — you receive $20. In case a referral makes a deposit but adds no miners, the rewards system won’t work.
 
 >**A referral reward is counted ONLY when a referral pays for using Hive OS**.
 

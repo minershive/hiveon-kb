@@ -440,3 +440,13 @@ Check [this video](https://youtu.be/rVSauk7Jzr4).
 #### L3 with connected monitoring from Hive: after reboot, overclocking is reset to default. How to solve this problem?
 If the firmware is MSK, then overclocking should not be reset. It is written in separate files.
 If the custom is from another author, then after applying the overclocking settings, you need to perform Miner Config in Hive (or click **Miner Config** in the top menu). The full config with overclocking settings will come back. Copy and paste all the parameters below the pools in Hive into the advanced parameters of the miner on the tuning tab or in the Flight Sheet (if mass overclocking is needed).
+
+#### How to install firmware on L3+ remotely?
+Enter the following commands:
+1. Update the agent
+
+`/bin/sh -c 'screen -d -m -S selfupgrade selfupgrade master'`
+
+2. Install the firmware
+
+`/bin/sh -c 'screen -d -m -S selfuprade /bin/sh -c "firmware-upgrade 'http://download.hiveos.farm/asic/L3%2B/Antminer-L3%2B-Hiveon-1.00-200327-unsign.tar.gz message info FwUpgradeDone"'`

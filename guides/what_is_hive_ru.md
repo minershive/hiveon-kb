@@ -75,3 +75,9 @@ alt="Немного про Hive OS"></a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=NhyvKXj4vYs
 " target="_blank"><img src="http://img.youtube.com/vi/NhyvKXj4vYs/0.jpg"
 alt="Новый Hive OS. Риг для двух монет. Новые функции. Плюсы Hive OS"></a>
+
+- <a href="https://www.youtube.com/watch?v=W30A5eFL7V8">Подробная Инструкция Hive OS: Как Установить Hive OS, Майнинг ETC и NiceHash, Разгон, Telegram Бот</a>
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=W30A5eFL7V8
+" target="_blank"><img src="http://img.youtube.com/vi/W30A5eFL7V8/0.jpg"
+alt="Подробная Инструкция Hive OS: Как Установить Hive OS, Майнинг ETC и NiceHash, Разгон, Telegram Бот"></a>

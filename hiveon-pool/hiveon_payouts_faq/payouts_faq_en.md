@@ -12,7 +12,7 @@ The pool has a PPS+ payout model. This means that payment is made for each decis
 Currently, the pool doesn't hold any commission. Besides, we completely cover the transactions.
 
 ### How are payments made and in what amount?
-Payments are made daily at 07:33 GMT, provided that the balance is at least 0.1 ETH at the time of payment.
+Payments are made daily at 07:33 GMT, provided that the balance is at least 0.1 ETH or 1 ЕТС at the time of payment.
 You can check the local time for your time zone, for example, <a href="https://time100.ru/GMT">here</a>.
 
 ### Can I change the payout amount?

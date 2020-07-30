@@ -39,9 +39,6 @@ There are 2 ways from to deal with it:
 ### I have paid more, please add money to my account
 This is not possible. You are not paying to Hive account directly, but to Coinpayments. If you had issued the bill for $15 then only $15 will get to Hive account. The extra money will return. If not you should raise the ticket with Coinpayments. But wait at least 24h, you will have a refund.
 
-### Can I pay you directly?
-Sorry, no. This will break the billing system.
-
 ### Problem solving
 Use this form to check you payment status: https://www.coinpayments.net/supwiz-buyer-getinfo.
 

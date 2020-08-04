@@ -9,27 +9,27 @@ category_path: /hiveon-asic-firmware-general_ru
 order: 1
 ---
 
-`self upgrade master` - обновление агента асика (внутренний софт, не прошивка).
+`selfupgrade master` - обновление Hive OS Client для ASICов (агента сбора статистики ASICа, не путать с обновлением прошивки).
 
 `miner log all` - покажет всё доступные логи совмещённо и с сортировкой по дате и времени.
 
 `miner log watchdog` - покажет лог вочдога.
 
-`asic-oc retune` - перетюнивает ASIC на текущем профиле разгона.
+`asic-oc retune` - перетюнит ASIC на текущем профиле разгона.
 
-`asic-oc status` - показывает завершенные (оттюненые) профили разгона.
+`asic-oc status` - покажет все сохраненные (оттюненые) профили разгона.
 
-`asic-oc clear-cache` - стирает все профили разгона (нужно запускать тюн заново).
+`asic-oc clear-cache` - сотрет все профили разгона (нужно запускать тюн заново).
 
-`ntpdate pool.ntp.org` - синхронизация времени на ASICе с сервером.
+`ntpdate pool.ntp.org` - синхронизация даты и времени на ASICе.
 
-`have-passwd new_passwd -w` - смена пароля в веб-интерфейсе (**new_pass** замените на ваш пароль).
+`have-passwd NEW_PASSWORD --web` - смена пароля в веб-интерфейсе (**NEW_PASSWORD** замените на ваш пароль).
 
-`asic-find 5` - мигание диодами 5 минут для поиска ASICа.
+`asic-find 5` - мигание светодиодами 5 минут для поиска ASICа.
 
 P.S.: Почти все утилиты можно запустить с ключом `--help` и посмотреть их возможности:
 
-`self upgrade --help`
+`selfupgrade --help`
 
 `miner --help`
 

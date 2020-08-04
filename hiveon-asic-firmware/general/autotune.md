@@ -48,7 +48,11 @@ But there is a case when it is necessary to apply autotune again: when updating 
 2. The results of the tune are remembered. If you switch back to the previously configured profile, then mining starts immediately with the remembered settings (minus the classic 7-8 minutes required to start the miner).
 
 #### How to turn the autotune off?
-- Send the following command to the ASIC: `rm -rf /config/profile.txt`
+- Send the following command to the ASIC: `asic-oc factory`
 - Reboot the ASIC
 - ASIC will boot with factory data
 - Autotune will not start until someone applies an overclocking profile manually
+
+#### How to re-tune the current profile (like after hashboard swap)?
+- Send the following command to the ASIC: `asic-oc re-tune`
+- Autotune will re-tune current profile from scratch

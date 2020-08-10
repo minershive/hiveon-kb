@@ -2,7 +2,7 @@
 title: How to start mining on Hiveon Pool
 parent_category: Hiveon Pool
 category: Hiveon Pool
-meta_description: "Start mining on Hiveon Pool for Hive OS users is really easy. Just create a Wallet, Create a Flight Sheet with Hiveon Pool and apply it to worker. Windows user are also could easily use Hiveon Pool"
+meta_description: Start mining on Hiveon Pool for Hive OS users is really easy. Just create a Wallet, Create a Flight Sheet with Hiveon Pool and apply it to worker. Windows user are also could easily use Hiveon Pool
 ---
 
 Are you going to start mining on Hiveon pool? Great! To make your life easier, we prepared a guide on how to switch to Hiveon pool, for both Hive OS and Windows users. Keep reading to discover more.

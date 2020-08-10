@@ -4,6 +4,7 @@ parent_category: Пул Hiveon
 path: /hiveon-pool-hiveon-setting-up_ru
 lang: ru
 parent_category_path: /hiveon-pool_ru
+meta_description: "Начать майнинг на Hiveon Pool для пользователей Hive OS очень легко. Просто создайте кошелек, создайте полетный лист с пулом Hiveon и примените его к воркеру. Пользователи Windows также могут легко использовать Hiveon Pool."
 order: 1
 ---
 

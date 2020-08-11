@@ -2,6 +2,7 @@
 title: Payments
 parent_category: FAQ
 category: Billing in Hive OS
+meta_description: How, where and when to pay for Hive OS? Here you will find answers to all of these questions.
 ---
 
 ### Where to pay?

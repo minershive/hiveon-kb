@@ -3,6 +3,7 @@ title: Hive billing explained
 path: /faq-billing_in_hive_os-billing
 parent_category: FAQ
 category: Billing in Hive OS
+meta_description: Learn everything about the Hive OS billing rules.
 ---
 
 ### Terms used

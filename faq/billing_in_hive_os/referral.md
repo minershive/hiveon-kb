@@ -2,6 +2,7 @@
 title: Referral rewards system
 parent_category: FAQ
 category: Billing in Hive OS
+meta_description: Thanks to the referral rewards system, you can earn with Hive OS even if you don't mine!
 ---
 
 Apart from mining, you can also earn from your referral payments! To start earning, follow this guide:

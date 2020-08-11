@@ -2,6 +2,7 @@
 title: Discounts and bonuses
 parent_category: FAQ
 category: Billing in Hive OS
+meta_description: Using Hive OS you can count on various discounts and bonuses. Find out how to get them.
 ---
 
 Please note, that all current discount plans can be viewed on the <a href="https://hiveos.farm/pricing/">pricing page</a>.

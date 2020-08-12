@@ -1,6 +1,7 @@
 ---
 title: Hive OS quick installation guide
 category: Getting Started
+meta description: Installation of Hive OS won't take a lot of your time - just follow this guide.
 ---
 
 <img src="https://lbd.hiveos.farm/kb/images/header.png" alt="installing-hive-os">

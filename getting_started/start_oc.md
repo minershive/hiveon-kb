@@ -1,6 +1,7 @@
 ---
 title: Overclocking profiles basics
 category: Getting Started
+meta description: Improving the equipment's performance? Reducing energy consumption? This is possible thanks to the overclocking profiles.
 ---
 
 <img

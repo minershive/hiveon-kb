@@ -2,6 +2,7 @@
 title: Support services
 parent_category: FAQ
 category: General
+meta description: Multilingual Hive support team is ready to help you at any time - we are in touch 24/7.
 ---
 
 Hive takes care of its users, and that’s why we’ve created so many support channels. Check them out!

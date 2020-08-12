@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /faq_ru
 category_path: /faq-general_ru
 order: 1
+meta_description: Здесь вы найдете ответы на самые основные вопросы о Hive OS.
 ---
 
 ### Что такое Hive OS?

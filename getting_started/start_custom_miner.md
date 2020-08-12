@@ -1,6 +1,7 @@
 ---
 title: Adding a custom miner
 category: Getting Started
+meta_description: Haven't you found the desired miner on the list? With Hive OS you can independently integrate the essential miner which is not included in the image.
 ---
 
 <img

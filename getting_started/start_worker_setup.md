@@ -1,6 +1,7 @@
 ---
 title: Worker installation and setup
 category: Getting Started
+meta description: Learn how to install Hive OS, set up your workers and connect them to your account dashboard easily.
 ---
 
 <img src="https://lbd.hiveos.farm/kbase/images/start_worker_setup/header.png" />

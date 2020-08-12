@@ -1,6 +1,7 @@
 ---
 title: Dashboard basics & setup
 category: Getting Started
+meta description: Learn how to work with farms, set up wallets, create flight sheets, select the pool servers and configure the miner.
 ---
 
 <img

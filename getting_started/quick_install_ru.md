@@ -5,7 +5,7 @@ path: /getting_started-quick_install_ru
 lang: ru
 parent_category_path: /getting_started_ru
 order: 1
-meta description: Установка Hive OS не отнимет у вас много времени - просто следуйте данной инструкции. 
+meta_description: Установка Hive OS не отнимет у вас много времени - просто следуйте данной инструкции. 
 ---
 
 Перед установкой Hive OS на ваш риг, мы рекомендуем сначала <a href="https://the.hiveos.farm/">создать аккаунт</a>, или же войти в уже <a href="https://the.hiveos.farm/">существующий</a>.

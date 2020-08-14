@@ -2,6 +2,7 @@
 title: Installation guide T9+
 parent_category: Hiveon ASIC Firmware
 category: T9+
+meta_description: Follow this instruction to install the Hiveon ASIC firmware on your Antminer T9+.
 ---
 
 ___The installation here is described on the example of S9 - the process is the same for T9+.___

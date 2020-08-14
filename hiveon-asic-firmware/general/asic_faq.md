@@ -2,6 +2,7 @@
 title: ASICs and Hiveon ASIC firmware FAQ
 parent_category: Hiveon ASIC Firmware
 category: General
+meta_description: Do you have questions about ASICs or the Hiveon ASIC firmware? Here you will find all the answers.
 ---
 ## General questions
 #### What is the Hiveon ASIC?

@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-troubleshooting_ru
 order: 1
+meta_description: Узнайте, что именно означают статусы ASICов и как именно нужно действовать в случае каждого из них.
 ---
 
 ### SUSPENDED

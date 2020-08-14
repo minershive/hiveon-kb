@@ -2,6 +2,7 @@
 title: Installation guide L3+/L3++
 parent_category: Hiveon ASIC Firmware
 category: L3+/L3++
+meta_description: Follow this instruction to install the Hiveon ASIC firmware on your Antminer L3+ or Antminer L3++.
 ---
 
 ## Installation Options

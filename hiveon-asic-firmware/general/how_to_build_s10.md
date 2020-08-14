@@ -3,6 +3,7 @@ title: How to get Antminer S10 from two Antminers S9
 path: /hiveon-asic-firmware-general-how-to-build-s10
 parent_category: Hiveon ASIC Firmware
 category: General
+meta_description: Are you going to build up an Antminer S10 from two Antminers S9? This instruction is here to help.
 ---
 
 Antminer S10 is a combination of two Antminers S9 connected to the same power supply unit. To turn your Antminers S9 into Antminer S10, follow these steps:

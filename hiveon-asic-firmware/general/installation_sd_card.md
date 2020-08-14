@@ -2,6 +2,7 @@
 title: Firmware installation guide (via SD-card, series S17 and T17)
 parent_category: Hiveon ASIC Firmware
 category: General
+meta_description: Using this instruction, you will deal with the installation process without any issues.
 ---
 
 ### Follow these steps:

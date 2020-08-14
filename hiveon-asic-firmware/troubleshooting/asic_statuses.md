@@ -2,6 +2,7 @@
 title: ASIC statuses troubleshooting
 parent_category: Hiveon ASIC Firmware
 category: Troubleshooting
+meta_description: Find out what ASIC statuses mean and what exactly you should do in the case of each of them. 
 ---
 
 ### SUSPENDED

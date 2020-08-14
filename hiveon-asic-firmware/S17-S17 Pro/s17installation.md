@@ -2,10 +2,11 @@
 title: Installation guide S17, S17 Pro, S17E, S17+
 parent_category: Hiveon ASIC Firmware
 category: S17, S17 Pro, S17E, S17+
+meta_description: Follow this instruction to install the Hiveon ASIC firmware on your Antminer of the S17 series.
 ---
 
 ### Important Notes
-There are three ways to install Hiveon ASIC firmware for S17, S17 Pro, S17+ and S17E — everything depends on the stock firmware release date. We will cover all the options, so you will be able to install Hiveon ASIC firmware quickly and easily. 
+There are three ways to install Hiveon ASIC firmware for S17, S17 Pro, S17+ and S17E — everything depends on the stock firmware release date. We will cover all the options, so you will be able to install Hiveon ASIC firmware quickly and easily.
 
 Please note, that all the manual steps which involve using BTC_TOOLS can be done via ASIC’s web interface (BTC_TOOLS is usually used for a large number of devices).
 

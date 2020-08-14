@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-S10_ru
 order: 1
+meta_description: Следуйте данной инструкции, чтобы установить прошивку Hiveon ASIC на ваш Antminer S10.
 ---
 
 ___Мы используем S9 в качестве примера - для S10 процесс установки такой же.___

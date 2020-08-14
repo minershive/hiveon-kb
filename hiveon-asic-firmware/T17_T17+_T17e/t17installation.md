@@ -2,6 +2,7 @@
 title: Installation guide T17, T17+, T17E
 parent_category: Hiveon ASIC Firmware
 category: T17, T17+, T17E
+meta_description: Follow this instruction to install the Hiveon ASIC firmware on your Antminer of the T17 series.
 ---
 
 ### Important Notes

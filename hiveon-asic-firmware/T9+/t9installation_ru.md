@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-T9_ru
 order: 1
+meta_description: Следуйте данной инструкции, чтобы установить прошивку Hiveon ASIC на ваш Antminer T9+.
 ---
 
 ___Установка описана на примере S9 - для неё процесс такой же, как и для T9+.___

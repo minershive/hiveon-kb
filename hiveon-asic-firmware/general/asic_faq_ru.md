@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-general_ru
 order: 1
+meta_description: У вас есть вопросы об ASICах или о прошивке Hiveon ASIC? Здесь вы найдете все ответы.
 ---
 ## Общие вопросы
 

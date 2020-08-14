@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-general_ru
 order: 1
+meta_description: Собираетесь собрать Antminer S10 из двух Antminer S9? Эта инструкция поможет вам.
 ---
 
 Antminer S10 — это комбинация двух Antminer S9, подключенных к одному источнику питания. Чтобы превратить ваши Antminer S9 в Antminer S10, следуйте этим шагам:

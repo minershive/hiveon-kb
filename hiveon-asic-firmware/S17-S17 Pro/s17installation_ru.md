@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-S17-S17Pro_ru
 order: 1
+meta_description: Следуйте данной инструкции, чтобы установить прошивку Hiveon ASIC на ваш Antminer серии S17.
 ---
 
 ### Важно!

@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-general_ru
 order: 1
+meta_description: Управляйте своими устройствами легко и просто.
 ---
 
 `selfupgrade master` - обновление Hive OS Client для ASICов (агента сбора статистики ASICа, не путать с обновлением прошивки).

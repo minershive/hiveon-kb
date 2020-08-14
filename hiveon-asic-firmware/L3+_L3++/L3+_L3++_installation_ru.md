@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-L3_ru
 order: 1
+meta_description: Следуйте данной инструкции, чтобы установить прошивку Hiveon ASIC на ваш Antminer L3+ или Antminer L3++.
 ---
 
 ## Варианты установки

@@ -3,6 +3,7 @@ title: Useful commands for ASICs on Hiveon firmware
 path: /hiveon-asic-firmware-general-commands
 parent_category: Hiveon ASIC Firmware
 category: General
+meta_description: Manage your devices nice and easy.
 ---
 
 `selfupgrade master` - Hive OS Client for ASICs update (please do not confuse with ASIC firmware).

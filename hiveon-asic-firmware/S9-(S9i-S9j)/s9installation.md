@@ -2,6 +2,7 @@
 title: Installation guide S9 (S9i, S9j)
 parent_category: Hiveon ASIC Firmware
 category: S9 (S9i, S9j)
+meta_description: Follow this instruction to install the Hiveon ASIC firmware on your Antminer of the S9 series.
 ---
 
 ___The installation process is the same for T9+.___

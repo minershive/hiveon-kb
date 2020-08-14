@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-general_ru
 order: 1
+meta_description: Используя эту инструкцию, вы справитесь с процессом установки без всяких проблем.
 ---
 
 ### Порядок действий:

@@ -3,6 +3,7 @@ title: Autotune
 path: /hiveon-asic-firmware-general-autotune
 parent_category: Hiveon ASIC Firmware
 category: General
+meta_description: The autotune function allows to maximize the efficiency of ASIC chips even in case they are worn out. Moreover, it prolongs their lifespan.
 ---
 
 The main task of autotune is to make the hashrate higher and the energy consumption - lower (the autotune keeps the consumption indicated in the profile).

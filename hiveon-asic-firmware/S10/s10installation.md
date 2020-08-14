@@ -3,6 +3,7 @@ title: Installation guide S10
 path: /hiveon-asic-firmware-S10-s10installation
 parent_category: Hiveon ASIC Firmware
 category: S10
+meta_description: Follow this instruction to install the Hiveon ASIC firmware on your Antminer S10.
 ---
 
 ___Here we use S9 as an example - the installation process is the same for S10.___

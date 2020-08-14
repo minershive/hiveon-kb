@@ -7,7 +7,7 @@ lang: ru
 parent_category_path: /hiveon-asic-firmware_ru
 category_path: /hiveon-asic-firmware-general_ru
 order: 1
-meta_description: Ранее прошивки Hiveon ASIC были доступны в двух версиях: улучшенной и стандартной. В чём разница? Ответ - в этой статье. 
+meta_description: Ранее прошивки Hiveon ASIC были доступны в двух версиях - улучшенной и стандартной. В чём разница? Ответ - в этой статье. 
 ---
 
 Отличие Improved и Standard прошивок в наличии или отсутствии цифровой подписи. Прошивки Hiveon ранее существовали в двух вариантах — улучшенная (Improved, с подписью) и стандартная (Standard, без подписи).

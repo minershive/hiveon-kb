@@ -5,6 +5,7 @@ path: /troubleshooting-logs_ru
 lang: ru
 parent_category_path: /troubleshooting_ru
 order: 1
+meta_description: Узнайте, как работать с журналами системы и журналами майнера.
 ---
 
 ### Журналы майнера

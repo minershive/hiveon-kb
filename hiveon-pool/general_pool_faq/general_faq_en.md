@@ -3,6 +3,7 @@ title: General FAQ
 path: /hiveon-pool-general_pool_faq-general_faq
 parent_category: Hiveon Pool
 category: General pool FAQ
+meta_description: Go through the basics to understand how pools work.
 ---
 
 ### What is a mining pool?

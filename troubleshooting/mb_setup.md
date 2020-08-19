@@ -1,5 +1,6 @@
 ---
 title: General motherboard setup
+meta_description: Do you have an issue with booting your system? Or maybe the card is not detected? Here are several ways to bring things back to normal.
 ---
 
 Here are some steps you can take if you have some problems with booting your system or the card is not detected, and so on:

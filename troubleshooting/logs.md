@@ -1,5 +1,6 @@
 ---
 title: Logs
+meta_description: Learn how to work with system logs and miner logs.
 ---
 
 ### Miner logs

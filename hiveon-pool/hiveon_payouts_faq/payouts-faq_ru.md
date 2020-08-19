@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-pool_ru
 category_path: /hiveon-pool-hiveon_payouts_faq_ru
 order: 1
+meta_description: У вас есть вопросы по поводу выплат на пуле Hiveon? Здесь вы найдете все ответы. 
 ---
 
 ### Каким образом пул начисляет деньги за выполненную работу?

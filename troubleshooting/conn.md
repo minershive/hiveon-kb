@@ -1,5 +1,6 @@
 ---
 title: Connection problems
+meta_description: Does your rig mine while being offline in Hive? Here is the solution.
 ---
 
 The common question is: my rig is mining, but it’s offline in Hive.

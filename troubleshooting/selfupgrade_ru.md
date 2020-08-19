@@ -5,6 +5,7 @@ path: /troubleshooting-selfupgrade_ru
 lang: ru
 parent_category_path: /troubleshooting_ru
 order: 1
+meta_description: Вам нужно выполнить обновление самостоятельно? С этой инструкцией у вас не возникнет никаких проблем.
 ---
 
 Иногда может возникнуть ситуация, когда репозиторий Ubuntu не синхронизирован и не может найти какой-либо пакет. Это происходит потому, что Hive обновляет только себя, но не всю Ubuntu, чтобы минимизировать трафик. В долгосрочной перспективе может потребоваться какой-то пакет, и затем его необходимо загрузить, а старая кэш-память Ubuntu не знает, где он находится.
@@ -36,7 +37,7 @@ Upgrade failed
 </code></pre>
 <img src="https://lbd.hiveos.farm/kbase/images/forum/d708a239fd934c9332e8274052a610939e6e8a66_2_690x401.png" alt="55" width="690" height="401" class="d-lazyload">
 
-Это может быть решено запуском конмады `apt update`, а потом повторением `selfupgrade`.
+Это может быть решено запуском команды `apt update`, а потом повторением `selfupgrade`.
 Хотя может возникнуть другая проблема с интерактивным диалогом из grub:
 <img src="https://lbd.hiveos.farm/kbase/images/forum/0e0fc90430c2664fcbac3c18e20da11447a524d3.png" alt="image" width="631" height="442" class="d-lazyload">
 

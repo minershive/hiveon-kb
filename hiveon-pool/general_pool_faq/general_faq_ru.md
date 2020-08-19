@@ -7,6 +7,7 @@ lang: ru
 parent_category_path: /hiveon-pool_ru
 category_path: /hiveon-pool-general_pool_faq_ru
 order: 1
+meta_description: Ознакомьтесь с основами работы пула.
 ---
 
 ### Что такое майнинг-пул?

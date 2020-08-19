@@ -5,6 +5,7 @@ path: /troubleshooting-riser_ru
 lang: ru
 parent_category_path: /troubleshooting_ru
 order: 1
+meta_description: Проблема с райзером? Мы подскажем, что именно может быть не так.
 ---
 
 Ошибка выглядит вот так:

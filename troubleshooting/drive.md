@@ -1,5 +1,6 @@
 ---
 title: Drives
+meta_description: When to use flash drives? What are there disadvantages? We will answer these questions.
 ---
 
 When to use flash drives? Firstly when you want to test. This is easy, you just grab one you have and in a dozen of minutes you can plug it in and test Hive without ruining your current Windows, for example. Any flash will work, USB 3.0 is not required. It’s just a matter of boot speed. Then if you are happy with it you can leave it as it is.

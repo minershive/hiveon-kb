@@ -5,6 +5,7 @@ path: /troubleshooting-conn_ru
 lang: ru
 parent_category_path: /troubleshooting_ru
 order: 1
+meta_description: Ваш риг майнит, но при этом он оффлайн в Hive? У нас есть решение.
 ---
 
 Очень популярный вопрос: мой риг майнит, но он оффлайн в Hive.

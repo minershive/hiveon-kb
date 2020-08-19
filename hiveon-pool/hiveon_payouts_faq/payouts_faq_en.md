@@ -3,6 +3,7 @@ title: Payouts FAQ
 parent_category: Hiveon Pool
 path: /hiveon-pool-hiveon_payouts_faq-payouts_faq
 category: Hiveon payouts FAQ
+meta_description: Do you have any questions regarding the payouts on Hiveon pool? Then here you will find all the answers.
 ---
 
 ### What is Hiveon.net's payout type?

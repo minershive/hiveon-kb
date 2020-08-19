@@ -5,6 +5,7 @@ path: /troubleshooting-boot_ru
 lang: ru
 parent_category_path: /troubleshooting_ru
 order: 1
+meta_description: Вы подключили свой диск к ригу, но ничего не произошло. Это неприятная проблема, но мы знаем, как её решить.  
 ---
 
 Если коротко, вам нужно подключить свой диск к ригу, и всё. Но иногда это просто не работает.

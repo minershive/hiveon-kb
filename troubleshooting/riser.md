@@ -1,5 +1,6 @@
 ---
 title: Bad riser
+meta_description: Riser problem? We will tell you what exactly might be wrong.
 ---
 
 The error look like this:

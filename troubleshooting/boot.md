@@ -1,6 +1,6 @@
 ---
 title: Booting problems
-meta_description: You plugged your drive in the rig, but nothing happened. That's an unpleasant issue, but we know how to solve it.
+meta_description: You plugged your drive in the rig, but nothing happened. That is an unpleasant issue, but we know how to solve it.
 ---
 
 In general you just plug your drive in the rig and it goes. But sometimes it just doesn’t work.

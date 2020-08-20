@@ -2,7 +2,7 @@
 title: ASIC statuses troubleshooting
 parent_category: Hiveon ASIC Firmware
 category: Troubleshooting
-meta_description: Find out what ASIC statuses mean and what exactly you should do in the case of each of them. 
+meta_description: Find out what ASIC statuses mean and what exactly you should do in the case of each of them.
 ---
 
 ### SUSPENDED
@@ -35,3 +35,6 @@ Error when reading the content of EEPROM (wrong format). It is necessary to flas
 
 ### ERROR\_TEMP\_LOST
 Temperature sensor was lost two or more times. This can happen in case of fail of the chips on which the temperature sensors are located. For example, the 17th model has 4 such chips on every board, and if 2 or more chips fail, it is difficult to determine the temperature, and the mining process stops. To solve the problem, you need to replace the chips.
+
+### DISABLED
+Hardware defect detected. Mining suspended to protect chips and boards from overheating.

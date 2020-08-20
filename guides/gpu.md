@@ -97,7 +97,7 @@ Then enter your password for this rig. The latest IP address of the rig can be c
 The `exit` command will every time bring you back in the chain.
 
 ### What is LA (Load Average)?
-LA is the number of processor cores required to perform all current tasks. If you have Celeron G3930 with two cores, then LA 2 indicates 100% system load. For Ether, this is very abnormal, but for modern algorithms — it is okay.
+LA is the number of processor cores required to perform all current tasks. If you have Celeron G3930 with two cores, then LA 2 indicates 100% system load. For ETH, this is very abnormal, but for modern algorithms — it is okay.
 
 The maximum value of LA can be anything. This is the length of the queue to the processor, expressed in the number of cores of this processor. LA has always been counted as the number of computing devices required to complete the entire current task queue.
 

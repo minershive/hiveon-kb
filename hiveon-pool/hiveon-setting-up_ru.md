@@ -14,18 +14,14 @@ order: 1
 ### Шаг 1: Создайте кошелек
 Чтобы начать майнить Ethereum на пуле Hiveon, вам нужно сперва создать кошелек. Чтобы сделать это, войдите в систему, перейдите на вкладку **Wallets** и нажмите кнопку **Add Wallet**. Вам нужно будет указать монету (ETH), адрес, имя и источник.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool1.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/hiveon-pool/hiveonpool1.png" />
 
 Когда вы закончите, нажмите на кнопку **Create**. Ваш кошелек готов!
 
 ### Шаг 2: Создайте Полетный Лист
 Чтобы создать Полетный Лист, перейдите во вкладку **Flight Sheets**. Вы увидите следующее:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/hiveon-pool/hiveonpool2.png" />
 
 Вам нужно будет заполнить такие поля:
 
@@ -36,9 +32,7 @@ order: 1
 - Name: введите имя для вашего Полетного Листа (опционально)
 - Нажмите кнопку **Create Flight Sheet**
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool3.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool3.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/hiveon-pool/hiveonpool3.png" />
 
 ### Шаг 3: Примените Полетный Лист к вашему воркеру
 
@@ -46,17 +40,13 @@ order: 1
 
 **Способ 1**: Перейдите во вкладку **Workers**, выберите конкретный воркер, а затем перейдите во вкладку **Flight Sheets** в меню рига. Нажмите на иконку в виде ракеты в верхнем правом углу.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool4.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool4.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/hiveon-pool/hiveonpool4.png" />
 
 **Способ 2**: Перейдите во вкладку **Workers** и отметьте флажками те риги, к которым вы хотите применить Полетный Лист. Опять же, вы должны будете нажать на иконку с ракетой.
 
 Как только вы нажмете на ракету, вы увидите окно с количеством выбранных вами воркеров и список всех ваших Полетных Листов. Выберите Полетный Лист, который вы создали, и нажмите кнопку **Apply**. Вы должны увидеть сообщение о том, что команда была отправлена на воркер (или воркеры). Через несколько секунд ваши риги должны применить изменения, и вы увидите сообщение Config в журналах активности:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool5.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\hiveon-pool\hiveonpool5.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/hiveon-pool/hiveonpool5.png" />
 
 Теперь все готово! Ваша установка должна начать добычу, посылая данные на панель управления. Вы сможете видеть ее показатели в режиме реального времени.
 

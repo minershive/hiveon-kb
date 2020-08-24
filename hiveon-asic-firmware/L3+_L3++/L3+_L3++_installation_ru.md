@@ -21,15 +21,11 @@ meta_description: Следуйте данной инструкции, чтобы
 ### Вариант 1: Установка через веб-интерфейс ASICа
 Перейдите на [эту страницу](https://hiveos.farm/asic/) и скачайте прошивку:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\Screenshot_38.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\Screenshot_38.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/L3+/Screenshot_38.png" />
 
 Когда ваш ASIC включен (предполагается, что он находится в одной сети с вами), подключитесь к нему с помощью компьютера или мобильного устройства. Введите IP-адрес вашего майнера. У большинство майнеров DHCP уже включен, поэтому вам не нужно вручную устанавливать IP-адрес для него. Вместо этого посмотрите на таблицу IP на вашем маршрутизаторе или используйте инструмент сканирования.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha3.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha3.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/L3+/pasha3.png" />
 
 Войдите в майнер. Логин и пароль по умолчанию - root. Вы будете авторизованы в окне обзора системы. Если вы впервые настраиваете ASIC, не забудьте сначала изменить пароль по умолчанию на вкладке Admin.
 
@@ -41,15 +37,11 @@ meta_description: Следуйте данной инструкции, чтобы
 
 Теперь вам нужно будет получить ваш Farm Hash в <a href="https://the.hiveos.farm/">веб-интерфейсе Hive OS</a>. Перейдите во вкладку настроек вашей фермы (**Settings**), там вы увидите ваш **Farm Hash**. Скопируйте его в буфер обмена.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha1.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/L3+/pasha1.png" />
 
 Как только ASIC был прошит и перезагружен, снова подключитесь к нему и перейдите на вкладку **Hive OS** в **System window**. Вставьте ваш Farm Hash в поле **FARM_HASH** и нажмите **Save & Apply**. Ваш ASIC будет добавлен к вашей ферме в Hive OS.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\L3+\pasha2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/L3+/pasha2.png" />
 
 Вот и всё, теперь вы можете настраивать ваш ASIC.
 

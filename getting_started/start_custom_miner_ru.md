@@ -13,9 +13,7 @@ Hive OS поддерживает не все алгоритмы майнеров
 ### Установка кастомного майнера
 Для начала перейдите на <a href="http://download.hiveos.farm/custom/">эту страницу</a> и просто скопируйте URL в файл.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_miners.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_miners.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_custom_miner/custom_miners.png" />
 
 _Репозиторий кастомного майнера_
 
@@ -48,9 +46,7 @@ _Репозиторий кастомного майнера_
 #### Пример: как установить и настроить Phoenix Miner на HIVE OS?
 Мы показали вам, как настроить кастомный майнер, теперь пришло время применить знания на практике. В качестве примера, мы объясним, как установить и настроить сторонний майнер Phoenix Miner 3.5c на <a href="https://www.hiveon.net/"> пуле Hiveon</a> с использованием алгоритма ethash.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_fs.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_fs.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_custom_miner/custom_fs.gif" />
 
 _Полетный Лист кастомного майнера_
 
@@ -62,9 +58,7 @@ _Полетный Лист кастомного майнера_
 * __Miner__ — выберите **Custom** и затем кликните **Setup Miner Config** для специфических настроек майнера. Затем заполните необходимые поля. Учтите, что у каждого майнера разный набор параметров и требуемых полей.
 * __Flight Sheet Name__ — _Phoenix on Hiveon_
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_conf.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_custom_miner/custom_conf.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_custom_miner/custom_conf.gif" />
 
 _Конфигурация кастомного майнера_
 

@@ -1,10 +1,6 @@
 # Hiveon Knowledge Base
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/logo.svg?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/logo.svg"
-  width="400"
-  height="250"
-/>
+<img src="https://lbd.hiveos.farm/kbase/images/logo.svg" width="400" height="250" />
 
 Welcome to [HiveON Knowledge Base repository](https://github.com/minershive/hiveon-kb)
 This repository is published at [hiveos.farm](http://hiveos.farm/knowledge-base)

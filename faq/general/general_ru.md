@@ -62,6 +62,4 @@ Hive OS - это операционная система, основанная �
 
 Выберите версию, на которую вы хотите вернуться, и нажмите "Понижение":
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\faqgeneral\2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\faqgeneral\2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/faqgeneral/2.png" />

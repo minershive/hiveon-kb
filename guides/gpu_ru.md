@@ -20,16 +20,12 @@ order: 1
 
 Так же для снижения энергопотребления вы можете воспользоваться режимом агресивного андервольтинга:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu1.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu1.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu1.png" />
 
 ### Как проверить, есть ли интернет на GPU риге?
 Для того, чтобы проверить наличие интернета на вашем риге, вам необходим монитор и клавиатура для физического подключения к ригу. После загрузки Hive OS  введите команду `net-test`. После ее применения вы увидите статус доступности серверов Hive OS.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu2.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu2.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu2.png" />
 
 ### Ошибка 511. Почему она возникает?
 Данная ошибка возникает в большинстве случаев из за неисправности райзера видеокарты. Проверьте разъем питания на райзере на предмет подгоревшего провода, и замените райзер.
@@ -48,53 +44,35 @@ DPM - это таблица частот ядра и соответствующ�
 ### Как риги объединить/перенести на другую ферму?
 Перейдите в настройки рига:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu3.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu3.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu3.png" />
 
 Затем перейдите на нижнюю часть страницы и нажмите **Расширенные настройки**:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu4.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu4.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu4.png" />
 
 Выберите из выпадающего списка нужную ферму, и нажмите на кнопку **Перенос**:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu5.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu5.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu5.png" />
 
 ### Запуск mc на риге
 Для запуска редактора mc, запустите на вашем воркере Hive Shell. Затем введите команду `mc`.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu6.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu6.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu6.png" />
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu7.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu7.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu7.png" />
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu8.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu8.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu8.png" />
 
 ### Как через Hive-Shell проверить, действительно ли завис риг?
 Зайдите по Hive Shell на **рабочий риг, находящийся в той же локальной сети что и зависший**.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu9.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu9.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu9.png" />
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu10.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu10.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu10.png" />
 
 Введите вот эту команду: `ssh user@”Ip_адрес_неработающего_рига”`:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu11.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu11.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu11.png" />
 
 Далее введите свой пароль от этого рига. Последний ip-адрес рига можно посмотреть на панели управления Hive OS.
 
@@ -107,8 +85,6 @@ LA это количество ядер процессора, требуемых
 
 При майнинге Beam и Cuckoo на слабых процессорах, LA может доходить до 3-4. Если не нравится красный цвет индикатора, вы всегда можете настроить пороговое значение вот здесь:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu12.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\gpu\gpu12.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/gpu/gpu12.png" />
 
 Три значения: LA сейчас / среднее LA за 5 минут / среднее LA за 15 минут.

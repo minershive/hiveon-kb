@@ -4,9 +4,7 @@ category: Getting Started
 meta_description: Learn how to work with farms, set up wallets, create flight sheets, select the pool servers and configure the miner.
 ---
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/header.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/header.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/header.png" />
 
 In our [previous article](https://hiveos.farm/getting_started-start_worker_setup) we discussed all the various ways you can setup Hive OS onto your workers and how to add them to your Farm’s dashboard. In this article we’ll continue our introduction to Hive and it’s features and show you how to work with it’s key functions starting with Farms.
 
@@ -16,26 +14,20 @@ Farm is a group of workers that you combine together to form a separate project.
 ### Creating A Farm
 Start by clicking the plus button in the top right corner of your dashboard. A **Create New Farm** window will appear. Give your Farm a name and select a time zone. This should be the time zone in which your workers will be located. This is required for the purpose of displaying the proper log time codes. Once done, click the **Save** button and you will be transferred to your new Farm’s dashboard.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/create_farm.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/create_farm.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/create_farm.gif" />
 
 _Creating a new Farm_
 
 ### Farm Access Levels
 There are several access levels to a Farm and you can see them at the bottom of the each Farm in the dashboard.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/farms_access.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/farms_access.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/farms_access.png" />
 
 _List of Farms, both yours and those with shared access_
 
 You can give access to your Farm to other users. For example, you could give Full Access privileges to your admins in order for them to manage everything in your stead. Or you can give the read-only Monitor access privileges to your technical staff that do simple maintenance and monitoring and nothing more.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/add_user.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/add_user.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/add_user.gif" />
 
 _Sharing access to your Farm with another user_
 
@@ -54,9 +46,7 @@ Now that you’ve got yourself acquainted with Farms, you can start setting up y
 
 To add a new wallet, go to the **Wallets** tab and click the **Add Wallet** button. You’ll see a pop-up window with the following fields:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_wallet.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_wallet.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/new_wallet.gif" />
 
 _Creating new wallet_
 
@@ -74,9 +64,7 @@ When adding a new flight sheet, note that you can only select a coin first, whil
 
 ### Creating A Flight Sheet
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_fs.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_fs.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/new_fs.gif" />
 
 _Setting up a new Flight Sheet_
 
@@ -95,9 +83,7 @@ Once you’re done click the **Create Flight Sheet button**.
 ## Selecting Pool Servers
 One thing to note about the pools is the order in which you choose the servers. Let’s use **dwarfpool** as an example and say you choose the EU server. The next servers you pick are the next servers your worker will connect to, in case it loses a connection to the EU one, in the order you picked them. For Example, the first server you chose was the EU, then Russia and then China. This will be the exact priority order in which your worker connects to that pool.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/pool_conf.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/pool_conf.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/pool_conf.gif" />
 
 _Selecting pool servers_
 
@@ -113,17 +99,13 @@ Now that we showed you how to set up your worker, let’s put it to practice by 
 
 Go to your **Wallets** and click the **Add Wallet** button. In the **New Wallet** window start by typing `nicehash` into the **Coin** field, and you should see an entire list of various Nicehash supported algorithms. They are not listed by default in the dropdown list as they’re not actual coins per se. Choose the _Nicehash-CryptoNightV7_ protocol, then enter your Nicehash wallet address. Note, that if you want to see your stats in the <a href="https://www.nicehash.com/dashboard">Nicehash Dashboard</a> you should use the generated wallet address provided when <a href="https://www.nicehash.com/register">registering</a>. You can name your new wallet optionally, then click **Create**.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/wallet_nh.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/wallet_nh.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/wallet_nh.gif" />
 
 Continue by setting-up a Flight Sheet in the **Flight Sheets** tab. Choose the now available _Nicehash-CryptoNight_ from the **Coin** dropdown list, then choose the wallet you just created and select a pool. Keep in mind that you can either choose the default pool servers, or select the **Configure in miner** option to input these settings manually. Select your preferred miner or if you clicked the _Configure in miner_ option, then setup that miner manually by clicking the **Setup Miner Config** button.
 
 Below is an example of how we setup our second miner for CPU mining on a rig. Your settings may vary depending on the miner you choose, servers, algorithms, coins, etc. But for the sake of this example we opted to mine Monero (XMR) using our rig’s CPU. We already have a GPU miner, so we needed to add our CPU miner to the same Flight Sheet. We did this only on one of our worker, thus creating a rig specific config.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/nh_monero_fs.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/nh_monero_fs.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/nh_monero_fs.gif" />
 
 _Adding a second miner_
 
@@ -146,9 +128,7 @@ Note that the threads number will vary depending on the number of cores your CPU
 
 * Click __Apply Changes__ and you’re all done.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/miner_conf.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/miner_conf.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/miner_conf.gif" />
 
 _Miner Config settings_
 
@@ -161,25 +141,19 @@ You can now apply the Flight Sheet you’ve created. You have two options of app
 
 The second way is by going to the **Workers** tab, then clicking the checkboxes on the left side of the workers to which you want to apply the Flight Sheet. You should see a rocket icon appear in the menu bar in the top right corner.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/cp.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/cp.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/cp.png" />
 
 _Control panel_
 
 Click it, and you should see a window with the number of workers you chose and a list of all your Flight Sheets.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/launch_fs.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/launch_fs.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/launch_fs.png" />
 
 _List of selected workers and available Flight Sheets_
 
 Choose the Flight Sheet you want to apply and click the **Apply** button. You should see a message telling you that the Flight Sheet command was sent to the worker. In a few seconds your workers should apply the changes and you should see a `Config applied` message in the activity logs in the farm’s **Overview** tab.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/activity_log.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/activity_log.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/activity_log.png" />
 
 _Farm’s activity logs_
 

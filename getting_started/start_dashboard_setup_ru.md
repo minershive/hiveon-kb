@@ -16,26 +16,20 @@ meta_description: Узнайте, как работать с фермами, н�
 ### Создание фермы
 Нажмите на значок "плюс" в верхнем правом углу панели управления. Появится окно **Create New Farm**. Дайте вашей ферме имя и выберите вашу временную зону. Это должна быть временная зона, в которой будут раположены ваши воркеры. Это необходимо для отображения правильных временных кодов журнала. Как только вы закончите, нажмите на кнопку **Save** - вы будете перенаправлены на панель управления вашей новой фермы.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/create_farm.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/create_farm.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/create_farm.gif" />
 
 _Создание новое фермы_
 
 ### Уровни доступа фермы
 Существует несколько уровней доступа к ферме. Вы можете увидеть их в нижней части каждой фермы на панели управления.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/farms_access.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/farms_access.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/farms_access.png" />
 
 _Список ферм (ваших собственных и тех, к которым у вас есть доступ)_
 
 Вы можете предоставить другим пользователям доступ к вашей ферме. Например, вы можете предоставить привилегии полного доступа своим администраторам, чтобы они могли управлять всем, что у вас есть. Или же вы можете дать доступ только на чтение и предоставить его вашему техническому персоналу, который выполняет простое обслуживание и мониторинг и ничего более.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/add_user.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/add_user.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/add_user.gif" />
 
 _Предоставление доступа к ферме другому пользователю_
 
@@ -54,9 +48,7 @@ _Предоставление доступа к ферме другому пол
 
 Чтобы добавить новый кошелек, перейдите во вкладку **Wallets** и нажмите кнопку **Add Wallet**. Вы увидите всплывающее окно со следующими полями:
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_wallet.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_wallet.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/new_wallet.gif" />
 
 _Создание нового кошелька_
 
@@ -74,9 +66,7 @@ _Создание нового кошелька_
 
 ### Создание Полетного Листа
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_fs.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/new_fs.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/new_fs.gif" />
 
 _Настройка нового Полетного Листа_
 
@@ -95,9 +85,7 @@ _Настройка нового Полетного Листа_
 ## Выбор серверов пула
 В отношении пулов следует отметить порядок, в котором вы выбираете серверы. Давайте используем **dwarfpool** как пример и предположим, что вы выбираете европейский сервер. Следующие серверы, которые вы выбираете - это следующие серверы, к которым ваш воркер присоединится, если он потеряет связь с европейским (в том же порядке, в котором вы их выбрали). Например, первым вы выбрали европейский сервер, потом - Россию, а затем - Китай. Это точный порядок очередности, в котором ваш воркер присоединится к данному пулу.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/pool_conf.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/pool_conf.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/pool_conf.gif" />
 
 _Выбор серверов пула_
 
@@ -114,17 +102,13 @@ _Выбор серверов пула_
 Перейдите в ваши **Wallets** и нажмите на кнопку **Add Wallet**. В окне **New Wallet**, начните печатить `nicehash` в поле **Coin**, и вы увидите полный список алгоритмов, поддерживаемых Nicehash. Они не перечислены по умолчанию в выпадающем списке, поскольку они не являются реальными монетами как таковыми.
 Выберите протокол _Nicehash-CryptoNightV7_, адрес вашего кошелька Nicehash. Заметьте, что если вы хотите увидеть свою статистику в <a href="https://www.nicehash.com/dashboard">Nicehash Dashboard</a>, вам следует использовать сгенерированный адрес кошелька, полученные при <a href="https://www.nicehash.com/register">регистрации</a>. Вы можете дать имя вашему новому кошельку, затем нажмите **Create**.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/wallet_nh.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/wallet_nh.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/wallet_nh.gif" />
 
 Для продолжения, настройте Полетный Лист во вкладке **Flight Sheets**. Выберите теперь доступный _Nicehash-CryptoNight_ из выпадающего списка **Coin**, затем выберите только что созданный кошелек, и выберите пул. Обратите внимание, что вы можете выбрать сервера пула по умолчанию или же выбрать опцию **Configure in miner**, чтобы настроить все вручную. Выберите майнер или, если вы предпочли опцию _Configure in miner_, настройте этот майнер вручную, нажав на кнопку **Setup Miner Config**.
 
 Ниже приведен пример того, как мы настроили наш второй майнер для CPU-майнинга на риге. Ваши настройки могут различаться в зависимости от выбранного вами майнера, серверов, алгоритмов, монет и т.д. Но для этого примера мы решили майнить Monero (XMR), используя CPU нашего рига. У нас уже есть майнер GPU, поэтому нам нужно было добавить наш CPU майнер в тот же Полетный Лист. Мы сделали это только на одном из наших воркеров, создав таким образов конкретную конфигурацию рига.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/nh_monero_fs.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/nh_monero_fs.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/nh_monero_fs.gif" />
 
 _Добавление второго майнера_
 
@@ -147,9 +131,7 @@ _Добавление второго майнера_
 
 * Нажмите __Apply Changes__, и всё.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/miner_conf.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/miner_conf.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/miner_conf.gif" />
 
 _Настройка конфигурации майнера_
 
@@ -162,25 +144,19 @@ _Настройка конфигурации майнера_
 
 Второй вариант: перейдите во вкладку **Workers**, затем установите "флажки" с левой стороны воркеров, к которым вы хотите применить Полетный Лист. Вы должны увидеть иконку с ракетой в строке меню в верхнем правом углу.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/cp.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/cp.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/cp.png" />
 
 _Контрольная панель_
 
 Кликните на неё, и увидите окно с количеством выбранных воркеров и список всех ваших Полетных Листов.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/launch_fs.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/launch_fs.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/launch_fs.png" />
 
 _Список выбранных воркеров и доступных Полетных Листов_
 
 Выберите Полетный Лист, который вы хотите применить, затем нажмите кнопку **Apply**. Вы должны увидеть сообщение о том, что команда Flight Sheet была отправлена на воркер. Через несколько секунд ваши воркеры должны применить изменения, и вы должны увидеть сообщение `Config applied` в журналах активности во вкладке **Overview** вашей фермы.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/activity_log.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_dashboard_setup/activity_log.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_dashboard_setup/activity_log.png" />
 
 _Журналы активности фермы_
 

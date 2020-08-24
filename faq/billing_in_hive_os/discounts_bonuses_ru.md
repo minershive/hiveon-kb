@@ -7,7 +7,7 @@ lang: ru
 parent_category_path: /faq_ru
 category_path: /faq-billing_in_hive_os_ru
 order: 1
-meta_description: Используя Hive OS, вы можете рассчитывать на различные скидки и бонусы. Узнайте, как именно их получить. 
+meta_description: Используя Hive OS, вы можете рассчитывать на различные скидки и бонусы. Узнайте, как именно их получить.
 ---
 
 Самую актуальную информацию о скидках можно узнать <a href="https://hiveos.farm/pricing/">здесь</a>.

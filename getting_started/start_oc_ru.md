@@ -17,9 +17,7 @@ meta_description: Повышение производительности обо
 
 Разгон - это процесс проб и ошибок, требующий терпения для достижения желаемых результатов. Вы должны всегда позволять своему оборудованию работать с каждым набором новых профилей разгона в течение некоторого времени, чтобы посмотреть, останутся ли эти конкретные параметры стабильными. Оборудование иногда может вести себя по-разному, давая непредсказуемые результаты. Отклоненные шары являются одним из способов проверить, были ли изменения в разгоне успешными.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/rejects.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/rejects.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/rejects.png" />
 
 _Отклоненные шары_
 
@@ -32,9 +30,7 @@ _Отклоненные шары_
 
 Чтобы добавить новый профиль, перейдите во вкладку **Overclocking Profiles** вашей фермы и нажмите на кнопку **Add OC Profile**. В окне **Save Overclocking as Template** дайте вашему профилю имя, и нажмите **Save**.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/new_oc.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/new_oc.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/new_oc.gif" />
 
 _Создание нового шаблона разгона_
 
@@ -44,9 +40,7 @@ _Создание нового шаблона разгона_
 
 Для редактирования вашего профиля разгона, кликните на иконку с плюсом, которая расположена рядом с именем вашего профиля, и следуйте инструкциям в зависимости от типа вашего GPU.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/add_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/add_oc.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/add_oc.png" />
 
 _Редактирование шаблона разгона_
 
@@ -55,9 +49,7 @@ _Редактирование шаблона разгона_
 ### Разгон графических процессоров Nvidia
 Перед изменением любых настроек, вы можете запустить команду `nvidia-smi`, чтобы выяснить ваши текущие настройки GPU. Чтобы сделать это удаленно с панели управления, перейдите к вашему воркеру и нажмите на кнопку **Run Command** на панели инструментов в верхней части экрана.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/toolbar.png" />
 
 _Панель инструментов_
 
@@ -67,9 +59,7 @@ _Панель инструментов_
 
 `0 100 0 0 0 140` — это означает, что GPU0 = 0, GPU1 = 100, и так далее.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nvidia_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nvidia_oc.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/nvidia_oc.png" />
 
 _Окно разгона Nvidia_
 
@@ -94,9 +84,7 @@ _Окно разгона Nvidia_
 
 >_Учтите, что эти значения приведены в качестве примера. Используйте на свой риск._
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nv_oc_eg.gif?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/nv_oc_eg.gif"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/nv_oc_eg.gif" />
 
 _Пример настроек разгона Nvidia_
 
@@ -119,9 +107,7 @@ _Пример настроек разгона Nvidia_
 ### Разгон AMD GPU
 Перед изменением любых настроек, вы можете запустить команду `amd-info`, чтобы выяснить ваши текущие настройки GPU. Чтобы сделать это удаленно с панели управления, перейдите к вашему воркеру и нажмите на кнопку **Run Command** на панели инструментов в верхней части экрана.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/toolbar.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/toolbar.png" />
 
 _Панель инструментов_
 
@@ -131,9 +117,7 @@ _Панель инструментов_
 
 `0 100 0 0 0 140` — это означает, что GPU0 = 0, GPU1 = 100, и так далее.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/amd_oc.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/amd_oc.png" />
 
 _Окно разгона AMD_
 
@@ -161,9 +145,7 @@ _Окно разгона AMD_
 
 >_Учтите, что эти значения приведены в качестве примера. Используйте на свой риск._
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images\start_oc\neosaan_ru.jpg?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images\start_oc\neosaan_ru.jpg"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/neosaan_ru.jpg" />
 
 _Пример настроек разгона AMD_
 
@@ -172,17 +154,13 @@ _Пример настроек разгона AMD_
 ### Применение профиля разгона
 Теперь вы можете применить созданный вами профиль разгона. Перейдите на вкладку воркеров, а затем поставьте флажки слева от тех воркеров, к которым вы хотите применить профиль разгона. Вы должны увидеть значок спидометра в строке меню в верхнем правом углу.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/apply_oc.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/apply_oc.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/apply_oc.png" />
 
 _Применение профиля разгона_
 
 Нажмите на него, и вы увидите окно с указанием количества выбранных вами воркеров и список всех ваших Полетных Листов.
 
-<img
-  src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/oc_list.png?sanitize=true" data-canonical-src="https://github.com/minershive/hiveon-kb/raw/master/images/start_oc/oc_list.png"
-  />
+<img src="https://lbd.hiveos.farm/kbase/images/start_oc/oc_list.png" />
 
 _Список профилей разгона для применения к воркерам_
 

@@ -75,7 +75,7 @@ _Окно разгона Nvidia_
 
 * __Turn Off LEDs__ — это отключает светодиоды на вашем GPU, если они есть. Эта опция может не работать на некоторых GPU.
 
-* __OhGodAnETHlargementPill__ — работает только с серией Nvidia GTX 1080 series. Предоставляется OhGodACompany. Взгляните на их <a href="https://github.com/OhGodACompany/OhGodAnETHlargementPill">GitHub страницу</a>, чтобы узнать подробности.
+* __OhGodAnETHlargementPill__ — работает только с серией Nvidia GTX 1080 series. Предоставляется OhGodACompany. 
 
 * Нажмите **Save**, и всё.
 

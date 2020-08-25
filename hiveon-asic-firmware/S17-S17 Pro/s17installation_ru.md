@@ -26,7 +26,7 @@ meta_description: Следуйте данной инструкции, чтобы
 http://download.hiveos.farm/asic/s17/
 
 Для S17 и S17 Pro мы предлагаем один и тот же файл прошивки. Скачать её можно здесь:
-http://download.hiveos.farm/asic/s17/Antminer-S17-S17pro-s17p-Hiveon.tar.gz
+http://download.hiveos.farm/asic/s17/Antminer-S17-S17pro-s17p-Hiveon-latest.tar.gz
 
 ### Если заводская прошивка вашего ASIC-а была выпущена до 1 июля 2019
 1. Прошейте ваши устройства файлом из архива **“remsig_all_before_2019–07–01.tar.gz”**. Это можно сделать или через веб-интерфейс ASIC-а, или же через BTC_TOOLS (если у вас много устройств). Вы увидите ошибку в статусе, но на данном этапе так и должно быть.

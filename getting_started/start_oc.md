@@ -73,7 +73,7 @@ The **Algo** field is used to specify overclock settings for a specific algorith
 
 * __Turn Off LEDs__ — this turns off the LED lights on your GPU, if there are any. This option may not work on some GPUs.
 
-* __OhGodAnETHlargementPill__ — works only with Nvidia GTX 1080 series. Provided by OhGodACompany. Check their <a href="https://github.com/OhGodACompany/OhGodAnETHlargementPill">GitHub</a> page for details.
+* __OhGodAnETHlargementPill__ — works only with Nvidia GTX 1080 series. Provided by OhGodACompany. 
 
 * Click **Save** and you’re done.
 

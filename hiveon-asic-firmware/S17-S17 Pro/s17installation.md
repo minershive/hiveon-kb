@@ -21,7 +21,7 @@ Please note, that all the manual steps which involve using BTC_TOOLS can be done
 http://download.hiveos.farm/asic/s17/
 
 For S17 and S17 Pro, we offer the same firmware file. It can be downloaded here:
-http://download.hiveos.farm/asic/s17/Antminer-S17-S17pro-s17p-Hiveon.tar.gz
+http://download.hiveos.farm/asic/s17/Antminer-S17-S17pro-s17p-Hiveon-latest.tar.gz
 
 Now, let’s talk about 3 ways of installation in detail.
 

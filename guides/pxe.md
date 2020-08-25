@@ -50,6 +50,8 @@ See examples of configuration files in the examples/ folder
 All installation commands and scripts in shell must be executed with root credentials by using `sudo` command.
 
 1. Download the installation package
+`curl https://git.tor.ph/hivedeploy/cd_package/raw/master/get-clonedeploy.sh | bash && cd /opt/cd_package`
+
 <img src="https://lbd.hiveos.farm/kbase/images/forum/52e02a72d9b8d5babff66da3b112baae0b79ee13.png">
 
 2. Run the installation script
@@ -91,7 +93,7 @@ The latest stable Hive OS image will be downloaded and extracted by default.
 
 Browse to http://<server_ip>/clonedeploy for example if your server has ip address 192.168.1.2 then type in browser with http://192.168.1.2/clonedeploy
 and you will see the login screen:
-<img src="https://lbd.hiveos.farm/kbase/images/forum/32a0de42f8fcbaa912e36c5ebf59805a59452882.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/32a0de42f8fcbaa912e36c5ebf59805a59452882_2_444x375.png">
 
 Login with default credentials:
 
@@ -102,7 +104,7 @@ Password: admin
 5. Go to Admin → PXE and press Update PXE settings
 <img src="https://lbd.hiveos.farm/kbase/images/forum/831ef78884cc3c2b1d237a6ceb21703b4986a484.png">
 
-<img src="https://lbd.hiveos.farm/kbase/images/forum/10c90048b8fb5730db6775aa7791c634838c7555_2_775x346.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/10c90048b8fb5730db6775aa7791c634838c7555_2_517x231.png">
 
 <img src="https://lbd.hiveos.farm/kbase/images/forum/c87da50269712077fe82e26ac23b7599f8c27081.png">
 
@@ -164,7 +166,7 @@ and then click the “Upload” button
 File format is: rig-001	08:00:27:4A:29:BB	192.168.1.19
 
 Check imported rigs
-<img src="https://lbd.hiveos.farm/kbase/images/forum/5c84be051b534751325b734d0225de39325b09e7_2_1035x204.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/5c84be051b534751325b734d0225de39325b09e7_2_690x136.png">
 
 #### Deploy Task
 Click “Task”
@@ -188,7 +190,7 @@ After the flashing process, the rig will reboot automatically followed by a boot
 <img src="https://lbd.hiveos.farm/kbase/images/forum/dbc4b559b3800af167b664b9c163ded17ab45ad1.png">
 
 When the boot process is done, we’ll be able to see our rig on the Hive Dashboard
-<img src="https://lbd.hiveos.farm/kbase/images/forum/927242a593fae6d2743febcdd156509a6c6294dd.png"> <img src="https://lbd.hiveos.farm/kbase/images/forum/f8af9292e0ce833c32634cca4e3c32a7510c44ca.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/927242a593fae6d2743febcdd156509a6c6294dd.png">
 
 ### Appendix
 - `install-ubuntu.sh` - script for install Hive OS Deploy PXE script options

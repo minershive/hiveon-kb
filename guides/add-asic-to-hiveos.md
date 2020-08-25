@@ -213,7 +213,7 @@ You can find recovery boot images at [repository](https://download.hiveos.farm/a
 - `.zip` file. A ZIP archive containing files like `u-boot.img` and `uImage.bin` inside. Unzip that file to SD card formatted with FAT32.
 
 - [S9 Recovery image](https://download.hiveos.farm/asic/s9/recovery-stock/Recovery_S9.img)
-- [S17 Hiveon recovery image (beta)](https://download.hiveos.farm/asic/s17/SD-S17-S17pro_Hiveon_1.01-200331_sig.zip)
+- [S17 Hiveon recovery image](http://download.hiveos.farm/asic/s17/SD-S17-S17pro_Hiveon_2.00-200608_sig.zip)
 - S17, S17 Pro, T17
 	- Download [recovery boot image](https://download.hiveos.farm/asic/s17/recovery-stock/SD_S17-T17_650M.05.06.2019.zip)
 	- Use SD card <16 Gb

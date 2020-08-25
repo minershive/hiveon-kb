@@ -217,7 +217,7 @@ cd /tmp && wget https://raw.githubusercontent.com/minershive/hiveos-asic/master/
 - Файл `.zip`, содержащий файлы `u-boot.img` и `uImage.bin`, должен быть разархивирован на SD карту, отформатированную в FAT32.
 
 - [S9: образ восстановления](https://download.hiveos.farm/asic/s9/recovery-stock/Recovery_S9.img)
-- [S17 Hiveon: образ восстановления (бета)](https://download.hiveos.farm/asic/s17/SD-S17-S17pro_Hiveon_1.01-200331_sig.zip)
+- [S17 Hiveon: образ восстановления](http://download.hiveos.farm/asic/s17/SD-S17-S17pro_Hiveon_2.00-200608_sig.zip)
 - S17, S17 Pro, T17
 	- Скачайте [образ восстановления](https://download.hiveos.farm/asic/s17/recovery-stock/SD_S17-T17_650M.05.06.2019.zip)
 	- Используйте SD-карту <16 Гб

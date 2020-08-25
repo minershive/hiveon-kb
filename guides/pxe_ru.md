@@ -53,6 +53,8 @@ Hive OS Deploy PXE использует технологию сетевой за
 Все команды установки и сценарии в оболочке должны выполняться с правами суперпользователя с помощью команды `sudo`.
 
 1. Скачайте установочный пакет
+`curl https://git.tor.ph/hivedeploy/cd_package/raw/master/get-clonedeploy.sh | bash && cd /opt/cd_package`
+
 <img src="https://lbd.hiveos.farm/kbase/images/forum/52e02a72d9b8d5babff66da3b112baae0b79ee13.png">
 
 2. Запустите установочный скрипт:

@@ -69,7 +69,7 @@ in this case, reboot rig and repeat the update procedure.
 #### Error during uninstallation previous driver (module “nvidia”)
 During the installation new driver nvidia-driver-update uninstalls the previous version of the driver. If uninstallation stops with the following error:
 
-<img src="https://lbd.hiveos.farm/kbase/images/forum/8cc8ada3cf928143eb7626c7218a9152d30df546.png">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/dd971d757777318adb5a70eb39a1ba9fa136b5d4.png">
 
 It can be caused by falling current driver or application which is still using driver. Reboot the rig and retry the installation procedure.
 

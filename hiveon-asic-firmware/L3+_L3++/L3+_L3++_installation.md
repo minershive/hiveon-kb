@@ -84,7 +84,7 @@ Assuming you’re already using Hive OS with your ASICs, you’ll need to update
 
 In the **Workers** tab, select the workers you want to update. You’ll see several actions appear in the top right corner of the screen.
 
-<img src=https://lbd.hiveos.farm/kbase/images/custom/0_KkPY3QOPvbUkbrpd.png">
+<img src="https://lbd.hiveos.farm/kbase/images/custom/0_KkPY3QOPvbUkbrpd.png">
 
 Click the **ASIC Firmware** button and a new **Change ASIC Firmware** context window will pop-up. Then click the **Select firmware** dropdown list and choose the appropriate firmware version. In this example it’ll be the **Antminer-S9-all-Hiveon** (the process will be the same for L3+/L3++, just make sure you choose the appropriate file). Click **Apply**.
 

@@ -51,11 +51,6 @@ Hive OS же в свою содержит все необходимые прог
 - %WORKER_NAME% - имя рига (воркера)
 
 ### Видео
-- <a href="https://www.youtube.com/watch?v=W9bnWIwitow">Hive OS. 2.0 настройка Майнинга NiceHash CryptoNightV8</a>
-
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=W9bnWIwitow
-" target="_blank"><img src="http://img.youtube.com/vi/W9bnWIwitow/0.jpg"
-alt="Hive OS. 2.0 настройка Майнинга NiceHash CryptoNightV8" width="630" height="400" border="10" /></a>
 
 - <a href="https://www.youtube.com/watch?v=yHTYCNw-n6k">Hive OS 2.0 настройка алгоритма X16R на NiceHash. Обзор доходности. Обновление проблемного рига.</a>
 

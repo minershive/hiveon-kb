@@ -76,7 +76,7 @@ After that go to the Session section and save our profile. To do this, set the H
 
 In short, it looks like this:
 
-<img src="https://lbd.hiveos.farm/kbase/images/forum/377272f7d7d5570769117fdcf1377e98697c2848.gif">
+<img src="https://lbd.hiveos.farm/kbase/images/forum/ws4vmZu.gif">
 
 #### Launch PuTTY
 The next step is very simple.

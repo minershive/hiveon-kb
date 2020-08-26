@@ -5,6 +5,7 @@ path: /guides-add-asic-to-hiveos_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: С этой инструкцией вы легко и быстро добавите свои ASICи в Hive OS и начнете майнить.
 ---
 
 ### Подготовка

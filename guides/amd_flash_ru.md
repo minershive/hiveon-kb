@@ -5,6 +5,7 @@ path: /guides-amd_flash_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Собираетесь прошить свои карты AMD? Эта инструкция поможет вам.
 ---
 
 - <a href="https://www.youtube.com/watch?v=DyQbj45Hfvs">Прошиваем карты AMD через Hive OS 2.0 + SRBPolaris</a>

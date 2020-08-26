@@ -1,6 +1,7 @@
 ---
 title: Mining GRIN on Hive OS
 category: Guides
+meta_description: Learn how to mine the GRIN coin with Hive OS.
 ---
 
 - <a href="https://www.youtube.com/watch?v=OhKs95AAO5c">Mining Grin on Hive OS</a>

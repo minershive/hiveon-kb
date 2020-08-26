@@ -1,6 +1,7 @@
 ---
 title: Autofan
 category: Guides
+meta_description: Why does Hive OS have the autofan feature? This article will provide you with the answer. 
 ---
 
 ### What benefits does autofan in Hive OS have?

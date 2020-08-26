@@ -5,6 +5,7 @@ path: /guides-autofan_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Зачем в Hive OS функция автофана? Эта статья даст вам ответ. 
 ---
 
 ### Зачем нужен автофан в Hive OS?

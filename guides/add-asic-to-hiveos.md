@@ -1,6 +1,7 @@
 ---
 title: Adding ASIC to Hive OS
 category: Guides
+meta_description: Using this instruction, you will quickly and easily add your ASICs to Hive OS and start to mine.
 ---
 
 ### Prepare

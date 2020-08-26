@@ -1,6 +1,7 @@
 ---
 title: How to mine EXCC with Hive OS
 category: Guides
+meta_description: Learn how to mine the EXCC coin with Hive OS - it is very easy.
 ---
 
 Mining EXCC with Hive OS is very easy and it can be done with only a few clicks.

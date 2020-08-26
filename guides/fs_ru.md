@@ -5,6 +5,7 @@ path: /guides-fs_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте больше о Полетных Листах в Hive OS и выясните, как их создавать.
 ---
 
 - <a href="https://www.youtube.com/watch?v=4si1DDsID3s">Полетные Листы в Hive OS</a>

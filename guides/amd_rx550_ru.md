@@ -5,9 +5,10 @@ path: /guides-amd_rx550_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Планируете заставить RX 550 работать в Hive OS? Вот инструкция. 
 ---
 
-Планируете заставить RX 550 работать в Hive OS? Вот инструкция. Вам "понадобится" ядро 4.13 и OpenCL из драйвера 16.60. Если вы можете, сделайте следующее: `amdgpu-pro-uninstall`.
+Вам "понадобится" ядро 4.13 и OpenCL из драйвера 16.60. Если вы можете, сделайте следующее: `amdgpu-pro-uninstall`.
 
 Скачайте ядро 4.13:
 <pre><code>

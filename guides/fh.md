@@ -1,6 +1,7 @@
 ---
 title: Farm Hash
 category: Guides
+meta_description: Using the Farm Hash value you can quickly and easily add rigs to your farm in Hive OS.
 ---
 
 You can find FARM_HASH on the web. Using it you can easily add rigs in bulk without creating rigs on the web and getting RIG_ID. Hash is unique for each farm.

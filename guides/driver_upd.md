@@ -1,6 +1,7 @@
 ---
 title: Drivers update
 category: Guides
+meta_description: Learn how to update drivers for the AMD and NVIDIA cards.
 ---
 
 Sometimes users want to try other drivers. Really advanced would not ask such questions,

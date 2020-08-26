@@ -5,6 +5,7 @@ path: /guides-coin_excc_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, как майнить монету EXCC, используя Hive OS - это очень просто.
 ---
 
 Майнинг EXCC с Hive OS - это очень просто. Следуйте нашей инструкции:

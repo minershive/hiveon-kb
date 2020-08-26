@@ -5,6 +5,7 @@ path: /guides-amd_dr_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, как установить или же обновить драйверы AMD.
 ---
 
 Скрипт для простой установки драйверов AMD на Hive OS и ОС на основе Ubuntu: https://github.com/CryptoLuigi/AMD_Installer.
@@ -50,4 +51,4 @@ Please enter your choice Drivers:
 " target="_blank"><img src="http://img.youtube.com/vi/58pia_gBZ4s/0.jpg"
 alt="Hive OS Tutorial: Easy AMD Driver Install/Update" width="630" height="400" border="10" /></a>
 
->Для обновления драйверов AMD - обновите ваш образ Hive OS до последней версии. Отдельно обновлять драйвера AMD не рекомендуется.
+>Для обновления драйверов AMD - обновите ваш образ Hive OS до последней версии. Отдельно обновлять драйверы AMD не рекомендуется.

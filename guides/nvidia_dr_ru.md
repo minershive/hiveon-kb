@@ -1,5 +1,5 @@
 ---
-title: Драйвера NVidia
+title: Драйверы NVidia
 parent_category: Гайды
 path: /guides-nvidia_dr_ru
 lang: ru
@@ -7,7 +7,7 @@ parent_category_path: /guides_ru
 order: 1
 ---
 
-На этой неделе мы обновили драйвера NVidia в нашем [каталоге](http://download.hiveos.farm/drivers/). Все версии драйверов CUDA 10 совместимые.
+На этой неделе мы обновили драйверы NVidia в нашем [каталоге](http://download.hiveos.farm/drivers/). Все версии драйверов CUDA 10 совместимые.
 Были добавлены такие версии:
 - 410.93 - R410 стабильная линейка с длительным сроком поддержки
 - 415.27 - R415 текущая стабильная ветка
@@ -97,8 +97,8 @@ reboot
 " target="_blank"><img src="http://img.youtube.com/vi/_Ld5XmrYf7Q/0.jpg"
 alt="Hive OS 2 - обновление, откат драйверов NVIDIA подробная инструкция"></a>
 
-- <a href="https://www.youtube.com/watch?v=7gmDYUyznM8">Hive 2.0 Как обновить драйвера видеокарт NVidia</a>
+- <a href="https://www.youtube.com/watch?v=7gmDYUyznM8">Hive 2.0 Как обновить драйверы видеокарт NVidia</a>
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=7gmDYUyznM8
 " target="_blank"><img src="http://img.youtube.com/vi/7gmDYUyznM8/0.jpg"
-alt="Hive 2.0 Как обновить драйвера видеокарт NVidia"></a>
+alt="Hive 2.0 Как обновить драйверы видеокарт NVidia"></a>

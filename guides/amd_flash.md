@@ -1,6 +1,7 @@
 ---
 title: Flashing AMD cards
 category: Guides
+meta_description: Are you going to flash your AMD cards? This instruction is here to help.
 ---
 
 - <a href="https://www.youtube.com/watch?v=DyQbj45Hfvs">Flashing AMD Cards via Hive OS 2.0 + SRBPolaris</a>

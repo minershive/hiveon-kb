@@ -1,6 +1,7 @@
 ---
 title: Transferring Hive OS from a flash-drive to SDD/HDD using Hive OS itself
 category: Guides
+meta_description: By following this instruction, you will transfer Hive OS to SDD/HDD quickly and easily.
 ---
 
 One of the ways to transfer Hive OS to SDD/HDD is to copy it from the flash-drive.

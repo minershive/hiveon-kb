@@ -1,6 +1,7 @@
 ---
 title: IPv6
 category: Guides
+meta_description: Are you going to disable IPv6 on the system? This guide is here to help.
 ---
 
 Some users might want to disable IPv6 on the system (if it’s not disabled in the image release). Router is the best way to disable it. Nevertheless, here is how to do it for one host.

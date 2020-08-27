@@ -1,6 +1,7 @@
 ---
 title: GPU FAQ
 category: Guides
+meta_description: Do you have questions about GPUs? This article will provide you with answers.
 ---
 
 ### The farm is constantly rebooting. If I turn logs-on via Hive Shell, what should I pay attention to?

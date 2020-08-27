@@ -1,6 +1,7 @@
 ---
 title: GPU Hub
 category: Guides
+meta_description: GPU Hub can significantly simplify the process of managing a large GPU farm. Learn how to use it. 
 ---
 
 <a href="https://youtu.be/FFD7tPpGqUk
@@ -133,7 +134,7 @@ Once everything is set, you’ll see Preparing VBIOS text with the name of the R
 
 You can also individually flash a ROM onto a single GPU by clicking on the triple dot button on the left hand side of the video card list. The procedure is identical to flashing multiple GPUs, just click Flash cards and wait. Additionally you can individually overclock each GPU from that same pop-up menu.
 
-<img src="https://lbd.hiveos.farm/kb/images/gpuhubafterthatfailed2.png" alt="gpuhub"> 
+<img src="https://lbd.hiveos.farm/kb/images/gpuhubafterthatfailed2.png" alt="gpuhub">
 
 As a conclusion, the GPU Hub is a powerful tool that was designed to make life easier. But as it’s known, with great power comes great responsibility. Thus we can’t stress enough on the point that users should be careful when bulk flashing their GPUs as there’s plenty of space for potential errors.
 

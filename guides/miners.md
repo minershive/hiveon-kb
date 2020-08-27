@@ -1,6 +1,7 @@
 ---
 title: How we add miners
 category: Guides
+meta_description: Discover how exactly we add miners and why we do not do this until a miner gets popular. 
 ---
 
 Hive team is asked to implement this or that miner almost every day. Here we will explain why we don’t do this until it becomes popular.

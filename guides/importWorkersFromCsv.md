@@ -5,6 +5,7 @@ path: /guides_import-workers-from-csv
 lang: en
 parent_category_path: /guides
 order: 1
+meta_description: Using the import of CSV files function, you can create or update any number of workers quickly and easily. Learn how to do this.
 ---
 
 Welcome the new Hive OS feature — import of CSV files. With this function, you can create or update any number of workers quickly and easily, as everything can be done in one file. This is how it works:

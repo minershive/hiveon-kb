@@ -1,6 +1,7 @@
 ---
 title: Linux commands for beginners
 category: Guides
+meta_description: Take a look at the list of useful Linux commands.
 ---
 
 ### Simple Commands

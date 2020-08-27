@@ -5,6 +5,7 @@ path: /guides-gpu_hub_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: GPU Hub может существенно упростить управление крупной GPU-фермой. Узнайте, как именно с ним работать.
 ---
 
 <a href="https://youtu.be/t2FyPFxhThU

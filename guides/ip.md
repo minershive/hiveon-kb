@@ -1,6 +1,7 @@
 ---
 title: Static IP
 category: Guides
+meta_description: Learn how to configure static IP.
 ---
 
 This is very simple.

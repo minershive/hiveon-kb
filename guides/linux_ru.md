@@ -5,6 +5,7 @@ path: /guides-linux_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Ознакомьтесь со списком полезных команд Linux.
 ---
 
 `miner` — открывает окно с запущенным майнером

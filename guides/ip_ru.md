@@ -5,6 +5,7 @@ path: /guides-ip_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, как настраивать статический IP-адрес.
 ---
 
 Здесь всё очень просто. Все сетевые настройки привязаны здесь:

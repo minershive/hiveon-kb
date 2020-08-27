@@ -1,6 +1,7 @@
 ---
 title: Hive Shell
 category: Guides
+meta_description: Do you need remote access to your workers? It will be ensured by Hive Shell. Learn how to use it.
 ---
 
 <img src="https://lbd.hiveos.farm/kbase/images/forum/8580c113d2e085d26be948283c7922532a00d90f.png">

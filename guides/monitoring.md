@@ -1,6 +1,7 @@
 ---
 title: Monitoring
 category: Guides
+meta_description: Learn everything about monitoring in Hive OS.
 ---
 
 - <a href="https://www.youtube.com/watch?v=PIONb1OMEvY">Monitoring in Hive OS</a>

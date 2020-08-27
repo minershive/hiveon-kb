@@ -1,6 +1,7 @@
 ---
 title: Hive OS for ASICs
 category: Guides
+meta_description: Discover the difference between Hive OS Client and the Hiveon ASIC firmware.
 ---
 
 ### Available software for ASICs from Hive

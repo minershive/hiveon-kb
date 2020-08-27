@@ -5,6 +5,7 @@ path: /guides-hdd_move_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Следуя этой инструкции, вы сможете легко и быстро перенести Hive OS на SDD/HDD.
 ---
 
 Один из способов перенести Hive OS на SDD/HDD - скопировать её с работающей флешки.

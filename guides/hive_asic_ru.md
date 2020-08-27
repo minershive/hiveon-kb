@@ -5,6 +5,7 @@ path: /guides-hive_asic_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, в чем разница между Hive OS Client и прошивкой Hiveon ASIC.
 ---
 
 ### Доступное программное обеспечение для ASICов от Hive

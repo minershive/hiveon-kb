@@ -5,6 +5,7 @@ path: /guides-gpu_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: У вас есть вопросы о GPU ригах? Эта статья даст вам ответы.
 ---
 
 ### Ферма постоянно перезагружается. Если через Hive Shell включить logs-on, на что обращать внимание?

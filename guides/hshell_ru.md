@@ -5,6 +5,7 @@ path: /guides-hshell_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Вам необходим удаленный доступ к воркерам? Его обеспечит Hive Shell. Узнайте, как именно им пользоваться.
 ---
 
 <img src="https://lbd.hiveos.farm/kbase/images/forum/8580c113d2e085d26be948283c7922532a00d90f.png">

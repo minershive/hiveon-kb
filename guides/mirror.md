@@ -2,6 +2,7 @@
 title: Hive packages repository mirror setup
 path: /guides-mirror
 category: Guides
+meta_description: Would you like to update faster and to preserve traffic at the same time? Here is the instruction.
 ---
 
 If you have local web server on your farm with packages repository you can set its URL in farm settings so the rigs will update from your server. This is useful for faster updates and in order to preserve traffic.

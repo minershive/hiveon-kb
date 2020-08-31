@@ -7,7 +7,7 @@ lang: ru
 parent_category_path: /faq_ru
 category_path: /faq-billing_in_hive_os_ru
 order: 1
-meta_description: Узнайте всё о правилах биллинга в Hive OS. 
+meta_description: Узнайте всё о правилах биллинга в Hive OS.
 ---
 
 ### Используемые термины

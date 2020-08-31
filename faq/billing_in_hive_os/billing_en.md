@@ -61,10 +61,10 @@ Owners of free accounts can use up to 4 workers without payment, but under certa
 - 1 rig is free without restrictions
 
 Those users who have from 2 to 4 workers can use the system for free when:
-- mining Ethereum on [Hiveon pool](https://www.hiveon.net)
-- Mining other coins (except Ethereum) on any other pools
+- mining Ethereum or Ethereum Classic on [Hiveon pool](https://www.hiveon.net)
+- Mining other coins (except Ethereum and Ethereum Classic) on any other pools
 
-If 2 or more workers are mining Ethereum not on [Hiveon pool](https://www.hiveon.net), the standard tariff is applied to every such worker - $3/month.
+If 2 or more workers are mining Ethereum or Ethereum Classic not on [Hiveon pool](https://www.hiveon.net), the standard tariff is applied to every such worker - $3/month.
 
 The system remains free as long as you have **4** workers and all the conditions for free accounts are met. If you add the 5th worker to your account, the calculation will be done, and the daily fee for **all 5 workers** will be charged.
 
@@ -74,7 +74,7 @@ Hive OS accepts only cryptocurrency. There are several ways to pay for Hive OS:
 
 - to your personal ERC20 Stablecoins address generated in your account (we support USDT, USDC, TUSD). The detailed information can be found [here](https://hiveos.farm/faq-billing_in_hive_os-discounts_bonuses).
 
-- using a payment gateway [Coinpayments](https://www.coinpayments.net/) (we accept BTC, BEAM, ETC, LTC, XMR, XRP). The detailed information can be found [here](https://hiveos.farm/faq-billing_in_hive_os-payment).
+- using a payment gateway [Coinpayments](https://www.coinpayments.net/) (we accept BTC, LTC, XMR). The detailed information can be found [here](https://hiveos.farm/faq-billing_in_hive_os-payment).
 
 - at the cost of referral rewards (read below in the “Referral system” section).
 

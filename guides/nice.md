@@ -1,6 +1,7 @@
 ---
 title: NiceHash
 category: Guides
+meta_description: Hive OS supports the NiceHash service, and this article will tell you how to set it up.
 ---
 
 <img src="https://lbd.hiveos.farm/kbase/images/forum/1fs7ux2lalf8.png">

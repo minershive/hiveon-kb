@@ -1,6 +1,7 @@
 ---
 title: Know your IP
 category: Guides
+meta_description: Learn more about internal and external IPs.
 ---
 
 In web panel there are 2 IPs at least listed once you connect your rig.

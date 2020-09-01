@@ -5,6 +5,7 @@ path: /guides-nice_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Hive OS поддерживает сервис NiceHash, и эта статья расскажет, как именно его настроить.
 ---
 
 <img src="https://lbd.hiveos.farm/kbase/images/forum/1fs7ux2lalf8.png">

@@ -1,9 +1,10 @@
 ---
 title: RX Boost - AmdMemTweak
 category: Guides
+meta_description: Learn how to use the AMDMemoryTweak utility.
 ---
 
-Thanks to the efforts of the programmer under the nickname Eliovp, the amdmemorytweak utility is available on [Bitcointalk](https://bitcointalk.org/index.php?topic=5123724.0) and [Github](https://github.com/Eliovp/amdmemorytweak), which allows you to work with the GDDR5 and HBM2 video memory timings of video cards on the AMD platform on the fly.
+Thanks to the efforts of the programmer under the nickname Eliovp, the AMDMemoryTweak utility is available on [Bitcointalk](https://bitcointalk.org/index.php?topic=5123724.0) and [Github](https://github.com/Eliovp/amdmemorytweak), which allows you to work with the GDDR5 and HBM2 video memory timings of video cards on the AMD platform on the fly.
 
 AmdMemoryTweak allows you to achieve the best speed when mining on memory-intensive algorithms on AMD video cards. Many people call it an analogue of the program ETHEnlargment Pill, which significantly increases the performance of Nvidia video cards with GDDR5X memory. In fact, this is certainly true, but to achieve the effect, the user’s level of training should be much higher. AmdMemoryTweak is especially useful for video cards of the Vega series with HBM2 memory.
 

@@ -5,6 +5,7 @@ path: /guides-rx_boost_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, как использовать утилиту AMDMemoryTweak.
 ---
 
 Благодаря усилиям программиста под псевдонимом Eliovp, утилита AMDMemoryTweak доступна на [Bitcointalk](https://bitcointalk.org/index.php?topic=5123724.0) и [GitHub](https://github.com/Eliovp/amdmemorytweak), что позволяет вам работать с таймингами видеопамяти GDDR5 и HBM2 видеокарт на платформе AMD на лету.

@@ -1,6 +1,7 @@
 ---
 title: OpenVPN
 category: Guides
+meta_description: Learn how to install and set up OpenVPN.
 ---
 
 ### The First Tutorial

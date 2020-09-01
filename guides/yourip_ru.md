@@ -5,6 +5,7 @@ path: /guides-yourip_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте больше о внутренних и внешних IP-адресах.
 ---
 
 После подключения рига в веб-панели будут указаны как минимум два IP-адреса.

@@ -1,6 +1,7 @@
 ---
 title: Overclocking
 category: Guides
+meta_description: Learn more about the overclocking function of Hive OS.
 ---
 
 - <a href="https://www.youtube.com/watch?v=1BcRnR6zRBA">Overclocking in Hive OS</a>

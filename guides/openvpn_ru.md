@@ -5,6 +5,7 @@ path: /guides-openvpn_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, как установить и настроить OpenVPN.
 ---
 
 ### Руководство №1

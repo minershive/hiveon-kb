@@ -5,6 +5,7 @@ path: /guides-pxe_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: У вас крупная ферма с сотнями или тысячами ригов? Даже в таком случае установка Hive OS не займет много времени. Просто следуйте этой инструкции.
 ---
 
 ### Вступление

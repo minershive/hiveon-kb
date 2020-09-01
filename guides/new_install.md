@@ -1,6 +1,7 @@
 ---
 title: Installation from scratch
 category: Guides
+meta_description: Are you installing Hive OS from scratch? This instruction will help you.
 ---
 
 - <a href="https://hiveos.farm/install/">Here</a> you can download all the essential files.

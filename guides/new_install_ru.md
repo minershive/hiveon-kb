@@ -5,6 +5,7 @@ path: /guides-new_install_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Устанавливаете Hive OS с нуля? Эта инструкция поможет вам.
 ---
 
 - Вот <a href="https://hiveos.farm/install/">здесь</a> можно скачать все необходимые файлы.

@@ -1,6 +1,7 @@
 ---
 title: Hive OS deploy PXE - deploy hundreds of rigs
 category: Guides
+meta_description: Do you have a large farm with hundreds or thousands of rigs? Even in this case installation of Hive OS will not take a lot of time. Just follow this instruction.
 ---
 
 ### Introduction

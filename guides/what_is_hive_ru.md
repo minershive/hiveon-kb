@@ -5,6 +5,7 @@ path: /guides-what_is_hive_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте больше об операционной системе Hive OS.
 ---
 
 <img src="https://lbd.hiveos.farm/kbase/images/forum/nst8nd7f9nkx.png" >

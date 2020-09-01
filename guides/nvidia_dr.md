@@ -1,21 +1,22 @@
 ---
-title: NVidia drivers update guide and CUDA 10.x
+title: NVIDIA drivers update guide and CUDA 10.x
 category: Guides
+meta_description: An instruction on updating NVIDIA drivers and solving any possible problems that may arise in the process.
 ---
 
 nvidia-driver-update default installation version: 440.36 (updated December 05, 2019)
 
-This week we update NVidia drivers in our [repository](http://download.hiveos.farm/drivers/). All drivers are CUDA 10 compatible.
+This week we update NVIDIA drivers in our [repository](http://download.hiveos.farm/drivers/). All drivers are CUDA 10 compatible.
 Added drivers version:
 
 - 410.93 - R410 stable long term support (supported new RTX 2080 Ti, 2080, 2070)
 - 415.27 - R415 current stable (as above + added support RTX 2060)
 - 418.43 - R418 beta series (as above + added support GTX 1660, GTX 1660 Ti, RTX 2070 with Max-Q Design, RTX 2080 with Max-Q Design)
 
-To update the drivers use the nvidia-driver-update tool.
+To update the drivers use the `nvidia-driver-update` tool.
 
 After conducting our tests we choose version 418.43 for installation by default if no arguments given to nvidia-driver-update.
-This version supports all the latest NVidia RTX cards and also gives 2x time lower system load on algos such as x16 family, cuckoo and others.
+This version supports all the latest NVIDIA RTX cards and also gives 2x time lower system load on algos such as x16 family, cuckoo and others.
 
 #### Update or not update?
 Before we start let’s answer some typical questions:
@@ -81,7 +82,7 @@ No solution yet… Not reproducible.
 
 #### Not enough disk space
 - use disk-expand tool to enlarge disk to use all space
-- remove unused drivers at /hive-driver-pack (to do this, send the `rm /hive-drivers-pack/NV*` command to your worker - it will delete all the available Nvidia driver archives)
+- remove unused drivers at /hive-driver-pack (to do this, send the `rm /hive-drivers-pack/NV*` command to your worker - it will delete all the available NVIDIA driver archives)
 - uninstall miners by hpkg tool
 
 #### Installation fail when unpacking driver

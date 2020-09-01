@@ -5,6 +5,7 @@ path: /guides-oc_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте больше о функции разгона Hive OS.
 ---
 
 - <a href="https://www.youtube.com/watch?v=1BcRnR6zRBA">Разгон в Hive OS</a>

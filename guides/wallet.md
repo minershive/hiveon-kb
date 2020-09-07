@@ -1,6 +1,7 @@
 ---
 title: How to set up your Hive OS wallet
 category: Guides
+meta_description: Check out the detailed instructions for setting up a wallet in the Hive OS system.
 ---
 
 ### Step 1) Decide on the coin and the mining pool

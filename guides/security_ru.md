@@ -5,6 +5,7 @@ path: /guides-security_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, как и зачем менять пароль пользователя для SSH и VNC.
 ---
 
 Чтобы поменять пароль для пользователя (для SSH и VNC), используйте команду:

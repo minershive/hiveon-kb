@@ -1,6 +1,7 @@
 ---
 title: Watchdogs
 category: Guides
+meta_description: Learn more about watchdogs and how to work with them.
 ---
 
 ### Videos

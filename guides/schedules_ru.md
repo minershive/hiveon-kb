@@ -5,6 +5,7 @@ path: /guides-schedules_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте, как создать индивидуальное расписание для ваших воркеров.
 ---
 
 - <a href="https://www.youtube.com/watch?v=adKdAoul_N8">Планировщик: контролируйте воркеры по времени</a>

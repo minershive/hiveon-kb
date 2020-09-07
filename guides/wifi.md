@@ -1,6 +1,7 @@
 ---
 title: Wi-Fi
 category: Guides
+meta_description: Check out helpful commands and learn what to do if your WiFi adapter is not working.
 ---
 
 Wifi, adapters and Linux have tough relations. Though some of them are supported and you can try to use it.

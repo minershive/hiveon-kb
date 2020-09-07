@@ -1,6 +1,7 @@
 ---
 title: Security reminder
 category: Guides
+meta_description: We care about the security of your accounts, but certain measures require your participation. Find out what exactly you can do to protect your account.
 ---
 
 If you have received notifications about wrong password logins:

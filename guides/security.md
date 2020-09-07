@@ -1,6 +1,7 @@
 ---
 title: Security
 category: Guides
+meta_description: Learn how and why to change the password for SSH and VNC.
 ---
 
 To change system password for user (for SSH and VNC also) please use the following command: `hive-passwd yournewsecurepass`.

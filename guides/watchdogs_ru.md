@@ -5,6 +5,7 @@ path: /guides-watchdogs_ru
 lang: ru
 parent_category_path: /guides_ru
 order: 1
+meta_description: Узнайте больше о вачдогах и о том, как работать с ними.
 ---
 
 ### SimpleRigResetter SRRv2 Вачдог

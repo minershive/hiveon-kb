@@ -7,7 +7,7 @@ meta_description: Do you have any questions regarding the payouts on Hiveon pool
 ---
 
 ### What is Hiveon.net's payout type?
-The pool has a PPS+ payout model. This means that payment is made for each decision (share) sent, regardless of how long you have joined the pool.
+The pool has a PPS+ payout model. This means that payment is made for each decision (share) sent, regardless of how long you have joined the pool. Unlike PPS, which only awards block rewards and does not cut tax fees, PPS+ distributes all bonuses to miners and splits all rewards above the block. While the fluctuating rewards like in the PPLNS are avoided as a whole. You can learn more about the payout models [here](https://hiveos.farm/hiveon-pool-general_pool_faq-general_faq).
 
 ### What commission does the pool hold?
 Currently, the pool doesn't hold any commission. Besides, we completely cover the transactions.

@@ -16,6 +16,15 @@ Currently, the pool doesn't hold any commission. Besides, we completely cover th
 Payments are made daily at 07:33 GMT, provided that the balance is at least 0.1 ETH or 1 ЕТС at the time of payment.
 You can check the local time for your time zone, for example, <a href="https://time100.ru/GMT">here</a>.
 
+### How can I check the payout info?
+
+<img src="https://lbd.hiveos.farm/kb/images/poolpayout.jpg" alt="poolpayout">
+
+This is the transaction number in the network.
+This identifier is unique for each transaction, like the transfer number in the bank.
+Using it, you can always track any transactions within the ETH network.
+If you click on the number, you will be taken to the transaction browser, where you can see your transaction and all its data, including the wallet number from where the transfer was made, the wallet number to which the transfer was made, as well as the date, time, commission and other data.
+
 ### Can I change the payout amount?
 Since the transactions are covered by pool, at the moment it is impossible for users to change the payout thresholds.
 

@@ -20,4 +20,4 @@ If these types of coins do not suit you, you can choose another payment provider
 
 Apart from ETH, you can also pay for Hive OS with Stablecoins (TUSD, USDC, USDT). Please note that TUSD and USDT are not the same coins!
 
-Remember that you can also pay for Hive OS on Hiveon Pool (3% dev fee) while mining Ethereum or Ethereum Classic. If you have more than 50 devices, you will get a discount. You can switch to this payment method using the slider button - it is located right below the window for entering the payment amount. On the second screen, the slider is set to the Hiveon Pool Charging Disabled position, which means that payment from the mining commission on the pool is not turned on.
+Remember that you can also pay for Hive OS on Hiveon Pool (3% dev fee) while mining Ethereum or Ethereum Classic. If you have more than 50 devices, you will get a discount. 

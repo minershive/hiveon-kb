@@ -31,7 +31,7 @@ Since the transactions are covered by pool, at the moment it is impossible for u
 ### Are there payouts for stale shares?
 A valid share is contributed before the winning block. In turn, a stale share is a share that was sent after a block was already solved.
 
-Payment for stale shares is made, but using the coefficient of 0.5-0.8, depending on network delays.
+Payment for stale shares is made - it is 50%.
 
 
 > __*Dear Miners*__
@@ -41,7 +41,7 @@ Payment for stale shares is made, but using the coefficient of 0.5-0.8, dependin
 > _Such radical measures are related to the fact that fraudulent miners abuse our stale shares payout system. Thank you for understanding and thank you for using our ecosystem._
 
 ### How to reduce stale shares?
-It should be noted that the number of Stale Shares mainly depends on the quality of connection between your miners and the pool servers. Also to a large extent it depends on the quality of work of network equipment between the network nodes. Please make sure your stale shares stay below 5%. The payout coefficient for the stale shares will be 0.5-0.8 of the price for an accepted share.
+It should be noted that the number of Stale Shares mainly depends on the quality of connection between your miners and the pool servers. Also to a large extent it depends on the quality of work of network equipment between the network nodes. Please make sure your stale shares stay below 5%. 
 
 Unfortunately, the pool's technical staff is not able to affect the quality of your provider's equipment and the routing of network packets from you to the pool and back. If you are absolutely confident in the quality of your own network equipment and if you are an honest miner, but regularly get blocked payouts, in this case - we are very sorry, but there's nothing we can do. It should also be noted that if you work through a mobile operator (3G / 4G modems or Wi-Fi routers), then the probability of a large number of stale shares is high due to the peculiarities of the mobile connectivity.
 

@@ -41,7 +41,7 @@ Payment for stale shares is made - it is 50%.
 > _Such radical measures are related to the fact that fraudulent miners abuse our stale shares payout system. Thank you for understanding and thank you for using our ecosystem._
 
 ### How to reduce stale shares?
-It should be noted that the number of Stale Shares mainly depends on the quality of connection between your miners and the pool servers. Also to a large extent it depends on the quality of work of network equipment between the network nodes. Please make sure your stale shares stay below 5%. 
+It should be noted that the number of Stale Shares mainly depends on the quality of connection between your miners and the pool servers. Also to a large extent it depends on the quality of work of network equipment between the network nodes. Please make sure your stale shares stay below 5%.
 
 Unfortunately, the pool's technical staff is not able to affect the quality of your provider's equipment and the routing of network packets from you to the pool and back. If you are absolutely confident in the quality of your own network equipment and if you are an honest miner, but regularly get blocked payouts, in this case - we are very sorry, but there's nothing we can do. It should also be noted that if you work through a mobile operator (3G / 4G modems or Wi-Fi routers), then the probability of a large number of stale shares is high due to the peculiarities of the mobile connectivity.
 
@@ -60,6 +60,6 @@ The payout blocking system works as follows: if the percentage of stale shares e
 In this case, you need to publish your **dashboard url** `https://hiveon.net/eth/?miner=0xInsertHereYourWalletAddress` with a brief comment on what happened. Chat administrators will pass all the necessary information to the pool technical support for verification. If the suspicions are not confirmed, your account will be unblocked, and your funds will be withdrawn.
 
 ### I don't plan to continue mining on your pool. How can I withdraw my balance, which is less than the payout threshold?
-We fully pay out balances of inactive accounts after **21 days** of inactivity. Payouts are processed automatically on the 28th day of every month.
+We fully pay out balances of inactive accounts after **7 days** of inactivity. Payouts are processed automatically on the 28th day of every month.
 
 Please note: if you still mine on the 7th day of the month (or even later), then the payout will be postponed until the 28th day of the next month.

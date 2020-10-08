@@ -60,6 +60,6 @@ The payout blocking system works as follows: if the percentage of stale shares e
 In this case, you need to publish your **dashboard url** `https://hiveon.net/eth/?miner=0xInsertHereYourWalletAddress` with a brief comment on what happened. Chat administrators will pass all the necessary information to the pool technical support for verification. If the suspicions are not confirmed, your account will be unblocked, and your funds will be withdrawn.
 
 ### I don't plan to continue mining on your pool. How can I withdraw my balance, which is less than the payout threshold?
-We fully pay out balances of inactive accounts after **7 days** of inactivity (prior to the payout date). Payouts are processed automatically on the 28th day of every month.
+We pay out balances of inactive accounts after **7 days** of inactivity (prior to the payout date). Payouts are processed automatically on the 28th day of every month. The minimum required amount is 0.01 ETH.
 
 Please note: if you still mine on the 21st day of the month (or even later), then the payout will be postponed until the 28th day of the next month.

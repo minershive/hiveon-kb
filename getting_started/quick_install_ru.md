@@ -30,7 +30,7 @@ _Добавление данных воркера_
 _Скачивание файла rig.conf_
 
 ### Скачайте образ
-Перейдите на <a href="https://hiveos.farm/install/">эту страницу</a>, чтобы скачать последнюю версию Hive OS. Вы сможете выбрать .zip или .torrent файл.
+Перейдите на <a href="https://hiveos.farm/install_ru">эту страницу</a>, чтобы скачать последнюю версию Hive OS. Вы сможете выбрать .zip или .torrent файл.
 
 <img src="https://lbd.hiveos.farm/kbase/images/quick_install/install.png" />
 

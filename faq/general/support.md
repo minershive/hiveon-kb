@@ -10,7 +10,7 @@ Hive takes care of its users, and that’s why we’ve created so many support c
 ### Official channels
 - [A website chat](https://hiveos.farm) — just click the chat icon in the lower right corner to open its window
 - Email support - bee@hiveos.farm
-- [Discord](https://discord.gg/xr2jX8Z)
+- [Discord](https://discord.com/invite/CVZeZdn)
 - [Forum](https://forum.hiveos.farm)
 - [Facebook](https://www.facebook.com/hiveos/)
 - [Twitter](https://twitter.com/hiveonofficial)

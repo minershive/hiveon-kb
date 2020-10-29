@@ -36,6 +36,8 @@ Thanks to the latest updates, Hive OS has become even more secure — now you wi
 
 - Sending funds from your Hive OS balance to another user.
 
+- Transferring a farm to another user.
+
 - Replenishment of someone else's farm from the account balance or from one of your farms (this action must be confirmed once, then the farm becomes trusted, and the next replenishment will not require a verification code).
 
 - Subscribing or unsubscribing from notifications in Telegram, Discord.

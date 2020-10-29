@@ -23,8 +23,10 @@ Besides, if there is a debt on the referral's farm, the referral reward will be 
 ### Referrals who mine on Hiveon pool
 If such referrals have more than 4 rigs and pay 3% (or less with the discount based on the [number of workers](https://hiveos.farm/faq-billing_in_hive_os-discounts_bonuses)) for Hive OS on Hiveon pool, you will receive **10%** of the 3% fee that they pay.
 
-You can also create promo codes for new users to receive on their accounts.
+### Promo codes
+You can also create promo codes for new users to receive on their accounts. A user who used a promo code gets $10, and you - a new referral.
 
-Payments are usually done at the end of the month, in case the amount has reached the equivalent of $25. The payment is sent to the specified private wallet.
+### What to do with bonuses?
+Payments are made automatically every month (on the 1st day), in case the amount has reached the equivalent of $25. The payment is sent to the specified private wallet. You can also withdraw the money to your balance on your own, at any time and in any amount (fully or partially).
 
 This means that you can earn even without using Hive! Just create an account, attract referrals and earn your 10%.
